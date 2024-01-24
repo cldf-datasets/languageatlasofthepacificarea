@@ -31,7 +31,7 @@ def run(args):
             glottocodes.add(ds.languages[lname]['Glottocode'])
 
     for r in reader(args.glottologlanguages, dicts=True):
-        if r['Family_ID'] == 'pama1250':  # 'aust1307':
+        if r['Family_ID'] == 'nucl1709':  # 'pama1250':  # 'aust1307':
             if (not r['Language_ID']) and r['Longitude'] and not r['ID'] in glottocodes:
                 geojson['features'].append({
                     'type': 'Feature',
