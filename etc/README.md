@@ -22,3 +22,8 @@ Add the new Glottocodes to `etc/languages.csv` by running
 ```shell
 cldfbench laotpa.mergeglottocodes ~/Downloads/map.geojson
 ```
+
+Commit and push:
+```shell
+git commit -m"more glottocodes" etc/languages.csv
+```
