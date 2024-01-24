@@ -6,6 +6,11 @@ guides the conversion of the raw data to CLDF.
 
 ## Mapping languages to Glottolog
 
+Make sure you have the dependcies installed:
+```shell
+pip install -e .
+```
+
 Run
 ```shell
 cldfbench laotpa.geojson PATH/TO/glottolog-cldf/cldf/languages.csv
