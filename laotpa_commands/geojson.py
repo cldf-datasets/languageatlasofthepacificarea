@@ -35,7 +35,7 @@ def run(args):
             if (not r['Language_ID']) and r['Longitude'] and not r['ID'] in glottocodes:
                 geojson['features'].append({
                     'type': 'Feature',
-                    'properties': {'title': '{} ({})'.format(r['Name'], r['ID'])},
+                    'properties': {'title': '{} {}'.format(r['Name'], r['ID'])},
                     'geometry': {
                         "type": "Point",
                         "coordinates": [float(r['Longitude']), float(r['Latitude'])]
