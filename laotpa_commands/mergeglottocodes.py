@@ -21,6 +21,7 @@ def run(args):
             if match:
                 lname = feature['properties']['title'][:match.start()].strip()
                 gc = feature['properties']['title'][match.start():match.end()]
+                print('{} -> {}'.format(lname, gc))
                 assert not ds.languages[lname]['Glottocode']
                 ds.languages[lname]['Glottocode'] = gc
 

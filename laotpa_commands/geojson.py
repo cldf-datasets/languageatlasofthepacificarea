@@ -1,19 +1,37 @@
 """
 
 """
+from csvw.dsv import reader
+from clldutils.jsonlib import dump
+
 from cldfbench_languageatlasofthepacificarea import Dataset
 
 
 def run(args):
     ds = Dataset()
-
+    geojson = {
+        'type': 'FeatureCollection',
+        'features': [],
+    }
+    glottocodes = set()
     i = 0
     for lname, feature in ds.iter_geojson_features():
-        #print(lname)
         if not ds.languages[lname]['Glottocode']:
             i += 1
-    print(i)
+            geojson['features'].append(feature)
+        else:
+            glottocodes.add(ds.languages[lname]['Glottocode'])
 
-    #
-    # FIXME: also add Glottolog marker!
-    #
+    for r in reader('/home/robert/projects/glottolog/glottolog-cldf/cldf/languages.csv', dicts=True):
+        if r['Family_ID'] == 'aust1307':
+            if (not r['Language_ID']) and r['Longitude'] and not r['ID'] in glottocodes:
+                geojson['features'].append({
+                    'type': 'Feature',
+                    'properties': {'title': '{} ({})'.format(r['Name'], r['ID'])},
+                    'geometry': {
+                        "type": "Point",
+                        "coordinates": [float(r['Longitude']), float(r['Latitude'])]
+                    }
+                })
+
+    dump(geojson, 'languages.geojson', indent=2)
