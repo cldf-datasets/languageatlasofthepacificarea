@@ -24,4 +24,8 @@ def run(args):
                 assert not ds.languages[lname]['Glottocode']
                 ds.languages[lname]['Glottocode'] = gc
 
-    with UnicodeWriter(ds.)
+    with UnicodeWriter(ds.etc_dir / 'languages.csv') as w:
+        for i, lg in enumerate(ds.languages.values()):
+            if not i:
+                w.writerow(lg.keys())
+            w.writerow(lg.values())
