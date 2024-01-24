@@ -43,4 +43,4 @@ def run(args):
                 })
 
     dump(geojson, 'languages.geojson', indent=2)
-    print('Result written to languages.geojson')
+    print('{} features written to languages.geojson'.format(i))

@@ -15,6 +15,8 @@ def register(parser):
 
 def run(args):
     ds = Dataset()
+    assert ds.languages
+
     for feature in load(args.geojson)['features']:
         if feature['geometry']['type'] != 'Point':
             match = Glottocode.pattern.search(feature['properties']['title'])
