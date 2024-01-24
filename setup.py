@@ -16,6 +16,7 @@ setup(
     },
     install_requires=[
         'cldfbench',
+        'pyglottolog',
         'geopandas',
         'shapely',
     ],
