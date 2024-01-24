@@ -1740,11 +1740,11 @@ NENGONE,,,New Caledonia,neng1238
 NERE,,,New Caledonia,
 NETE,,,Papua New Guinea,
 NEW ZALAND MAORI,,,,maor1246
-NGADA,East Timor,East Timor,,
-NGADA/Central,Indonesia,,,
+NGADA,East Timor,East Timor,,ngad1261
+NGADA/Central,Indonesia,,,cent2074
 NGADA/Soa,Indonesia,,,
-NGADA/South-Eastern,East Timor,East Timor,,
-NGADA/South-Western,East Timor,East Timor,,
+NGADA/South-Eastern,East Timor,East Timor,,east2464
+NGADA/South-Western,East Timor,East Timor,,sout2884
 NGADJURI,Australia,Australia,,
 NGAGU,Australia,Australia,,
 NGAING,,,Papua New Guinea,
@@ -1764,7 +1764,7 @@ NGUNDANBI,Australia,Australia,,
 NGUON,Laos,Laos,,
 NHUWALA,Australia,Australia,,
 NIAS/Eastern,Indonesia,Indonesia,,
-NIAS/Sichule,Indonesia,Indonesia,,
+NIAS/Sichule,Indonesia,Indonesia,,siku1242
 NIAS/Western,Indonesia,Indonesia,,
 NIMBORAN,Indonesia,,,
 NIMI,,,Papua New Guinea,
@@ -1961,14 +1961,14 @@ PALAUAN,Palau,United States,,
 PALAWENO,Philippines,Philippines,,
 PALLANGANM DDANG,Australia,Australia,,
 PALU'E,Indonesia,,,
-PAMONA,Indonesia,Sulawesi,,
-PAMONA Ampana,Indonesia,Sulawesi,,
+PAMONA,Indonesia,Sulawesi,,pamo1252
+PAMONA Ampana,Indonesia,Sulawesi,,ampa1240
 PAMONA Batui,Indonesia,Sulawesi,,
 PAMONA Belala,Indonesia,Sulawesi,,
-PAMONA Laiwonu,Indonesia,Sulawesi,,
-PAMONA Pu'u Mboto,Indonesia,Sulawesi,,
+PAMONA Laiwonu,Indonesia,Sulawesi,,laiw1240
+PAMONA Pu'u Mboto,Indonesia,Sulawesi,,puum1234
 PAMONA Sinihoan,Indonesia,Sulawesi,,
-PAMONA Sinohoan,Indonesia,Sulawesi,,
+PAMONA Sinohoan,Indonesia,Sulawesi,,sino1247
 PANGASINAN,Philippines,Philippines,,
 PANIM,,,Papua New Guinea,
 PAONDA,,,Papua New Guinea,
@@ -2080,13 +2080,13 @@ RAUTO,,,Papua New Guinea,
 RAWA,,,Papua New Guinea,
 RAWO,,,Papua New Guinea,
 REJANG,Indonesia,Indonesia,,reja1240
-REJANG KAYAN Dialects/Long Badan,,,,
-REJANG KAYAN Dialects/Long Geng,Indonesia,Borneo,,
-REJANG KAYAN Dialects/Long Kehobo,Indonesia,Borneo,,
-REJANG KAYAN Dialects/Long Murun,Indonesia,Borneo,,
-REJANG KAYAN Dialects/Ma'Aging,,,,
-REJANG KAYAN Dialects/Uma Daro,Indonesia,Borneo,,
-REJANG KAYAN Dialects/Uma Juman,,,,
+REJANG KAYAN Dialects/Long Badan,,,,long1408
+REJANG KAYAN Dialects/Long Geng,Indonesia,Borneo,,long1410
+REJANG KAYAN Dialects/Long Kehobo,Indonesia,Borneo,,long1411
+REJANG KAYAN Dialects/Long Murun,Indonesia,Borneo,,long1409
+REJANG KAYAN Dialects/Ma'Aging,,,,maag1237
+REJANG KAYAN Dialects/Uma Daro,Indonesia,Borneo,,umad1241
+REJANG KAYAN Dialects/Uma Juman,,,,umaj1240
 REMPI,,,Papua New Guinea,
 RENGAO,Laos,Laos,,
 RENNELLESE,,,Solomon Islands,
@@ -2174,10 +2174,10 @@ SAURI?,Indonesia,,,
 SAUSE,,,,
 SAUSI,,,Papua New Guinea,
 SAVOSAVO,,,,
-SAVU,Indonesia,Indonesia,,
-SAVU/Liae,Indonesia,Indonesia,,
-SAVU/Seba,Indonesia,Indonesia,,
-SAVU/Timu,Indonesia,,,
+SAVU,Indonesia,Indonesia,,sabu1255
+SAVU/Liae,Indonesia,Indonesia,,liae1237
+SAVU/Seba,Indonesia,Indonesia,,seba1248
+SAVU/Timu,Indonesia,,,timu1261
 SAWAI,Indonesia,Indonesia,,
 SEAT,,,Papua New Guinea,
 SEDANG,Laos,Laos,,
@@ -2189,26 +2189,26 @@ SEKO,,,,
 SELARU,Indonesia,Indonesia,,sela1259
 SELUNGAI MURUT,,,,
 SELWASA,Indonesia,Indonesia,,selu1242
-SEMAI,Malaysia,Malaysia; Southern Malaysia,,
-SEMAI/Betau,Malaysia,Malaysia,,
-SEMAI/Bidor,Malaysia,Malaysia,,
-SEMAI/Bil,Malaysia,Malaysia; Southern Malaysia,,
-SEMAI/Cameron H. lands,Malaysia,Malaysia,,
-SEMAI/Jelai,Malaysia,Malaysia,,
-SEMAI/Kampar,Malaysia,Malaysia,,
-SEMAI/Lipis,Malaysia,Malaysia,,
-SEMAI/Orang Tanjong of Langat,Malaysia,Malaysia,,
-SEMAI/Perak I,Malaysia,Southern Malaysia,,
-SEMAI/Sungkai,Malaysia,Malaysia,,
-SEMAI/Telom,Malaysia,Malaysia,,
+SEMAI,Malaysia,Malaysia; Southern Malaysia,,sema1266
+SEMAI/Betau,Malaysia,Malaysia,,beta1249
+SEMAI/Bidor,Malaysia,Malaysia,,bido1238
+SEMAI/Bil,Malaysia,Malaysia; Southern Malaysia,,bill1238
+SEMAI/Cameron H. lands,Malaysia,Malaysia,,came1250
+SEMAI/Jelai,Malaysia,Malaysia,,jela1244
+SEMAI/Kampar,Malaysia,Malaysia,,uluk1256
+SEMAI/Lipis,Malaysia,Malaysia,,lipi1238
+SEMAI/Orang Tanjong of Langat,Malaysia,Malaysia,,oran1256
+SEMAI/Perak I,Malaysia,Southern Malaysia,,pera1255
+SEMAI/Sungkai,Malaysia,Malaysia,,sung1267
+SEMAI/Telom,Malaysia,Malaysia,,telo1238
 SEMAQ BERI,Malaysia,Malaysia,,
 SEMAQ BERI/SEMELAI,Malaysia,Southern Malaysia,,
 SEMBAKUNG,,,,
-SEMELAI,Malaysia,Malaysia,,
+SEMELAI,Malaysia,Malaysia,,seme1246
 SEMELAI/Biduanda of Chiong,Malaysia,Southern Malaysia,,
 SEMELAI/Semaq Palong,Malaysia,Malaysia,,
-SEMELAI/Semelai,Malaysia,Southern Malaysia,,
-SEMELAI/Temoq,Malaysia,Malaysia,,
+SEMELAI/Semelai,Malaysia,Southern Malaysia,,seme1247
+SEMELAI/Temoq,Malaysia,Malaysia,,temo1243
 SEMIMI,Indonesia,,,
 SEMPAN,Indonesia,,,
 SENE,,,Papua New Guinea,
@@ -2229,9 +2229,9 @@ SIBOMA,,,Papua New Guinea,
 SIE,,,Vanuatu,siee1239
 SIHAN,,,Papua New Guinea,
 SIKAIANA,,,,
-SIKKA/Central,East Timor,East Timor,,
-SIKKA/South Coast,East Timor,East Timor,,
-SIKKA/Tana Ai,East Timor,East Timor,,
+SIKKA/Central,East Timor,East Timor,,sara1324
+SIKKA/South Coast,East Timor,East Timor,,sikk1243
+SIKKA/Tana Ai,East Timor,East Timor,,tana1283
 SILA,Laos,Laos,,
 SILAKAU,Indonesia,Borneo,,
 SILEIBI,,,Papua New Guinea,
@@ -2301,27 +2301,27 @@ SUMARIUI,,,Papua New Guinea,
 SUMARIUR,,,Papua New Guinea,
 SUMATRA MALAY,Indonesia; Malaysia,Indonesia; Malaysia,,
 SUMATRA MALAY/Aji,Indonesia,Indonesia,,
-SUMATRA MALAY/Bangka,Indonesia,,,
+SUMATRA MALAY/Bangka,Indonesia,,,bang1365
 SUMATRA MALAY/Belide,Indonesia,Indonesia,,
 SUMATRA MALAY/Belitung,Indonesia,,,
-SUMATRA MALAY/Bengkulu,Indonesia,Indonesia,,
+SUMATRA MALAY/Bengkulu,Indonesia,Indonesia,,beng1290
 SUMATRA MALAY/Besemah,Indonesia,Indonesia,,
 SUMATRA MALAY/Daya,Indonesia,Indonesia,,
-SUMATRA MALAY/Enim,Indonesia,Indonesia,,
+SUMATRA MALAY/Enim,Indonesia,Indonesia,,enim1238
 SUMATRA MALAY/Kayu Agung,Indonesia,Indonesia,,
 SUMATRA MALAY/Kubu,Indonesia,,,
 SUMATRA MALAY/Lematang,Indonesia,Indonesia,,
 SUMATRA MALAY/Lembak,Indonesia,Indonesia,,
-SUMATRA MALAY/Lintang,Indonesia,Indonesia,,
+SUMATRA MALAY/Lintang,Indonesia,Indonesia,,lint1237
 SUMATRA MALAY/Musi,Indonesia,Indonesia,,
-SUMATRA MALAY/Ogan,Indonesia,Indonesia,,
+SUMATRA MALAY/Ogan,Indonesia,Indonesia,,ogan1237
 SUMATRA MALAY/Palembang,Indonesia,Indonesia,,
 SUMATRA MALAY/Penesak,Indonesia,Indonesia,,
 SUMATRA MALAY/Ranau,Indonesia,Indonesia,,
 SUMATRA MALAY/Rawas,Indonesia,Indonesia,,
 SUMATRA MALAY/Riau,Indonesia,,,
-SUMATRA MALAY/Semendo,Indonesia,Indonesia,,
-SUMATRA MALAY/Serawai,Indonesia,Indonesia,,
+SUMATRA MALAY/Semendo,Indonesia,Indonesia,,seme1248
+SUMATRA MALAY/Serawai,Indonesia,Indonesia,,sera1272
 SUMATRA MALAY/Sindang Kelingi,Indonesia,Indonesia,,
 SUMAU,,,Papua New Guinea,
 SUMBAWA,Indonesia,Indonesia,,sumb1241
@@ -2503,12 +2503,12 @@ TIFAL,,,Papua New Guinea,
 TIGAK Island,,,,
 TIGWA MANOBO,Philippines,Philippines,,
 TIKOPIA,,,,tiko1237
-"TIMORESE/Amabi,Fatulau,Amfoan",East Timor,East Timor,,
-TIMORESE/Amanuban-Amanatun,East Timor,East Timor,,
+"TIMORESE/Amabi,Fatulau,Amfoan",East Timor,East Timor,,amfo1237
+TIMORESE/Amanuban-Amanatun,East Timor,East Timor,,aman1264
 TIMORESE/Ambenu(Vaikenu),East Timor,East Timor,,
-TIMORESE/Biboki-Insana,East Timor,East Timor,,
-TIMORESE/Kusa-Manlea,East Timor,East Timor,,
-TIMORESE/Mollo-Miomafo,East Timor,East Timor,,
+TIMORESE/Biboki-Insana,East Timor,East Timor,,bibo1238
+TIMORESE/Kusa-Manlea,East Timor,East Timor,,kusa1252
+TIMORESE/Mollo-Miomafo,East Timor,East Timor,,moll1242
 TIMORESE/ROTINESE,East Timor,East Timor,,
 TIMPUTZ,,,Papua New Guinea,
 TINA SAMBAL,Philippines,Philippines,,
