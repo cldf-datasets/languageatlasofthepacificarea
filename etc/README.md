@@ -8,7 +8,7 @@ guides the conversion of the raw data to CLDF.
 
 Run
 ```shell
-cldfbench laotpa.geojson
+cldfbench laotpa.geojson PATH/TO/glottolog-cldf/cldf/languages.csv
 ```
 to create a GeoJSON file including unmapped polygons and Glottolog language markers.
 
