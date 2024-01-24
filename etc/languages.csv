@@ -2,17 +2,17 @@ Name,Countries,Sovereigns,Islands,Glottocode
 'ARE'ARE,,,Solomon Islands,area1240
 'LOW-COUNTRY SEMANG'/Meni Gul,Malaysia,North-Western Malaysia,,
 'LOW-COUNTRY SEMANG'/Semang of Juru',Malaysia,North-Western Malaysia,,
-(KAMBERA)EAST SUMBANESE/Kambera,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Kanatang,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Lewa,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Mangili-Waijelo,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Melolo,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Southern,Indonesia,Indonesia,,
-(KAMBERA)EAST SUMBANESE/Umbu Ratu Nggai,Indonesia,Indonesia,,
+(KAMBERA)EAST SUMBANESE/Kambera,Indonesia,Indonesia,,nucl1521
+(KAMBERA)EAST SUMBANESE/Kanatang,Indonesia,Indonesia,,kana1287
+(KAMBERA)EAST SUMBANESE/Lewa,Indonesia,Indonesia,,lewa1240
+(KAMBERA)EAST SUMBANESE/Mangili-Waijelo,Indonesia,Indonesia,,mang1406
+(KAMBERA)EAST SUMBANESE/Melolo,Indonesia,Indonesia,,melo1243
+(KAMBERA)EAST SUMBANESE/Southern,Indonesia,Indonesia,,sout2885
+(KAMBERA)EAST SUMBANESE/Umbu Ratu Nggai,Indonesia,Indonesia,,umar1237
 ?,Indonesia; Taiwan,Borneo; Taiwan,,
 ? BAPU,Indonesia,,,
 ? KUWANI,Indonesia,,,
-ABAGA,,,Papua New Guinea,
+ABAGA,,,Papua New Guinea,abag1245
 ABAI SUNGAI,,,,
 ABASAKUR,,,Papua New Guinea,
 ABAU,,,,
@@ -125,7 +125,7 @@ AU,,,Papua New Guinea,
 AULUA,,,Vanuatu,
 AUQU,,,Papua New Guinea,
 AUSTRAL,,,,
-AUSTRONESIAN,Indonesia,,Papua New Guinea,
+AUSTRONESIAN,Indonesia,,Papua New Guinea,aust1307
 AUTU,,,Papua New Guinea,
 AUYANA,,,Papua New Guinea,
 AWAEAKAL,Australia,Australia,,
@@ -154,7 +154,7 @@ Ampibabo,Indonesia,Sulawesi,,
 Amugen,,,Papua New Guinea,
 Amung UHUNDUNI,Indonesia,,,
 Anambas Island,Indonesia,,,
-Angan Stock-Level Family,,,Papua New Guinea,
+Angan Stock-Level Family,,,Papua New Guinea,anga1289
 Anir,,,,
 Apmisibil,,,Papua New Guinea,
 Apos,,,Papua New Guinea,
@@ -356,8 +356,8 @@ BUNGAIN,,,Papua New Guinea,
 BUNGANDIDJ,Australia,Australia,,
 BUNGKU,Indonesia,Sulawesi,,
 BUNGKU Rumbia,Indonesia,Sulawesi,,
-BUNUN_Central,Taiwan,Taiwan,,
-BUNUN_Northern,Taiwan,Taiwan,,
+BUNUN_Central,Taiwan,Taiwan,,cent2105
+BUNUN_Northern,Taiwan,Taiwan,,nort2902
 BUNUN_Southern,Taiwan,Taiwan,,
 BUNUN_Takopulan,Taiwan,Taiwan,,
 BUOL,Indonesia,Sulawesi,,
@@ -709,12 +709,12 @@ GALELA,Indonesia,Indonesia,,
 GALEYA,,,Papua New Guinea,
 GALGADUNGIC,Australia,Australia,,
 GALIBAMU,Australia,Australia,,
-GALOLI/Baba,East Timor,East Timor,,
+GALOLI/Baba,East Timor,East Timor,,baba1272
 GALOLI/Dadua,East Timor,East Timor,,
-GALOLI/Edi,East Timor,East Timor,,
-GALOLI/Galoli,East Timor,East Timor,,
-GALOLI/Hehak,East Timor,East Timor,,
-GALOLI/Na Nahek,East Timor,East Timor,,
+GALOLI/Edi,East Timor,East Timor,,edii1237
+GALOLI/Galoli,East Timor,East Timor,,nucl1541
+GALOLI/Hehak,East Timor,East Timor,,haha1243
+GALOLI/Na Nahek,East Timor,East Timor,,nana1259
 GALU,,,Papua New Guinea,
 GAMEI,,,Papua New Guinea,
 GANA,,,,
@@ -891,11 +891,11 @@ Island Kiwa,,,,
 Island Kiwai,,,,
 J,Indonesia,Indonesia,,
 JAGOI,Indonesia,Borneo,,
-JAGOI Dialects/Assem,Indonesia,Borneo,,
-JAGOI Dialects/Dongay,Indonesia,Borneo,,
-JAGOI Dialects/Empawa,Indonesia,Borneo,,
-JAGOI Dialects/Suti,Indonesia,Borneo,,
-JAGOI Dialects/Tengoh,,,,
+JAGOI Dialects/Assem,Indonesia,Borneo,,asse1237
+JAGOI Dialects/Dongay,Indonesia,Borneo,,dong1297
+JAGOI Dialects/Empawa,Indonesia,Borneo,,empa1241
+JAGOI Dialects/Suti,Indonesia,Borneo,,suti1238
+JAGOI Dialects/Tengoh,,,,teng1270
 JAGOI Dialects/Tringus,Indonesia,Borneo,,
 JAH HET,Malaysia,Southern Malaysia,,
 JAKARTA MALAY,Indonesia,,,
@@ -910,9 +910,9 @@ JAVANESE/Manuk,Indonesia,Indonesia,,
 JAVANESE/North-Western,Indonesia,Indonesia,,
 JAWE,,,New Caledonia,
 JEH,Laos,Laos,,
-JEHAI/Batek Teh,Malaysia,Malaysia,,
-JEHAI/Jehai,Malaysia,North-Western Malaysia,,
-JEHAI/Menriq,Malaysia,North-Western Malaysia,,
+JEHAI/Batek Teh,Malaysia,Malaysia,,bate1267
+JEHAI/Jehai,Malaysia,North-Western Malaysia,,nucl1294
+JEHAI/Menriq,Malaysia,North-Western Malaysia,,minr1238
 JILIM,,,Papua New Guinea,
 JINGHPAW,Burma,,,
 Jelalong P.,,,,
@@ -933,8 +933,8 @@ KAILI Palu,Indonesia,Sulawesi,,
 "KAILI Palu, MANDAR",Indonesia,Sulawesi,,
 KAIRI,,,Papua New Guinea,
 KAIRIRU,,,Papua New Guinea; apua New Guinea,kair1263
-KAIRUI-MIDIKI/Kairui,East Timor,East Timor,,
-KAIRUI-MIDIKI/Midiki,Indonesia,,,
+KAIRUI-MIDIKI/Kairui,East Timor,East Timor,,kair1266
+KAIRUI-MIDIKI/Midiki,Indonesia,,,midi1237
 KAIWA,,,Papua New Guinea,
 KAJAMAN Sekapen,,,,
 KALA LAGAW YA,Australia,Australia,,
@@ -1026,13 +1026,13 @@ KENABOI,Malaysia,Malaysia; Southern Malaysia,,
 KENATI,,,,
 KENINGAU MURUT Dialects / Apin - Aoin Kuijau,,,,
 KENINGAU MURUT Dialects / Apin - Apin Kuijar,,,,
-KENINGAU MURUT Dialects / Dusun Murut,,,,
-"KENINGAU MURUT Dialects / Dusun Murut, Tambual",,,,
-KENINGAU MURUT Dialects / Nabay,,,,
-KENSIU,Malaysia,Malaysia; North-Western Malaysia,,
-KENSIU/Kensiu Batu,Malaysia,Malaysia,,
+KENINGAU MURUT Dialects / Dusun Murut,,,,dusu1272
+"KENINGAU MURUT Dialects / Dusun Murut, Tambual",,,,ambu1245
+KENINGAU MURUT Dialects / Nabay,,,,naba1255
+KENSIU,Malaysia,Malaysia; North-Western Malaysia,,kens1248
+KENSIU/Kensiu Batu,Malaysia,Malaysia,,kens1249
 KENSIU/Kensiu Pemsed,Malaysia,North-Western Malaysia,,
-KENSIU/Kensiu Siong,Malaysia,North-Western Malaysia,,
+KENSIU/Kensiu Siong,Malaysia,North-Western Malaysia,,kens1250
 KENSIU/Meni Kaien,Malaysia,North-Western Malaysia,,
 KENSIU/Semang of Sadang,Malaysia,Southern Malaysia,,
 KERAMIN,Australia,Australia,,
@@ -1047,7 +1047,7 @@ KHA TONG LUANG,Laos,Laos,,
 KHAMET,Thailand,Thailand,,
 KHANG,Vietnam,Vietnam,,
 KHAO,Vietnam,Vietnam,,
-KHMER,Kampuchea; Laos; Thailand,Kampuchea; Laos; Thailand,,
+KHMER,Kampuchea; Laos; Thailand,Kampuchea; Laos; Thailand,,cent1989
 KHMU,Laos; Thailand,Laos; Thailand,,
 KHUA,Laos,Laos,,
 KIA,,,Solomon Islands,
@@ -1265,15 +1265,15 @@ LAHU/LISU,Thailand,Thailand,,
 LAKALEI,East Timor,East Timor,,
 LAKONA,,,Vanuatu,lako1245
 LALAKI,Indonesia,Sulawesi,,
-LAMAHOLOT,East Tiimor; Indonesia,East Timor,,
+LAMAHOLOT,East Tiimor; Indonesia,East Timor,,lama1277
 LAMAHOLOT/Adonara,East Timor,East Timor,,
 LAMAHOLOT/East,East Timor; Indonesia,East Timor,,
-LAMAHOLOT/Ile Mandiri,East Timor,East Timor,,
-LAMAHOLOT/Lewolaga,East Timor,East Timor,,
+LAMAHOLOT/Ile Mandiri,East Timor,East Timor,,nucl1534
+LAMAHOLOT/Lewolaga,East Timor,East Timor,,lewo1249
 LAMAHOLOT/Pukaunu,East Timor,East Timor,,
 LAMAHOLOT/Solor,East Timor,East Timor,,
 LAMAHOLOT/South,East Timor,East Timor,,
-LAMAHOLOT/Tanjung Bunga,Indonesia,,,
+LAMAHOLOT/Tanjung Bunga,Indonesia,,,tanj1250
 LAMAM/HA,Laos,Laos,,
 LAMBOYA,Indonesia,Indonesia,,
 LAMET,Laos,Laos,,
@@ -1309,11 +1309,11 @@ LENAKE,,,Vanuatu,lena1238
 LENGILU,,,,
 LENGO,,,Solomon Islands,
 LETEMBOI,,,Vanuatu,
-LETRI LGONA/Lakor,Indonesia,,,
-LETRI LGONA/Leti,Indonesia,,,
-LETRI LGONA/Moa,Indonesia,,,
-LETRI LGONA/Sermata,Indonesia,,,
-LETRI LGONA/Wetan-W(N)Babar,Indonesia,,,
+LETRI LGONA/Lakor,Indonesia,,,lako1246
+LETRI LGONA/Leti,Indonesia,,,leti1246
+LETRI LGONA/Moa,Indonesia,,,moaa1237
+LETRI LGONA/Sermata,Indonesia,,,serm1234
+LETRI LGONA/Wetan-W(N)Babar,Indonesia,,,weta1243
 LEWADA,,,Papua New Guinea,
 LEWO,,,Vanuatu,lewo1242
 LI,China,China,,
@@ -1444,11 +1444,11 @@ MANGAP,,,,
 MANGARAYI,Australia,Australia,,
 MANGAREVA,,,,
 MANGARLA,Australia,Australia,,
-MANGGARAI/Central,East Timor,East Timor,,
+MANGGARAI/Central,East Timor,East Timor,,cent2073
 MANGGARAI/Central Eastern,East Timor,East Timor,,
 MANGGARAI/East,East Timor,East Timor,,
 MANGGARAI/Transitional,East Timor,East Timor,,
-MANGGARAI/West,East Timor,East Timor,,
+MANGGARAI/West,East Timor,East Timor,,west2537
 MANGKONG,Laos,Laos,,
 MANIHIKI-RAKAHANGA(COOK ISLANDS MAORI),,,,raka1237
 MANIPA,Indonesia,Indonesia,,
@@ -1503,8 +1503,8 @@ MENDALAM KY.,,,,
 MENGEN,,,Papua New Guinea,
 MENINGGO,,,,
 MENTAWAI/Northern Siberut,Indonesia,Indonesia,,ment1249
-MENTAWAI/Pagai,Indonesia,Indonesia,,
-MENTAWAI/Sipura,Indonesia,Indonesia,,
+MENTAWAI/Pagai,Indonesia,Indonesia,,paga1237
+MENTAWAI/Sipura,Indonesia,Indonesia,,sipu1239
 MENTAWAI/Southern Siberut,Indonesia,Indonesia,,ment1249
 MENYA,,,Papua New Guinea,
 MEO,Burma; Laos; Thailand; Vietnam,Laos; Thailand; Vietnam,,
@@ -1513,19 +1513,19 @@ MESEM,,,Papua New Guinea,
 MIDSIVINDI,,,Papua New Guinea,
 MIKAREW,,,Papua New Guinea,
 MIKARU Mikaru Padibi,,,Papua New Guinea,
-MINANGKABAU,Indonesia,,,
-MINANGKABAU/C-W,Indonesia,Indonesia,,
-MINANGKABAU/Central,Indonesia,Indonesia,,
-MINANGKABAU/Central Eastern,Indonesia,Indonesia,,
-MINANGKABAU/Central Northern,Indonesia,Indonesia,,
-MINANGKABAU/Kerinci,Indonesia,Indonesia,,
+MINANGKABAU,Indonesia,,,mina1268
+MINANGKABAU/C-W,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Central,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Central Eastern,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Central Northern,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Kerinci,Indonesia,Indonesia,,keri1250
 MINANGKABAU/Kerinci-Minangkabau,Indonesia,Indonesia,,keri1250
-MINANGKABAU/Muko-Muko,Indonesia,Indonesia,,
-MINANGKABAU/Northern,Indonesia,Indonesia,,
-MINANGKABAU/Pekal,Indonesia,Indonesia,,
-MINANGKABAU/South-Eastern,Indonesia,Indonesia,,
-MINANGKABAU/South-Western,Indonesia,Indonesia,,
-MINANGKABAU/Southern,Indonesia,Indonesia,,
+MINANGKABAU/Muko-Muko,Indonesia,Indonesia,,muko1237
+MINANGKABAU/Northern,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Pekal,Indonesia,Indonesia,,peka1242
+MINANGKABAU/South-Eastern,Indonesia,Indonesia,,mina1268
+MINANGKABAU/South-Western,Indonesia,Indonesia,,mina1268
+MINANGKABAU/Southern,Indonesia,Indonesia,,mina1268
 MINANGKABAU/Western,Indonesia,Indonesia,,mina1268
 MINANIBAI,,,Papua New Guinea,
 MINDIRI,,,Papua New Guinea,mind1255
