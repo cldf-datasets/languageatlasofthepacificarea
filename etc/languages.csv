@@ -495,7 +495,7 @@ Central RUAT,,,Papua New Guinea,
 Central TAIBORA,,,Papua New Guinea,
 Central TANAHMERAH,Indonesia,,,
 Central TATMUL,,,Papua New Guinea,
-Central TIGAK,,,Papua New Guinea,
+Central TIGAK,,,Papua New Guinea,cent2064
 Central TIMBE,,,Papua New Guinea,
 Chimbian,,,Papua New Guinea,
 Chirima,,,Papua New Guinea,
@@ -2420,7 +2420,7 @@ Southern KUNIMAIPA,,,Papua New Guinea,
 Southern KWERBA,Indonesia,,,
 Southern MOUNTAIN KOIARI,,,Papua New Guinea,
 Southern TAIRORA,,,Papua New Guinea,
-Southern TIGAK,,,Papua New Guinea,
+Southern TIGAK,,,Papua New Guinea,sout2871
 Southern TURU,,,,
 Suasiu,,,,
 Sugut Kao'azan,,,,
@@ -2449,44 +2449,44 @@ TAMPUAN,Laos,Laos,,
 TANAH MERAH,Indonesia,,,
 TANDIA,Indonesia,,,
 TANGLAPUI,East Timor,East Timor,,
-TANGOA,,,,
-TANGU,,,Papua New Guinea,
-TANGUAT,,,Papua New Guinea,
+TANGOA,,,,tang1347
+TANGU,,,Papua New Guinea,tang1355
+TANGUAT,,,Papua New Guinea,tang1356
 TANI,,,Papua New Guinea,
-TANJONG,,,,
+TANJONG,,,,kano1244
 TAO-SUAMATO,,,Papua New Guinea,
-TAOGWE,,,,
-TAOKAS,Taiwan,Taiwan,,
+TAOGWE,,,,kwer1264
+TAOKAS,Taiwan,Taiwan,,taok1237
 TAORI-KEI,,,,
 TARENG,Laos,Laos,,
-TAROF,Indonesia,,,
+TAROF,Indonesia,,,taro1259
 TARPIA,Indonesia,,,tarp1240
-TARUNGGARE,Indonesia,,,
+TARUNGGARE,Indonesia,,,tung1293
 TASMATE,,,,tasm1246
-TATANA,,,,
+TATANA,,,,tata1257
 TATMUL Palimber,,,Papua New Guinea,
-TAUADE,,,Papua New Guinea,
-TAULIL,,,Papua New Guinea,
-TAUNA,,,Papua New Guinea,
-TAUPOTA,,,Papua New Guinea,
-TAUSUG,Philippines,Philippines,,
+TAUADE,,,Papua New Guinea,taua1242
+TAULIL,,,Papua New Guinea,taul1251
+TAUNA,,,Papua New Guinea,taun1251
+TAUPOTA,,,Papua New Guinea,taup1242
+TAUSUG,Philippines,Philippines,,taus1251
 TAUYA,,,Papua New Guinea,tauy1241
-TAWORTA,,,,
+TAWORTA,,,,tawo1244
 TAY,Vietnam,Vietnam,,
-TBOLI,Philippines,Philippines,,
-TEBILUNG,,,,
-TELEFOL,,,Papua New Guinea,
-TEMIAR,Malaysia,Malaysia,,
-TEMIAR/Northern,Malaysia,Malaysia,,
-TEMIAR/Southern,Malaysia,North-Western Malaysia,,
-TEOP,,,Papua New Guinea,
+TBOLI,Philippines,Philippines,,tbol1240
+TEBILUNG,,,,tobi1239
+TELEFOL,,,Papua New Guinea,tele1256
+TEMIAR,Malaysia,Malaysia,,temi1246
+TEMIAR/Northern,Malaysia,Malaysia,,temi1246
+TEMIAR/Southern,Malaysia,North-Western Malaysia,,temi1246
+TEOP,,,Papua New Guinea,teop1238
 TERI,,,Papua New Guinea,
-TERNATE,,,,
-TETUN,East Timor,East Timor,,
-TETUN/Eastern Tetun,East Timor,East Timor,,
-TETUN/N,East Timor,East Timor,,
-TETUN/Soibada,East Timor,East Timor,,
-TETUN/Western Tetun,East Timor,East Timor,,
+TERNATE,,,,tern1247
+TETUN,East Timor,East Timor,,tetu1245
+TETUN/Eastern Tetun,East Timor,East Timor,,east2473
+TETUN/N,East Timor,East Timor,,nort2869
+TETUN/Soibada,East Timor,East Timor,,east2473
+TETUN/Western Tetun,East Timor,East Timor,,tetu1245
 TEUN,Indonesia,,,teun1241
 TEWA,East Timor,East Timor,,
 THAI,Thailand,Thailand,,
@@ -2494,13 +2494,13 @@ THAI DAM(LAO SONG),Laos,Laos,,
 THAI KHAW,Laos/Vietnam; Vietnam,Vietnam,,
 THAI-MALAY,Malaysia,Malaysia,,
 THAO,Taiwan,Taiwan,,thao1240
-THAVUNG,Laos,Laos,,
-THAWA,Australia,Australia,,
-TIANG,,,Papua New Guinea,
+THAVUNG,Laos,Laos,,aheu1239
+THAWA,Australia,Australia,,thaw1238
+TIANG,,,Papua New Guinea,tian1237
 TIDONG,Indonesia,Indonesia,,
-TIDORE,Indonesia,Indonesia,,
-TIFAL,,,Papua New Guinea,
-TIGAK Island,,,,
+TIDORE,Indonesia,Indonesia,,tido1248
+TIFAL,,,Papua New Guinea,tifa1245
+TIGAK Island,,,,isla1272
 TIGWA MANOBO,Philippines,Philippines,,
 TIKOPIA,,,,tiko1237
 "TIMORESE/Amabi,Fatulau,Amfoan",East Timor,East Timor,,amfo1237
@@ -2832,25 +2832,25 @@ Western MOUNTAIN KOIARI,,,Papua New Guinea,
 Western RORO,,,Papua New Guinea,
 Western SABERI(ISIRAWA),Indonesia,,,
 Western TANAHMERAH,Indonesia,,,
-Western TIGAK,,,Papua New Guinea,
-Western TURU,,,,
+Western TIGAK,,,Papua New Guinea,west2525
+Western TURU,,,,turu1251
 Westorn Coastal,,,Papua New Guinea,
 Wideman R ?,Indonesia,,,
-Wiga,,,Papua New Guinea,
-Wingei,,,Papua New Guinea,
+Wiga,,,Papua New Guinea,wiga1237
+Wingei,,,Papua New Guinea,wing1239
 Wiradhuric Group,Australia,Australia,,
-Wiwi Rano,,,,
-Wodo,Indonesia,,,
-Wosera ABELAM,,,Papua New Guinea,
-Wowoni,Indonesia,Sulawesi,,
-Wunambal Gambera Miwa,Australia,Australia,,
+Wiwi Rano,,,,wiwi1237
+Wodo,Indonesia,,,wala1269
+Wosera ABELAM,,,Papua New Guinea,ambu1247
+Wowoni,Indonesia,Sulawesi,,wawo1239
+Wunambal Gambera Miwa,Australia,Australia,,wuna1249
 XARACUU,,,New Caledonia,xara1244
 XARAGURE,,,New Caledonia,xara1243
-XARUA,,,Papua New Guinea,
+XARUA,,,Papua New Guinea,haru1243
 XINH MUL,Laos,Laos,,puoc1238
-YABEN,,,Papua New Guinea,
-YABIM,,,Papua New Guinea,
-YABIO,,,Papua New Guinea,
+YABEN,,,Papua New Guinea,yabe1255
+YABIM,,,Papua New Guinea,yabe1254
+YABIO,,,Papua New Guinea,yawi1238
 YABONG,,,Papua New Guinea,yabo1240
 YABULA YABULA,Australia,Australia,,yabu1234
 YAFI,Indonesia,,,yafi1240
@@ -2886,31 +2886,31 @@ YAU,,,Papua New Guinea,yaum1237
 YAUL,,,Papua New Guinea,maru1253
 YAUR,Indonesia,,,yaur1239
 YAVA,Indonesia,,,
-YAWIYUHA,,,Papua New Guinea,
-YAWURU,Australia,Australia,,
-YAYGIR,Australia,Australia,,
-YEGA(Yega),,,Papua New Guinea,
-YEKORA,,,Papua New Guinea,
-YERAKAI,,,Papua New Guinea,
+YAWIYUHA,,,Papua New Guinea,yawe1241
+YAWURU,Australia,Australia,,yawu1244
+YAYGIR,Australia,Australia,,yayg1236
+YEGA(Yega),,,Papua New Guinea,yega1243
+YEKORA,,,Papua New Guinea,yeko1240
+YERAKAI,,,Papua New Guinea,yera1243
 YEREBA,,,Papua New Guinea,
 YERETUAR,Indonesia,,,yere1243
 YIDINY,Australia,Australia,,yidi1250
-YIMAS,,,Papua New Guinea,
+YIMAS,,,Papua New Guinea,yima1243
 YIR,Laos,Laos,,
-YIRANDHALI,Australia,Australia,,
+YIRANDHALI,Australia,Australia,,yira1239
 YIS,,,Papua New Guinea,
 YITHA-YITHA,Australia,Australia,,yith1234
 YOBA,,,Papua New Guinea,yoba1237
 YOIDIK,,,Papua New Guinea,yoid1240
 YONGGOM,,,Papua New Gu,yong1280
 YOTA YOTA,Australia,Australia,,yort1237
-YOTAFA,Indonesia,,,
+YOTAFA,Indonesia,,,toba1266
 YU,,,Papua New Guinea,
-YUAGA,,,New Caledonia,
-YUGUL,Australia,Australia,,
-YUGULDA,Australia,Australia,,
+YUAGA,,,New Caledonia,yuag1237
+YUGUL,Australia,Australia,,yugu1250
+YUGULDA,Australia,Australia,,gang1267
 YURI,,,Papua New Guinea,yuri1250
-YURUWINGA,Australia,Australia,,
+YURUWINGA,Australia,Australia,,ayer1246
 Yalayu,,,New Caledonia,yala1265
 Yandapo,,,Papua New Guinea,yand1259
 Yangmanic Group,Australia,Australia,,
@@ -2925,10 +2925,10 @@ Yarus,,,Papua New Guinea,
 Yate,,,Papua New Guinea,inok1238
 Yatfle,Indonesia,,,
 Yayoponjo,,,Papua New Guinea,
-Yibab,,,Papua New Guinea,
+Yibab,,,Papua New Guinea,kama1367
 Yidinyic Group,Australia,Australia,,
 Yiwaidjan Family,Australia,Australia,,
-Yoliapi,,,,
+Yoliapi,,,,hewa1241
 Yotayotic Group,Australia,Australia,,
 Yubanakor,,,Papua New Guinea,
 Yuin-Kuric Group,Australia,Australia,,
