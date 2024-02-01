@@ -530,25 +530,25 @@ DIODIO,,,Papua New Guinea,diod1237
 DIRARI,Australia,Australia,,dier1241
 DIXON REFE,,,Vanuatu,dixo1238
 DIYARI,Australia,Australia,,
-DJANGUN / MULURIDYI,Australia,Australia,,
-DJAWI,Australia,Australia,,
-DJINGILI,Australia,Australia,,
+DJANGUN / MULURIDYI,Australia,Australia,,mulu1243 djan1238
+DJAWI,Australia,Australia,,djaw1238
+DJINGILI,Australia,Australia,,djin1251
 DOBU,,,Papua New Guinea,dobu1241
 DOGA,,,Papua New Guinea,doga1238
-DOGORO,,,Papua New Guinea,
+DOGORO,,,Papua New Guinea,dogh1241
 DOHOI,Indonesia,Borneo,,doho1239
 DOI,Laos,Laos,,
 DOMUNG,,,Papua New Guinea,domu1246
 DONDO,Indonesia,Sulawesi,,dond1249
 DORIO,,,Solomon Islands,dori1246
 DORIRT,,,Papua New Guinea,
-DORRO,,,Papua New Guinea,
+DORRO,,,Papua New Guinea,namo1246
 DUAN,Laos,Laos,,
 DUAU,,,Papua New Guinea,duau1237
 DUBEA,,,New Caledonia,dumb1241
 DUBU,Indonesia,,,dubu1240
 DUDUELA,,,Papua New Guinea,dudu1240
-DUMPAS,,,,
+DUMPAS,,,,dump1242
 DUMPU,,,Papua New Guinea,dump1243
 DUMUN,,,Papua New Guinea,dumu1246
 DUNA,,,Papua New Guinea,duna1248
@@ -558,12 +558,12 @@ DUSUN DEYAH,Indonesia,Borneo,,
 DYANGADI,Australia,Australia,,dyan1250
 DYIRBAL,Australia,Australia,,dyir1250
 DYIRRINGANY,Australia,Australia,,
-DYUGUN,Australia,Australia,,
+DYUGUN,Australia,Australia,,dyug1238
 Dagan Family,,,Papua New Guinea,daga1274
 Dagenava,,,Papua New Guinea,dage1244
 Dahuni,,,Papua New Guinea,dahu1238
 Dalat,Indonesia,Borneo,,dala1239
-Dalit sd. PALUAN p.,,,,
+Dalit sd. PALUAN p.,,,,dali1243
 Daly Family,Australia,Australia,,
 Damal,Indonesia,,,dama1272
 Danu,,,Papua New Guinea,
@@ -579,7 +579,7 @@ Derebai,,,Papua New Guinea,dere1243
 Diauwereke,,,Papua New Guinea,
 Didigaru,,,Papua New Guinea,didi1260
 Dilava,,,Papua New Guinea,
-Dili Tetun,East Timor,East Timor,,
+Dili Tetun,East Timor,East Timor,,tetu1246
 Diomoni,,,Papua New Guinea,
 Djeebbanan Family-Level Isolate,Australia,Australia,,
 Djingili-Wambayan Family,Australia,Australia,,
@@ -588,14 +588,14 @@ Dodinga,Indonesia,Indonesia,,dodi1239
 Dolago,Indonesia,Sulawesi,,
 Dom,,,Papua New Guinea,
 Doma,,,Papua New Guinea,
-Domara,,,Papua New Guinea,
+Domara,,,Papua New Guinea,doma1262
 Domu,,,Papua New Guinea,
-Doromu,,,Papua New Guinea,
-Duka-Ekor,,,Papua New Guinea,
-Dumaring,,,,
+Doromu,,,Papua New Guinea,doro1266
+Duka-Ekor,,,Papua New Guinea,duka1248
+Dumaring,,,,duma1254
 Duri,Indonesia,Sulawesi,,
-Dusun Balangan,Indonesia,Borneo,,
-Dusun Segama,,,,
+Dusun Balangan,Indonesia,Borneo,,dusu1270
+Dusun Segama,,,,dusu1276
 Dusunic Subgroup,,,,
 E & W MAKIAN,Indonesia,Indonesia,,
 E-Coast,Indonesia,,,
@@ -617,7 +617,7 @@ EASTERN FIJIAN,,,Fiji,nucl1823
 EASTERN KADAZAN,,,,
 EDERAH R?,Indonesia,,,eder1237
 EIVO,,,Papua New Guinea,
-EKAGI Yabi,Indonesia,,,
+EKAGI Yabi,Indonesia,,,yabi1243
 ELEPI,,,Papua New Guinea,elep1240
 ELKEI,,,Papua New Guinea,elke1240
 EMAE,,,,emae1237
@@ -627,15 +627,15 @@ ENDE-LIO/Ende(Ja'o),East Timor,East Timor,,ende1246
 ENDE-LIO/Lio(Aku),East Timor,East Timor,,lioo1240
 ENDE-LIO/Nage-Keo,East Timor,East Timor,,nage1238
 ENDE-LIO/Nga'o,East Timor,East Timor,,ngao1245
-ENGA Iniai,,,Papua New Guinea,
+ENGA Iniai,,,Papua New Guinea,nete1240
 ENGA Layapo,,,Papua New Guinea,laya1255
 ENGA Sau,,,Papua New Guinea,sauu1244
 ENGA Tayato,,,Papua New Guinea,taya1255
 ENGGANO,Indonesia,Indonesia,,engg1245
 ERCKWANAS,Indonesia,,,
-ERCKWANAS  Iha,Indonesia,,,
+ERCKWANAS  Iha,Indonesia,,,ihaa1241
 EREM,,,Papua New Guinea,
-ERIMA,,,Papua New Guinea,
+ERIMA,,,Papua New Guinea,ogea1238
 East Awin,,,Papua New Guinea,east2522
 East Coast Bajau,Indonesia; Laos,Borneo; Laos,,
 East GIMI,,,Papua New Guinea,east2515
@@ -647,8 +647,8 @@ East SENTANI,Indonesia,,,east2518
 East YAMBS,,,Papua New Guinea,
 Eastern,,,Papua New Guinea,
 Eastern BINE,,,Papua New Guinea,
-Eastern BITARA,,,Papua New Guinea,
-Eastern GIZRA,,,,
+Eastern BITARA,,,Papua New Guinea,bita1253
+Eastern GIZRA,,,,gizr1240
 Eastern GWEDENA,,,Papua New Guinea,
 Eastern IRAHUTU,Indonesia,,,
 Eastern IRIA,Indonesia,,,
@@ -2824,7 +2824,7 @@ Western & Central  PAWAIA,,,Papua New Guinea,
 Western BINE,,,Papua New Guinea,
 Western BITARA,,,Papua New Guinea,
 Western Coastal Malay,Indonesia,Borneo,,
-Western GIZRA,,,Papua New Guinea,
+Western GIZRA,,,Papua New Guinea,west2584
 Western IRIA,Indonesia,,,
 Western KAMORO,Indonesia,,,
 Western KARA,,,Papua New Guinea,
