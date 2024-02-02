@@ -463,44 +463,44 @@ CHAM,China; Kampuchea; Laos,China; Kampuchea; Laos,,
 CHAMBRI,,,Papua New Guinea,cham1313
 CHAMORRO,,,Guam; Northern Mariana Islands,cham1312
 CHANGRIWA,,,Papua New Guinea,chan1319
-CHAVACANO,Philippines,Philippines,,
+CHAVACANO,Philippines,Philippines,,chav1241
 CHE' WONG,Malaysia,Malaysia,,chew1245
 CHE' WONG/E,Malaysia,Malaysia,,chew1245
 CHE' WONG/W,Malaysia,Malaysia,,chew1245
-CHENAPIAN,,,Papua New Guinea,
-CHINESE,China; Laos; Taiwan,China; Laos; Taiwan,,
+CHENAPIAN,,,Papua New Guinea,chen1259
+CHINESE,China; Laos; Taiwan,China; Laos; Taiwan,,midd1354
 CHONG,Laos,Laos,,
-CHRU,Laos,Laos,,
-CHUAVR Elimbari,,,Papua New Guinea,
-CITAK ASMAT,Indonesia,,,
-CNETRAL MAEWO,,,Vanuatu,
+CHRU,Laos,Laos,,chru1239
+CHUAVR Elimbari,,,Papua New Guinea,elim1239
+CITAK ASMAT,Indonesia,,,cita1246
+CNETRAL MAEWO,,,Vanuatu,cent2058
 COTABATO MANOBO,Philippines,Philippines,,cota1241
 CUA,Laos,Laos,,cuaa1241
 CUHU-SAMANE,,,Papua New Guinea,guhu1244
 Central,,,Papua New Guinea,
 Central AIRO-SUMAGHAGHE,Indonesia,,,
-Central ALUNE,Indonesia,Indonesia,,
+Central ALUNE,Indonesia,Indonesia,,alun1238
 Central BOIKEN A,,,Papua New Guinea,
 Central BOIKEN B,,,Papua New Guinea,
-Central FORE,,,Papua New Guinea,
+Central FORE,,,Papua New Guinea,nort2922
 Central Family,,,Papua New Guinea,
 Central IRIA,Indonesia,,,
-Central KANUM,Indonesia,,,
+Central KANUM,Indonesia,,,kanu1280
 Central KOMBA,,,Papua New Guinea,komb1273
-Central KOMBIO,,,Papua New Guinea,
-Central KUNIMAIPA,,,Papua New Guinea,
+Central KOMBIO,,,Papua New Guinea,komb1272
+Central KUNIMAIPA,,,Papua New Guinea,kuni1267
 Central Kamora,Indonesia,,,asma1256
 Central MOUNTAIN KOIARI,,,Papua New Guinea,
 Central RUAT,,,Papua New Guinea,
 Central TAIBORA,,,Papua New Guinea,
-Central TANAHMERAH,Indonesia,,,
+Central TANAHMERAH,Indonesia,,,tana1288
 Central TATMUL,,,Papua New Guinea,
 Central TIGAK,,,Papua New Guinea,cent2064
-Central TIMBE,,,Papua New Guinea,
+Central TIMBE,,,Papua New Guinea,cent2113
 Chimbian,,,Papua New Guinea,
 Chirima,,,Papua New Guinea,
-Chuave,,,Papua New Guinea,
-Coastal Kadazan Southern sd.,,,,
+Chuave,,,Papua New Guinea,chua1250
+Coastal Kadazan Southern sd.,,,,coas1294
 Coaster Kiwai,,,Papua New Guinea,sout2949
 DABRA,Indonesia,,,
 DAGA,,,Papua New Guinea,daga1275
@@ -509,17 +509,17 @@ DAI,Indonesia,Indonesia,,
 DAKAKA,,,Vanuatu,daka1243
 DAMAR/N DAMAR,East Timor,East Timor,,west2548
 DAMAR/S DAMAR,East Timor,East Timor,,east2472
-DAMPELASA,Indonesia,Sulawesi,,
+DAMPELASA,Indonesia,Sulawesi,,damp1237
 DANARU,,,Papua New Guinea,dana1254
 DANGAL,,,Papua New Guinea,dang1263
 DARAMBAL,Australia,Australia,,dhar1248
-DAVAWENO1,Philippines,Philippines,,
+DAVAWENO1,Philippines,Philippines,,dava1245
 DAWAWA,,,Papua New Guinea,dawa1242
 DEAR,,,Papua New Guinea,
 DEGENAN,,,Papua New Guinea,dege1247
 DEHU,,,New Caledonia,dehu1237
 DEM,,,,
-DEMTA,Indonesia,,,
+DEMTA,Indonesia,,,demt1241
 DHANGGAGARLI,Australia,Australia,,
 DHARAWAL,Australia,Australia,,thur1254
 DHUDUROA,Australia,Australia,,dhud1236
@@ -569,7 +569,7 @@ Damal,Indonesia,,,dama1272
 Danu,,,Papua New Guinea,
 Daranto,Indonesia,,,
 Daravo,,,Papua New Guinea,
-Daru Kiwai,,,Papua New Guinea,
+Daru Kiwai,,,Papua New Guinea,daru1245
 Daui,,,Papua New Guinea,daui1237
 Daupka,,,Papua New Guinea,daup1249
 Delena,,,Papua New Guinea,
@@ -582,26 +582,26 @@ Dilava,,,Papua New Guinea,
 Dili Tetun,East Timor,East Timor,,tetu1246
 Diomoni,,,Papua New Guinea,
 Djeebbanan Family-Level Isolate,Australia,Australia,,
-Djingili-Wambayan Family,Australia,Australia,,
+Djingili-Wambayan Family,Australia,Australia,,mirn1241
 Dobudurn,,,,
 Dodinga,Indonesia,Indonesia,,dodi1239
 Dolago,Indonesia,Sulawesi,,
 Dom,,,Papua New Guinea,
 Doma,,,Papua New Guinea,
 Domara,,,Papua New Guinea,doma1262
-Domu,,,Papua New Guinea,
+Domu,,,Papua New Guinea,domu1245
 Doromu,,,Papua New Guinea,doro1266
 Duka-Ekor,,,Papua New Guinea,duka1248
 Dumaring,,,,duma1254
 Duri,Indonesia,Sulawesi,,duri1242
 Dusun Balangan,Indonesia,Borneo,,dusu1270
 Dusun Segama,,,,dusu1276
-Dusunic Subgroup,,,,
+Dusunic Subgroup,,,,dusu1277
 E & W MAKIAN,Indonesia,Indonesia,,
 E-Coast,Indonesia,,,
 E.& W.MAKIAN,Indonesia,Indonesia,,
-E.Coastal Kiwai,,,,
-E.Kewa,,,Papua New Guinea,
+E.Coastal Kiwai,,,,east2521
+E.Kewa,,,Papua New Guinea,east2516
 E.lpili,,,Papua New Guinea,ipil1240
 EAHU,Thailand,Thailand,,
 EAST CAGAYAN NEGRITO,Philippines,Philippines,,
@@ -616,12 +616,12 @@ EASTERN ARANDA,Australia,Australia,,east2379
 EASTERN FIJIAN,,,Fiji,nucl1823
 EASTERN KADAZAN,,,,
 EDERAH R?,Indonesia,,,eder1237
-EIVO,,,Papua New Guinea,
+EIVO,,,Papua New Guinea,asko1238
 EKAGI Yabi,Indonesia,,,yabi1243
 ELEPI,,,Papua New Guinea,elep1240
 ELKEI,,,Papua New Guinea,elke1240
 EMAE,,,,emae1237
-EMERUM,,,Papua New Guinea,
+EMERUM,,,Papua New Guinea,apal1256
 EMUMU,Indonesia,,,emum1240
 ENDE-LIO/Ende(Ja'o),East Timor,East Timor,,ende1246
 ENDE-LIO/Lio(Aku),East Timor,East Timor,,lioo1240
@@ -649,31 +649,31 @@ Eastern,,,Papua New Guinea,
 Eastern BINE,,,Papua New Guinea,
 Eastern BITARA,,,Papua New Guinea,bita1253
 Eastern GIZRA,,,,gizr1240
-Eastern GWEDENA,,,Papua New Guinea,
-Eastern IRAHUTU,Indonesia,,,
+Eastern GWEDENA,,,Papua New Guinea,east2523
+Eastern IRAHUTU,Indonesia,,,irar1238
 Eastern IRIA,Indonesia,,,
 Eastern KARA,,,Papua New Guinea,
 Eastern RORO,,,Papua New Guinea,
-Eastern SABERI (ISIRAWA),Indonesia,,,
-Eastern SAWOS,,,Papua New Guinea,
-Eastern TANAHMERAH,Indonesia,,,
-Eastern Trans-Fly Family,,,Papua New Guinea,
+Eastern SABERI (ISIRAWA),Indonesia,,,east1857
+Eastern SAWOS,,,Papua New Guinea,buru1309
+Eastern TANAHMERAH,Indonesia,,,tana1288
+Eastern Trans-Fly Family,,,Papua New Guinea,east2503
 Eia,,,Papua New Guinea,
 Eipo,Indonesia,,,eipo1242
 Elpaputi Bay,Indonesia,Indonesia,,
 Embessa,,,,
 Emo R,,,Papua New Guinea,
-Enggipiloe,Indonesia,,,
+Enggipiloe,Indonesia,,,engg1246
 Enindhilyagwan Family-Level Isolate,Australia,Australia,,
 Enna,Indonesia,Sulawesi,,
 Enrekang,Indonesia,Sulawesi,,enre1239
-Epe - Routa,Indonesia,Sulawesi,,
-Erave Dadibi,,,Papua New Guinea,
+Epe - Routa,Indonesia,Sulawesi,,rout1237
+Erave Dadibi,,,Papua New Guinea,erav1243
 Erawirung,Australia,Australia,,
 Etoro,,,Papua New Guinea,edol1239
-FAGA UVEA,,,New Caledonia,
+FAGA UVEA,,,New Caledonia,west2516
 FAGANI,,,Solomon Islands,faga1239
-FAGULULU,,,Papua New Guinea,
+FAGULULU,,,Papua New Guinea,moli1248
 FALAMUL,Indonesia,Indonesia,,
 FALWOL,,,Papua New Guinea,faiw1243
 FAS,,,Papua New Guinea,
