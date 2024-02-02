@@ -108,7 +108,7 @@ ARUOP,,,Papua New Guinea,aruo1240
 ASARO,,,Papua New Guinea,asar1240
 ASAS,,,Papua New Guinea,asas1240
 ASAT,,,Papua New Guinea,
-ASU-ULU,Indonesia,Indonesia,,
+ASU-ULU,Indonesia,Indonesia,,asil1242
 ASUWERI,Indonesia,,,kasu1243
 ATA MANOBO,Philippines,Philippines,,
 ATAMANU,Indonesia,Indonesia,,
@@ -286,7 +286,7 @@ BINTULU,Indonesia,Borneo,,bint1246
 BINUKID,Philippines,Philippines,,binu1244
 BINUMARIEN,,,,binu1245
 BIPIM,,,,wark1247
-BIRAPO,,,Solomon Islands,
+BIRAPO,,,Solomon Islands,bira1254
 BIRBAY,Australia,Australia,,
 BIRRIA,Australia,Australia,,pirr1240
 BISIS,,,Papua New Guinea,bisi1244
@@ -297,7 +297,7 @@ BLAAN,Philippines,Philippines,,blaa1241
 BLABLANGA,,,Solomon Islands,blab1237
 BLAGAR,Indonesia,,,blag1240
 BO,Laos,Laos,Papua New Guinea,
-BOANO,,,,
+BOANO,,,,boan1242
 BOAZI Kuini,,,Papua New Guinea,kuni1265
 BOBOT,Indonesia,Indonesia,,bobo1254
 BOHUTU,,,Papua New Guinea,buhu1237
@@ -379,7 +379,7 @@ Babagarupu,,,Papua New Guinea,baba1269
 Babatana,,,Solomon Islands,baba1268
 Bacbn Malay,Indonesia,Indonesia,,
 Badjala,Australia,Australia,,baty1234
-Baeguu,,,Solomon Islands,
+Baeguu,,,Solomon Islands,baeg1237
 Baelelea,,,Solomon Islands,bael1237
 Bah Malei,,,,bahm1237
 Baiawa,,,,
@@ -652,7 +652,7 @@ Eastern GIZRA,,,,gizr1240
 Eastern GWEDENA,,,Papua New Guinea,east2523
 Eastern IRAHUTU,Indonesia,,,irar1238
 Eastern IRIA,Indonesia,,,
-Eastern KARA,,,Papua New Guinea,
+Eastern KARA,,,Papua New Guinea,kara1486
 Eastern RORO,,,Papua New Guinea,
 Eastern SABERI (ISIRAWA),Indonesia,,,east1857
 Eastern SAWOS,,,Papua New Guinea,buru1309
@@ -802,9 +802,9 @@ Gungaraganyan Family-Level Isolate,Australia,Australia,,
 Gunwinyguan Family,Australia,Australia,,gunw1250
 Gurfuf,,,Papua New Guinea,
 HABU,East Timor,East Timor,,
-HADUKU,Indonesia,Indonesia,,
-HAHON,,,Papua New Guinea,
-HALIA,,,Papua New Guinea,
+HADUKU,Indonesia,Indonesia,,haru1244
+HAHON,,,Papua New Guinea,haho1237
+HALIA,,,Papua New Guinea,hali1244
 HAM,,,Papua New Guinea,
 HAMTAI(KAPAU),,,Papua New Guinea,
 HANUNOO,Philippines,Philippines,,
@@ -816,10 +816,10 @@ HEYO,,,Papua New Guinea,
 HILIGAYNON,Philippines,Philippines,,
 HILIGAYNON(ILONGGO),Philippines,Philippines,,
 HINIHON,,,Papua New Guinea,
-HITU,Indonesia,Indonesia,,
+HITU,Indonesia,Indonesia,,hitu1239
 HIW,,,,hiww1237
 HOANYA,Taiwan,Taiwan,,
-HOAVA,,,Solomon Islands,
+HOAVA,,,Solomon Islands,hoav1238
 HOTE,,,Papua New Guinea,
 HOVONGAN,,,,hovo1239
 HOVONGAN Semukung - Uheng,,,,
@@ -925,7 +925,7 @@ KAETI,,,Papua New Guinea,
 KAFOA,East Timor,East Timor,,
 KAHUA,,,Solomon Islands,kahu1241
 KAIAN,,,Papua New Guinea,
-KAIBOBO,Indonesia,Indonesia,,
+KAIBOBO,Indonesia,Indonesia,,kaib1244
 KAIEP Terebu,,,Papua New Guinea,
 KAILA,Indonesia,Sulawesi,,
 KAILI Banawa,Indonesia,Sulawesi,,unde1235
@@ -1107,14 +1107,14 @@ KUNDUN,,,Papua New Guinea,
 KUNI,,,Papua New Guinea,
 KUOT(PANARAS),,,Papua New Guinea,
 KURADA,,,,
-KURUDU,Indonesia,,,
-KUSAGHE,,,Solomon Islands,
+KURUDU,Indonesia,,,kuru1305
+KUSAGHE,,,Solomon Islands,kusa1251
 KUY,Kampuchea; Laos; Thailand,Kampuchea; Laos; Thailand,,kuyy1240
 KWAIO,,,Solomon Islands,kwai1243
 KWALE,,,Papua New Guinea,
 KWAMERA,,,Vanuatu,kwam1252
 KWANGA bongmaise,,,Papua New Guinea,
-KWARA AE,,,Solomon Islands,
+KWARA AE,,,Solomon Islands,kwar1239
 KWARE,,,Papua New Guinea,
 KWASENGEN,,,Papua New Guinea,
 KWATO,,,Papua New Guinea,
@@ -1200,7 +1200,7 @@ Komiofi,,,Papua New Guinea,
 Komunku,,,Papua New Guinea,
 Konio MEKONGKA,Indonesia,Sulawesi,,
 Konjo,Indonesia,Sulawesi,,konj1250
-Konomala,,,Papua New Guinea,
+Konomala,,,Papua New Guinea,kono1269
 Kontu,,,Papua New Guinea,
 Konyok,Indonesia,,,
 Koo,,,Solomon Islands,
@@ -1266,7 +1266,7 @@ LAKALEI,East Timor,East Timor,,
 LAKONA,,,Vanuatu,lako1245
 LALAKI,Indonesia,Sulawesi,,
 LAMAHOLOT,East Tiimor; Indonesia,East Timor,,lama1277
-LAMAHOLOT/Adonara,East Timor,East Timor,,
+LAMAHOLOT/Adonara,East Timor,East Timor,,adon1237
 LAMAHOLOT/East,East Timor; Indonesia,East Timor,,
 LAMAHOLOT/Ile Mandiri,East Timor,East Timor,,nucl1534
 LAMAHOLOT/Lewolaga,East Timor,East Timor,,lewo1249
@@ -1275,16 +1275,16 @@ LAMAHOLOT/Solor,East Timor,East Timor,,
 LAMAHOLOT/South,East Timor,East Timor,,
 LAMAHOLOT/Tanjung Bunga,Indonesia,,,tanj1250
 LAMAM/HA,Laos,Laos,,
-LAMBOYA,Indonesia,Indonesia,,
+LAMBOYA,Indonesia,Indonesia,,lamb1273
 LAMET,Laos,Laos,,
 LAMETIN,,,,
 LAMMA,East Timor,East Timor,,
 LAMOGAI,,,Papua New Guinea,lamo1244
 LAMPUNG/C-E,Indonesia,Indonesia,,
 LAMPUNG/C-W,Indonesia,Indonesia,,
-LAMPUNG/Northern,Indonesia,Indonesia,,
+LAMPUNG/Northern,Indonesia,Indonesia,,lamp1242
 LAMPUNG/S-E,Indonesia,Indonesia,,
-LAMPUNG/S-W,Indonesia,Indonesia,,
+LAMPUNG/S-W,Indonesia,Indonesia,,lamp1243
 LAMPUNG/Southern,Indonesia,Indonesia,,
 LAMPUNG/Western,Indonesia,Indonesia,,
 LANGALANGA,,,Solomon Islands,
@@ -1293,7 +1293,7 @@ LANOH,Malaysia,North-Western Malaysia,,
 LARA,Indonesia,Borneo,,
 LARDIL,Australia; China,Australia; China,,
 LAREVAT,,,Vanuatu,
-LARIKE-Wakasihu,Indonesia,Indonesia,,
+LARIKE-Wakasihu,Indonesia,Indonesia,,lari1255
 LAU,,,Solomon Islands,
 LAUA,,,Papua New Guinea,
 LAVIA,Thailand,Thailand,,
@@ -1307,7 +1307,7 @@ LEMBENA,,,Papua New Guinea,
 LEMIO,,,Papua New Guinea,
 LENAKE,,,Vanuatu,lena1238
 LENGILU,,,,
-LENGO,,,Solomon Islands,
+LENGO,,,Solomon Islands,leng1259
 LETEMBOI,,,Vanuatu,
 LETRI LGONA/Lakor,Indonesia,,,lako1246
 LETRI LGONA/Leti,Indonesia,,,leti1246
@@ -1329,11 +1329,11 @@ LOBU,,,,
 LOH,,,,loto1240
 LOHIKI,,,Papua New Guinea,
 LONGA,,,Papua New Guinea,
-LONGGU,,,Solomon Islands,
+LONGGU,,,Solomon Islands,long1395
 LONWOLWDL,,,Vanuatu,lonw1238
 LOREDIAKARKAR,,,,
 LOTUD,,,,
-LOUN,Indonesia,Indonesia,,
+LOUN,Indonesia,Indonesia,,loun1239
 LOVEN,Laos,Laos,,lave1248
 LOWER MOREHEAD(PEREMKA),,,Papua New Guinea,
 LUANGIUA,,,,
@@ -1343,7 +1343,7 @@ LUHU Keleng,Indonesia,Indonesia,,
 LUKEP,,,Papua New Guinea,
 LUN DAYE p. Papadi sd.,,,,
 "LUN DAYE p., Kawang - Menadong sd.",,,,
-LUNGGA,,,Solomon Islands,
+LUNGGA,,,Solomon Islands,lung1249
 Labeau,Indonesia,Sulawesi,,
 Labu Malay,Indonesia,Borneo,,
 Lagume,,,Papua New Guinea,
@@ -1407,10 +1407,10 @@ MAISIN(Uiaku),,,Papua New Guinea,
 MAKASAI,Indonesia,,,
 MAKASAI/Makiere,East Timor,East Timor,,
 MAKLEW,Indonesia,,,
-MAKU'A,East Timor,East Timor,,
+MAKU'A,East Timor,East Timor,,maku1277
 MAL,Thailand,Thailand,,
 MALALAMAI,,,Papua New Guinea,mala1489
-MALANGO,,,Solomon Islands,
+MALANGO,,,Solomon Islands,mala1484
 MALAS,,,Papua New Guinea,
 MALASANGA,,,Papua New Guinea,mala1487
 MALAWEG,Philippines,Philippines,,
@@ -1428,7 +1428,7 @@ MAMBAI/Damata,East Timor,East Timor,,
 MAMBAI/Lolei,East Timor,East Timor,,
 MAMBAI/Mambai,East Timor,East Timor,,
 MAMBAI/Manua,East Timor,East Timor,,
-MAMBORU,Indonesia,Indonesia,,
+MAMBORU,Indonesia,Indonesia,,mamb1305
 MAMUJU,Indonesia,Sulawesi,,mamu1255
 MANADO MALAY,Indonesia,Sulawesi,,
 MANAGALASI,,,Papua New Guinea,
@@ -1452,7 +1452,7 @@ MANGGARAI/West,East Timor,East Timor,,west2537
 MANGKONG,Laos,Laos,,
 MANIHIKI-RAKAHANGA(COOK ISLANDS MAORI),,,,raka1237
 MANIPA,Indonesia,Indonesia,,
-MANUSELA,Indonesia,Indonesia,,
+MANUSELA,Indonesia,Indonesia,,manu1258
 MAPE Naga Fukac,,,Papua New Guinea,
 MAPENA,,,Papua New Guinea,
 MAPI R?,Indonesia,,,
@@ -1471,11 +1471,11 @@ MARIND Kumbe,Indonesia,,,
 MARING,,,Papua New Guinea,
 MARINGE,,,Solomon Islands,
 MARINO,,,Vanuatu,
-MAROVO,,,Solomon Islands,
+MAROVO,,,Solomon Islands,maro1244
 MARSHALLESE,,,Marshall Islands,
 MARTU YHUNIRA,Australia,Australia,,mart1255
 MASBATENO,Philippines,Philippines,,
-MASIWANG,Indonesia,Indonesia,,
+MASIWANG,Indonesia,Indonesia,,masi1266
 MASKELYNES,,,,
 MASSEP ?,Indonesia,,,
 MATBAT,Indonesia,Indonesia,,matb1237
@@ -1552,7 +1552,7 @@ MOMBUM,Indonesia,Indonesia,,
 MON,Laos; Thailand,Laos; Thailand,,moni1258
 MONGOL,,,Papua New Guinea,
 MONI Dugindoga,Indonesia,,,
-MONO ALU,,,Solomon Islands,
+MONO ALU,,,Solomon Islands,mono1273
 MONOM,Laos,Laos,,mono1268
 MONUMBO,,,Papua New Guinea,
 MOR,Indonesia,,,morm1235
@@ -1617,7 +1617,7 @@ Makolkol,,,Papua New Guinea,
 Makwei,Indonesia,,,
 Malageti,,,Solomon Islands,
 Malamuni,,,Papua New Guinea,
-Malayan Group,Indonesia,Indonesia,,
+Malayan Group,Indonesia,Indonesia,,ambo1250
 Maligan Tagal,,,,
 Malom,,,Papua New Guinea,
 Mamasa,Indonesia,Sulawesi,,
@@ -1705,7 +1705,7 @@ NAGOVISI,,,Papua New Guinea,
 NAHU,,,Papua New Guinea,
 NAKE,,,Papua New Guinea,
 NALCA,Indonesia,,,nalc1240
-NALIK,,,Papua New Guinea,
+NALIK,,,Papua New Guinea,nali1244
 NAMAKURAN,,,,nama1268
 NAMBI,,,Papua New Guinea,
 NAMBU,,,Papua New Guinea,
@@ -1724,8 +1724,8 @@ NARRUNGGA,Australia,Australia,,
 NASARIAN,,,Vanuatu,
 NASIO,,,Papua New Guinea,
 NAUBUAN,,,Nauru,
-NAUETI/Naumik,East Timor,East Timor,,
-NAUETI/Oso Moko,East Timor,East Timor,,
+NAUETI/Naumik,East Timor,East Timor,,naue1237
+NAUETI/Oso Moko,East Timor,East Timor,,naue1237
 NAVUT,,,,
 NDAO,Indonesia,,,
 NDUGA,Indonesia,,,ndug1245
@@ -1798,9 +1798,9 @@ NORTHERN BISAYA,,,,
 NORTHERN CATANDUANES BIKOL,Philippines,Philippines,,nort2883
 NORTHERN PAMA,Australia,Australia,,
 NORTHERN TASMANIAN,Australia,Australia,,
-NOTSI,,,Papua New Guinea,
+NOTSI,,,Papua New Guinea,nots1237
 NOTU,,,Papua New Guinea,
-NUAULU,Indonesia,Indonesia,,
+NUAULU,Indonesia,Indonesia,,nuau1240
 NUGUNU,Australia,Australia,,
 NUKUMANU,,,,
 NUKUORO,,,,
@@ -1981,7 +1981,7 @@ PARAWEN,,,Papua New Guinea,
 PASI,,,,
 PASISMAUNA Eastern Inland,,,Papua New Guinea,
 PATANI,Indonesia,Indonesia,,
-PAULOH,Indonesia,Indonesia,,
+PAULOH,Indonesia,Indonesia,,paul1238
 PAUWI,Indonesia,,,
 PAY,,,Papua New Guinea,
 PAYNAMAR,,,Papua New Guinea,
@@ -2095,7 +2095,7 @@ RERE[,,,Vanuatu,
 RHADE,Laos,Laos,,rade1240
 RIANTANA,Indonesia,Indonesia,,
 RINCONADA BIKOL,Philippines,Philippines,,
-RIRIO,,,Solomon Islands,
+RIRIO,,,Solomon Islands,riri1237
 RIUNG,East Timor,East Timor,,
 ROCKY PEAK,,,Papua New Guinea,
 ROINDJI,,,Papua New Guinea,
@@ -2108,7 +2108,7 @@ ROTI,East Timor; Indonesia,East Timor,,
 "ROTI,TIMCRESE,SAVU",Indonesia,Indonesia,,
 ROTOKAS,,,Papua New Guinea,
 ROTUMAN,,,,
-ROVIANA,,,Solomon Islands,
+ROVIANA,,,Solomon Islands,rovi1238
 RUKAI_Rukai,Taiwan,Taiwan,,ruka1240
 RUKAI_Three Villages,Taiwan,Taiwan,,
 RUNGUS,,,,
@@ -2219,8 +2219,8 @@ SEPEN,,,Papua New Guinea,
 SERA,,,Papua New Guinea,sera1260
 SERUDUNG,,,,
 SETAMAN,,,Papua New Guinea,
-SETI,Indonesia,Indonesia,,
-SEWA BAY,,,Papua New Guinea,
+SETI,Indonesia,Indonesia,,lian1255
+SEWA BAY,,,Papua New Guinea,sewa1251
 SHAN,Burma; Thailand,Thailand,,
 SHARKBAY,,,,
 SIAGHA-YENIMU,Indonesia,,,
@@ -2240,7 +2240,7 @@ SILOPI,,,Papua New Guinea,
 SILPUT,,,Papua New Guinea,
 SIMALUNGAN,Indonesia,Indonesia,,bata1288
 SIMBARI,,,Papua New Guinea,
-SIMBO,,,,
+SIMBO,,,,simb1256
 SIMEULUE/Eastern,Indonesia,Indonesia,,sime1241
 SIMEULUE/Western,Indonesia,Indonesia,,sime1241
 SIMOG,,,Papua New Guinea,
@@ -2313,7 +2313,7 @@ SUMATRA MALAY/Kubu,Indonesia,,,kubu1239
 SUMATRA MALAY/Lematang,Indonesia,Indonesia,,
 SUMATRA MALAY/Lembak,Indonesia,Indonesia,,
 SUMATRA MALAY/Lintang,Indonesia,Indonesia,,lint1237
-SUMATRA MALAY/Musi,Indonesia,Indonesia,,
+SUMATRA MALAY/Musi,Indonesia,Indonesia,,musi1241
 SUMATRA MALAY/Ogan,Indonesia,Indonesia,,ogan1237
 SUMATRA MALAY/Palembang,Indonesia,Indonesia,,
 SUMATRA MALAY/Penesak,Indonesia,Indonesia,,
@@ -2335,7 +2335,7 @@ SUOY,Kampuchea,Kampuchea,,suoy1242
 SURIGAONON,Philippines,Philippines,,
 SURSURUNGA,,,Papua New Guinea,surs1246
 SUWAWA,Indonesia,Sulawesi,,suwa1241
-Sa'a,,,Solomon Islands,
+Sa'a,,,Solomon Islands,saaa1240
 Safrontani,Indonesia,,,
 Salalir,,,,
 Salayar,Indonesia,Sulawesi,,sela1260
@@ -2346,7 +2346,7 @@ Sangangalla,Indonesia,Sulawesi,,
 Saparua,Indonesia,Indonesia,,
 Sar. M.,,,,
 Sarawak Malay,Indonesia,Borneo,,
-Sariba,,,,
+Sariba,,,,sali1295
 Sarikei,Indonesia,Borneo,,
 Saroa,,,Papua New Guinea,
 Sausu,Indonesia,Sulawesi,,
@@ -2355,10 +2355,10 @@ Sawyat,Indonesia,,,
 Sayfi,Indonesia,,,
 Sebuyau sd.,Indonesia,Borneo,,
 Seim,,,Papua New Guinea,
-Seit-Kaitetu,Indonesia,Indonesia,,
+Seit-Kaitetu,Indonesia,Indonesia,,seit1239
 Sengseng,,,Papua New Guinea,seng1281
 Seoutan,,,,
-Sepa,Indonesia,Indonesia,,
+Sepa,Indonesia,Indonesia,,sepa1242
 Sepoe,,,Papua New Guinea,
 Setiali,,,Papua New Guinea,
 Sewar,Indonesia,,,
@@ -2510,7 +2510,7 @@ TIMORESE/Biboki-Insana,East Timor,East Timor,,bibo1238
 TIMORESE/Kusa-Manlea,East Timor,East Timor,,kusa1252
 TIMORESE/Mollo-Miomafo,East Timor,East Timor,,moll1242
 TIMORESE/ROTINESE,East Timor,East Timor,,
-TIMPUTZ,,,Papua New Guinea,
+TIMPUTZ,,,Papua New Guinea,tinp1237
 TINA SAMBAL,Philippines,Philippines,,tina1248
 TIRI,,,New Caledonia,tiri1258
 TIRIO,,,Papua New Guinea,
@@ -2562,7 +2562,7 @@ Tabun sd.,,,,
 Tais,,,Papua New Guinea,
 Tala River,Indonesia,Indonesia,,
 Talai,Indonesia,Indonesia,,
-Talise,,,Solomon Islands,
+Talise,,,Solomon Islands,tali1259
 Taman,,,,
 Tamario,Indonesia,,,
 Tamboki,Indonesia,Sulawesi,,
@@ -2578,7 +2578,7 @@ Tau,,,Papua New Guinea,
 Tebera,,,Papua New Guinea,
 Tehijit,Indonesia,,,
 Teli,Indonesia,,,
-Teluti,Indonesia,Indonesia,,
+Teluti,Indonesia,Indonesia,,telu1263
 Temate,Indonesia,Indonesia,,
 Tempasuk,,,,
 Temuan,Malaysia,Malaysia,,
@@ -2609,7 +2609,7 @@ Tulambatu,Indonesia,Sulawesi,,
 Tupu,Indonesia,Sulawesi,,
 Turatea,Indonesia,Sulawesi,,
 UARIPI,,,Papua New Guinea,
-UBIR,,,Papua New Guinea,
+UBIR,,,Papua New Guinea,ubir1237
 UFIM,,,Papua New Guinea,ufim1240
 UGHELE,,,Solomon Islands,ughe1237
 UGONG,Thailand,Thailand,,
@@ -2666,7 +2666,7 @@ Urita,,,Papua New Guinea,
 Usen,,,Papua New Guinea,
 Utam,,,,
 Uwimmerah Digul,Indonesia,,,
-VAGHUA,,,Solomon Islands,
+VAGHUA,,,Solomon Islands,vagh1249
 VAIMAN,,,Papua New Guinea,
 VALPEI,,,,valp1237
 VANGUNU,,,Solomon Islands,vang1243
@@ -2681,7 +2681,7 @@ VORI,,,Papua New Guinea,
 VOVO,,,Vanuatu,
 VUNAPU,,,,vuna1239
 Vamale,,,New Caledonia,vama1243
-Varisi,,,Solomon Islands,
+Varisi,,,Solomon Islands,vari1239
 Vele,,,Papua New Guinea,
 Vora,,,Papua New Guinea,
 W-Coast,Indonesia,,,
@@ -2700,14 +2700,14 @@ WADAGINAM,,,Papua New Guinea,
 WADIGALI,Australia,Australia,,
 WAFFA,,,Papua New Guinea,
 WAFOPEN,Indonesia,,,waro1242
-WAGAWAGA,,,Papua New Guinea,
+WAGAWAGA,,,Papua New Guinea,waga1268
 WAGAYA,Australia,Australia,,
 WAGIMAN,Australia,Australia,,
 WAHAU KY,,,,
 WAIA,,,Papua New Guinea,
 WAIBUK Arama,,,Papua New Guinea,
 WAILAPA,,,,
-WAIMA'A,East Timor,East Timor,,
+WAIMA'A,East Timor,East Timor,,waim1252
 WAINA,,,Papua New Guinea,
 WALIO,,,Papua New Guinea,
 WAMAS,,,Papua New Guinea,
@@ -2723,7 +2723,7 @@ WANO,Indonesia,,,
 WANOABONG,,,Papua New Guinea,
 WANTOAT Central,,,Papua New Guinea,want1252
 WANUKAKA/Rua,Indonesia,Indonesia,,
-WANUKAKA/Wanukaka,Indonesia,Indonesia,,
+WANUKAKA/Wanukaka,Indonesia,Indonesia,,wanu1241
 WANUMA,,,Papua New Guinea,
 WANYUBARLGU,Australia,Australia,,
 WANYURR,Australia,Australia,,
@@ -2745,7 +2745,7 @@ WATAKATAUT,,,Papua New Guinea,
 WATALUMA,,,Papua New Guinea,
 WATHAWURUNG,Australia,Australia,,wath1238
 WEDA,Indonesia,Indonesia,,
-WEDAU,,,Papua New Guinea,
+WEDAU,,,Papua New Guinea,weda1241
 WELLKI,,,Papua New Guinea,
 WEMALE,Indonesia,Indonesia,,
 WERETAI,,,,
@@ -2765,7 +2765,7 @@ WETAR/Welemur,East Timor,East Timor,,
 WEYEWA/Lauli,Indonesia,Indonesia,,
 WEYEWA/Laura,Indonesia,Indonesia,,
 WEYEWA/Tana Righu,Indonesia,Indonesia,,
-WEYEWA/Weyewa,Indonesia,Indonesia,,
+WEYEWA/Weyewa,Indonesia,Indonesia,,weje1237
 WHITESANDS,,,Vanuatu,whit1269
 WIAK,,,Papua New Guinea,
 WILYAGALI,Australia,Australia,,
@@ -2827,7 +2827,7 @@ Western Coastal Malay,Indonesia,Borneo,,
 Western GIZRA,,,Papua New Guinea,west2584
 Western IRIA,Indonesia,,,
 Western KAMORO,Indonesia,,,
-Western KARA,,,Papua New Guinea,
+Western KARA,,,Papua New Guinea,kara1486
 Western MOUNTAIN KOIARI,,,Papua New Guinea,
 Western RORO,,,Papua New Guinea,
 Western SABERI(ISIRAWA),Indonesia,,,
@@ -2863,7 +2863,7 @@ YAKNGE,,,Papua New Guinea,
 YALARNNGIC,Australia,Australia,,yala1262
 YALAYU,,,,
 YALU,,,Papua New Guinea,
-YAMALELE,,,Papua New Guinea,
+YAMALELE,,,Papua New Guinea,iama1237
 YAMAP,,,Papua New Guinea,
 YAMDENA//Southern,Indonesia,Indonesia,,yamd1240
 YAMDENA/Northern,Indonesia,,,
