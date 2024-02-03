@@ -2031,17 +2031,17 @@ PWAPWA,,,New Caledonia,pwap1237
 PYU,,,,pyuu1245
 Padiaua,Indonesia,Indonesia,,
 Padoe MORI,Indonesia,Sulawesi,,pado1242
-Pahu,Indonesia,Borneo,,
-Paitanic Subgroup,,,,
+Pahu,Indonesia,Borneo,,pahu1239
+Paitanic Subgroup,,,,pait1248
 Pakuli,Indonesia,Sulawesi,,
-Pala,,,Papua New Guinea,
-Palakka,Indonesia,Sulawesi,,
-Palaw,Burma,,,
-Paluan p. sd.,,,,
-Paman Group,Australia,Australia,,
-Pandewan,,,,
-Paniai,Indonesia,,,
-Papar 1 sd.,,,,
+Pala,,,Papua New Guinea,pala1343
+Palakka,Indonesia,Sulawesi,,bone1252
+Palaw,Burma,,,pala1339
+Paluan p. sd.,,,,palu1253
+Paman Group,Australia,Australia,,pama1251
+Pandewan,,,,pand1267
+Paniai,Indonesia,,,pani1259
+Papar 1 sd.,,,,papa1268
 Papua New Guinea,,,,
 Parb,,,Papua New Guinea,
 Parce,,,Papua New Guinea,
@@ -2050,35 +2050,35 @@ Parigi,Indonesia,Sulawesi,,
 Paripau,,,Solomon Islands,
 Paruwa,,,Papua New Guinea,
 Pasir Malay,Indonesia,Borneo,,
-Patep,,,Papua New Guinea,
-Patpatar,,,Papua New Guinea,
+Patep,,,Papua New Guinea,pate1247
+Patpatar,,,Papua New Guinea,patp1243
 Pauia,,,,
 Pekawa,Indonesia,Sulawesi,,
-Penan Apo P. NIBONG,,,,
-Pinata,,,Papua New Guinea,
+Penan Apo P. NIBONG,,,,pena1266
+Pinata,,,Papua New Guinea,vina1238
 Pirimi,,,Papua New Guinea,
-Piru,Indonesia,Indonesia,,
+Piru,Indonesia,Indonesia,,luhu1243
 Pirupiru,,,Papua New Guinea,
 Pitoni,,,Papua New Guinea,
-Pnsiangan Murut,,,,
+Pnsiangan Murut,,,,pens1238
 Poko,,,Papua New Guinea,
-Poleo,,,Solomon Islands,
-Pumani,,,Papua New Guinea,
-Punan Gang P. NIBONG,Indonesia,Borneo,,
-Punan Lusong,,,,
-Pupitau,,,Papua New Guinea,
-Putatan sd.,,,,
+Poleo,,,Solomon Islands,pole1240
+Pumani,,,Papua New Guinea,maiw1251
+Punan Gang P. NIBONG,Indonesia,Borneo,,pena1264
+Punan Lusong,,,,pena1265
+Pupitau,,,Papua New Guinea,pupi1239
+Putatan sd.,,,,puta1239
 RAEPA TATI,,,Papua New Guinea,kaki1249
 RAGA,,,Vanuatu,
 RAJAH,Philippines,Philippines,,raja1254
 RAMPI,Indonesia,Sulawesi,,ramp1243
 RAO,,,Papua New Guinea,
 RAPA,,,,
-RAPTING,,,Papua New Guinea,
+RAPTING,,,Papua New Guinea,rapt1240
 RATAHAN,Indonesia,Sulawesi,,rata1244
-RAUTO,,,Papua New Guinea,
+RAUTO,,,Papua New Guinea,puli1237
 RAWA,,,Papua New Guinea,rawa1267
-RAWO,,,Papua New Guinea,
+RAWO,,,Papua New Guinea,rawo1244
 REJANG,Indonesia,Indonesia,,reja1240
 REJANG KAYAN Dialects/Long Badan,,,,long1408
 REJANG KAYAN Dialects/Long Geng,Indonesia,Borneo,,long1410
@@ -2088,39 +2088,39 @@ REJANG KAYAN Dialects/Ma'Aging,,,,maag1237
 REJANG KAYAN Dialects/Uma Daro,Indonesia,Borneo,,umad1241
 REJANG KAYAN Dialects/Uma Juman,,,,umaj1240
 REMPI,,,Papua New Guinea,remp1241
-RENGAO,Laos,Laos,,
-RENNELLESE,,,Solomon Islands,
-REPANBITIP,,,Vanuatu,
-RERE[,,,Vanuatu,
+RENGAO,Laos,Laos,,reng1252
+RENNELLESE,,,Solomon Islands,renn1242
+REPANBITIP,,,Vanuatu,repa1237
+RERE[,,,Vanuatu,rere1240
 RHADE,Laos,Laos,,rade1240
-RIANTANA,Indonesia,Indonesia,,
-RINCONADA BIKOL,Philippines,Philippines,,
+RIANTANA,Indonesia,Indonesia,,rian1263
+RINCONADA BIKOL,Philippines,Philippines,,irig1242
 RIRIO,,,Solomon Islands,riri1237
-RIUNG,East Timor,East Timor,,
+RIUNG,East Timor,East Timor,,riun1237
 ROCKY PEAK,,,Papua New Guinea,
 ROINDJI,,,Papua New Guinea,
 ROMBLON,Philippines,Philippines,,romb1245
-ROMBLON_Dispohol,Philippines,Philippines,,
-ROMKUN,,,Papua New Guinea,
+ROMBLON_Dispohol,Philippines,Philippines,,romb1246
+ROMKUN,,,Papua New Guinea,romk1240
 RON,Indonesia,,,roon1237
-RORIA,,,,
+RORIA,,,,rori1237
 ROTI,East Timor; Indonesia,East Timor,,
 "ROTI,TIMCRESE,SAVU",Indonesia,Indonesia,,
-ROTOKAS,,,Papua New Guinea,
-ROTUMAN,,,,
+ROTOKAS,,,Papua New Guinea,roto1249
+ROTUMAN,,,,rotu1241
 ROVIANA,,,Solomon Islands,rovi1238
 RUKAI_Rukai,Taiwan,Taiwan,,ruka1240
-RUKAI_Three Villages,Taiwan,Taiwan,,
-RUNGUS,,,,
+RUKAI_Three Villages,Taiwan,Taiwan,,ruka1240
+RUNGUS,,,,rung1259
 Rai,Laos,Laos,,
-Raluana,,,Papua New Guinea,
-Rantepao,Indonesia,Sulawesi,,
+Raluana,,,Papua New Guinea,ralu1237
+Rantepao,Indonesia,Sulawesi,,rant1238
 Rawo,,,Solomon Islands,
-Rebar,,,Papua New Guinea,
-Remboken,Indonesia,Sulawesi,,
-Rihu'a,,,Solomon Islands,
+Rebar,,,Papua New Guinea,reba1237
+Remboken,Indonesia,Sulawesi,,remb1251
+Rihu'a,,,Solomon Islands,rihu1237
 Rokunoi,,,Papua New Guinea,
-Rungus p,,,,
+Rungus p,,,,rung1259
 Rungwayap,Indonesia,,,
 S-E KOIARI,,,Papua New Guinea,
 S. -E. BARITO,Indonesia,Borneo,,
@@ -2131,11 +2131,11 @@ S.Kewa(Pole),,,Papua New Guinea,
 S.Mendi(S.Angal Heneng),,,Papua New Guinea,anga1294
 S.W.TANNA,,,Vanuatu,sout2869
 SA,,,Vanuatu,saaa1241
-SA'BAN,,,,
+SA'BAN,,,,saba1265
 SA'DAN Rongkong,Indonesia,Sulawesi,,
-SAEK,Laos,Laos,,
+SAEK,Laos,Laos,,saek1240
 SAEP,,,Papua New Guinea,saep1240
-SAFEYOKA(AMPALE) Wojokeso,,,Papua New Guinea,
+SAFEYOKA(AMPALE) Wojokeso,,,Papua New Guinea,waja1260
 SAHU,Indonesia,Indonesia,,
 SAIPAN,,,Northern Mariana Islands,
 SAISIYAT_Northern,Taiwan,Taiwan,,
