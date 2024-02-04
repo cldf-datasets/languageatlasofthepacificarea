@@ -10,12 +10,12 @@ Name,Countries,Sovereigns,Islands,Glottocode
 (KAMBERA)EAST SUMBANESE/Southern,Indonesia,Indonesia,,sout2885
 (KAMBERA)EAST SUMBANESE/Umbu Ratu Nggai,Indonesia,Indonesia,,umar1237
 ?,Indonesia; Taiwan,Borneo; Taiwan,,
-? BAPU,Indonesia,,,
+? BAPU,Indonesia,,,nisa1239
 ? KUWANI,Indonesia,,,
 ABAGA,,,Papua New Guinea,abag1245
 ABAI SUNGAI,,,,abai1240
 ABASAKUR,,,Papua New Guinea,pall1244
-ABAU,,,,
+ABAU,,,,abau1245
 ABORLAN-TAGBANWA,Philippines,Philippines,,tagb1258
 ABUI,East Timor,East Timor,,abui1241
 ACEHNESE,Indonesia,Indonesia,,achi1257
@@ -26,7 +26,7 @@ ADYNYAMATHANHA,Australia,Australia,,adny1235
 AEKA,,,Papua New Guinea,aeka1244
 AFIFAMA-MANIAP,,,Papua New Guinea,
 AGAATAHA,,,Papua New Guinea,anga1290
-AGALA,,,Papua New Guinea,
+AGALA,,,Papua New Guinea,femb1238
 AGARABI,,,Papua New Guinea,agar1252
 AGARLUMA,Australia,Australia,,ngar1287
 AGHU,Indonesia,,,aghu1255
@@ -34,13 +34,13 @@ AGI,,,Papua New Guinea,agii1245
 AGOB,,,Papua New Guinea,agob1245
 AGTA,Philippines,Philippines,,agta1234
 AGUSAN MANOBO,Philippines,Philippines,,agus1235
-AIKL,,,Papua New Guinea,
+AIKL,,,Papua New Guinea,aikl1237
 AIKWAKAI,,,,sika1263
 AIOME,,,Papua New Guinea,aiom1240
 AION Others,,,Papua New Guinea,amba1269
 AIRORAN,Indonesia,,,airo1242
 AJIE,,,New Caledonia,ajie1238
-AK,,,Papua New Guinea,
+AK,,,Papua New Guinea,akkk1240
 AKEI,,,,akei1237
 AKHA,Burma; Laos; Thailand,Laos; Thailand,,akha1245
 AKHA/LAHU,Burma/Tailand,,,
@@ -54,9 +54,9 @@ ALAWA,Australia,Australia,,alaw1244
 ALBAY BIKOL,Philippines,Philippines,,
 ALFENDIO,,,Papua New Guinea,nanu1240
 ALI,,,Papua New Guinea,alii1241
-ALU,,,Papua New Guinea,
+ALU,,,Papua New Guinea,aluu1243
 ALYAWARRA,Australia,Australia,,alya1239
-AMA,,,Papua New Guinea,
+AMA,,,Papua New Guinea,amap1240
 AMAHAI,Indonesia,Indonesia,,amah1245
 AMAIMON,,,Papua New Guinea,amai1246
 AMANAB,,,Papua New Guinea,aman1265
@@ -90,7 +90,7 @@ AOMIE(OMIE),,,Papua New Guinea,omie1241
 AORE,,,,aore1237
 APMA,,,Vanuatu,apma1240
 ARAKI,,,,arak1252
-ARAMO,,,Papua New Guinea,
+ARAMO,,,Papua New Guinea,pina1252
 ARANDAI,Indonesia,,,domb1240
 ARAWE,,,Papua New Guinea,araw1283
 ARAWUM,,,Papua New Guinea,araw1272
@@ -102,7 +102,7 @@ ARIFAMA-MANIAP,,,Papua New Guinea,arif1240
 ARIFAMA-MINIAFIA,,,Papua New Guinea,mini1252
 ARIGIBI,,,Papua New Guinea,arig1248
 AROS,,,Solomon Islands,aros1241
-ARU,,,Papua New Guinea,
+ARU,,,Papua New Guinea,mano1275
 ARUEK,,,Papua New Guinea,arue1240
 ARUOP,,,Papua New Guinea,aruo1240
 ASARO,,,Papua New Guinea,asar1240
@@ -120,33 +120,33 @@ ATCHIN,,,Vanuatu,atch1238
 ATEMPLE,,,Papua New Guinea,atem1241
 ATINGGOLA,Indonesia,Sulawesi,,atin1241
 ATTA,Philippines,Philippines,,atta1244
-ATURU,,,,
-AU,,,Papua New Guinea,
+ATURU,,,,flyr1238
+AU,,,Papua New Guinea,auuu1241
 AULUA,,,Vanuatu,aulu1238
-AUQU,,,Papua New Guinea,
+AUQU,,,Papua New Guinea,augu1243
 AUSTRAL,,,,aust1304
 AUSTRONESIAN,Indonesia,,Papua New Guinea,aust1307
-AUTU,,,Papua New Guinea,
+AUTU,,,Papua New Guinea,awtu1239
 AUYANA,,,Papua New Guinea,auya1234
 AWAEAKAL,Australia,Australia,,awab1243
 AWAR,,,Papua New Guinea,awar1249
-AWUN,,,Papua New Guinea,
+AWUN,,,Papua New Guinea,awun1245
 AWYI,Indonesia,,,awyi1241
-AXAMR,,,Vanuatu,
+AXAMR,,,Vanuatu,axam1237
 AZUKURU(Extinct),,,Solomon Islands,kazu1245
 Abai,,,,abai1239
 Adi,Indonesia,,,
-Adiba,,,,
-Adzera Family,,,Papua New Guinea,
+Adiba,,,,gogo1265
+Adzera Family,,,Papua New Guinea,adze1240
 Adzrac,,,Papua New Guinea,adze1240
 Afore,,,,afor1239
 Agufi,,,Solomon Islands,aguf1237
-Akabard,,,Papua New Guinea,
+Akabard,,,Papua New Guinea,akab1250
 Alas/Kluet,Indonesia,Indonesia,,bata1292
 Alepa,,,Papua New Guinea,alep1237
 Allang,Indonesia,Indonesia,,alla1249
-Aloma,,,Papua New Guinea,
-Amari,,,Papua New Guinea,
+Aloma,,,Papua New Guinea,arom1238
+Amari,,,Papua New Guinea,adze1240
 Amberbaken,Indonesia,,,mpur1239
 Ambon Malay,Indonesia,Indonesia,,ambo1255
 Ampana,Indonesia,Sulawesi,,ampa1240
@@ -155,22 +155,22 @@ Amugen,,,Papua New Guinea,amug1239
 Amung UHUNDUNI,Indonesia,,,dama1272
 Anambas Island,Indonesia,,,
 Angan Stock-Level Family,,,Papua New Guinea,anga1289
-Anir,,,,
+Anir,,,,tang1348
 Apmisibil,,,Papua New Guinea,apmi1239
 Apos,,,Papua New Guinea,apos1239
 Aradnic Group,Australia,Australia,,aran1267
 Arandic Group,Australia,Australia,,aran1267
 Ari,,,Papua New Guinea,arii1243
-Aria,,,Papua New Guinea,
+Aria,,,Papua New Guinea,mouk1239
 Arop,,,Papua New Guinea,arop1244
-Arrota,,,Papua New Guinea,
+Arrota,,,Papua New Guinea,amot1240
 Asapa,,,Papua New Guinea,asap1239
 Asera Wanua,Indonesia,Sulawesi,,aser1237
 Asiaoro,,,,asia1264
 Asimbali,,,Papua New Guinea,simb1259
-Asmaun,Indonesia,,,
+Asmaun,Indonesia,,,maib1239
 Atbalmin,,,Papua New Guinea,asba1238
-Atih,Indonesia,,,
+Atih,Indonesia,,,nucl1622
 Aua,,,Papua New Guinea,ayiw1239
 Auga,,,Papua New Guinea,
 Augu,,,Papua New Guinea,augu1243
@@ -205,7 +205,7 @@ BALANGAW,Philippines,Philippines,,bala1310
 BALI MALAY,Indonesia,Indonesia,,bali1279
 BALI-VITU,,,,bali1280
 BALINESE/Standard,Indonesia,Indonesia,,bali1278
-BAM,,,Papua New Guinea,
+BAM,,,Papua New Guinea,biem1237
 BAMU KIWAI,,,Papua New Guinea,bamu1257
 BANARO,,,Papua New Guinea,bana1292
 BANDJIGALI BANDJIGALI,Australia,Australia,,darl1243
