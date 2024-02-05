@@ -135,7 +135,7 @@ AWYI,Indonesia,,,awyi1241
 AXAMR,,,Vanuatu,axam1237
 AZUKURU(Extinct),,,Solomon Islands,kazu1245
 Abai,,,,abai1239
-Adi,Indonesia,,,
+Adi,Indonesia,,,adij1237
 Adiba,,,,gogo1265
 Adzera Family,,,Papua New Guinea,adze1240
 Adzrac,,,Papua New Guinea,adze1240
@@ -326,7 +326,7 @@ BOUYE,,,Papua New Guinea,bouy1241
 BRAGAT,,,Papua New Guinea,brag1240
 BRAO,Laos,Laos,,lave1249
 BRAT,Indonesia,,,maib1239
-BRAT Yak,Indonesia,,,
+BRAT Yak,Indonesia,,,maib1239
 BRERI,,,Papua New Guinea,brer1240
 BRU,Laos,Laos,,
 BUGIS,Indonesia,Sulawesi,,bugi1245
@@ -483,7 +483,7 @@ Central ALUNE,Indonesia,Indonesia,,alun1238
 Central BOIKEN A,,,Papua New Guinea,cent2125
 Central BOIKEN B,,,Papua New Guinea,cent2125
 Central FORE,,,Papua New Guinea,nort2922
-Central Family,,,Papua New Guinea,
+Central Family,,,Papua New Guinea,sina1266
 Central IRIA,Indonesia,,,kamb1302
 Central KANUM,Indonesia,,,kanu1280
 Central KOMBA,,,Papua New Guinea,komb1273
@@ -674,7 +674,7 @@ Etoro,,,Papua New Guinea,edol1239
 FAGA UVEA,,,New Caledonia,west2516
 FAGANI,,,Solomon Islands,faga1239
 FAGULULU,,,Papua New Guinea,moli1248
-FALAMUL,Indonesia,Indonesia,,
+FALAMUL,Indonesia,Indonesia,,made1253
 FALWOL,,,Papua New Guinea,faiw1243
 FAS,,,Papua New Guinea,east2524
 FASU,,,Papua New Guinea,fasu1242
@@ -1224,7 +1224,7 @@ Kutai Kota Bangun sd.,,,,kota1275
 Kutai Malay,Indonesia,Borneo,,teng1267
 Kutai Tenggarong,Indonesia,Borneo,,teng1268
 Kutai Tenggarong sd.,Indonesia,Borneo,,teng1268
-Kwabida,,,Papua New Guinea,
+Kwabida,,,Papua New Guinea,kwai1244
 Kwaibo,,,Papua New Guinea,kwai1245
 Kwenyii,,,New Caledonia,kwen1247
 Kwoma,,,Papua New Guinea,kwom1262
@@ -1314,7 +1314,7 @@ LETRI LGONA/Leti,Indonesia,,,leti1246
 LETRI LGONA/Moa,Indonesia,,,moaa1237
 LETRI LGONA/Sermata,Indonesia,,,serm1234
 LETRI LGONA/Wetan-W(N)Babar,Indonesia,,,weta1243
-LEWADA,,,Papua New Guinea,
+LEWADA,,,Papua New Guinea,maka1315
 LEWO,,,Vanuatu,lewo1242
 LI,China,China,,
 LIHIR,,,Papua New Guinea,lihi1237
@@ -1387,7 +1387,7 @@ M,Thailand,Thailand,,
 M.,,,,
 MABA,Indonesia,Indonesia,,maba1278
 MADEN,Indonesia,Indonesia,,made1253
-MADKI,Indonesia,,,
+MADKI,Indonesia,,,abun1252
 MADURESE/Central,Indonesia,Indonesia,,nucl1460
 MADURESE/Western,Indonesia,Indonesia,,nucl1460
 MADURESE/all Dialects,Indonesia,Indonesia,,nucl1460
@@ -1431,7 +1431,7 @@ MAMBAI/Manua,East Timor,East Timor,,manu1259
 MAMBORU,Indonesia,Indonesia,,mamb1305
 MAMUJU,Indonesia,Sulawesi,,mamu1255
 MANADO MALAY,Indonesia,Sulawesi,,mala1481
-MANAGALASI,,,Papua New Guinea,
+MANAGALASI,,,Papua New Guinea,esee1247
 MANAMEU,,,Papua New Guinea,
 MAND,,,Papua New Guinea,atem1241
 MANDAR,Indonesia,Sulawesi,,mand1442
@@ -1627,7 +1627,7 @@ Mangarayan Family-Level Isolate,Australia,Australia,,
 Mangerrian Family,Australia,Australia,,
 Mangki,Indonesia,Sulawesi,,mang1411
 Manikion,Indonesia,,,mani1235
-Manoa,,,Papua New Guinea,
+Manoa,,,Papua New Guinea,nucl1630
 Mantion,Indonesia,,,mani1235
 Manuan,,,,ramo1244
 Maopa,,,Papua New Guinea,maop1237
@@ -1655,7 +1655,7 @@ Megi,,,Papua New Guinea,megi1246
 Melaripi-Kaipi,,,Papua New Guinea,kaip1241
 Meratus (Bukit) sd.,Indonesia,Borneo,,buki1247
 Merau Malay,Indonesia,Borneo,,
-Mesan,,,Papua New Guinea,
+Mesan,,,Papua New Guinea,mesa1247
 Mesi,,,Papua New Guinea,mesi1243
 Mid-Kemandoga,Indonesia,,,
 Mid-Mbiyandoga,Indonesia,,,
@@ -1685,7 +1685,7 @@ Move,,,Papua New Guinea,move1241
 Mualang,Indonesia,Borneo,,mual1241
 Mugin,Indonesia,,,
 Mukah - Oya,Indonesia,Borneo,,muka1237
-Mukumuga,Indonesia,,,
+Mukumuga,Indonesia,,,kamo1255
 Mumeng,,,Papua New Guinea,mume1239
 Muro,,,Papua New Guinea,
 Muruwaric Group-Level Isolate,Australia,Australia,,muru1265
@@ -1836,7 +1836,7 @@ Nhulunbuy,Australia,Australia,,
 Nias/Eastern,Indonesia,,,nias1242
 Nibong,,,,nibo1237
 Nigac,,,Papua New Guinea,niga1243
-Nigubaiba,,,Papua New Guinea,
+Nigubaiba,,,Papua New Guinea,nucl1630
 Nimo,,,Papua New Guinea,nimo1247
 Ninggirunt,,,,
 Nll,,,Papua New Guinea,
@@ -1920,7 +1920,7 @@ Oko,,,,
 Omene,,,Papua New Guinea,omen1237
 Omo,,,,
 Ongac,,,Papua New Guinea,
-Ono,,,Papua New Guinea,
+Ono,,,Papua New Guinea,onoo1247
 Orang Hulu,Malaysia,Malaysia,,hulu1245
 Orang Kanaq,Malaysia,Southern Malaysia,,oran1258
 Orang Seletar,Malaysia; Singapore,Singapore; Southern Malaysia,,oran1259
@@ -2378,7 +2378,7 @@ Sinaki,,,Papua New Guinea,sina1264
 Singorokai,,,Papua New Guinea,sing1268
 Sisiame,,,Papua New Guinea,sisi1249
 Sohe,,,Papua New Guinea,orok1269
-Sokeni,Indonesia,,,
+Sokeni,Indonesia,,,cent2117
 Sokhok ?,,,Papua New Guinea,apso1237
 Sokirik,,,Papua New Guinea,soki1239
 Sopese,,,Papua New Guinea,sope1239
@@ -2603,7 +2603,7 @@ Trams-New Guinea Phylum,,,Papua New Guinea,nucl1709
 Trusan,,,,trus1237
 Tsumin,,,Papua New Guinea,
 Tublamo,,,Papua New Guinea,tubu1241
-Tuf,Indonesia,,,
+Tuf,Indonesia,,,maib1239
 Tugutil,Indonesia,Indonesia,,tugu1246
 Tulambatu,Indonesia,Sulawesi,,tula1253
 Tupu,Indonesia,Sulawesi,,
@@ -2660,8 +2660,8 @@ Upper Limbang Adang sd.,,,,
 Upper Limbang Ba Kelalan sd.,,,,
 Upper Mori,Indonesia,Sulawesi,,mori1268
 Upper Ugu,,,Papua New Guinea,uppe1435
-Upper Wania,Indonesia,,,
-Urarna,,,Papua New Guinea,
+Upper Wania,Indonesia,,,kamo1255
+Urarna,,,Papua New Guinea,kope1239
 Urita,,,Papua New Guinea,urit1239
 Usen,,,Papua New Guinea,usen1237
 Utam,,,,ramo1244
@@ -2795,7 +2795,7 @@ Walgalu,Australia,Australia,,ngar1297
 Wambon,Indonesia,,,wamb1259
 Wamora,,,Papua New Guinea,wamo1241
 Wana,,,Papua New Guinea,wana1271
-Wania  KAMORO,Indonesia,,,
+Wania  KAMORO,Indonesia,,,kamo1255
 Wanigela,,,Papua New Guinea,wani1242
 Wanji,Indonesia,Sulawesi,,
 Wapon,,,Papua New Guinea,maiw1251
@@ -2940,6 +2940,6 @@ Ziew,,,Papua New Guinea,ziwe1239
 Zomakani,,,Papua New Guinea,nucl1623
 Zuwadze,,,Papua New Guinea,zuwa1238
 baiba,,,Papua New Guinea,
-lkolu,,,Papua New Guinea,
+lkolu,,,Papua New Guinea,ikol1237
 mARALANGO,,,Papua New Guinea,mara1402
 mumeng Yanta,,,Papua New Guinea,yant1237
