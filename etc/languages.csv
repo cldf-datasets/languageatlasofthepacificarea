@@ -1,7 +1,7 @@
 Name,Countries,Sovereigns,Islands,Glottocode
 'ARE'ARE,,,Solomon Islands,area1240
-'LOW-COUNTRY SEMANG'/Meni Gul,Malaysia,North-Western Malaysia,,
-'LOW-COUNTRY SEMANG'/Semang of Juru',Malaysia,North-Western Malaysia,,
+'LOW-COUNTRY SEMANG'/Meni Gul,Malaysia,North-Western Malaysia,,kens1248
+'LOW-COUNTRY SEMANG'/Semang of Juru',Malaysia,North-Western Malaysia,,kens1248
 (KAMBERA)EAST SUMBANESE/Kambera,Indonesia,Indonesia,,nucl1521
 (KAMBERA)EAST SUMBANESE/Kanatang,Indonesia,Indonesia,,kana1287
 (KAMBERA)EAST SUMBANESE/Lewa,Indonesia,Indonesia,,lewa1240
@@ -43,7 +43,7 @@ AJIE,,,New Caledonia,ajie1238
 AK,,,Papua New Guinea,akkk1240
 AKEI,,,,akei1237
 AKHA,Burma; Laos; Thailand,Laos; Thailand,,akha1245
-AKHA/LAHU,Burma/Tailand,,,
+AKHA/LAHU,Burma/Tailand,,,akha1245
 AKLANON,Philippines,Philippines,,akla1240
 AKRUKAI,,,Papua New Guinea,akru1241
 ALAK,Laos,Laos,,alak1253
@@ -51,7 +51,7 @@ ALAMBLAK Karawari,,,Papua New Guinea,kara1494
 ALANGAN,Philippines,Philippines,,alan1249
 ALAS-KLUET,Indonesia,Indonesia,,bata1292
 ALAWA,Australia,Australia,,alaw1244
-ALBAY BIKOL,Philippines,Philippines,,
+ALBAY BIKOL,Philippines,Philippines,,alba1269
 ALFENDIO,,,Papua New Guinea,nanu1240
 ALI,,,Papua New Guinea,alii1241
 ALU,,,Papua New Guinea,aluu1243
@@ -63,11 +63,11 @@ AMANAB,,,Papua New Guinea,aman1265
 AMBASI,,,Papua New Guinea,amba1268
 AMBLONG,,,,ambl1237
 AMELE,,,Papua New Guinea,amel1241
-AMI_Central,Taiwan,Taiwan,,cent2103
-AMI_Northern,Taiwan,Taiwan,,
+AMI_Central,Taiwan,Taiwan,,cent2104
+AMI_Northern,Taiwan,Taiwan,,nata1254
 AMI_Sakizaya,Taiwan,Taiwan,,saki1247
-AMI_Southern,Taiwan,Taiwan,,amis1246
-AMI_Tayalong-Vataan,Taiwan,Taiwan,,
+AMI_Southern,Taiwan,Taiwan,,sout2929
+AMI_Tayalong-Vataan,Taiwan,Taiwan,,tava1241
 AMPANANG,Indonesia,Borneo,,ampa1239
 AMTO,,,Papua New Guinea,amto1250
 ANAKALANGU,Indonesia,Indonesia,,anak1240
@@ -111,10 +111,10 @@ ASAT,,,Papua New Guinea,mura1271
 ASU-ULU,Indonesia,Indonesia,,asil1242
 ASUWERI,Indonesia,,,kasu1243
 ATA MANOBO,Philippines,Philippines,,atam1240
-ATAMANU,Indonesia,Indonesia,,
+ATAMANU,Indonesia,Indonesia,,yala1266
 ATAYAL,Taiwan,Taiwan,,atay1247
 ATAYAL_SEDEQ,Taiwan,Taiwan,,taro1264
-ATAYAL_Ts'ole',Taiwan,Taiwan,,
+ATAYAL_Ts'ole',Taiwan,Taiwan,,atay1247
 ATAYAL_Ts'ole' and Sqoleq,Taiwan,Taiwan,,sqol1237
 ATCHIN,,,Vanuatu,atch1238
 ATEMPLE,,,Papua New Guinea,atem1241
@@ -197,7 +197,7 @@ BAIMAK,,,Papua New Guinea,baim1245
 BAINAPI,,,Papua New Guinea,dibi1240
 BAINING,,,Papua New Guinea,bain1263
 BAJO,East Timor; Indonesia,East Timor; Sulawesi,,
-BAJO Ampana,Indonesia,Sulawesi,,
+BAJO Ampana,Indonesia,Sulawesi,,ampa1240
 BAKI,,,Vanuatu,baki1244
 BAKUNG K. Boh BAKUNG,,,,
 BALAESAN,Indonesia,Sulawesi,,bala1314
@@ -235,9 +235,9 @@ BASAY_Trobiawan,Taiwan,Taiwan,,trob1237
 BATAK,Philippines,Philippines,,bata1301
 BATANGAN,Philippines,Philippines,,bata1318
 BATEK/Batek De,Malaysia,Malaysia,,bate1262
-BATEK/Batek Hapen,Malaysia,Southern Malaysia,,
-BATEK/Batek lga',Malaysia,Malaysia,,
-BATEK/Mintil,Malaysia,Malaysia,,
+BATEK/Batek Hapen,Malaysia,Southern Malaysia,,bate1262
+BATEK/Batek lga',Malaysia,Malaysia,,bate1262
+BATEK/Mintil,Malaysia,Malaysia,,mint1239
 BAU,,,Papua New Guinea,bauu1244
 BAUKAN p.,,,,bauk1238
 BAURO,,,Solomon Islands,baur1252
@@ -270,7 +270,7 @@ BIATAH,Indonesia,Borneo,,biat1246
 BIEREBO,,,Vanuatu,bier1244
 BIERIA,,,Vanuatu,bier1246
 BIKARU,,,Papua New Guinea,biso1243
-BIKSI,Indonesia,,,
+BIKSI,Indonesia,,,yetf1238
 BILAKURA,,,Papua New Guinea,bila1257
 BILBIL,,,Papua New Guinea,bilb1241
 BILIAU,,,Papua New Guinea,bili1252
@@ -287,7 +287,7 @@ BINUKID,Philippines,Philippines,,binu1244
 BINUMARIEN,,,,binu1245
 BIPIM,,,,wark1247
 BIRAPO,,,Solomon Islands,bira1254
-BIRBAY,Australia,Australia,,
+BIRBAY,Australia,Australia,,wori1245
 BIRRIA,Australia,Australia,,pirr1240
 BISIS,,,Papua New Guinea,bisi1244
 BIT,Laos,Laos,,bitt1240
@@ -328,7 +328,7 @@ BRAO,Laos,Laos,,lave1249
 BRAT,Indonesia,,,maib1239
 BRAT Yak,Indonesia,,,maib1239
 BRERI,,,Papua New Guinea,brer1240
-BRU,Laos,Laos,,
+BRU,Laos,Laos,,east2332
 BUGIS,Indonesia,Sulawesi,,bugi1245
 BUGIS Campaiagian,Indonesia,Sulawesi,,camp1262
 BUGIS Luwu,Indonesia,Sulawesi,,luwu1237
