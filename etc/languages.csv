@@ -2489,7 +2489,7 @@ TETUN/Soibada,East Timor,East Timor,,east2473
 TETUN/Western Tetun,East Timor,East Timor,,tetu1245
 TEUN,Indonesia,,,teun1241
 TEWA,East Timor,East Timor,,teiw1235
-THAI,Thailand,Thailand,,
+THAI,Thailand,Thailand,,thai1261
 THAI DAM(LAO SONG),Laos,Laos,,
 THAI KHAW,Laos/Vietnam; Vietnam,Vietnam,,
 THAI-MALAY,Malaysia,Malaysia,,
@@ -2528,7 +2528,7 @@ TOKELAU,,,,toke1240
 TOLA,,,Papua New Guinea,kuan1248
 TOLITOLI,Indonesia,Sulawesi,,toto1304
 TOLOMAKO,,,,tolo1255
-TOMU,,,Papua New Guinea,
+TOMU,,,Papua New Guinea,odoo1238
 TONDA,,,Papua New Guinea,tond1250
 TONDANO,Indonesia,Sulawesi,,tond1251
 TONGA',Thailand,Thailand,,tong1308
@@ -2538,7 +2538,7 @@ TONSEA,Indonesia,Sulawesi,,tons1240
 TONTEM BOAN,Indonesia,Sulawesi,,tont1239
 TORAU,,,Papua New Guinea,tora1259
 TOWEI,Indonesia,,,towe1240
-TRI,Laos,Laos,,
+TRI,Laos,Laos,,trii1240
 TRUKESE,,,,chuu1238
 TSOU_Duhtu,Taiwan,Taiwan,,duht1237
 TSOU_KANAKANABU,Taiwan,Taiwan,,kana1286
@@ -2559,7 +2559,7 @@ Tabar,,,,mand1440
 Taboro,,,Papua New Guinea,tabo1240
 Tabu,,,Papua New Guinea,nucl1630
 Tabun sd.,,,,
-Tais,,,Papua New Guinea,
+Tais,,,Papua New Guinea,namb1293
 Tala River,Indonesia,Indonesia,,
 Talai,Indonesia,Indonesia,,tala1288
 Talise,,,Solomon Islands,tali1259
@@ -2573,20 +2573,20 @@ Tarya,Indonesia,,,tary1239
 Tasmanian,Australia,Australia,,
 Tatau,,,,tata1256
 Tati,,,Papua New Guinea,kaki1249
-Tatungaiung,Australia,Australia,,
+Tatungaiung,Australia,Australia,,gana1278
 Tau,,,Papua New Guinea,tauu1239
 Tebera,,,Papua New Guinea,tebe1252
-Tehijit,Indonesia,,,
-Teli,Indonesia,,,
+Tehijit,Indonesia,,,tehi1239
+Teli,Indonesia,,,kete1254
 Teluti,Indonesia,Indonesia,,telu1263
 Temate,Indonesia,Indonesia,,nort2828
 Tempasuk,,,,
 Temuan,Malaysia,Malaysia,,
 Tengara,,,,teng1271
-Termate,Indonesia,Indonesia,,
+Termate,Indonesia,Indonesia,,tern1247
 Thana-wurung,Australia,Australia,,
 Tialo,Indonesia,Sulawesi,,tomi1243
-Tigi,Indonesia,,,
+Tigi,Indonesia,,,ekar1243
 Timingir,,,Papua New Guinea,timi1241
 Tinombo,Indonesia,Sulawesi,,lauj1238
 Tiwian Family-Level Isolate,Australia,Australia,,tiwi1244
@@ -2601,7 +2601,7 @@ Totore,,,Papua New Guinea,baru1269
 Trabedesare,,,Papua New Guinea,folo1238
 Trams-New Guinea Phylum,,,Papua New Guinea,nucl1709
 Trusan,,,,trus1237
-Tsumin,,,Papua New Guinea,
+Tsumin,,,Papua New Guinea,adze1240
 Tublamo,,,Papua New Guinea,tubu1241
 Tuf,Indonesia,,,maib1239
 Tugutil,Indonesia,Indonesia,,tugu1246
@@ -2642,7 +2642,7 @@ UVOL,,,Papua New Guinea,lote1237
 Uahita,,,Papua New Guinea,
 Ubae,,,Papua New Guinea,ubae1237
 Uder,,,Papua New Guinea,uder1239
-Ufia,,,Papua New Guinea,
+Ufia,,,Papua New Guinea,nucl1630
 Ugana,,,Papua New Guinea,ugan1242
 Ulawa,,,,ulaw1237
 Ulu,Malaysia,Malaysia,,ramo1244
@@ -2665,7 +2665,7 @@ Urarna,,,Papua New Guinea,kope1239
 Urita,,,Papua New Guinea,urit1239
 Usen,,,Papua New Guinea,usen1237
 Utam,,,,ramo1244
-Uwimmerah Digul,Indonesia,,,
+Uwimmerah Digul,Indonesia,,,mand1473
 VAGHUA,,,Solomon Islands,vagh1249
 VAIMAN,,,Papua New Guinea,valm1241
 VALPEI,,,,valp1237
@@ -2697,7 +2697,7 @@ WAANYI,Australia,Australia,,wany1247
 WAB,,,Papua New Guinea,wabb1237
 WABUDA,,,Papua New Guinea,wabo1241
 WADAGINAM,,,Papua New Guinea,wada1263
-WADIGALI,Australia,Australia,,
+WADIGALI,Australia,Australia,,wadi1261
 WAFFA,,,Papua New Guinea,waff1241
 WAFOPEN,Indonesia,,,waro1242
 WAGAWAGA,,,Papua New Guinea,waga1268
@@ -2720,12 +2720,12 @@ WANDAMEN,Indonesia,,,wand1267
 WANGGOM,Indonesia,,,wang1299
 WANGKAJUNGKA,Australia,Australia,,wang1288
 WANO,Indonesia,,,wano1243
-WANOABONG,,,Papua New Guinea,
+WANOABONG,,,Papua New Guinea,wand1268
 WANTOAT Central,,,Papua New Guinea,want1252
 WANUKAKA/Rua,Indonesia,Indonesia,,ruaa1237
 WANUKAKA/Wanukaka,Indonesia,Indonesia,,wanu1241
 WANUMA,,,Papua New Guinea,usan1239
-WANYUBARLGU,Australia,Australia,,
+WANYUBARLGU,Australia,Australia,,darl1243
 WANYURR,Australia,Australia,,yidi1250
 WAPI,,,Papua New Guinea,wapi1251
 WARAPU,,,Papua New Guinea,bara1405
@@ -2767,7 +2767,7 @@ WEYEWA/Laura,Indonesia,Indonesia,,laur1249
 WEYEWA/Tana Righu,Indonesia,Indonesia,,tana1282
 WEYEWA/Weyewa,Indonesia,Indonesia,,weje1237
 WHITESANDS,,,Vanuatu,whit1269
-WIAK,,,Papua New Guinea,
+WIAK,,,Papua New Guinea,mini1253
 WILYAGALI,Australia,Australia,,wilj1239
 WIRADHURI,Australia,Australia,,wira1262
 WIRU,,,Papua New Guinea,wiru1244
@@ -2784,7 +2784,7 @@ WULI WULI,Australia,Australia,,wuli1242
 WUSI,,,,wusi1237
 WUTUNG,,,Papua New Guinea,wutu1244
 Waamwang(extinct),,,New Caledonia,waam1236
-Wagaya-Warluwaric Group,Australia,Australia,,
+Wagaya-Warluwaric Group,Australia,Australia,,ngar1291
 Wai,Indonesia,Indonesia,,
 Waiamli,Indonesia,Indonesia,,waya1267
 Wajo,Indonesia,Sulawesi,,wajo1237
