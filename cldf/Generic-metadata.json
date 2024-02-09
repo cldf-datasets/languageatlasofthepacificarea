@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "fc36cd1",
+            "dc:created": "d0e7d7e",
             "dc:title": "Repository"
         },
         {
@@ -38,18 +38,44 @@
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {
-            "dc:description": "This table lists the metadata of shapes found in the source shapefile, aggregated by LANGUAGE property.",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
+            "dc:description": "We list the individual shapes from the source dataset as contributions in order to preserve the original metadata.",
             "dc:extent": 3021,
             "tableSchema": {
                 "columns": [
                     {
                         "dc:description": "We use the 1-based index of the first shape with corresponding LANGUAGE property in the original shapefile as identifier.",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
                         "name": "ID"
                     },
                     {
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
                         "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributor",
+                        "required": false,
+                        "name": "Contributor"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#citation",
+                        "required": false,
+                        "name": "Citation"
                     },
                     {
                         "name": "Country"
@@ -61,13 +87,18 @@
                     {
                         "separator": "; ",
                         "name": "Islands"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "languoids_in_source.csv"
+            "url": "contributions.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
@@ -199,6 +230,8 @@
                         "name": "Family"
                     },
                     {
+                        "dc:description": "List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area.",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributionReference",
                         "separator": " ",
                         "name": "Source_Languoid_IDs"
                     }
@@ -206,10 +239,10 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Speaker_Area"
+                            "Source_Languoid_IDs"
                         ],
                         "reference": {
-                            "resource": "media.csv",
+                            "resource": "contributions.csv",
                             "columnReference": [
                                 "ID"
                             ]
@@ -217,10 +250,10 @@
                     },
                     {
                         "columnReference": [
-                            "Source_Languoid_IDs"
+                            "Speaker_Area"
                         ],
                         "reference": {
-                            "resource": "languoids_in_source.csv",
+                            "resource": "media.csv",
                             "columnReference": [
                                 "ID"
                             ]

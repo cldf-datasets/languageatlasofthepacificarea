@@ -4,7 +4,6 @@ import functools
 import itertools
 import collections
 
-from tqdm import tqdm
 import geopandas
 from shapely.geometry import shape, Polygon, Point
 from shapely import union_all
@@ -153,6 +152,10 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         self.schema(args.writer.cldf)
 
+        #
+        # FIXME: add sources!
+        #
+
         polys_by_code = collections.defaultdict(list)
         coded_langs = {k: v for k, v in self.languages.items() if v.get('Glottocode')}
         coded_names = collections.defaultdict(list)
@@ -166,7 +169,7 @@ class Dataset(BaseDataset):
 
         # Assemble all Glottocodes related to any area.
         for lid, lname, cname, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
-            args.writer.objects['languoids_in_source.csv'].append(dict(
+            args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
                 Name=lname,
                 Country=cname or None,
@@ -199,7 +202,7 @@ class Dataset(BaseDataset):
             description='Speaker areas from Wurm and Hattori 1981 aggregated for Glottolog '
                         'language-level languoids, color-coded by family.',
         ) as geojson:
-            for gc, polys in tqdm(polys_by_code.items()):
+            for gc, polys in polys_by_code.items():
                 glang = glangs[gc]
                 if gc in lang:
                     args.writer.objects['LanguageTable'].append(dict(
@@ -226,7 +229,7 @@ class Dataset(BaseDataset):
             description='Speaker areas from Wurm and Hattori 1981 aggregated for Glottolog '
                         'top-level family languoids.',
         ) as geojson:
-            for gc in tqdm(sorted(set(lang2fam.values()))):
+            for gc in sorted(set(lang2fam.values())):
                 glang = glangs[gc]
                 if gc not in lang:  # Don't append isolates twice!
                     args.writer.objects['LanguageTable'].append(dict(
@@ -268,16 +271,8 @@ class Dataset(BaseDataset):
             print(glangs[gc].id, glangs[gc].latitude)
 
     def schema(self, cldf):
-        t = cldf.add_table(
-            'languoids_in_source.csv',
-            {
-                'name': 'ID',
-                'dc:description': 'We use the 1-based index of the first shape with corresponding '
-                                  'LANGUAGE property in the original shapefile as identifier.',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#id'},
-            {
-                'name': 'Name',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name'},
+        t = cldf.add_component(
+            'ContributionTable',
             {
                 'name': 'Country',
             },
@@ -288,17 +283,26 @@ class Dataset(BaseDataset):
             {
                 'name':'Islands',
                 'separator': '; ',
-            }
+            },
+            {
+                'name': 'Source',
+                'separator': ';',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source'
+            },
         )
         t.common_props['dc:description'] = \
-            ('This table lists the metadata of shapes found in the source shapefile, aggregated by '
-             'LANGUAGE property.')
+            ('We list the individual shapes from the source dataset as contributions in order to '
+             'preserve the original metadata.')
+        cldf['ContributionTable', 'id'].common_props['dc:description'] = \
+            ('We use the 1-based index of the first shape with corresponding '
+             'LANGUAGE property in the original shapefile as identifier.')
         cldf.add_component('MediaTable')
         cldf.add_component(
             'LanguageTable',
             {
                 'name': 'Speaker_Area',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea'},
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea'
+            },
             {
                 'name': 'Glottolog_Languoid_Level'},
             {
@@ -307,8 +311,8 @@ class Dataset(BaseDataset):
             {
                 'name': 'Source_Languoid_IDs',
                 'separator': ' ',
+                'dc:description': 'List of identifiers of shapes in the original shapefile that '
+                                  'were aggregated to create the shape referenced by Speaker_Area.',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference'
             },
         )
-        cldf.add_foreign_key(
-            'LanguageTable', 'Source_Languoid_IDs', 'languoids_in_source.csv', 'ID')
-
