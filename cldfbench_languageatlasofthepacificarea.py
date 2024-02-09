@@ -92,6 +92,10 @@ class Dataset(BaseDataset):
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return super().cldf_specs()
 
+    #
+    # FIXME: cmd_readme: add notes to readme!
+    #
+
     def cmd_download(self, args):
         self.raw_dir.download_and_unpack(
             'https://ecaidata.org/dataset/209cb079-2270-4016-bc8d-f6c7835779c5/'
