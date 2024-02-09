@@ -9,7 +9,8 @@ Name,Countries,Sovereigns,Islands,Glottocode
 (KAMBERA)EAST SUMBANESE/Melolo,Indonesia,Indonesia,,melo1243
 (KAMBERA)EAST SUMBANESE/Southern,Indonesia,Indonesia,,sout2885
 (KAMBERA)EAST SUMBANESE/Umbu Ratu Nggai,Indonesia,Indonesia,,umar1237
-?,Indonesia; Taiwan,Borneo; Taiwan,,
+?,Indonesia,,,
+?,Taiwan,,,
 ? BAPU,Indonesia,,,nisa1239
 ? KUWANI,Indonesia,,,
 ABAGA,,,Papua New Guinea,abag1245
@@ -42,7 +43,9 @@ AIRORAN,Indonesia,,,airo1242
 AJIE,,,New Caledonia,ajie1238
 AK,,,Papua New Guinea,akkk1240
 AKEI,,,,akei1237
-AKHA,Burma; Laos; Thailand,Laos; Thailand,,akha1245
+AKHA,Burma,,,akha1245
+AKHA,Laos,,,akha1245
+AKHA,Thailand,,,akha1245
 AKHA/LAHU,Burma/Tailand,,,akha1245
 AKLANON,Philippines,Philippines,,akla1240
 AKRUKAI,,,Papua New Guinea,akru1241
@@ -175,7 +178,8 @@ Aua,,,Papua New Guinea,ayiw1239
 Auga,,,Papua New Guinea,fuyu1242
 Augu,,,Papua New Guinea,augu1243
 Aurei,,,,aure1239
-Austronesian,Christmas I.; Indonesia,Australia,Carolin Islands; Marshall Islands; Papua New Guinea; Solomon Islands,aust1307
+Austronesian,Christmas I.,,,aust1307
+Austronesian,Indonesia,,,aust1307
 Auwaka,,,Papua New Guinea,auwa1241
 Avaso,,,Solomon Islands,avas1237
 Averi,,,Papua New Guinea,aver1239
@@ -196,7 +200,8 @@ BAHNAR,Laos,Laos,,bahn1262
 BAIMAK,,,Papua New Guinea,baim1245
 BAINAPI,,,Papua New Guinea,dibi1240
 BAINING,,,Papua New Guinea,bain1263
-BAJO,East Timor; Indonesia,East Timor; Sulawesi,,
+BAJO,East Timor,,,
+BAJO,Indonesia,,,
 BAJO Ampana,Indonesia,Sulawesi,,ampa1240
 BAKI,,,Vanuatu,baki1244
 BAKUNG K. Boh BAKUNG,,,,
@@ -454,12 +459,15 @@ Busilmin,,,Papua New Guinea,tifa1245
 Buton,Indonesia,Indonesia,,buto1237
 Bwato,,,,bwat1240
 CAAC,,,New Caledonia,caac1237
-CAOLAN,Kampuchea; Vietnam,Kampuchea; Vietnam,,caol1238
+CAOLAN,Kampuchea,,,caol1238
+CAOLAN,Vietnam,,,caol1238
 CASIGURAN DUMAGAT,Philippines,Philippines,,casi1235
 CEBUANO,Philippines,Philippines,,cebu1242
 CEMUHI,,,New Caledonia,cemu1238
 CENTRAL ASMAT,Indonesia,,,cent2117
-CHAM,China; Kampuchea; Laos,China; Kampuchea; Laos,,
+CHAM,China,,,
+CHAM,Kampuchea,,,
+CHAM,Laos,,,
 CHAMBRI,,,Papua New Guinea,cham1313
 CHAMORRO,,,Guam; Northern Mariana Islands,cham1312
 CHANGRIWA,,,Papua New Guinea,chan1319
@@ -468,7 +476,9 @@ CHE' WONG,Malaysia,Malaysia,,chew1245
 CHE' WONG/E,Malaysia,Malaysia,,chew1245
 CHE' WONG/W,Malaysia,Malaysia,,chew1245
 CHENAPIAN,,,Papua New Guinea,chen1259
-CHINESE,China; Laos; Taiwan,China; Laos; Taiwan,,midd1354
+CHINESE,China,,,midd1354
+CHINESE,Laos,,,midd1354
+CHINESE,Taiwan,,,midd1354
 CHONG,Laos,Laos,,
 CHRU,Laos,Laos,,chru1239
 CHUAVR Elimbari,,,Papua New Guinea,elim1239
@@ -637,7 +647,8 @@ ERCKWANAS  Iha,Indonesia,,,ihaa1241
 EREM,,,Papua New Guinea,
 ERIMA,,,Papua New Guinea,ogea1238
 East Awin,,,Papua New Guinea,east2522
-East Coast Bajau,Indonesia; Laos,Borneo; Laos,,
+East Coast Bajau,Indonesia,,,
+East Coast Bajau,Laos,,,
 East GIMI,,,Papua New Guinea,east2515
 East KOIARI,,,Papua New Guinea,
 East KOMBA,,,Papua New Guinea,komb1273
@@ -971,7 +982,9 @@ KARAW,Philippines,Philippines,,
 KARAWA,,,Papua New Guinea,kara1495
 KARAWARI,,,Papua New Guinea,kara1494
 KARE,,,Papua New Guinea,kare1341
-KAREN,Burma; Laos; Thailand,Laos; Thailand,,
+KAREN,Burma,,,
+KAREN,Laos,,,
+KAREN,Thailand,,,
 KARIN,,,Papua New Guinea,nucl1514
 KARIVARRA,Australia,Australia,,kari1304
 KARO,Indonesia,Indonesia,,bata1294
@@ -1047,8 +1060,11 @@ KHA TONG LUANG,Laos,Laos,,
 KHAMET,Thailand,Thailand,,lame1256
 KHANG,Vietnam,Vietnam,,khan1274
 KHAO,Vietnam,Vietnam,,khan1274
-KHMER,Kampuchea; Laos; Thailand,Kampuchea; Laos; Thailand,,cent1989
-KHMU,Laos; Thailand,Laos; Thailand,,
+KHMER,Kampuchea,,,cent1989
+KHMER,Laos,,,cent1989
+KHMER,Thailand,,,cent1989
+KHMU,Laos,,,
+KHMU,Thailand,,,
 KHUA,Laos,Laos,,
 KIA,,,Solomon Islands,zaba1237
 KIA R?,Indonesia,,,jair1235
@@ -1071,7 +1087,8 @@ KODI,Indonesia,Indonesia,,kodi1247
 KOGUMAN,,,Papua New Guinea,kobo1248
 KOKOTA,,,Solomon Islands,koko1269
 KOLAKNGAT,Australia,Australia,,cola1237
-KOLANA,East Timor; Indonesia,East Timor,,kola1287
+KOLANA,East Timor,,,kola1287
+KOLANA,Indonesia,,,kola1287
 KOLOD,,,,okol1241
 KOLOM,,,Papua New Guinea,kolo1267
 KOMERING,Indonesia,Indonesia,,kome1238
@@ -1109,7 +1126,9 @@ KUOT(PANARAS),,,Papua New Guinea,kuot1243
 KURADA,,,,auhe1237
 KURUDU,Indonesia,,,kuru1305
 KUSAGHE,,,Solomon Islands,kusa1251
-KUY,Kampuchea; Laos; Thailand,Kampuchea; Laos; Thailand,,kuyy1240
+KUY,Kampuchea,,,kuyy1240
+KUY,Laos,,,kuyy1240
+KUY,Thailand,,,kuyy1240
 KWAIO,,,Solomon Islands,kwai1243
 KWALE,,,Papua New Guinea,uare1241
 KWAMERA,,,Vanuatu,kwam1252
@@ -1260,14 +1279,18 @@ LAGANYAN,Indonesia,Indonesia,,lege1241
 LAGHU,,,Solomon Islands,lagh1246
 LAHA,Vietnam,Vietnam,,laha1250
 LAHANAN,Indonesia,Borneo,,laha1253
-LAHU,Laos; Thailand; Vietnam,Laos; Thailand; Vietnam,,lahu1253
+LAHU,Laos,,,lahu1253
+LAHU,Thailand,,,lahu1253
+LAHU,Vietnam,,,lahu1253
 LAHU/LISU,Thailand,Thailand,,
 LAKALEI,East Timor,East Timor,,laka1255
 LAKONA,,,Vanuatu,lako1245
 LALAKI,Indonesia,Sulawesi,,tola1247
-LAMAHOLOT,East Tiimor; Indonesia,East Timor,,lama1277
+LAMAHOLOT,East Tiimor,,,lama1277
+LAMAHOLOT,Indonesia,,,lama1277
 LAMAHOLOT/Adonara,East Timor,East Timor,,adon1237
-LAMAHOLOT/East,East Timor; Indonesia,East Timor,,alor1247
+LAMAHOLOT/East,East Timor,,,alor1247
+LAMAHOLOT/East,Indonesia,,,alor1247
 LAMAHOLOT/Ile Mandiri,East Timor,East Timor,,nucl1534
 LAMAHOLOT/Lewolaga,East Timor,East Timor,,lewo1249
 LAMAHOLOT/Pukaunu,East Timor,East Timor,,
@@ -1291,7 +1314,8 @@ LANGALANGA,,,Solomon Islands,wala1266
 LANGAM,,,Papua New Guinea,lang1328
 LANOH,Malaysia,North-Western Malaysia,,lano1248
 LARA,Indonesia,Borneo,,
-LARDIL,Australia; China,Australia; China,,lard1243
+LARDIL,Australia,,,lard1243
+LARDIL,China,,,
 LAREVAT,,,Vanuatu,lare1249
 LARIKE-Wakasihu,Indonesia,Indonesia,,lari1255
 LAU,,,Solomon Islands,lauu1247
@@ -1337,7 +1361,8 @@ LOUN,Indonesia,Indonesia,,loun1239
 LOVEN,Laos,Laos,,lave1248
 LOWER MOREHEAD(PEREMKA),,,Papua New Guinea,kunj1246
 LUANGIUA,,,,onto1237
-LUE,Laos; Thailand,Laos; Thailand,,
+LUE,Laos,,,
+LUE,Thailand,,,
 LUHU,Indonesia,Indonesia,,luhu1243
 LUHU Keleng,Indonesia,Indonesia,,kela1256
 LUKEP,,,Papua New Guinea,loke1237
@@ -1370,7 +1395,8 @@ Limboto,Indonesia,Sulawesi,,limb1269
 Limeri,Indonesia,,,
 Linggang,Indonesia,Borneo,,tunj1245
 Lirong SEBOB K.,,,,liro1237
-Local Malay,Indonesia; Singapore,Borneo; Singapore,,
+Local Malay,Indonesia,,,
+Local Malay,Singapore,,,
 Logea,,,,suau1242
 Lolak,Indonesia,Sulawesi,,lola1250
 Lole,Indonesia,Sulawesi,,
@@ -1507,7 +1533,10 @@ MENTAWAI/Pagai,Indonesia,Indonesia,,paga1237
 MENTAWAI/Sipura,Indonesia,Indonesia,,sipu1239
 MENTAWAI/Southern Siberut,Indonesia,Indonesia,,ment1249
 MENYA,,,Papua New Guinea,meny1245
-MEO,Burma; Laos; Thailand; Vietnam,Laos; Thailand; Vietnam,,
+MEO,Burma,,,
+MEO,Laos,,,
+MEO,Thailand,,,
+MEO,Vietnam,,,
 MERLAV,,,,merl1237
 MESEM,,,Papua New Guinea,mese1244
 MIDSIVINDI,,,Papua New Guinea,inap1241
@@ -1549,7 +1578,8 @@ MOLIMA,,,Papua New Guinea,moli1248
 MOLOF,,,,molo1262
 MOMARE,,,Papua New Guinea,moma1243
 MOMBUM,Indonesia,Indonesia,,nucl1452
-MON,Laos; Thailand,Laos; Thailand,,moni1258
+MON,Laos,,,moni1258
+MON,Thailand,,,moni1258
 MONGOL,,,Papua New Guinea,mong1348
 MONI Dugindoga,Indonesia,,,
 MONO ALU,,,Solomon Islands,mono1273
@@ -1811,7 +1841,8 @@ NUME,,,Vanuatu,nume1241
 NUNUNGAL,Australia,Australia,,
 NUSALAUT,,,,nusa1245
 NYAHEUN,Laos,Laos,,nyah1249
-NYAKUR,Laos; Thailand,Laos; Thailand,,nyah1250
+NYAKUR,Laos,,,nyah1250
+NYAKUR,Thailand,,,nyah1250
 "NYAMAL,INLAND",Australia,Australia,,nyam1271
 NYANGGA,Australia,Australia,,wira1265
 NYIGINA,Australia,Australia,,nyig1240
@@ -1923,7 +1954,8 @@ Ongac,,,Papua New Guinea,adze1240
 Ono,,,Papua New Guinea,onoo1247
 Orang Hulu,Malaysia,Malaysia,,hulu1245
 Orang Kanaq,Malaysia,Southern Malaysia,,oran1258
-Orang Seletar,Malaysia; Singapore,Singapore; Southern Malaysia,,oran1259
+Orang Seletar,Malaysia,,,oran1259
+Orang Seletar,Singapore,,,oran1259
 Oruone,,,Papua New Guinea,oruo1237
 Other ?,,,Papua New Guinea,
 Oyana,,,Papua New Guinea,oyan1240
@@ -2104,7 +2136,8 @@ ROMBLON_Dispohol,Philippines,Philippines,,romb1246
 ROMKUN,,,Papua New Guinea,romk1240
 RON,Indonesia,,,roon1237
 RORIA,,,,rori1237
-ROTI,East Timor; Indonesia,East Timor,,
+ROTI,East Timor,,,
+ROTI,Indonesia,,,
 "ROTI,TIMCRESE,SAVU",Indonesia,Indonesia,,
 ROTOKAS,,,Papua New Guinea,roto1249
 ROTUMAN,,,,rotu1241
@@ -2221,7 +2254,8 @@ SERUDUNG,,,,seru1246
 SETAMAN,,,Papua New Guinea,seta1246
 SETI,Indonesia,Indonesia,,lian1255
 SEWA BAY,,,Papua New Guinea,sewa1251
-SHAN,Burma; Thailand,Thailand,,shan1277
+SHAN,Burma,,,shan1277
+SHAN,Thailand,,,shan1277
 SHARKBAY,,,,shar1251
 SIAGHA-YENIMU,Indonesia,,,sout2941
 SIALUM,,,Papua New Guinea,sial1240
@@ -2263,7 +2297,8 @@ SIROMI?,Indonesia,,,
 SISSANO,,,Papua New Guinea,siss1243
 SKOITUMAWO,Indonesia,,,nucl1634
 SLTI,,,Papua New Guinea,seti1248
-SO,Laos; Thailand,Laos; Thailand,,
+SO,Laos,,,
+SO,Thailand,,,
 SOBEI,Indonesia,,,sobe1238
 SOLOS,,,Papua New Guinea,solo1257
 SOM,,,Papua New Guinea,somm1240
@@ -2299,7 +2334,8 @@ SULKA,,,Papua New Guinea,sulk1246
 SUMAMBU - TAGAL Rundum Murut,,,,taga1273
 SUMARIUI,,,Papua New Guinea,suma1269
 SUMARIUR,,,Papua New Guinea,suma1269
-SUMATRA MALAY,Indonesia; Malaysia,Indonesia; Malaysia,,
+SUMATRA MALAY,Indonesia,,,
+SUMATRA MALAY,Malaysia,,,
 SUMATRA MALAY/Aji,Indonesia,Indonesia,,
 SUMATRA MALAY/Bangka,Indonesia,,,bang1365
 SUMATRA MALAY/Belide,Indonesia,Indonesia,,beli1262
@@ -2429,7 +2465,8 @@ Sulawesi,Indonesia,Indonesia,,
 Suluk,,,,taus1251
 Suri,,,Papua New Guinea,suri1271
 Swart Valley,Indonesia,,,swar1236
-T,Burma; Thailand,Thailand,,
+T,Burma,,,
+T,Thailand,,,
 TACRI SO,,,,dout1240
 TADYAWAN,Philippines,Philippines,,tady1237
 TAGABAWA,Philippines,Philippines,,taga1272
@@ -2491,7 +2528,8 @@ TEUN,Indonesia,,,teun1241
 TEWA,East Timor,East Timor,,teiw1235
 THAI,Thailand,Thailand,,thai1261
 THAI DAM(LAO SONG),Laos,Laos,,
-THAI KHAW,Laos/Vietnam; Vietnam,Vietnam,,
+THAI KHAW,Laos/Vietnam,,,
+THAI KHAW,Vietnam,,,
 THAI-MALAY,Malaysia,Malaysia,,
 THAO,Taiwan,Taiwan,,thao1240
 THAVUNG,Laos,Laos,,aheu1239
@@ -2874,7 +2912,10 @@ YANGULAM,,,Papua New Guinea,yang1298
 YANIMO,,,Papua New Guinea,dumo1240
 YANINGARA,,,,
 YANYUWA,Australia,Australia,YANYUWA,yany1243
-YAO,China; Laos; Thailand; Vietnam,China; Laos; Thailand; Vietnam,,
+YAO,China,,,
+YAO,Laos,,,
+YAO,Thailand,,,
+YAO,Vietnam,,,
 YAO/MEO,Laos,Laos,,
 YAPESE,,,,yape1248
 YAPUNDA,,,Papua New Guinea,yapu1240
