@@ -697,7 +697,7 @@ pina1252,Pinai-Hagahai,,-5.12624,144.137,,,languages,language,Piawi,2272 2276
 oloo1241,Olo,,-3.2929,142.131,,,languages,language,Nuclear Torricelli,2273
 lemb1266,Lembena,,-4.99504,143.891,,,languages,language,Nuclear Trans New Guinea,2275
 meak1234,Meakambut,,-4.833,143.783,,,languages,language,Arafundi,2278
-ango1255,Angoram,,-4.07758,144.028,,,languages,language,Lower Sepik,2279 2961
+ango1255,Angoram,,-4.07758,144.028,,,languages,language,Lower Sepik-Ramu,2279 2961
 mekm1240,Mekmek,,-4.47017,143.75,,,languages,language,Yuat,2280
 chan1319,Changriwa,,-4.28364,143.696,,,languages,language,Yuat,2281
 apma1241,Ap Ma,,-4.35147,144.085,,,languages,language,Keram,2282
@@ -705,11 +705,11 @@ lang1328,Pondi,,-4.32557,143.925,,,languages,language,Keram,2284
 mong1344,Mwakai,,-4.30038,143.965,,,languages,language,Keram,2285
 yaul1241,Ulwa (Papua New Guinea),,-4.39912,143.993,,,languages,language,Keram,2286 2930
 biwa1243,Biwat,,-4.39429,143.873,,,languages,language,Yuat,2289
-bana1292,Banaro,,-4.56615,144.329,,,languages,language,Ramu,2291
-muri1260,Murik (Papua New Guinea),,-3.86959,144.166,,,languages,language,Lower Sepik,2292
+bana1292,Banaro,,-4.56615,144.329,,,languages,language,Lower Sepik-Ramu,2291
+muri1260,Murik (Papua New Guinea),,-3.86959,144.166,,,languages,language,Lower Sepik-Ramu,2292
 taia1239,Taiap,,-4.05047,144.506,,,languages,language,,2293
-kopa1248,Kopar,,-3.98259,144.466,,,languages,language,Lower Sepik,2294
-yima1243,Yimas,,-4.71731,143.572,,,languages,language,Lower Sepik,2296
+kopa1248,Kopar,,-3.98259,144.466,,,languages,language,Lower Sepik-Ramu,2294
+yima1243,Yimas,,-4.71731,143.572,,,languages,language,Lower Sepik-Ramu,2296
 alam1246,Alamblak,,-4.66307,143.316,,,languages,language,Sepik,2297 2963
 bahi1254,Bahinemo,,-4.55527,142.832,,,languages,language,Sepik,2298
 bisi1244,Bisis,,-4.46238,143.058,,,languages,language,Sepik,2299
@@ -725,17 +725,17 @@ elep1240,Elepi,,-3.7505,143.93,,,languages,language,Nuclear Torricelli,2315
 kiss1246,Kis,,-3.83909,143.96,,,languages,language,Austronesian,2319
 kair1263,Kairiru,,-3.34608,143.558,,,languages,language,Austronesian,2320
 boik1241,Boikin,,-3.68297,143.474,,,languages,language,Ndu,2321 2322 2958 2970 2971 2972 2973 2974 2975 2976 2977 3595 3596 3834
-kaia1245,Kaian,,-4.06543,144.756,,,languages,language,Ramu,2324
-awar1249,Awar,,-4.13554,144.836,,,languages,language,Ramu,2325
+kaia1245,Kaian,,-4.06543,144.756,,,languages,language,Lower Sepik-Ramu,2324
+awar1249,Awar,,-4.13554,144.836,,,languages,language,Lower Sepik-Ramu,2325
 sepa1241,Sepa (Papua New Guinea),,-4.27,144.965,,,languages,language,Austronesian,2326
 lila1246,Lilau,,-4.35479,144.99,,,languages,language,Bogia,2327
 nucl1458,Monumbo,,-4.2717,144.95,,,languages,language,Bogia,2328
-kire1240,Kire,,-4.25927,144.711,,,languages,language,Ramu,2331
-sepe1240,Sepen,,-4.22789,144.809,,,languages,language,Ramu,2332
-tang1355,Tanggu,,-4.4621,144.916,,,languages,language,Ramu,2333
-kang1291,Kanggape,,-4.4153,144.816,,,languages,language,Ramu,2334
-tang1356,Tanguat,,-4.57282,144.927,,,languages,language,Ramu,2335
-anda1284,Andarum,,-4.48734,144.767,,,languages,language,Ramu,2336
+kire1240,Kire,,-4.25927,144.711,,,languages,language,Lower Sepik-Ramu,2331
+sepe1240,Sepen,,-4.22789,144.809,,,languages,language,Lower Sepik-Ramu,2332
+tang1355,Tanggu,,-4.4621,144.916,,,languages,language,Lower Sepik-Ramu,2333
+kang1291,Kanggape,,-4.4153,144.816,,,languages,language,Lower Sepik-Ramu,2334
+tang1356,Tanguat,,-4.57282,144.927,,,languages,language,Lower Sepik-Ramu,2335
+anda1284,Andarum,,-4.48734,144.767,,,languages,language,Lower Sepik-Ramu,2336
 mala1494,Mala (Papua New Guinea),,-4.35889,145.04,,,languages,language,Nuclear Trans New Guinea,2337
 maia1254,Maia,,-4.50212,145.096,,,languages,language,Nuclear Trans New Guinea,2338 2341
 brem1238,Barem,,-4.67372,145.562,,,languages,language,Nuclear Trans New Guinea,2343
@@ -763,7 +763,7 @@ samm1244,Sam,,-5.55572,145.813,,,languages,language,Nuclear Trans New Guinea,236
 yang1298,Yangulam,,-5.52697,145.858,,,languages,language,Nuclear Trans New Guinea,2369
 bong1291,Bongu,,-5.50519,145.806,,,languages,language,Nuclear Trans New Guinea,2370
 pula1267,Pulabu,,-5.59558,145.738,,,languages,language,Nuclear Trans New Guinea,2371
-jili1241,Sgi Bara,,-5.56611,145.706,,,languages,language,Nuclear Trans New Guinea,2373
+jili1241,Jilim,,-5.56611,145.706,,,languages,language,Nuclear Trans New Guinea,2373
 kwat1244,Kwato,,-5.53799,145.629,,,languages,language,Nuclear Trans New Guinea,2374
 saru1243,Saruga,,-5.08824,145.578,,,languages,language,Nuclear Trans New Guinea,2375
 kare1341,Kare (Papua New Guinea),,-5.07674,145.499,,,languages,language,Nuclear Trans New Guinea,2376
@@ -1027,17 +1027,17 @@ bauu1244,Bau,,-5.26465,145.611,,,languages,language,Nuclear Trans New Guinea,289
 mawa1267,Mawan,,-5.2219,145.589,,,languages,language,Nuclear Trans New Guinea,2899
 baim1245,Baimak,,-5.18943,145.606,,,languages,language,Nuclear Trans New Guinea,2900
 uyaa1238,Uya,,-5.32246,145.47,,,languages,language,Nuclear Trans New Guinea,2901
-brer1240,Breri,,-4.73271,144.707,,,languages,language,Ramu,2903
-romk1240,Romkun,,-4.58919,144.689,,,languages,language,Ramu,2904
-igan1243,Igana,,-4.70942,144.841,,,languages,language,Ramu,2905
-komi1271,Kominimung,,-4.68537,144.783,,,languages,language,Ramu,2906
-akru1241,Chini,,-4.88687,144.821,,,languages,language,Ramu,2907
+brer1240,Breri,,-4.73271,144.707,,,languages,language,Lower Sepik-Ramu,2903
+romk1240,Romkun,,-4.58919,144.689,,,languages,language,Lower Sepik-Ramu,2904
+igan1243,Igana,,-4.70942,144.841,,,languages,language,Lower Sepik-Ramu,2905
+komi1271,Kominimung,,-4.68537,144.783,,,languages,language,Lower Sepik-Ramu,2906
+akru1241,Chini,,-4.88687,144.821,,,languages,language,Lower Sepik-Ramu,2907
 apal1256,Apali,,-5.1727,145.023,,,languages,language,Nuclear Trans New Guinea,2909
 utar1238,Utarmbung,,-4.82756,144.924,,,languages,language,Nuclear Trans New Guinea,2910
 payn1244,Manat,,-4.94303,144.879,,,languages,language,Nuclear Trans New Guinea,2911
 nend1239,Nend,,-5.04271,144.886,,,languages,language,Nuclear Trans New Guinea,2913
-aiom1240,Aiome,,-5.13467,144.765,,,languages,language,Ramu,2914
-anor1241,Anor,,-4.98449,144.801,,,languages,language,Ramu,2915
+aiom1240,Aiome,,-5.13467,144.765,,,languages,language,Lower Sepik-Ramu,2914
+anor1241,Anor,,-4.98449,144.801,,,languages,language,Lower Sepik-Ramu,2915
 sile1255,Sirva,,-4.98243,145.225,,,languages,language,Nuclear Trans New Guinea,2916
 kowa1245,Kowaki,,-4.63032,145.412,,,languages,language,Nuclear Trans New Guinea,2918
 moer1240,Moere,,-4.62246,145.458,,,languages,language,Nuclear Trans New Guinea,2919
@@ -1060,15 +1060,15 @@ para1307,Parawen,,-5.0112,145.418,,,languages,language,Nuclear Trans New Guinea,
 yara1250,Yarawata,,-4.93943,145.454,,,languages,language,Nuclear Trans New Guinea,2941
 kobo1249,Kobon,,-5.16446,144.46,,,languages,language,Nuclear Trans New Guinea,2942
 haru1245,Haruai,,-5.09522,144.3375,,,languages,language,Piawi,2943 2945
-inap1241,Itutang-Inapang,,-4.67614,144.9,,,languages,language,Ramu,2946 2947
-abuu1241,Abu,,-4.24027,144.474,,,languages,language,Ramu,2951 2955
+inap1241,Itutang-Inapang,,-4.67614,144.9,,,languages,language,Lower Sepik-Ramu,2946 2947
+abuu1241,Abu,,-4.24027,144.474,,,languages,language,Lower Sepik-Ramu,2951 2955
 amba1269,Ambakich,,-4.23181,144.285,,,languages,language,Keram,2952
-bore1247,Borei,,-4.08697,144.715,,,languages,language,Ramu,2954
-bosn1248,Bosngun,,-4.16201,144.647,,,languages,language,Ramu,2956
+bore1247,Borei,,-4.08697,144.715,,,languages,language,Lower Sepik-Ramu,2954
+bosn1248,Bosngun,,-4.16201,144.647,,,languages,language,Lower Sepik-Ramu,2956
 buru1309,Burui,,-4.03527,143.015,,,languages,language,Ndu,2959 2965 2980
 koiw1243,Koiwat,,-4.03417,143.62,,,languages,language,Ndu,2960
 iatm1242,Iatmul,,-4.30064,143.316,,,languages,language,Ndu,2966 2967
-cham1313,Chambri,,-4.27831,143.097,,,languages,language,Lower Sepik,2968
+cham1313,Chambri,,-4.27831,143.097,,,languages,language,Lower Sepik-Ramu,2968
 yera1243,Yerakai,,-4.28828,142.947,,,languages,language,,2969
 ambu1247,Ambulas,,-3.7801,143.059,,,languages,language,Ndu,2978 2979 2982
 kwan1278,Kwanga,,-3.74263,142.711,,,languages,language,Sepik,2983 3002 3003 3004 3006
@@ -1303,8 +1303,8 @@ agar1252,Agarabi,,-6.20604,145.917,,,languages,language,Nuclear Trans New Guinea
 ukur1240,Ukuriguma,,-4.94407,145.514,,,languages,language,Nuclear Trans New Guinea,3517
 bila1257,Karen,,-4.93116,145.559,,,languages,language,Nuclear Trans New Guinea,3518
 amai1246,Amaimon,,-5.18742,145.368,,,languages,language,Nuclear Trans New Guinea,3519
-raoo1244,Rao,,-4.85243,144.511,,,languages,language,Ramu,3523
-goro1261,Gorovu,,-4.52947,144.59,,,languages,language,Ramu,3524
+raoo1244,Rao,,-4.85243,144.511,,,languages,language,Lower Sepik-Ramu,3523
+goro1261,Gorovu,,-4.52947,144.59,,,languages,language,Lower Sepik-Ramu,3524
 anam1248,Anamuxra,,-4.63762,144.991,,,languages,language,Nuclear Trans New Guinea,3525
 more1258,Moresada,,-4.57497,144.988,,,languages,language,Nuclear Trans New Guinea,3526
 yong1280,Yonggom,,-6.42956,141.213,,,languages,language,Nuclear Trans New Guinea,3527
@@ -1411,7 +1411,7 @@ moli1248,Molima,,-9.57457,150.614,,,languages,language,Austronesian,3814 3818
 gale1257,Galeya,,-9.54137,150.836,,,languages,language,Austronesian,3815
 iama1237,Iamalele,,-9.45005,150.573,,,languages,language,Austronesian,3817
 bose1237,Boselewa,,-9.44763,150.693,,,languages,language,Austronesian,3819
-arua1260,Aruamu,,-4.28957,144.842,,,languages,language,Ramu,3820
+arua1260,Aruamu,,-4.28957,144.842,,,languages,language,Lower Sepik-Ramu,3820
 kani1281,Kaninuwa,,-9.23148,150.253,,,languages,language,Austronesian,3821
 sali1295,Saliba,,-10.6148,150.727,,,languages,language,Austronesian,3823
 woge1237,Wogeo,,-3.20238,144.089,,,languages,language,Austronesian,3828
@@ -1705,7 +1705,7 @@ kwer1242,Greater Kwerba,,,,,,families,family,,4483
 kwom1263,Kwomtari-Nai,,,,,,families,family,,4483
 lake1255,Lakes Plain,,,,,,families,family,,4483
 left1242,Left May,,,,,,families,family,,4483
-lowe1423,Lower Sepik,,,,,,families,family,,4483
+lowe1437,Lower Sepik-Ramu,,,,,,families,family,,4483
 mail1249,Mailuan,,,,,,families,family,,4483
 mair1253,Mairasic,,,,,,families,family,,4483
 mang1423,Mangarrayi-Maran,,,,,,families,family,,4483
@@ -1727,7 +1727,6 @@ paho1240,Pahoturi,,,,,,families,family,,4483
 pama1250,Pama-Nyungan,,,,,,families,family,,4483
 pauw1244,Pauwasi,,,,,,families,family,,4483
 piaw1238,Piawi,,,,,,families,family,,4483
-ramu1234,Ramu,,,,,,families,family,,4483
 sena1264,Senagi,,,,,,families,family,,4483
 sent1261,Sentanic,,,,,,families,family,,4483
 sepi1257,Sepik,,,,,,families,family,,4483

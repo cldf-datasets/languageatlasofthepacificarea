@@ -1,0 +1,36 @@
+{
+    "title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Language Atlas of the Pacific Geo-Registered - GIS Dataset</p>\n</blockquote>",
+    "creators": [
+        {
+            "name": "Stephen Wurm"
+        },
+        {
+            "name": "Shir\u00f4 Hattori"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "David Blundell",
+            "type": "Editor"
+        },
+        {
+            "name": "Lawrence Crissman",
+            "type": "Editor"
+        },
+        {
+            "name": "Jeanette Zerneke",
+            "type": "Editor"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Editor"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ cffi==1.16.0
 cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/doreco/@275bbd507ed5452c9184cf71b8ca92156978db21#egg=cldfbench_doreco
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@d0e7d7ed96248c40d236001181313ec9411f24e5#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@110583a04e9a148faafa3b24542d0631f4027cfe#egg=cldfbench_languageatlasofthepacificarea
 -e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 -e git+https://github.com/cldf-datasets/uclaphoneticslabarchive@9cd6643548cf54d02287011eee266f5b5db861d4#egg=cldfbench_uclaphoneticslabarchive
 cldfcatalog==1.5.1
