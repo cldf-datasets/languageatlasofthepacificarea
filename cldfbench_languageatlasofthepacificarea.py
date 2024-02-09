@@ -242,7 +242,7 @@ class Dataset(BaseDataset):
                     args.writer.objects['LanguageTable'].append(dict(
                         ID=gc,
                         Name=glang.name,
-                        Source_Languoid_IDs=[str(p[0]) for p in polys],
+                        Source_Languoid_IDs=[str(p[0]) for p in polys_by_code[gc]],
                         Speaker_Area=geojson.path.stem,
                         Glottolog_Languoid_Level='family',
                     ))

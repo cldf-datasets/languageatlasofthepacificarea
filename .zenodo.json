@@ -32,5 +32,8 @@
             "name": "Robert Forkel",
             "type": "Editor"
         }
-    ]
+    ],
+    "license": {
+        "id": "CC-BY-4.0"
+    }
 }

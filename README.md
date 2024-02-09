@@ -19,7 +19,7 @@ This dataset is licensed under a CC-BY-4.0 license
 
 ## Source
 
-This dataset if derived from ECAI's Pacific Language Mapping project, described as follows:
+This dataset is derived from ECAI's Pacific Language Mapping project, described as follows:
 
 > Languages included in this Atlas cover about one third of the world's 6,000 languages. The regions of the Pacific, Southeast Asia (apart from Burma), and Madagascar are documented. By the end of this century most of these languages will be extinct, thus limiting our ability to comprehend the diversity of human experience.
 
@@ -53,6 +53,24 @@ These mappings were then used to create aggregations of the shapes on two levels
   language, were ignored.
 - Areas labeled as language (sub-)groups with no counterpart in Glottolog's classification (e.g. "Papuan") were
   ignored.
+- Languoids in this dataset are related to the original shapes through a list-valued foreign key, i.e. a many-to-many relation. Thus,
+  examining languoids together with the source shapes requires joining tables which can easily be done via
+  [CLDF SQL](https://github.com/cldf/cldf/blob/master/extensions/sql.md).
+  As expected, the big language families of the area have the biggest number of associated shapes:
+  ```sql
+  SELECT l.cldf_name, count(c.cldf_id) AS c
+  FROM LanguageTable AS l 
+  JOIN LanguageTable_ContributionTable AS cassoc ON cassoc.LanguageTable_cldf_id = l.cldf_id
+  JOIN ContributionTable AS c ON c.cldf_id = cassoc.ContributionTable_cldf_id
+  GROUP BY l.cldf_id
+  ORDER BY c DESC LIMIT 4;
+  ```
+  family | shapes
+  --- | ---
+  Austronesian|1259
+  Nuclear Trans New Guinea|389
+  Austroasiatic|107
+  Pama-Nyungan|104
 
 
 ## CLDF Datasets
