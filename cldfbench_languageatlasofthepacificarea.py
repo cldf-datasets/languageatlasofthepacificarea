@@ -9,6 +9,7 @@ from shapely.geometry import shape, Polygon, Point
 from shapely import union_all
 from clldutils.jsonlib import dump
 from clldutils.color import qualitative_colors
+from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset
 
 #
@@ -92,9 +93,11 @@ class Dataset(BaseDataset):
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return super().cldf_specs()
 
-    #
-    # FIXME: cmd_readme: add notes to readme!
-    #
+    def cmd_readme(self, args) -> str:
+        return add_markdown_text(
+            BaseDataset.cmd_readme(self, args),
+            self.dir.joinpath('NOTES.md').read_text(encoding='utf8'),
+            'Description')
 
     def cmd_download(self, args):
         self.raw_dir.download_and_unpack(
