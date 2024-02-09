@@ -49,7 +49,7 @@ These mappings were then used to create aggregations of the shapes on two levels
   ORDER BY c DESC LIMIT 4;
   ```
   family | shapes
-  --- | ---
+  --- | ---:
   Austronesian|1259
   Nuclear Trans New Guinea|389
   Austroasiatic|107
