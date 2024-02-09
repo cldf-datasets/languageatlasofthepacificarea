@@ -27,12 +27,13 @@ def run(args):
     }
     glottocodes = set()
     i = 0
-    for _, lname, feature in ds.iter_geojson_features():
-        if not ds.languages[lname]['Glottocode']:
+    for _, lname, cname, feature in ds.iter_geojson_features():
+        feature['properties']['LANGUAGE'] = lname
+        if not ds.languages.get((lname, cname), {}).get('Glottocode'):
             i += 1
             geojson['features'].append(feature)
         else:
-            for gc in ds.languages[lname]['Glottocode'].split():
+            for gc in ds.languages[(lname, cname)]['Glottocode'].split():
                 glottocodes.add(gc)
 
     eligible = set()
@@ -46,7 +47,7 @@ def run(args):
             lon, lat = float(r['Longitude']), float(r['Latitude'])
         except:
             return False
-        return -20 < lat < 20 and 110 < lon < 150
+        return -30 < lat < 10 and 110 < lon < 180
 
     for r in reader(args.glottologlanguages, dicts=True):
         # if r['Family_ID'] == args.family:  # 'pama1250':  # 'aust1307':

@@ -454,7 +454,7 @@ Bukar Sadong p.,Indonesia,Borneo,,buka1257
 Bulalakao,Philippines,Philippines,,bula1256
 Buniabura,,,Papua New Guinea,buni1247
 Bunwurung,Australia,Australia,,boon1243
-Burarran Family,Australia,Australia,,
+Burarran Family,Australia,Australia,,bure1238
 Burui,,,Papua New Guinea,buru1309
 Bush Mekeo,,,Papua New Guinea,meke1243
 Busilmin,,,Papua New Guinea,tifa1245
@@ -467,7 +467,7 @@ CASIGURAN DUMAGAT,Philippines,Philippines,,casi1235
 CEBUANO,Philippines,Philippines,,cebu1242
 CEMUHI,,,New Caledonia,cemu1238
 CENTRAL ASMAT,Indonesia,,,cent2117
-CHAM,China,,,
+CHAM,China,,,tsat1238
 CHAM,Kampuchea,,,
 CHAM,Laos,,,
 CHAMBRI,,,Papua New Guinea,cham1313
@@ -576,7 +576,7 @@ Dagenava,,,Papua New Guinea,dage1244
 Dahuni,,,Papua New Guinea,dahu1238
 Dalat,Indonesia,Borneo,,dala1239
 Dalit sd. PALUAN p.,,,,dali1243
-Daly Family,Australia,Australia,,
+Daly Family,Australia,Australia,,west2434
 Damal,Indonesia,,,dama1272
 Danu,,,Papua New Guinea,danu1250
 Daranto,Indonesia,,,beri1254
@@ -593,7 +593,7 @@ Didigaru,,,Papua New Guinea,didi1260
 Dilava,,,Papua New Guinea,fuyu1242
 Dili Tetun,East Timor,East Timor,,tetu1246
 Diomoni,,,Papua New Guinea,suau1242
-Djeebbanan Family-Level Isolate,Australia,Australia,,
+Djeebbanan Family-Level Isolate,Australia,Australia,,djee1236
 Djingili-Wambayan Family,Australia,Australia,,mirn1241
 Dobudurn,,,,orok1269
 Dodinga,Indonesia,Indonesia,,dodi1239
@@ -764,7 +764,7 @@ GOGODALA,,,,gogo1265
 GOLIATH,Indonesia,,,unaa1239
 GORONTALO,Indonesia,Sulawesi,,goro1259
 GOROVU,,,Papua New Guinea,goro1261
-GOWAR,Australia,Australia,,
+GOWAR,Australia,Australia,,guwa1244
 "GRAND VALLEY DANY, lower of Valley",Indonesia,,,lowe1415
 GUGU YALANDYI,Australia,Australia,,yala1261
 GUHU-SAMANE,,,Papua New Guinea,guhu1244
@@ -811,7 +811,7 @@ Gugumu,,,,baru1269
 Guiam Yuta,,,Papua New Guinea,wipi1242
 Guluwarin Kitja,Australia,Australia,,kitj1240
 Gumbaynggiric Group,Australia,Australia,,gumb1242
-Gungaraganyan Family-Level Isolate,Australia,Australia,,
+Gungaraganyan Family-Level Isolate,Australia,Australia,,kung1259
 Gunwinyguan Family,Australia,Australia,,gunw1250
 Gurfuf,,,Papua New Guinea,adze1240
 HABU,East Timor,East Timor,,habu1241
@@ -984,9 +984,9 @@ KARAW,Philippines,Philippines,,
 KARAWA,,,Papua New Guinea,kara1495
 KARAWARI,,,Papua New Guinea,kara1494
 KARE,,,Papua New Guinea,kare1341
-KAREN,Burma,,,
+KAREN,Burma,,,kare1337
 KAREN,Laos,,,
-KAREN,Thailand,,,
+KAREN,Thailand,,,kare1337
 KARIN,,,Papua New Guinea,nucl1514
 KARIVARRA,Australia,Australia,,kari1304
 KARO,Indonesia,Indonesia,,bata1294
@@ -1046,10 +1046,10 @@ KENINGAU MURUT Dialects / Dusun Murut,,,,dusu1272
 KENINGAU MURUT Dialects / Nabay,,,,naba1255
 KENSIU,Malaysia,Malaysia; North-Western Malaysia,,kens1248
 KENSIU/Kensiu Batu,Malaysia,Malaysia,,kens1249
-KENSIU/Kensiu Pemsed,Malaysia,North-Western Malaysia,,
+KENSIU/Kensiu Pemsed,Malaysia,North-Western Malaysia,,kens1248
 KENSIU/Kensiu Siong,Malaysia,North-Western Malaysia,,kens1250
-KENSIU/Meni Kaien,Malaysia,North-Western Malaysia,,
-KENSIU/Semang of Sadang,Malaysia,Southern Malaysia,,
+KENSIU/Meni Kaien,Malaysia,North-Western Malaysia,,kens1248
+KENSIU/Semang of Sadang,Malaysia,Southern Malaysia,,kens1248
 KERAMIN,Australia,Australia,,kera1256
 KEREHO - UHENG,,,,kere1285
 KEREWO,,,Papua New Guinea,kere1286
@@ -1174,7 +1174,7 @@ Kaparl,,,Papua New Guinea,kapa1252
 Karambit,,,Papua New Guinea,kara1493
 Karira,,,,kari1308
 Karnic Group,Australia,Australia,,karn1253
-Karo,Indonesia,Indonesia,,
+Karo,Indonesia,Indonesia,,gayo1244
 Karore,,,Papua New Guinea,karo1298
 Kasuweri,Indonesia,,,kasu1243
 Kataz,,,Solomon Islands,kata1267
@@ -1238,7 +1238,7 @@ Kubo,,,Papua New Guinea,kubo1242
 Kubuli,,,Papua New Guinea,kubu1240
 Kukula,,,Papua New Guinea,mang1403
 Kulawi,Indonesia,Sulawesi,,kula1284
-Kulinic Group,Australia,Australia,,
+Kulinic Group,Australia,Australia,,kuli1251
 Kunei,,,Papua New Guinea,kuna1263
 Kutai Ancalong sd.,,,,anca1243
 Kutai Kota Bangun sd.,,,,kota1275
@@ -1342,7 +1342,7 @@ LETRI LGONA/Sermata,Indonesia,,,serm1234
 LETRI LGONA/Wetan-W(N)Babar,Indonesia,,,weta1243
 LEWADA,,,Papua New Guinea,maka1315
 LEWO,,,Vanuatu,lewo1242
-LI,China,China,,
+LI,China,China,,hlai1239
 LIHIR,,,Papua New Guinea,lihi1237
 LILAU,,,Papua New Guinea,lila1246
 LINDU,,,,lind1249
@@ -1538,7 +1538,7 @@ MENYA,,,Papua New Guinea,meny1245
 MEO,Burma,,,
 MEO,Laos,,,
 MEO,Thailand,,,
-MEO,Vietnam,,,
+MEO,Vietnam,,,name1237
 MERLAV,,,,merl1237
 MESEM,,,Papua New Guinea,mese1244
 MIDSIVINDI,,,Papua New Guinea,inap1241
@@ -1614,9 +1614,9 @@ MPOTOVORO,,,Vanuatu,mpot1241
 MRABRI,Laos,Laos,,mlab1235
 MUANG,Laos,Laos,,
 MUGIL,,,Papua New Guinea,barg1252
-MUK-THANG Dialects:Bidhawal,Australia,Australia,,
-MUK-THANG Dialects:Muk-Thang(Brabiralung),Australia,Australia,,
-MUK-THANG Dialects:Thangqual(Kratauatungalung),Australia,Australia,,
+MUK-THANG Dialects:Bidhawal,Australia,Australia,,gana1268
+MUK-THANG Dialects:Muk-Thang(Brabiralung),Australia,Australia,,gana1279
+MUK-THANG Dialects:Thangqual(Kratauatungalung),Australia,Australia,,gana1279
 MUKAWA,,,Papua New Guinea,aree1239
 MULAHA(Mulaha),,,Papua New Guinea,nucl1624
 MUNA,Indonesia,Sulawesi,,muna1247
@@ -1656,7 +1656,7 @@ Mamasa,Indonesia,Sulawesi,,mama1276
 Mambar,,,Papua New Guinea,
 Mamusi,,,Papua New Guinea,mamu1256
 Mangarayan Family-Level Isolate,Australia,Australia,,
-Mangerrian Family,Australia,Australia,,
+Mangerrian Family,Australia,Australia,,giim1238
 Mangki,Indonesia,Sulawesi,,mang1411
 Manikion,Indonesia,,,mani1235
 Manoa,,,Papua New Guinea,nucl1630
@@ -1752,7 +1752,7 @@ NARANGO,,,,nara1263
 NARAU,Indonesia,,,kaur1271
 NARI-NARI,Australia,Australia,,nari1241
 NAROM Miri,,,,miri1269
-NARRUNGGA,Australia,Australia,,
+NARRUNGGA,Australia,Australia,,naru1238
 NASARIAN,,,Vanuatu,nasa1240
 NASIO,,,Papua New Guinea,naas1242
 NAUBUAN,,,Nauru,naur1243
@@ -1785,7 +1785,7 @@ NGALAKAN,Australia,Australia,,ngal1293
 NGALIWURU,Australia,Australia,,ngal1294
 NGALUM Ngaium,Indonesia,,,ngal1298
 NGAMBAA,Australia,Australia,,
-NGANYAYWA,Australia,Australia,,
+NGANYAYWA,Australia,Australia,,ngan1296
 NGARDI,Australia,Australia,,ngar1288
 NGARIAWAN,,,Papua New Guinea,
 NGARLA,Australia,Australia,,ngar1296
@@ -1852,7 +1852,7 @@ Naguim A,,,Papua New Guinea,
 Naguim B,,,Papua New Guinea,
 Naguim C,,,Papua New Guinea,
 Nahes Liah Bing MODANG,,,,liah1237
-Nakkaran Family-Level Isolate,Australia,Australia,,
+Nakkaran Family-Level Isolate,Australia,Australia,,naka1260
 Nambeomon,Indonesia,,,namb1294
 Nami,,,Papua New Guinea,nami1257
 Narom p.,,,,naro1251
@@ -1920,7 +1920,7 @@ Null,,,,
 Nulu,,,,nulu1237
 Numba,,,Papua New Guinea,numb1248
 Numee,,,New Caledonia,nume1242
-Nunggubuyan Family-Level Isolate,Australia,Australia,,
+Nunggubuyan Family-Level Isolate,Australia,Australia,,nung1290
 Nyamok,,,,
 Nyaura,,,Papua New Guinea,nyau1244
 Nyawaygic Group,Australia,Australia,,nyaw1248
@@ -1989,7 +1989,7 @@ PAHI,,,Papua New Guinea,pahi1246
 PAI,,,Papua New Guinea,
 PAICI,,,New Caledonia,paic1239
 PAIWAN,Taiwan,Taiwan,,paiw1248
-PAK TAY,Thailand,Thailand,,
+PAK TAY,Thailand,Thailand,,sout2746
 PAKA,,,Papua New Guinea,niks1238
 PALAUAN,Palau,United States,,pala1344
 PALAWENO,Philippines,Philippines,,cent2091
@@ -2323,7 +2323,7 @@ SOUTH-EAST AMBRYM,,,Vanuatu,sout2859
 SOUTH-West Group,Australia,Australia,,
 SOUTHERN BISAYA,,,,
 SOUTHERN KIWAI,,,,
-SOUTHERN bAAGANDJI,Australia,Australia,,
+SOUTHERN bAAGANDJI,Australia,Australia,,darl1243
 SOWA,,,Vanuatu,sowa1244
 SRUK,,,Papua New Guinea,sauk1252
 STANDARD BIKOL,Philippines,Philippines,,
@@ -2338,13 +2338,13 @@ SUMARIUI,,,Papua New Guinea,suma1269
 SUMARIUR,,,Papua New Guinea,suma1269
 SUMATRA MALAY,Indonesia,,,
 SUMATRA MALAY,Malaysia,,,
-SUMATRA MALAY/Aji,Indonesia,Indonesia,,
+SUMATRA MALAY/Aji,Indonesia,Indonesia,,high1292
 SUMATRA MALAY/Bangka,Indonesia,,,bang1365
 SUMATRA MALAY/Belide,Indonesia,Indonesia,,beli1262
 SUMATRA MALAY/Belitung,Indonesia,,,
 SUMATRA MALAY/Bengkulu,Indonesia,Indonesia,,beng1290
-SUMATRA MALAY/Besemah,Indonesia,Indonesia,,
-SUMATRA MALAY/Daya,Indonesia,Indonesia,,
+SUMATRA MALAY/Besemah,Indonesia,Indonesia,,pase1242
+SUMATRA MALAY/Daya,Indonesia,Indonesia,,high1292
 SUMATRA MALAY/Enim,Indonesia,Indonesia,,enim1238
 SUMATRA MALAY/Kayu Agung,Indonesia,Indonesia,,
 SUMATRA MALAY/Kubu,Indonesia,,,kubu1239
@@ -2355,7 +2355,7 @@ SUMATRA MALAY/Musi,Indonesia,Indonesia,,musi1241
 SUMATRA MALAY/Ogan,Indonesia,Indonesia,,ogan1237
 SUMATRA MALAY/Palembang,Indonesia,Indonesia,,pale1264
 SUMATRA MALAY/Penesak,Indonesia,Indonesia,,pene1237
-SUMATRA MALAY/Ranau,Indonesia,Indonesia,,
+SUMATRA MALAY/Ranau,Indonesia,Indonesia,,high1292
 SUMATRA MALAY/Rawas,Indonesia,Indonesia,,rawa1270
 SUMATRA MALAY/Riau,Indonesia,,,
 SUMATRA MALAY/Semendo,Indonesia,Indonesia,,seme1248
@@ -2445,7 +2445,7 @@ South SELEPET,,,Papua New Guinea,sele1250
 South URAT,,,Papua New Guinea,
 South YELMEK,Indonesia,,,yelm1242
 South YEY,Indonesia,,,lowe1408
-South-West Group,Australia,Australia,,
+South-West Group,Australia,Australia,,pama1250
 South-Wester Family,Laos,Laos,,
 South-Western Family,Laos,Laos,,
 South-eastern  SOUTHERN TASMANIAN,Australia,Australia,,
@@ -2511,7 +2511,7 @@ TAUPOTA,,,Papua New Guinea,taup1242
 TAUSUG,Philippines,Philippines,,taus1251
 TAUYA,,,Papua New Guinea,tauy1241
 TAWORTA,,,,tawo1244
-TAY,Vietnam,Vietnam,,
+TAY,Vietnam,Vietnam,,tayy1238
 TBOLI,Philippines,Philippines,,tbol1240
 TEBILUNG,,,,tobi1239
 TELEFOL,,,Papua New Guinea,tele1256
@@ -2529,6 +2529,7 @@ TETUN/Western Tetun,East Timor,East Timor,,tetu1245
 TEUN,Indonesia,,,teun1241
 TEWA,East Timor,East Timor,,teiw1235
 THAI,Thailand,Thailand,,thai1261
+THAI,,Thailand,,thai1261
 THAI DAM(LAO SONG),Laos,Laos,,
 THAI KHAW,Laos/Vietnam,,,
 THAI KHAW,Vietnam,,,
@@ -2624,7 +2625,7 @@ Tempasuk,,,,
 Temuan,Malaysia,Malaysia,,
 Tengara,,,,teng1271
 Termate,Indonesia,Indonesia,,tern1247
-Thana-wurung,Australia,Australia,,
+Thana-wurung,Australia,Australia,,daun1234
 Tialo,Indonesia,Sulawesi,,tomi1243
 Tigi,Indonesia,,,ekar1243
 Timingir,,,Papua New Guinea,timi1241
@@ -2714,7 +2715,7 @@ VANGUNU Mbareke,,,Solomon Islands,bare1273
 VAO,,,Vanuatu,vaoo1237
 VATRATA,,,Vanuatu,vera1241
 VEHES,,,Papua New Guinea,vehe1237
-VIET,Laos,Laos,,
+VIET,Laos,Laos,,viet1252
 VIET/South,Kampuchea,Kampuchea,,
 VINMAVIS,,,Vanuatu,wini1242
 VORI,,,Papua New Guinea,tain1253
@@ -2841,7 +2842,7 @@ Wanji,Indonesia,Sulawesi,,
 Wapon,,,Papua New Guinea,maiw1251
 Wapu,,,Papua New Guinea,wapu1240
 Waraga,,,Papua New Guinea,wara1301
-Warayan Family-Level Isolate,Australia,Australia,,
+Warayan Family-Level Isolate,Australia,Australia,,wara1290
 Warrim,Australia,Australia,,wori1245
 Waru,,,,
 Wased,,,Papua New Guinea,orok1269
