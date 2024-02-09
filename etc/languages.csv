@@ -468,8 +468,8 @@ CEBUANO,Philippines,Philippines,,cebu1242
 CEMUHI,,,New Caledonia,cemu1238
 CENTRAL ASMAT,Indonesia,,,cent2117
 CHAM,China,,,tsat1238
-CHAM,Kampuchea,,,
-CHAM,Laos,,,
+CHAM,Kampuchea,,,west2650
+CHAM,Laos,,,east2563
 CHAMBRI,,,Papua New Guinea,cham1313
 CHAMORRO,,,Guam; Northern Mariana Islands,cham1312
 CHANGRIWA,,,Papua New Guinea,chan1319
@@ -481,7 +481,7 @@ CHENAPIAN,,,Papua New Guinea,chen1259
 CHINESE,China,,,midd1354
 CHINESE,Laos,,,midd1354
 CHINESE,Taiwan,,,midd1354
-CHONG,Laos,Laos,,
+CHONG,Laos,Laos,,chon1284
 CHRU,Laos,Laos,,chru1239
 CHUAVR Elimbari,,,Papua New Guinea,elim1239
 CITAK ASMAT,Indonesia,,,cita1246
@@ -839,7 +839,7 @@ HOVONGAN Semukung - Uheng,,,,semu1241
 HRE,Laos,Laos,,hree1244
 HULI,,,Papua New Guinea,huli1244
 HUMENE,,,,hume1246
-HUNG/PONG2,Laos,Laos,,
+HUNG/PONG2,Laos,Laos,,phon1243
 HUNJARA,,,Papua New Guinea,hunj1241
 Hae,,,Papua New Guinea,
 Hakia,,,Papua New Guinea,ilak1239
@@ -999,7 +999,7 @@ KASENG,Laos,Laos,,
 KASIGURANIN,Philippines,Philippines,,kasi1256
 KASIMBAR,Indonesia,Sulawesi,,taji1246
 KASUA,,,Papua New Guinea,kasu1251
-KATANG,,,,
+KATANG,,,,kata1264
 KATBOL,,,Vanuatu,katb1237
 KATIATI,,,Papua New Guinea,mumm1238
 KATINJA,,,Papua New Guinea,anga1292
@@ -1065,9 +1065,9 @@ KHAO,Vietnam,Vietnam,,khan1274
 KHMER,Kampuchea,,,cent1989
 KHMER,Laos,,,cent1989
 KHMER,Thailand,,,cent1989
-KHMU,Laos,,,
+KHMU,Laos,,,khmu1256
 KHMU,Thailand,,,
-KHUA,Laos,Laos,,
+KHUA,Laos,Laos,,khua1243
 KIA,,,Solomon Islands,zaba1237
 KIA R?,Indonesia,,,jair1235
 KILENGE,,,Papua New Guinea,male1289
@@ -1253,7 +1253,7 @@ L. Anap,,,,
 L. Atau,,,,
 L. Atip BARAM KAYAN,,,,
 L. Atun,,,,long1398
-L. Bangaq,,,,
+L. Bangaq,,,,lonb1237
 L. Bawan sd.,,,,
 L. Bene,,,,
 L. Ekang,,,,long1400
@@ -1270,7 +1270,7 @@ L. Semado sd.,,,,
 L. Semiang,,,,
 L. Seridan,,,,
 L. Sukang,,,,
-L. Wat TUTOH K.,,,,
+L. Wat TUTOH K.,,,,long1406
 L.Puyungan,,,,
 L.Wai,,,,
 LABO,,,Vanuatu,labo1244
@@ -1623,7 +1623,7 @@ MUNA,Indonesia,Sulawesi,,muna1247
 MUNIT,,,Papua New Guinea,muni1257
 MUNIWARA,,,Papua New Guinea,juwa1238
 MUNKIP,,,Papua New Guinea,mung1272
-MUONG,Laos,Laos,,
+MUONG,Laos,Laos,,muon1246
 MURIK,,,Papua New Guinea,muri1260
 MURIK KY. L. Nanyuq,,,,long1403
 MURRINHPATHA,Australia,Australia,,murr1258
@@ -1826,7 +1826,7 @@ NORTH NGALIK,Indonesia,,,angg1239
 NORTH NUK,,,Papua New Guinea,nort2911
 NORTH TANNA,,,Vanuatu,nort2847
 NORTH-EASTERN MAIRASI ?,Indonesia,,,nort2908
-NORTHERN BISAYA,,,,
+NORTHERN BISAYA,,,,saba1267
 NORTHERN CATANDUANES BIKOL,Philippines,Philippines,,nort2883
 NORTHERN PAMA,Australia,Australia,,nort2758
 NORTHERN TASMANIAN,Australia,Australia,,
@@ -2049,7 +2049,7 @@ PONOSAKAN,Indonesia,Sulawesi,,pono1240
 POROME,,,Papua New Guinea,poro1255
 PORT SANDWITH,,,Vanuatu,port1285
 PORT VATO,,,Vanuatu,port1286
-PRAY/PHAY,Laos,Laos,,
+PRAY/PHAY,Laos,Laos,,phai1238
 PUARI,,,Papua New Guinea,puar1240
 PUKAPUKA,,,,puka1242
 PULABU,,,Papua New Guinea,pula1267
@@ -2147,7 +2147,7 @@ ROVIANA,,,Solomon Islands,rovi1238
 RUKAI_Rukai,Taiwan,Taiwan,,ruka1240
 RUKAI_Three Villages,Taiwan,Taiwan,,ruka1240
 RUNGUS,,,,rung1259
-Rai,Laos,Laos,,
+Rai,Laos,Laos,,raii1244
 Raluana,,,Papua New Guinea,ralu1237
 Rantepao,Indonesia,Sulawesi,,rant1238
 Rawo,,,Solomon Islands,baur1252
@@ -2299,7 +2299,7 @@ SIROMI?,Indonesia,,,
 SISSANO,,,Papua New Guinea,siss1243
 SKOITUMAWO,Indonesia,,,nucl1634
 SLTI,,,Papua New Guinea,seti1248
-SO,Laos,,,
+SO,Laos,,,sooo1254
 SO,Thailand,,,
 SOBEI,Indonesia,,,sobe1238
 SOLOS,,,Papua New Guinea,solo1257
@@ -2321,7 +2321,7 @@ SOUTH NUK,,,Papua New Guinea,sout2935
 SOUTH WEST BAY,,,Vanuatu,sout2857
 SOUTH-EAST AMBRYM,,,Vanuatu,sout2859
 SOUTH-West Group,Australia,Australia,,
-SOUTHERN BISAYA,,,,
+SOUTHERN BISAYA,,,,saba1267
 SOUTHERN KIWAI,,,,
 SOUTHERN bAAGANDJI,Australia,Australia,,darl1243
 SOWA,,,Vanuatu,sowa1244
@@ -2434,7 +2434,7 @@ South IRAHUTU,Indonesia,,,irar1238
 South KANUM,,,,sota1242
 South KAUGAT,Indonesia,,,atoh1238
 South KOMBIO,,,Papua New Guinea,komb1272
-South LOLODA,Indonesia,Indonesia,,
+South LOLODA,Indonesia,Indonesia,,lolo1264
 South MANSAP buna,,,Papua New Guinea,masa1310
 South MIGABAC,,,Papua New Guinea,miga1241
 South MODOLE,Indonesia,Indonesia,,sout2945
@@ -2461,7 +2461,7 @@ Southern TAIRORA,,,Papua New Guinea,sout2943
 Southern TIGAK,,,Papua New Guinea,sout2871
 Southern TURU,,,,iauu1242
 Suasiu,,,,
-Sugut Kao'azan,,,,
+Sugut Kao'azan,,,,sugu1243
 Sui,,,Papua New Guinea,suii1244
 Sulawesi,Indonesia,Indonesia,,
 Suluk,,,,taus1251
@@ -2538,11 +2538,11 @@ THAO,Taiwan,Taiwan,,thao1240
 THAVUNG,Laos,Laos,,aheu1239
 THAWA,Australia,Australia,,thaw1238
 TIANG,,,Papua New Guinea,tian1237
-TIDONG,Indonesia,Indonesia,,
+TIDONG,Indonesia,Indonesia,,tala1285
 TIDORE,Indonesia,Indonesia,,tido1248
 TIFAL,,,Papua New Guinea,tifa1245
 TIGAK Island,,,,isla1272
-TIGWA MANOBO,Philippines,Philippines,,
+TIGWA MANOBO,Philippines,Philippines,,tigw1237
 TIKOPIA,,,,tiko1237
 "TIMORESE/Amabi,Fatulau,Amfoan",East Timor,East Timor,,amfo1237
 TIMORESE/Amanuban-Amanatun,East Timor,East Timor,,aman1264
@@ -2561,7 +2561,7 @@ TOBARU,Indonesia,Indonesia,,taba1263
 TOBELO,Indonesia,Indonesia,,tobe1252
 TOBELO Boeng,Indonesia,Indonesia,,boan1244
 TOBELO T,Indonesia,Indonesia,,nucl1628
-TOBLLO,Indonesia,Indonesia,,
+TOBLLO,Indonesia,Indonesia,,tobe1252
 TOBO,,,Papua New Guinea,tobo1251
 TODRAH,Laos,Laos,,todr1244
 TOFAMNA,Indonesia,,,tofa1246
@@ -2621,7 +2621,7 @@ Tehijit,Indonesia,,,tehi1239
 Teli,Indonesia,,,kete1254
 Teluti,Indonesia,Indonesia,,telu1263
 Temate,Indonesia,Indonesia,,nort2828
-Tempasuk,,,,
+Tempasuk,,,,temp1235
 Temuan,Malaysia,Malaysia,,
 Tengara,,,,teng1271
 Termate,Indonesia,Indonesia,,tern1247
@@ -2716,7 +2716,7 @@ VAO,,,Vanuatu,vaoo1237
 VATRATA,,,Vanuatu,vera1241
 VEHES,,,Papua New Guinea,vehe1237
 VIET,Laos,Laos,,viet1252
-VIET/South,Kampuchea,Kampuchea,,
+VIET/South,Kampuchea,Kampuchea,,sout2687
 VINMAVIS,,,Vanuatu,wini1242
 VORI,,,Papua New Guinea,tain1253
 VOVO,,,Vanuatu,vovo1238
@@ -2940,7 +2940,7 @@ YEREBA,,,Papua New Guinea,yare1248
 YERETUAR,Indonesia,,,yere1243
 YIDINY,Australia,Australia,,yidi1250
 YIMAS,,,Papua New Guinea,yima1243
-YIR,Laos,Laos,,
+YIR,Laos,Laos,,irrr1240
 YIRANDHALI,Australia,Australia,,yira1239
 YIS,,,Papua New Guinea,yiss1240
 YITHA-YITHA,Australia,Australia,,yith1234

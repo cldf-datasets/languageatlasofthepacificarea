@@ -47,7 +47,7 @@ def run(args):
             lon, lat = float(r['Longitude']), float(r['Latitude'])
         except:
             return False
-        return -30 < lat < 10 and 110 < lon < 180
+        return 0 < lat < 25 and 95 < lon < 150
 
     for r in reader(args.glottologlanguages, dicts=True):
         # if r['Family_ID'] == args.family:  # 'pama1250':  # 'aust1307':
