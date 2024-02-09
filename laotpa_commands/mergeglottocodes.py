@@ -19,12 +19,23 @@ def run(args):
 
     for feature in load(args.geojson)['features']:
         if feature['geometry']['type'] != 'Point':
+            prop = 'title'
             match = Glottocode.pattern.search(feature['properties']['title'])
+            if not match:
+                if isinstance(feature['properties']['islands'], str):
+                    match = Glottocode.pattern.search(feature['properties']['islands'])
+                    if match:
+                        prop = 'islands'
             if match:
-                lname = feature['properties']['title'][:match.start()].strip()
-                gc = feature['properties']['title'][match.start():match.end()]
+                if prop == 'title':
+                    lname = feature['properties']['title'][:match.start()].strip()
+                else:
+                    lname = feature['properties']['title'].strip()
+
+                gc = feature['properties'][prop][match.start():match.end()]
                 print('{} -> {}'.format(lname, gc))
-                assert not ds.languages[lname]['Glottocode']
+                if ds.languages[lname]['Glottocode']:
+                    assert ds.languages[lname]['Glottocode'] == gc
                 ds.languages[lname]['Glottocode'] = gc
 
     with UnicodeWriter(ds.etc_dir / 'languages.csv') as w:
