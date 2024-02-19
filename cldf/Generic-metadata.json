@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "c7948e2",
+            "dc:created": "e740b25",
             "dc:title": "Repository"
         },
         {
@@ -156,7 +156,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1789,
+            "dc:extent": 1808,
             "tableSchema": {
                 "columns": [
                     {

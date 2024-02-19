@@ -47,21 +47,22 @@ def run(args):
             lon, lat = float(r['Longitude']), float(r['Latitude'])
         except:
             return False
-        return 0 < lat < 25 and 95 < lon < 150
+        return -10 < lat < 15 and 95 < lon < 180
 
     for r in reader(args.glottologlanguages, dicts=True):
         # if r['Family_ID'] == args.family:  # 'pama1250':  # 'aust1307':
         if in_area(r):
             if r['ID'] not in glottocodes:
                 if r['ID'] in eligible:
-                    geojson['features'].append({
-                        'type': 'Feature',
-                        'properties': {'title': '{} {}'.format(r['Name'], r['ID'])},
-                        'geometry': {
-                            "type": "Point",
-                            "coordinates": [float(r['Longitude']), float(r['Latitude'])]
-                        }
-                    })
+                    pass
+                    #geojson['features'].append({
+                    #    'type': 'Feature',
+                    #    'properties': {'title': '{} {}'.format(r['Name'], r['ID'])},
+                    #    'geometry': {
+                    #        "type": "Point",
+                    #        "coordinates": [float(r['Longitude']), float(r['Latitude'])]
+                    #    }
+                    #})
 
     dump(geojson, 'languages.geojson', indent=2)
     print('{} features written to languages.geojson'.format(i))
