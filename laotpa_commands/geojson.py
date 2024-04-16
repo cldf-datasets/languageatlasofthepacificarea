@@ -4,6 +4,7 @@
 from csvw.dsv import reader
 from clldutils.jsonlib import dump
 from clldutils.clilib import PathType
+from csvw.datatypes import anyURI
 
 from cldfbench_languageatlasofthepacificarea import Dataset
 
@@ -38,7 +39,7 @@ def run(args):
 
     eligible = set()
     for r in reader(args.glottologlanguages.parent / 'values.csv', dicts=True):
-        if r['Code_ID'] in ['level-language', 'level-dialect']:
+        if r['Code_ID'] in ['level-language']:#, 'level-dialect']:
             eligible.add(r['Language_ID'])
 
     def in_area(r):
@@ -47,7 +48,7 @@ def run(args):
             lon, lat = float(r['Longitude']), float(r['Latitude'])
         except:
             return False
-        return -10 < lat < 15 and 95 < lon < 180
+        return -10 < lat < 40 and 95 < lon < 180
 
     for r in reader(args.glottologlanguages, dicts=True):
         # if r['Family_ID'] == args.family:  # 'pama1250':  # 'aust1307':
