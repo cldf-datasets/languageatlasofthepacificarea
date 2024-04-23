@@ -1,7 +1,7 @@
 # Releasing
 
 ```shell
-cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v4.8
+cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v5.0
 pytest
 ```
 

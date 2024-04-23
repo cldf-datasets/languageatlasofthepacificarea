@@ -6,10 +6,12 @@ bs4==0.0.1
 Cartopy==0.21.1
 certifi==2022.12.7
 cffi==1.16.0
+chardet==5.2.0
 cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/doreco/@275bbd507ed5452c9184cf71b8ca92156978db21#egg=cldfbench_doreco
+-e git+https://github.com/cldf-datasets/doreco/@8124db8c45f1186e998d7536401dc6d6dceebb32#egg=cldfbench_doreco
+-e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@e740b255623e7076d1711cd2f3ebc36ad1e14a47#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@dcd83c27ef8e545d40aa9b3b1313aca37e1d55ef#egg=cldfbench_languageatlasofthepacificarea
 -e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 -e git+https://github.com/cldf-datasets/uclaphoneticslabarchive@9cd6643548cf54d02287011eee266f5b5db861d4#egg=cldfbench_uclaphoneticslabarchive
 cldfcatalog==1.5.1
@@ -35,7 +37,7 @@ jmespath==1.0.1
 jsonschema==4.17.3
 kiwisolver==1.4.4
 Levenshtein==0.20.9
--e git+https://github.com/cldf/linglit@ccdc08844cc8736beca42d29c5cc1a65c303819f#egg=linglit
+-e git+https://github.com/cldf/linglit@447c327fc543a35e55ba76309676293a7698eccb#egg=linglit
 lxml==4.9.2
 Markdown==3.4.1
 MarkupSafe==2.1.1
@@ -45,17 +47,17 @@ nameparser==1.1.2
 newick==1.9.0
 numpy==1.24.1
 openpyxl==3.1.2
-packaging==23.0
+packaging==23.2
 pandas==2.2.0
-pluggy==1.0.0
+pluggy==1.4.0
 purl==1.6
 pybtex==0.24.0
-pycldf==1.37.0
+-e git+https://github.com/cldf/pycldf@2ea08a74d6de7c905871da62a1427299bd4b8d0f#egg=pycldf
 pyclts==3.1.1
 pycountry==22.3.5
 pydub==0.25.1
 pyglottolog==3.11.0
-pyigt==2.0.0
+pyigt==2.1.0
 pylatexenc==2.10
 pyparsing==3.0.9
 pyproj==3.4.1

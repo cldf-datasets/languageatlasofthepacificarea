@@ -7,6 +7,7 @@ import collections
 import geopandas
 from shapely.geometry import shape, Polygon, Point
 from shapely import union_all
+from pycldf import Sources
 from clldutils.jsonlib import dump
 from clldutils.color import qualitative_colors
 from clldutils.markup import add_markdown_text
@@ -159,9 +160,7 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         self.schema(args.writer.cldf)
 
-        #
-        # FIXME: add sources!
-        #
+        args.writer.cldf.add_sources(*Sources.from_file(self.etc_dir / "sources.bib"))
 
         polys_by_code = collections.defaultdict(list)
         coded_langs = {k: v for k, v in self.languages.items() if v.get('Glottocode')}
@@ -182,6 +181,7 @@ class Dataset(BaseDataset):
                 Country=cname or None,
                 Sovereigns=feature['properties']['SOVEREIGN'],
                 Islands=feature['properties']['ISLAND_NAME'],
+                Source=['ecai', 'wurm_and_hattori']
             ))
             if (not cname) and lname in coded_names and len(coded_names[lname]) == 1:
                 # No country specified, but we only have one entry for the name anyway.
@@ -252,11 +252,6 @@ class Dataset(BaseDataset):
                     fill=colors[gc],
                     **{'cldf:languageReference': gc, "fill-opacity": 0.8})
         args.writer.objects['MediaTable'].append(geojson.as_row())
-
-        #
-        # FIXME: Write another GeoJSON file with aggregated speaker areas for language-level
-        # languoids and one for dialect areas, including parentLanguageGlottocode column!
-        #
 
         return
         try:

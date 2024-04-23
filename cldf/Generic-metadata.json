@@ -8,19 +8,20 @@
     "dc:bibliographicCitation": "Language Atlas of the Pacific Geo-Registered - GIS Dataset",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:source": "sources.bib",
     "dc:title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
     "dcat:accessURL": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "e740b25",
+            "dc:created": "dcd83c2",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         }
     ],
@@ -156,7 +157,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1808,
+            "dc:extent": 1819,
             "tableSchema": {
                 "columns": [
                     {

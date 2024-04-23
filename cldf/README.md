@@ -4,13 +4,15 @@
 
 **CLDF Metadata**: [Generic-metadata.json](./Generic-metadata.json)
 
+**Sources**: [sources.bib](./sources.bib)
+
 property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Language Atlas of the Pacific Geo-Registered - GIS Dataset
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/languageatlasofthepacificarea
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/7169158">cldf-datasets/languageatlasofthepacificarea 7169158</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/dcd83c2">cldf-datasets/languageatlasofthepacificarea dcd83c2</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | languageatlasofthepacificarea
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -38,7 +40,7 @@ Name/Property | Datatype | Description
 `Country` | `string` | 
 `Sovereigns` | list of `string` (separated by `; `) | 
 `Islands` | list of `string` (separated by `; `) | 
-[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | 
+[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 
 ## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
 
@@ -64,7 +66,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1805
+[dc:extent](http://purl.org/dc/terms/extent) | 1819
 
 
 ### Columns

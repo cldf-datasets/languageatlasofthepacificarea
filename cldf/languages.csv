@@ -13,6 +13,7 @@ sais1237,Saisiyat,,24.6043,121.067,,,languages,language,Austronesian,47 48
 papo1239,Papora-Hoanya,,24.324,120.577,,,languages,language,Austronesian,49 50
 tsou1248,Tsou,,23.216,120.787,,,languages,language,Austronesian,53 54 55
 keta1243,Ketangalan,,25.0257,121.425,,,languages,language,Austronesian,60
+kulo1238,Kulon,,25.00238,121.32473,,,languages,language,Austronesian,61
 babu1240,Babuza,,24.0017,120.585,,,languages,language,Austronesian,62 63
 kulo1237,Pazeh-Kahabu,,23.7562,120.976,,,languages,language,Austronesian,64
 sira1267,Sirayaic,,22.9777,120.315,,,languages,language,Austronesian,65 66 180 181
@@ -26,13 +27,15 @@ pang1290,Pangasinan,,15.9377,120.365,,,languages,language,Austronesian,82
 ilon1239,Ilongot,,16.3785,121.547,,,languages,language,Austronesian,83
 kasi1256,Kasiguranin,,16.1881,122.118,,,languages,language,Austronesian,84
 casi1235,Casiguran-Nagtipunan Agta,,16.2176,121.878,,,languages,language,Austronesian,85
-agta1234,Agta-Pahanan,,17.0538,122.2802,,,languages,language,Austronesian,86
+cent2084,Central Cagayan Agta,,17.9571,121.857,,,languages,language,Austronesian,86
 isna1241,Isnag,,18.2139,121.16,,,languages,language,Austronesian,88
 adas1235,Adasen,,17.8187,120.905,,,languages,language,Austronesian,89
 mala1534,Malaweg,,17.844833,121.391322,,,languages,language,Austronesian,90
 gadd1244,Gaddang,,16.5468,121.177,,,languages,language,Austronesian,91
 kank1243,Kankanaey,,16.8548,120.689,,,languages,language,Austronesian,95
+gada1258,Ga'dang,,17.2238,121.455,,,languages,language,Austronesian,97
 bala1310,Balangao,,17.0994,121.272,,,languages,language,Austronesian,99
+kara1487,Karao,,16.5655,120.956,,,languages,language,Austronesian,100
 kele1259,Keley-i Kallahan,,16.7099,121.035,,,languages,language,Austronesian,101
 ibal1244,Ibaloi,,16.4263,120.695,,,languages,language,Austronesian,102
 isin1239,Isinai,,16.3299,121.12,,,languages,language,Austronesian,104
@@ -41,6 +44,7 @@ itaw1240,Itawit,,17.7329,121.58,,,languages,language,Austronesian,107
 nort2877,Northern Kankanay,,17.1057,120.786,,,languages,language,Austronesian,108
 ilok1237,Iloko,,15.9361,120.993,,,languages,language,Austronesian,109
 boto1242,Botolan Sambal,,15.2315,120.164,,,languages,language,Austronesian,110
+cent2087,Coastal-Naga Bikol,,13.7574,123.403,,,languages,language,Austronesian,112
 nort2883,Northern Catanduanes Bicolano,,13.9032,124.27,,,languages,language,Austronesian,114
 kama1363,Kamayo,,8.10796,126.314,,,languages,language,Austronesian,115
 raja1254,Rajah Kabunsuwan Manobo,,8.2934,126.266,,,languages,language,Austronesian,116
@@ -56,6 +60,7 @@ koli1253,Kolibugan Subanon,,7.77212,122.567,,,languages,language,Austronesian,13
 lapu1236,Lapuyan Subanun,,7.53449,123.13,,,languages,language,Austronesian,131
 mara1404,Maranao,,7.79414,124.175,,,languages,language,Austronesian,132
 taga1272,Tagabawa,,6.9712,125.175,,,languages,language,Austronesian,134
+gian1241,Giangan,,6.99967,125.359,,,languages,language,Austronesian,135
 hili1240,Hiligaynon,,10.4018,122.974,,,languages,language,Austronesian,138 174
 cebu1242,Cebuano,,8.38799,124.367,,,languages,language,Austronesian,139
 magu1243,Maguindanao,,6.9453,124.509,,,languages,language,Austronesian,140
@@ -70,6 +75,7 @@ atam1240,Ata Manobo,,7.7789,125.499,,,languages,language,Austronesian,154
 diba1242,Dibabawon Manobo,,7.85664,126.018,,,languages,language,Austronesian,155
 mati1250,Matigsalug Manobo,,7.72124,125.16,,,languages,language,Austronesian,156
 wara1300,Waray (Philippines),,11.4911,125.012,,,languages,language,Austronesian,157
+bant1288,Bantoanon,,12.5194,122.034,,,languages,language,Austronesian,164
 romb1245,Romblomanon,,12.4047,122.56,,,languages,language,Austronesian,165 176
 iray1237,Iraya,,13.381,120.65,,,languages,language,Austronesian,166
 hanu1241,Hanunoo,,12.4159,121.221,,,languages,language,Austronesian,168
@@ -90,14 +96,14 @@ irig1242,Iriga Bicolano,,13.3896,123.331,,,languages,language,Austronesian,201
 cala1258,Calamian Tagbanwa,,12.0716,120.094,,,languages,language,Austronesian,205
 west2555,Western Bukidnon Manobo,,7.6682,124.825,,,languages,language,Austronesian,211
 para1306,Paranan,,17.0,122.372,,,languages,language,Austronesian,218
+dupa1235,Dupaninan Agta,,17.3748,122.188,,,languages,language,Austronesian,219
 umir1236,Umiray Dumaget Agta,,14.8757,121.508,,,languages,language,Austronesian,220
 masb1238,Masbatenyo,,12.21453,123.63579,,,languages,language,Austronesian,226
 alba1269,Inland-Buhi-Daraga Bikol,,13.1989,123.49,,,languages,language,Austronesian,230
 boli1256,Bolinao,,16.3071,119.853,,,languages,language,Austronesian,232
 ibat1238,Ibatan,,18.9398,121.909,,,languages,language,Austronesian,233
 taus1251,Tausug,,5.12236,118.88,,,languages,language,Austronesian,237 1747
-sout2918,Southern Sama,,4.755836,119.483887,,,languages,language,Austronesian,238
-cent2092,Central Sama,,7.004574,118.455978,,,languages,language,Austronesian,239
+sout2918,Southern Sama,,4.755836,119.483887,,,languages,language,Austronesian,238 239
 molb1237,Molbog,,7.956663,117.030502,,,languages,language,Austronesian,244
 cent2091,Central Palawano,,8.77013,117.838,,,languages,language,Austronesian,246
 tagb1258,Tagbanwa,,9.54263,118.497,,,languages,language,Austronesian,247
@@ -133,7 +139,8 @@ mokk1243,Mok,,18.9117,99.5821,,,languages,language,Austroasiatic,373
 blan1242,Blang,,22.0092,99.7405,,,languages,language,Austroasiatic,378
 puoc1238,Ksingmul,,20.8862,103.931,,,languages,language,Austroasiatic,397
 khmu1256,Khmu,,20.2463,101.671,,,languages,language,Austroasiatic,402 4474
-name1237,Ná-Meo,,22.4189,106.435,,,languages,language,Unclassifiable,404
+name1237,Ná-Meo,,22.4189,106.435,,,languages,language,Hmong-Mien,404
+phon1246,Phong-Kniang,,19.9622,104.088,,,languages,language,Austroasiatic,406
 bitt1240,Bit,,21.3474,101.916,,,languages,language,Austroasiatic,431
 khan1274,Kháng,,21.6624,103.736,,,languages,language,Austroasiatic,434 516
 sila1247,Sila,,21.6888,102.134,,,languages,language,Sino-Tibetan,444
@@ -181,8 +188,7 @@ khua1243,Khua,,17.402,106.021,,,languages,language,Bookkeeping,603
 arem1240,Arem,,17.7672,105.928,,,languages,language,Austroasiatic,608
 aheu1239,Thavung,,17.7655,104.229,,,languages,language,Austroasiatic,609
 sout2746,Southern Thai,,6.85668,99.7031,,,languages,language,Tai-Kadai,616
-nucl1310,Burmese,,20.7926,93.9665,,,languages,language,Sino-Tibetan,617
-tavo1242,Tavoyan,,14.1078,98.194,,,languages,language,Sino-Tibetan,620
+tavo1242,Tavoyan,,14.1078,98.194,,,languages,language,Sino-Tibetan,617 620
 khue1238,Khuen,,21.0793,101.327,,,languages,language,Austroasiatic,646
 tayy1238,Tày,,21.6448,106.167,,,languages,language,Tai-Kadai,650
 pala1344,Palauan,,7.34138,134.476678,,,languages,language,Austronesian,660
@@ -305,7 +311,6 @@ bang1365,Bangka,,-1.73288,105.897,,,languages,language,Austronesian,1046 1047
 east2472,East Damar,,-7.16991,128.636,,,languages,language,Austronesian,1073
 west2548,West Damar,,-7.12065,128.585,,,languages,language,Austronesian,1074
 biak1248,Biak,,-0.9523,135.879,,,languages,language,Austronesian,1078 1087 4455
-saba1263,Sabah Malay,,4.64808,117.024,,,languages,language,Austronesian,1079
 kowi1239,Kowiai,,-4.21954,133.468,,,languages,language,Austronesian,1086
 muna1247,Muna,,-5.40419,122.541,,,languages,language,Austronesian,1107
 pamo1252,Pamona,,-1.62663,121.268,,,languages,language,Austronesian,1108 1123 1124 1125 1226 1228 1229 1238 1239 1289 1291
@@ -427,9 +432,9 @@ tala1285,Talaud,,4.11846,126.795,,,languages,language,Austronesian,1474 1693
 keni1249,Keningau Murut,,5.42272,116.198,,,languages,language,Austronesian,1481 1482 1589
 gana1277,Gana,,5.57583,116.145,,,languages,language,Austronesian,1484
 kuij1237,Kuijau,,5.47179,116.108,,,languages,language,Austronesian,1485
-kaya1325,Kayan River Kayan,,1.78269,115.827,,,languages,language,Austronesian,1494 1498 1716
+kaya1325,Kayan River Kayan,,1.78269,115.827,,,languages,language,Austronesian,1494 1498
 puna1267,Punan Aput,,1.38035,116.089,,,languages,language,Austronesian,1497
-saja1241,Sajau-Latti,,2.43432,117.401,,,languages,language,Austronesian,1500 1557
+saja1241,Sajau-Latti,,2.43432,117.401,,,languages,language,Austronesian,1500 1544 1557
 seru1246,Serudung Murut,,4.39954,117.279,,,languages,language,Austronesian,1503
 keni1248,Keninjal,,-0.63184,111.808,,,languages,language,Austronesian,1507
 otda1235,Ot Danum,,-0.3955,113.469,,,languages,language,Austronesian,1508 1633
@@ -441,7 +446,6 @@ brun1245,Brunei Bisaya-Dusun,,4.60791,114.517,,,languages,language,Austronesian,
 lela1246,Lelak,,4.11426,114.029,,,languages,language,Austronesian,1535 1539
 muri1259,Murik (Malaysia),,3.7519,114.434,,,languages,language,Austronesian,1536
 sebo1238,Sebop,,3.42701,114.178,,,languages,language,Austronesian,1537 1569 1573 1578 1579
-puna1278,Punan Batu 1,,2.65327,113.93,,,languages,language,Austronesian,1544
 bolo1268,Bolongan,,2.75927,117.293,,,languages,language,Austronesian,1546
 buru1304,Burusu,,3.36912,117.012,,,languages,language,Austronesian,1548
 puto1237,Putoh,,3.42467,116.443,,,languages,language,Bookkeeping,1560
@@ -478,7 +482,7 @@ mamu1255,Mamuju,,-2.50762,119.082,,,languages,language,Austronesian,1684
 sugu1243,Sugut Dusun,,6.14235,117.176,,,languages,language,Austronesian,1686
 kota1275,Kota Bangun Kutai Malay,,-0.27049,116.297,,,languages,language,Austronesian,1710
 main1275,Usun Apau Kenyah,,3.54443,114.039,,,languages,language,Austronesian,1712 1713 1718 1719 1720
-waha1239,Wahau Kayan,,1.42088,116.6795,,,languages,language,Bookkeeping,1717
+waha1239,Wahau Kayan,,1.42088,116.6795,,,languages,language,Bookkeeping,1716 1717
 baku1263,Bakumpai,,-1.98842,114.77,,,languages,language,Austronesian,1723
 sian1255,Sihan,,2.66154,113.843,,,languages,language,Austronesian,1732
 salu1253,Saluan,,-2.748,121.3,,,languages,language,Austronesian,1752
@@ -682,6 +686,7 @@ baib1251,Baibai,,-3.42672,141.345,,,languages,language,Baibai-Fas,2185
 yetf1238,Yetfa,,-4.05884,140.653,,,languages,language,,2187
 tifa1245,Tifal,,-5.03899,141.293,,,languages,language,Nuclear Trans New Guinea,2188 3069 3070
 ning1274,Ninggerum,,-5.43194,141.158,,,languages,language,Nuclear Trans New Guinea,2190 3776
+wuna1249,Wunambal,,-14.8347,125.72,,,languages,language,Worrorran,2191 3309 3322
 pare1271,Pare,,-6.46878,141.658,,,languages,language,Kamula-Elevala,2192
 aeky1238,Aekyom,,-5.88478,141.532,,,languages,language,Kamula-Elevala,2193 2194 2195
 mori1271,Morigi,,-7.62961,143.88,,,languages,language,Kiwaian,2196 3803
@@ -733,7 +738,7 @@ pina1252,Pinai-Hagahai,,-5.12624,144.137,,,languages,language,Piawi,2272 2276
 oloo1241,Olo,,-3.2929,142.131,,,languages,language,Nuclear Torricelli,2273
 lemb1266,Lembena,,-4.99504,143.891,,,languages,language,Nuclear Trans New Guinea,2275
 meak1234,Meakambut,,-4.833,143.783,,,languages,language,Arafundi,2278
-ango1255,Angoram,,-4.07758,144.028,,,languages,language,Lower Sepik-Ramu,2279 2961
+ango1255,Angoram,,-4.07758,144.028,,,languages,language,Lower Sepik,2279 2961
 mekm1240,Mekmek,,-4.47017,143.75,,,languages,language,Yuat,2280
 chan1319,Changriwa,,-4.28364,143.696,,,languages,language,Yuat,2281
 apma1241,Ap Ma,,-4.35147,144.085,,,languages,language,Keram,2282
@@ -741,11 +746,11 @@ lang1328,Pondi,,-4.32557,143.925,,,languages,language,Keram,2284
 mong1344,Mwakai,,-4.30038,143.965,,,languages,language,Keram,2285
 yaul1241,Ulwa (Papua New Guinea),,-4.39912,143.993,,,languages,language,Keram,2286 2930
 biwa1243,Biwat,,-4.39429,143.873,,,languages,language,Yuat,2289
-bana1292,Banaro,,-4.56615,144.329,,,languages,language,Lower Sepik-Ramu,2291
-muri1260,Murik (Papua New Guinea),,-3.86959,144.166,,,languages,language,Lower Sepik-Ramu,2292
+bana1292,Banaro,,-4.56615,144.329,,,languages,language,Ramu,2291
+muri1260,Murik (Papua New Guinea),,-3.86959,144.166,,,languages,language,Lower Sepik,2292
 taia1239,Taiap,,-4.05047,144.506,,,languages,language,,2293
-kopa1248,Kopar,,-3.98259,144.466,,,languages,language,Lower Sepik-Ramu,2294
-yima1243,Yimas,,-4.71731,143.572,,,languages,language,Lower Sepik-Ramu,2296
+kopa1248,Kopar,,-3.98259,144.466,,,languages,language,Lower Sepik,2294
+yima1243,Yimas,,-4.71731,143.572,,,languages,language,Lower Sepik,2296
 alam1246,Alamblak,,-4.66307,143.316,,,languages,language,Sepik,2297 2963
 bahi1254,Bahinemo,,-4.55527,142.832,,,languages,language,Sepik,2298
 bisi1244,Bisis,,-4.46238,143.058,,,languages,language,Sepik,2299
@@ -761,17 +766,17 @@ elep1240,Elepi,,-3.7505,143.93,,,languages,language,Nuclear Torricelli,2315
 kiss1246,Kis,,-3.83909,143.96,,,languages,language,Austronesian,2319
 kair1263,Kairiru,,-3.34608,143.558,,,languages,language,Austronesian,2320
 boik1241,Boikin,,-3.68297,143.474,,,languages,language,Ndu,2321 2322 2958 2970 2971 2972 2973 2974 2975 2976 2977 3595 3596 3834
-kaia1245,Kaian,,-4.06543,144.756,,,languages,language,Lower Sepik-Ramu,2324
-awar1249,Awar,,-4.13554,144.836,,,languages,language,Lower Sepik-Ramu,2325
+kaia1245,Kaian,,-4.06543,144.756,,,languages,language,Ramu,2324
+awar1249,Awar,,-4.13554,144.836,,,languages,language,Ramu,2325
 sepa1241,Sepa (Papua New Guinea),,-4.27,144.965,,,languages,language,Austronesian,2326
 lila1246,Lilau,,-4.35479,144.99,,,languages,language,Bogia,2327
 nucl1458,Monumbo,,-4.2717,144.95,,,languages,language,Bogia,2328
-kire1240,Kire,,-4.25927,144.711,,,languages,language,Lower Sepik-Ramu,2331
-sepe1240,Sepen,,-4.22789,144.809,,,languages,language,Lower Sepik-Ramu,2332
-tang1355,Tanggu,,-4.4621,144.916,,,languages,language,Lower Sepik-Ramu,2333
-kang1291,Kanggape,,-4.4153,144.816,,,languages,language,Lower Sepik-Ramu,2334
-tang1356,Tanguat,,-4.57282,144.927,,,languages,language,Lower Sepik-Ramu,2335
-anda1284,Andarum,,-4.48734,144.767,,,languages,language,Lower Sepik-Ramu,2336
+kire1240,Kire,,-4.25927,144.711,,,languages,language,Ramu,2331
+sepe1240,Sepen,,-4.22789,144.809,,,languages,language,Ramu,2332
+tang1355,Tanggu,,-4.4621,144.916,,,languages,language,Ramu,2333
+kang1291,Kanggape,,-4.4153,144.816,,,languages,language,Ramu,2334
+tang1356,Tanguat,,-4.57282,144.927,,,languages,language,Ramu,2335
+anda1284,Andarum,,-4.48734,144.767,,,languages,language,Ramu,2336
 mala1494,Mala (Papua New Guinea),,-4.35889,145.04,,,languages,language,Nuclear Trans New Guinea,2337
 maia1254,Maia,,-4.50212,145.096,,,languages,language,Nuclear Trans New Guinea,2338 2341
 brem1238,Barem,,-4.67372,145.562,,,languages,language,Nuclear Trans New Guinea,2343
@@ -799,7 +804,7 @@ samm1244,Sam,,-5.55572,145.813,,,languages,language,Nuclear Trans New Guinea,236
 yang1298,Yangulam,,-5.52697,145.858,,,languages,language,Nuclear Trans New Guinea,2369
 bong1291,Bongu,,-5.50519,145.806,,,languages,language,Nuclear Trans New Guinea,2370
 pula1267,Pulabu,,-5.59558,145.738,,,languages,language,Nuclear Trans New Guinea,2371
-jili1241,Jilim,,-5.56611,145.706,,,languages,language,Nuclear Trans New Guinea,2373
+jili1241,Sgi Bara,,-5.56611,145.706,,,languages,language,Nuclear Trans New Guinea,2373
 kwat1244,Kwato,,-5.53799,145.629,,,languages,language,Nuclear Trans New Guinea,2374
 saru1243,Saruga,,-5.08824,145.578,,,languages,language,Nuclear Trans New Guinea,2375
 kare1341,Kare (Papua New Guinea),,-5.07674,145.499,,,languages,language,Nuclear Trans New Guinea,2376
@@ -1064,17 +1069,17 @@ bauu1244,Bau,,-5.26465,145.611,,,languages,language,Nuclear Trans New Guinea,289
 mawa1267,Mawan,,-5.2219,145.589,,,languages,language,Nuclear Trans New Guinea,2899
 baim1245,Baimak,,-5.18943,145.606,,,languages,language,Nuclear Trans New Guinea,2900
 uyaa1238,Uya,,-5.32246,145.47,,,languages,language,Nuclear Trans New Guinea,2901
-brer1240,Breri,,-4.73271,144.707,,,languages,language,Lower Sepik-Ramu,2903
-romk1240,Romkun,,-4.58919,144.689,,,languages,language,Lower Sepik-Ramu,2904
-igan1243,Igana,,-4.70942,144.841,,,languages,language,Lower Sepik-Ramu,2905
-komi1271,Kominimung,,-4.68537,144.783,,,languages,language,Lower Sepik-Ramu,2906
-akru1241,Chini,,-4.88687,144.821,,,languages,language,Lower Sepik-Ramu,2907
+brer1240,Breri,,-4.73271,144.707,,,languages,language,Ramu,2903
+romk1240,Romkun,,-4.58919,144.689,,,languages,language,Ramu,2904
+igan1243,Igana,,-4.70942,144.841,,,languages,language,Ramu,2905
+komi1271,Kominimung,,-4.68537,144.783,,,languages,language,Ramu,2906
+akru1241,Chini,,-4.88687,144.821,,,languages,language,Ramu,2907
 apal1256,Apali,,-5.1727,145.023,,,languages,language,Nuclear Trans New Guinea,2909
 utar1238,Utarmbung,,-4.82756,144.924,,,languages,language,Nuclear Trans New Guinea,2910
 payn1244,Manat,,-4.94303,144.879,,,languages,language,Nuclear Trans New Guinea,2911
 nend1239,Nend,,-5.04271,144.886,,,languages,language,Nuclear Trans New Guinea,2913
-aiom1240,Aiome,,-5.13467,144.765,,,languages,language,Lower Sepik-Ramu,2914
-anor1241,Anor,,-4.98449,144.801,,,languages,language,Lower Sepik-Ramu,2915
+aiom1240,Aiome,,-5.13467,144.765,,,languages,language,Ramu,2914
+anor1241,Anor,,-4.98449,144.801,,,languages,language,Ramu,2915
 sile1255,Sirva,,-4.98243,145.225,,,languages,language,Nuclear Trans New Guinea,2916
 kowa1245,Kowaki,,-4.63032,145.412,,,languages,language,Nuclear Trans New Guinea,2918
 moer1240,Moere,,-4.62246,145.458,,,languages,language,Nuclear Trans New Guinea,2919
@@ -1097,15 +1102,15 @@ para1307,Parawen,,-5.0112,145.418,,,languages,language,Nuclear Trans New Guinea,
 yara1250,Yarawata,,-4.93943,145.454,,,languages,language,Nuclear Trans New Guinea,2941
 kobo1249,Kobon,,-5.16446,144.46,,,languages,language,Nuclear Trans New Guinea,2942
 haru1245,Haruai,,-5.09522,144.3375,,,languages,language,Piawi,2943 2945
-inap1241,Itutang-Inapang,,-4.67614,144.9,,,languages,language,Lower Sepik-Ramu,2946 2947
-abuu1241,Abu,,-4.24027,144.474,,,languages,language,Lower Sepik-Ramu,2951 2955
+inap1241,Itutang-Inapang,,-4.67614,144.9,,,languages,language,Ramu,2946 2947
+abuu1241,Abu,,-4.24027,144.474,,,languages,language,Ramu,2951 2955
 amba1269,Ambakich,,-4.23181,144.285,,,languages,language,Keram,2952
-bore1247,Borei,,-4.08697,144.715,,,languages,language,Lower Sepik-Ramu,2954
-bosn1248,Bosngun,,-4.16201,144.647,,,languages,language,Lower Sepik-Ramu,2956
+bore1247,Borei,,-4.08697,144.715,,,languages,language,Ramu,2954
+bosn1248,Bosngun,,-4.16201,144.647,,,languages,language,Ramu,2956
 buru1309,Burui,,-4.03527,143.015,,,languages,language,Ndu,2959 2965 2980
 koiw1243,Koiwat,,-4.03417,143.62,,,languages,language,Ndu,2960
 iatm1242,Iatmul,,-4.30064,143.316,,,languages,language,Ndu,2966 2967
-cham1313,Chambri,,-4.27831,143.097,,,languages,language,Lower Sepik-Ramu,2968
+cham1313,Chambri,,-4.27831,143.097,,,languages,language,Lower Sepik,2968
 yera1243,Yerakai,,-4.28828,142.947,,,languages,language,,2969
 ambu1247,Ambulas,,-3.7801,143.059,,,languages,language,Ndu,2978 2979 2982
 kwan1278,Kwanga,,-3.74263,142.711,,,languages,language,Sepik,2983 3002 3003 3004 3006
@@ -1120,9 +1125,8 @@ beli1258,Beli (Papua New Guinea),,-3.67881,142.34,,,languages,language,Nuclear T
 pahi1246,Pahi,,-3.79935,142.299,,,languages,language,Sepik,2998
 anga1292,Angal Heneng,,-6.13347,143.478,,,languages,language,Nuclear Trans New Guinea,2999 3215 3220 3221
 pasi1259,Pasi,,-3.95195,142.307,,,languages,language,Sepik,3001
-torr1259,Aro,,-3.45292,142.622,,,languages,language,Nuclear Torricelli,3007
+torr1259,Aro,,-3.45292,142.622,,,languages,language,Nuclear Torricelli,3007 3009
 wana1268,Wanap,,-3.59639,142.5,,,languages,language,Nuclear Torricelli,3008
-mano1275,Manombai,,-5.94468,134.329,,,languages,language,Austronesian,3009
 komb1272,Kombio,,-3.48467,142.694,,,languages,language,Nuclear Torricelli,3011 3012 3013
 urat1244,Urat,,-3.60065,142.79,,,languages,language,Nuclear Torricelli,3014 3560
 yamb1254,Yambes,,-3.50624,142.763,,,languages,language,Nuclear Torricelli,3015 3016
@@ -1237,10 +1241,9 @@ dyug1238,Dyugun,,-17.906,122.408,,,languages,language,Nyulnyulan,3247
 djee1236,Djeebbana,,-12.0133,134.097,,,languages,language,Maningrida,3248
 naka1260,Nakara,,-12.07653,134.32729,,,languages,language,Maningrida,3252
 mink1237,Minkin,,-17.736653,139.541931,,,languages,language,,3257 3333
-anin1240,Anindilyakwa,,-13.99904,136.6415,,,languages,language,Gunwinyguan,3258
+nung1290,Wubuy,,-14.2623,135.753,,,languages,language,Gunwinyguan,3258 3312
 ngal1293,Ngalakgan,,-14.4281,134.716,,,languages,language,Gunwinyguan,3259
 djam1255,Jaminjung-Ngaliwurru,,-15.0558,130.06,,,languages,language,Mirndi,3261
-djaw1238,Djawi,,-16.4163,123.186,,,languages,language,Nyulnyulan,3262
 gaga1251,Gaagudju,,-12.5176,132.643,,,languages,language,,3267
 wara1290,Warray,,-13.0941,131.236,,,languages,language,Gunwinyguan,3270
 nang1259,Nangikurrunggurr,,-14.268,131.237,,,languages,language,Southern Daly,3271
@@ -1259,17 +1262,16 @@ kari1304,Kariyarra,,-20.445,118.613,,,languages,language,Pama-Nyungan,3290
 nhuw1239,Nhuwala,,-21.38154,115.74542,,,languages,language,Pama-Nyungan,3292
 yany1243,Yanyuwa,,-15.7621,136.055,,,languages,language,Pama-Nyungan,3296
 woiw1237,Woiwurrung-Thagungwurrung,,-37.64264501,145.5879962,,,languages,language,Pama-Nyungan,3298 3428
+kaur1267,Kaurna,,-34.34966141,138.4800794,,,languages,language,Pama-Nyungan,3300 3441
 guwa1244,Guwar,,-27.16698973,153.3998245,,,languages,language,Pama-Nyungan,3302
 baya1257,Bayali,,-24.9793,151.699,,,languages,language,Pama-Nyungan,3303
 warr1255,Warrgamay,,-18.5468,146.179,,,languages,language,Pama-Nyungan,3305
 lard1243,Lardil,,-16.56152,139.4343,,,languages,language,Tangkic,3306
 murr1258,Murriny Patha,,-14.74852,129.70152,,,languages,language,Southern Daly,3310
-nung1290,Wubuy,,-14.2623,135.753,,,languages,language,Gunwinyguan,3312
 tiwi1244,Tiwi,,-11.6308,130.949,,,languages,language,,3315
 kala1377,Kala Lagaw Ya,,-10.6748,142.196,,,languages,language,Pama-Nyungan,3319 3873
 buna1275,Bunaba,,-17.8297,125.631,,,languages,language,Bunaban,3320
 goon1238,Gooniyandi,,-18.4073,126.351,,,languages,language,Bunaban,3321
-wuna1249,Wunambal,,-14.8347,125.72,,,languages,language,Worrorran,3322
 kitj1240,Kitja,,-17.5758,127.392,,,languages,language,Jarrakan,3323
 nyig1240,Nyigina,,-17.9594,124.348,,,languages,language,Nyulnyulan,3324
 yawu1244,Yawuru,,-18.004,122.693,,,languages,language,Nyulnyulan,3325
@@ -1284,16 +1286,17 @@ awab1243,Awabakal,,-33.12847,151.43555,,,languages,language,Pama-Nyungan,3340
 yala1262,Yalarnnga,,-21.731,139.511,,,languages,language,Pama-Nyungan,3343
 ngar1284,Ngarinyin,,-16.4006,126.433,,,languages,language,Worrorran,3344
 ungg1243,Unggumi,,-15.65,124.67,,,languages,language,Worrorran,3345
+dhar1248,Dharumbal,,-23.307,150.593,,,languages,language,Pama-Nyungan,3350 3380
+gure1255,Gureng Gureng,,-25.3893,151.175,,,languages,language,Pama-Nyungan,3351
 waka1274,Wakawaka,,-26.248,151.868,,,languages,language,Pama-Nyungan,3353
 yayg1236,Yaygir,,-29.686722970453,153.18784362556,,,languages,language,Pama-Nyungan,3355
+yaga1256,Yagara-Jandai,,-27.87647555,152.4602773,,,languages,language,Pama-Nyungan,3356 3360
 wuli1242,Wuliwuli,,-24.415,149.843,,,languages,language,Pama-Nyungan,3358
-yaga1256,Yagara-Jandai,,-27.87647555,152.4602773,,,languages,language,Pama-Nyungan,3360
 yidi1250,Yidiñ,,-17.1332,145.876,,,languages,language,Pama-Nyungan,3365 3366
 barr1247,Barrow Point,,-14.1219,144.531,,,languages,language,Pama-Nyungan,3369
 guga1239,Gugadj,,-17.8372,141.168,,,languages,language,Pama-Nyungan,3376
 yand1251,Yanda,,-21.23270508,140.5134756,,,languages,language,Pama-Nyungan,3377
 warl1255,Warlmanpa,,-18.949,133.862,,,languages,language,Pama-Nyungan,3379
-dhar1248,Dharumbal,,-23.307,150.593,,,languages,language,Pama-Nyungan,3380
 mang1383,Mangala,,-18.6597,123.769,,,languages,language,Pama-Nyungan,3382
 dyir1250,Dyirbal,,-17.4516,145.544,,,languages,language,Pama-Nyungan,3387
 ngar1288,Ngardi,,-21.0231,129.0308,,,languages,language,Pama-Nyungan,3390
@@ -1302,9 +1305,11 @@ pirr1240,Pirriya,,-25.48006595,142.5485119,,,languages,language,Pama-Nyungan,339
 guwa1242,Guwa,,-21.35147706,142.5243782,,,languages,language,Pama-Nyungan,3398
 yira1239,Yirandhali,,-20.65810118,143.9625916,,,languages,language,Pama-Nyungan,3399
 ande1247,Andegerebinha,,-22.51278,137.3515,,,languages,language,Pama-Nyungan,3406 3408
+lowe1402,Lower Riverland,,-34.6,140.5,,,languages,language,Pama-Nyungan,3409
 cola1237,Colac,,-38.471266,143.422444,,,languages,language,Pama-Nyungan,3413
 gana1278,Ganai,,-38.58,146.5,,,languages,language,Pama-Nyungan,3417 3418
 wath1238,Wathawurrung,,-37.68777565,144.1013148,,,languages,language,Pama-Nyungan,3420
+darl1243,Paakantyi,,-32.7021,142.695,,,languages,language,Pama-Nyungan,3422 3445 3446 3447 3448 3454 3455 3472
 dhur1239,Dhurga,,-35.412,150.134,,,languages,language,Pama-Nyungan,3423 3426
 thur1254,Thurawal,,-34.634,150.721,,,languages,language,Pama-Nyungan,3424
 sout2770,Southern Inland Yuin,,-36.30008261,148.7238073,,,languages,language,Pama-Nyungan,3427
@@ -1313,20 +1318,18 @@ pall1243,Pallanganmiddang,,-36.08,146.91,,,languages,language,Pama-Nyungan,3431
 wira1262,Wiradhuri,,-34.0742,145.994,,,languages,language,Pama-Nyungan,3433
 dhud1236,Dhudhuroa,,-36.95881441,147.0450379,,,languages,language,Pama-Nyungan,3435
 yort1237,Yorta Yorta,,-35.9,145.01,,,languages,language,Pama-Nyungan,3436 3437 3502
+uppe1415,Upper Riverland,,-34.098823177692,140.99932761004,,,languages,language,Pama-Nyungan,3439 3450 3469
 naru1238,Narungga,,-34.69,137.535,,,languages,language,Pama-Nyungan,3440
-kaur1267,Kaurna,,-34.34966141,138.4800794,,,languages,language,Pama-Nyungan,3441
 nugu1241,Nugunu (Australia),,-31.9899,133.908,,,languages,language,Pama-Nyungan,3442
 yarl1236,Yarli,,-29.49049805,140.9591946,,,languages,language,Pama-Nyungan,3443
 ngad1257,Ngadjuri,,-32.930160660336,139.08123163651,,,languages,language,Pama-Nyungan,3444
-darl1243,Paakantyi,,-32.7021,142.695,,,languages,language,Pama-Nyungan,3445 3446 3447 3448 3455
 nort2756,Northern Sunraysia,,-34.190056,142.273631,,,languages,language,Pama-Nyungan,3452
 west2443,Western Victoria,,-34.13829932,143.6694397,,,languages,language,Pama-Nyungan,3453
 lowe1403,Lower Darling-Lower Lachlan,,-33.9470874,141.5854211,,,languages,language,Pama-Nyungan,3457
 ngam1265,Ngamini-Yarluyandi-Karangura,,-27.1797,138.701,,,languages,language,Pama-Nyungan,3458
-dier1241,Dieri,,-28.1667,138.0,,,languages,language,Pama-Nyungan,3461
+dier1241,Dieri,,-28.1667,138.0,,,languages,language,Pama-Nyungan,3460 3461
 anma1239,Anmatyerre,,-22.2853,133.286,,,languages,language,Pama-Nyungan,3465
 alya1239,Alyawarr,,-21.0427,136.835,,,languages,language,Pama-Nyungan,3468
-uppe1415,Upper Riverland,,-34.098823177692,140.99932761004,,,languages,language,Pama-Nyungan,3469
 east2379,Eastern Arrernte,,-23.3583,135.046,,,languages,language,Pama-Nyungan,3473
 guya1249,Guyani,,-34.739,137.661,,,languages,language,Pama-Nyungan,3474
 adny1235,Adnyamathanha,,-30.1451,138.671,,,languages,language,Pama-Nyungan,3475
@@ -1348,8 +1351,8 @@ agar1252,Agarabi,,-6.20604,145.917,,,languages,language,Nuclear Trans New Guinea
 ukur1240,Ukuriguma,,-4.94407,145.514,,,languages,language,Nuclear Trans New Guinea,3517
 bila1257,Karen,,-4.93116,145.559,,,languages,language,Nuclear Trans New Guinea,3518
 amai1246,Amaimon,,-5.18742,145.368,,,languages,language,Nuclear Trans New Guinea,3519
-raoo1244,Rao,,-4.85243,144.511,,,languages,language,Lower Sepik-Ramu,3523
-goro1261,Gorovu,,-4.52947,144.59,,,languages,language,Lower Sepik-Ramu,3524
+raoo1244,Rao,,-4.85243,144.511,,,languages,language,Ramu,3523
+goro1261,Gorovu,,-4.52947,144.59,,,languages,language,Ramu,3524
 anam1248,Anamuxra,,-4.63762,144.991,,,languages,language,Nuclear Trans New Guinea,3525
 more1258,Moresada,,-4.57497,144.988,,,languages,language,Nuclear Trans New Guinea,3526
 yong1280,Yonggom,,-6.42956,141.213,,,languages,language,Nuclear Trans New Guinea,3527
@@ -1432,7 +1435,9 @@ mane1266,Manem,,-2.99145,141.02,,,languages,language,Border,3721
 yeii1239,Yei,,-7.87489,140.863,,,languages,language,Yam,3724 3725
 sota1242,Sota Kanum,,-8.40452,140.969,,,languages,language,Yam,3726 3782
 sydn1236,Sydney,,-33.52925837,150.3490464,,,languages,language,Pama-Nyungan,3730
+kumb1268,Kumbainggar,,-29.8189,152.913,,,languages,language,Pama-Nyungan,3732
 puka1242,Pukapuka,,-10.91,-165.83,,,languages,language,Austronesian,3748
+tuam1242,Tuamotuan,,-16.17259,-146.321755,,,languages,language,Austronesian,3753
 tahi1242,Tahitian,,-17.6485,-149.45,,,languages,language,Austronesian,3755
 hawa1245,Hawaiian,,19.6297,-155.43,,,languages,language,Austronesian,3761
 suga1249,Suganga,,-4.5071,141.2,,,languages,language,Nuclear Trans New Guinea,3772
@@ -1458,7 +1463,7 @@ moli1248,Molima,,-9.57457,150.614,,,languages,language,Austronesian,3814 3818
 gale1257,Galeya,,-9.54137,150.836,,,languages,language,Austronesian,3815
 iama1237,Iamalele,,-9.45005,150.573,,,languages,language,Austronesian,3817
 bose1237,Boselewa,,-9.44763,150.693,,,languages,language,Austronesian,3819
-arua1260,Aruamu,,-4.28957,144.842,,,languages,language,Lower Sepik-Ramu,3820
+arua1260,Aruamu,,-4.28957,144.842,,,languages,language,Ramu,3820
 kani1281,Kaninuwa,,-9.23148,150.253,,,languages,language,Austronesian,3821
 sali1295,Saliba,,-10.6148,150.727,,,languages,language,Austronesian,3823
 woge1237,Wogeo,,-3.20238,144.089,,,languages,language,Austronesian,3828
@@ -1529,6 +1534,7 @@ yala1266,Yalahatan-Haruru-Awaiya,,-3.3619,129.315,,,languages,language,Austrones
 paul1238,Paulohi,,-3.25404,128.779,,,languages,language,Austronesian,3986
 lisa1239,Lisabata-Nuniali,,-2.87434,128.265,,,languages,language,Austronesian,3987
 ambo1250,Ambonese Malay,,-3.71342,128.184,,,languages,language,Austronesian,3988 4024 4026
+sout2892,South Wemale,,-3.29102,128.547,,,languages,language,Bookkeeping,3989
 alun1238,Alune,,-3.11477,128.394,,,languages,language,Austronesian,3990 3992 4009
 sale1244,Saleman,,-2.82548,129.427,,,languages,language,Austronesian,3991
 nort2864,Wemale,,-3.05143,128.839,,,languages,language,Austronesian,3994
@@ -1682,6 +1688,7 @@ arho1237,Arhö,,-21.3183,165.161,,,languages,language,Austronesian,4265
 arha1237,Arhâ,,-21.2866,165.273,,,languages,language,Austronesian,4266
 orow1242,Orowe,,-21.6269,165.473,,,languages,language,Austronesian,4267
 ajie1238,Ajië,,-21.3029,165.468,,,languages,language,Austronesian,4268
+zire1240,Zire,,-21.6544,165.482,,,languages,language,Austronesian,4269
 neku1237,Neku,,-21.6524,165.578,,,languages,language,Austronesian,4270
 tiri1258,Tiri-Mea,,-21.8147,165.792,,,languages,language,Austronesian,4271 4272
 xara1244,Xârâcùù,,-21.7034,165.996,,,languages,language,Austronesian,4273
@@ -1699,6 +1706,7 @@ fiji1243,Fijian,,-18.0,178.33,,,languages,language,Austronesian,4290 4292
 niua1240,Niuafo'ou,,-15.6014,-175.64,,,languages,language,Austronesian,4295
 penr1237,Māngarongaro,,-9.082238,-157.922908,,,languages,language,Austronesian,4321
 raka1237,Rakahanga-Manihiki,,-10.03,-161.09,,,languages,language,Austronesian,4323
+rapa1245,Mangaia-Old Rapa,,-27.6304,-144.338,,,languages,language,Austronesian,4330
 aust1304,Austral,,-23.3843,-149.462,,,languages,language,Austronesian,4332
 mang1401,Mangareva,,-23.1095,-134.97,,,languages,language,Austronesian,4335
 kuan1248,Kuanua,,-4.30986,152.114,,,languages,language,Austronesian,4392 4393 4394 4395 4396 4397 4398 4399 4400
@@ -1717,11 +1725,11 @@ amto1249,Amto-Musan,,,,,,families,family,,3050 3051
 anga1289,Angan,,,,,,families,family,,2240 2242 2244 2444 2727 2737 2740 2742 2743 2744 2745 2746 2747 2748 3244
 anim1240,Anim,,,,,,families,family,,1853 1981 1982 2004 2005 2013 2032 2035 2037 2104 2105 2106 2124 2125 2126 2139 2233 2683 2684 3227 3722 3723
 araf1243,Arafundi,,,,,,families,family,,2278 3578
-aust1305,Austroasiatic,,,,,,families,family,,251 259 261 263 264 265 269 274 277 278 282 292 293 298 299 300 306 307 319 330 332 333 335 342 352 359 368 373 378 397 402 431 434 448 452 462 468 470 474 491 516 532 560 561 574 575 576 577 578 579 580 581 582 583 584 585 586 590 591 592 594 595 597 599 600 602 604 605 608 609 646 910 911 912 920 923 924 927 928 930 931 935 937 938 939 940 941 943 948 949 950 951 952 956 959 961 962 965 966 967 968 969 970 972 973 976 978 979 981 982 983 984 985 987 992 994 1090 1092 4473 4474
-aust1307,Austronesian,,,,,,families,family,,24 31 32 33 34 35 36 37 38 39 40 41 42 44 47 48 49 50 51 52 53 54 55 57 60 62 63 64 65 66 67 68 69 70 73 74 77 78 80 81 82 83 84 85 86 88 89 90 91 92 94 95 96 98 99 101 102 104 106 107 108 109 110 114 115 116 117 118 119 120 121 124 125 128 130 131 132 134 138 139 140 141 143 144 145 146 147 149 154 155 156 157 165 166 168 169 170 171 172 173 174 175 176 178 179 180 181 183 186 187 188 190 191 201 205 211 214 216 218 220 226 230 232 233 237 238 239 244 246 247 249 279 294 564 566 567 570 571 572 573 659 660 665 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 689 691 692 693 695 696 699 700 701 702 703 705 706 708 710 712 721 723 726 732 738 739 740 741 743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 762 765 766 767 769 770 771 772 773 774 775 777 779 780 781 782 783 784 785 786 787 788 789 790 792 793 794 796 797 798 800 801 802 803 806 807 808 809 811 812 813 814 815 819 820 827 828 829 830 831 832 833 835 838 839 847 848 850 851 853 855 856 857 860 861 862 865 866 869 870 871 872 873 874 875 876 878 881 882 890 891 893 894 895 896 897 898 899 900 901 902 904 953 995 997 1002 1003 1005 1007 1009 1010 1011 1012 1014 1015 1018 1019 1021 1022 1023 1024 1025 1031 1032 1033 1034 1035 1036 1037 1039 1041 1042 1043 1044 1045 1046 1047 1053 1054 1055 1056 1057 1058 1061 1063 1067 1068 1073 1074 1076 1077 1078 1079 1086 1087 1099 1107 1108 1110 1111 1119 1120 1121 1122 1123 1124 1125 1126 1127 1128 1130 1131 1133 1134 1135 1136 1137 1138 1139 1140 1143 1146 1148 1149 1154 1156 1160 1161 1162 1163 1167 1168 1169 1170 1171 1173 1174 1175 1179 1181 1184 1191 1193 1195 1196 1197 1198 1200 1204 1207 1208 1209 1210 1215 1217 1218 1226 1228 1229 1230 1231 1232 1233 1234 1235 1236 1237 1238 1239 1241 1244 1245 1246 1247 1250 1253 1254 1255 1256 1257 1258 1260 1263 1264 1266 1267 1268 1269 1271 1277 1281 1283 1285 1286 1287 1289 1291 1293 1294 1297 1298 1299 1300 1302 1303 1304 1305 1306 1310 1311 1312 1314 1315 1316 1317 1319 1320 1321 1322 1323 1325 1328 1330 1331 1335 1339 1340 1341 1343 1344 1346 1347 1348 1350 1351 1355 1357 1358 1360 1361 1362 1363 1364 1365 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1386 1387 1388 1389 1390 1392 1393 1395 1396 1398 1402 1403 1405 1408 1410 1412 1413 1414 1416 1417 1418 1419 1420 1421 1422 1423 1424 1425 1426 1427 1429 1430 1432 1434 1437 1439 1447 1448 1450 1451 1452 1453 1454 1455 1456 1457 1459 1462 1463 1464 1465 1466 1467 1468 1470 1471 1473 1474 1478 1481 1482 1483 1484 1485 1492 1494 1497 1498 1500 1503 1505 1507 1508 1509 1512 1513 1514 1525 1526 1527 1529 1530 1531 1532 1535 1536 1537 1539 1544 1546 1548 1557 1559 1562 1563 1564 1566 1567 1569 1570 1573 1574 1576 1577 1578 1579 1581 1582 1584 1586 1587 1588 1589 1591 1592 1593 1594 1595 1597 1598 1599 1600 1602 1603 1606 1608 1610 1611 1614 1617 1620 1621 1623 1624 1625 1626 1627 1633 1634 1635 1636 1637 1638 1639 1640 1641 1645 1646 1648 1649 1650 1651 1652 1653 1655 1670 1673 1674 1675 1676 1678 1680 1681 1684 1685 1686 1688 1693 1705 1706 1707 1710 1711 1712 1713 1715 1716 1718 1719 1720 1721 1722 1723 1732 1733 1747 1752 1753 1759 1760 1765 1812 1820 1821 1822 1824 1825 1826 1827 1829 1830 1831 1841 1844 1847 1850 1854 1864 1908 1922 1923 1926 1927 1930 1938 1939 1940 1941 1942 1950 1958 1959 1964 1967 1968 1970 1971 2038 2039 2041 2042 2045 2047 2048 2050 2051 2052 2057 2058 2060 2061 2062 2064 2065 2066 2069 2070 2071 2074 2079 2085 2087 2089 2090 2091 2092 2093 2100 2150 2151 2235 2237 2238 2239 2301 2319 2320 2326 2346 2349 2351 2352 2353 2359 2398 2399 2400 2402 2407 2424 2425 2426 2427 2428 2429 2443 2445 2446 2447 2448 2449 2450 2464 2465 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477 2478 2479 2482 2483 2486 2491 2500 2501 2502 2504 2505 2507 2508 2509 2510 2511 2512 2513 2514 2515 2516 2518 2523 2526 2528 2534 2535 2536 2539 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2551 2552 2561 2577 2584 2585 2586 2587 2588 2589 2596 2603 2605 2652 2653 2654 2655 2685 2687 2708 2709 2710 2711 2712 2749 2750 2751 2752 2755 2756 2757 2758 2759 2760 2762 2763 2781 2800 2801 3009 3083 3084 3085 3089 3095 3096 3110 3113 3127 3168 3171 3192 3531 3532 3533 3535 3536 3537 3547 3551 3555 3565 3568 3574 3575 3602 3604 3605 3606 3607 3608 3609 3610 3611 3612 3613 3614 3615 3616 3617 3618 3619 3620 3621 3622 3623 3624 3625 3627 3630 3631 3632 3634 3635 3636 3637 3639 3641 3642 3643 3644 3645 3646 3647 3648 3650 3651 3652 3653 3654 3655 3656 3657 3658 3660 3661 3670 3674 3675 3678 3680 3681 3685 3686 3687 3688 3689 3690 3691 3692 3693 3694 3695 3696 3697 3698 3699 3700 3702 3703 3704 3710 3713 3714 3716 3748 3755 3761 3792 3793 3794 3799 3805 3806 3807 3808 3809 3810 3811 3812 3813 3814 3815 3817 3818 3819 3821 3822 3823 3828 3837 3838 3877 3878 3879 3880 3887 3888 3889 3890 3891 3895 3897 3901 3902 3903 3904 3905 3906 3907 3908 3909 3910 3911 3912 3913 3914 3915 3916 3917 3918 3919 3921 3924 3925 3932 3933 3934 3935 3936 3937 3938 3940 3941 3942 3944 3945 3946 3947 3948 3949 3950 3951 3952 3953 3954 3955 3956 3957 3958 3959 3960 3961 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 3985 3986 3987 3988 3990 3991 3992 3994 3996 3997 4000 4006 4009 4017 4018 4021 4024 4025 4026 4027 4028 4031 4032 4033 4034 4035 4037 4040 4043 4045 4049 4052 4054 4055 4056 4057 4058 4059 4060 4061 4062 4063 4065 4069 4070 4071 4072 4073 4074 4075 4076 4077 4078 4079 4080 4081 4082 4083 4084 4085 4086 4087 4088 4089 4090 4091 4092 4093 4094 4095 4096 4097 4098 4099 4100 4101 4103 4105 4106 4107 4109 4110 4111 4112 4118 4119 4120 4121 4122 4123 4125 4127 4128 4129 4130 4131 4132 4133 4134 4135 4136 4137 4138 4139 4140 4141 4142 4143 4144 4145 4146 4147 4148 4149 4150 4151 4152 4153 4154 4155 4156 4157 4159 4160 4161 4162 4163 4164 4165 4166 4167 4168 4169 4173 4176 4177 4203 4206 4208 4209 4210 4211 4217 4218 4220 4222 4226 4244 4245 4246 4247 4248 4249 4250 4251 4252 4253 4254 4256 4257 4258 4259 4260 4261 4262 4263 4264 4265 4266 4267 4268 4270 4271 4272 4273 4274 4276 4277 4280 4281 4282 4283 4284 4286 4287 4289 4290 4292 4295 4321 4323 4332 4335 4382 4388 4392 4393 4394 4395 4396 4397 4398 4399 4400 4401 4402 4403 4404 4405 4406 4409 4410 4411 4412 4413 4415 4416 4417 4420 4429 4440 4444 4449 4455 4459 4463 4465 4480 4482
+aust1305,Austroasiatic,,,,,,families,family,,251 259 261 263 264 265 269 274 277 278 282 292 293 298 299 300 306 307 319 330 332 333 335 342 352 359 368 373 378 397 402 406 431 434 448 452 462 468 470 474 491 516 532 560 561 574 575 576 577 578 579 580 581 582 583 584 585 586 590 591 592 594 595 597 599 600 602 604 605 608 609 646 910 911 912 920 923 924 927 928 930 931 935 937 938 939 940 941 943 948 949 950 951 952 956 959 961 962 965 966 967 968 969 970 972 973 976 978 979 981 982 983 984 985 987 992 994 1090 1092 4473 4474
+aust1307,Austronesian,,,,,,families,family,,24 31 32 33 34 35 36 37 38 39 40 41 42 44 47 48 49 50 51 52 53 54 55 57 60 61 62 63 64 65 66 67 68 69 70 73 74 77 78 80 81 82 83 84 85 86 88 89 90 91 92 94 95 96 97 98 99 100 101 102 104 106 107 108 109 110 112 114 115 116 117 118 119 120 121 124 125 128 130 131 132 134 135 138 139 140 141 143 144 145 146 147 149 154 155 156 157 164 165 166 168 169 170 171 172 173 174 175 176 178 179 180 181 183 186 187 188 190 191 201 205 211 214 216 218 219 220 226 230 232 233 237 238 239 244 246 247 249 279 294 564 566 567 570 571 572 573 659 660 665 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 687 689 691 692 693 695 696 699 700 701 702 703 705 706 708 710 712 721 723 726 732 738 739 740 741 743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 762 765 766 767 769 770 771 772 773 774 775 777 779 780 781 782 783 784 785 786 787 788 789 790 792 793 794 796 797 798 800 801 802 803 806 807 808 809 811 812 813 814 815 819 820 827 828 829 830 831 832 833 835 838 839 847 848 850 851 853 855 856 857 860 861 862 865 866 869 870 871 872 873 874 875 876 878 881 882 890 891 893 894 895 896 897 898 899 900 901 902 904 953 995 997 1002 1003 1005 1007 1009 1010 1011 1012 1014 1015 1018 1019 1021 1022 1023 1024 1025 1031 1032 1033 1034 1035 1036 1037 1039 1041 1042 1043 1044 1045 1046 1047 1053 1054 1055 1056 1057 1058 1061 1063 1067 1068 1073 1074 1076 1077 1078 1086 1087 1099 1107 1108 1110 1111 1119 1120 1121 1122 1123 1124 1125 1126 1127 1128 1130 1131 1133 1134 1135 1136 1137 1138 1139 1140 1143 1146 1148 1149 1154 1156 1160 1161 1162 1163 1167 1168 1169 1170 1171 1173 1174 1175 1179 1181 1184 1191 1193 1195 1196 1197 1198 1200 1204 1207 1208 1209 1210 1215 1217 1218 1226 1228 1229 1230 1231 1232 1233 1234 1235 1236 1237 1238 1239 1241 1244 1245 1246 1247 1250 1253 1254 1255 1256 1257 1258 1260 1263 1264 1266 1267 1268 1269 1271 1277 1281 1283 1285 1286 1287 1289 1291 1293 1294 1297 1298 1299 1300 1302 1303 1304 1305 1306 1310 1311 1312 1314 1315 1316 1317 1319 1320 1321 1322 1323 1325 1328 1330 1331 1335 1339 1340 1341 1343 1344 1346 1347 1348 1350 1351 1355 1357 1358 1360 1361 1362 1363 1364 1365 1369 1370 1373 1374 1375 1376 1377 1378 1379 1380 1381 1386 1387 1388 1389 1390 1392 1393 1395 1396 1398 1402 1403 1405 1408 1410 1412 1413 1414 1416 1417 1418 1419 1420 1421 1422 1423 1424 1425 1426 1427 1429 1430 1432 1434 1437 1439 1447 1448 1450 1451 1452 1453 1454 1455 1456 1457 1459 1462 1463 1464 1465 1466 1467 1468 1470 1471 1473 1474 1478 1481 1482 1483 1484 1485 1492 1494 1497 1498 1500 1503 1505 1507 1508 1509 1512 1513 1514 1525 1526 1527 1529 1530 1531 1532 1535 1536 1537 1539 1544 1546 1548 1557 1559 1562 1563 1564 1566 1567 1569 1570 1573 1574 1576 1577 1578 1579 1581 1582 1584 1586 1587 1588 1589 1591 1592 1593 1594 1595 1597 1598 1599 1600 1602 1603 1606 1608 1610 1611 1614 1617 1620 1621 1623 1624 1625 1626 1627 1633 1634 1635 1636 1637 1638 1639 1640 1641 1645 1646 1648 1649 1650 1651 1652 1653 1655 1670 1673 1674 1675 1676 1678 1680 1681 1684 1685 1686 1688 1693 1705 1706 1707 1710 1711 1712 1713 1715 1718 1719 1720 1721 1722 1723 1732 1733 1747 1752 1753 1759 1760 1765 1812 1820 1821 1822 1824 1825 1826 1827 1829 1830 1831 1841 1844 1847 1850 1854 1864 1908 1922 1923 1926 1927 1930 1938 1939 1940 1941 1942 1950 1958 1959 1964 1967 1968 1970 1971 2038 2039 2041 2042 2045 2047 2048 2050 2051 2052 2057 2058 2060 2061 2062 2064 2065 2066 2069 2070 2071 2074 2079 2085 2087 2089 2090 2091 2092 2093 2100 2150 2151 2235 2237 2238 2239 2301 2319 2320 2326 2346 2349 2351 2352 2353 2359 2398 2399 2400 2402 2407 2424 2425 2426 2427 2428 2429 2443 2445 2446 2447 2448 2449 2450 2464 2465 2467 2468 2469 2470 2471 2472 2473 2474 2475 2476 2477 2478 2479 2482 2483 2486 2491 2500 2501 2502 2504 2505 2507 2508 2509 2510 2511 2512 2513 2514 2515 2516 2518 2523 2526 2528 2534 2535 2536 2539 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2551 2552 2561 2577 2584 2585 2586 2587 2588 2589 2596 2603 2605 2652 2653 2654 2655 2685 2687 2708 2709 2710 2711 2712 2749 2750 2751 2752 2755 2756 2757 2758 2759 2760 2762 2763 2781 2800 2801 3083 3084 3085 3089 3095 3096 3110 3113 3127 3168 3171 3192 3531 3532 3533 3535 3536 3537 3547 3551 3555 3565 3568 3574 3575 3602 3604 3605 3606 3607 3608 3609 3610 3611 3612 3613 3614 3615 3616 3617 3618 3619 3620 3621 3622 3623 3624 3625 3627 3630 3631 3632 3634 3635 3636 3637 3639 3641 3642 3643 3644 3645 3646 3647 3648 3650 3651 3652 3653 3654 3655 3656 3657 3658 3660 3661 3670 3674 3675 3678 3680 3681 3685 3686 3687 3688 3689 3690 3691 3692 3693 3694 3695 3696 3697 3698 3699 3700 3702 3703 3704 3710 3713 3714 3716 3748 3753 3755 3761 3792 3793 3794 3799 3805 3806 3807 3808 3809 3810 3811 3812 3813 3814 3815 3817 3818 3819 3821 3822 3823 3828 3837 3838 3877 3878 3879 3880 3887 3888 3889 3890 3891 3895 3897 3901 3902 3903 3904 3905 3906 3907 3908 3909 3910 3911 3912 3913 3914 3915 3916 3917 3918 3919 3921 3924 3925 3932 3933 3934 3935 3936 3937 3938 3940 3941 3942 3944 3945 3946 3947 3948 3949 3950 3951 3952 3953 3954 3955 3956 3957 3958 3959 3960 3961 3963 3964 3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 3985 3986 3987 3988 3990 3991 3992 3994 3996 3997 4000 4006 4009 4017 4018 4021 4024 4025 4026 4027 4028 4031 4032 4033 4034 4035 4037 4040 4043 4045 4049 4052 4054 4055 4056 4057 4058 4059 4060 4061 4062 4063 4065 4069 4070 4071 4072 4073 4074 4075 4076 4077 4078 4079 4080 4081 4082 4083 4084 4085 4086 4087 4088 4089 4090 4091 4092 4093 4094 4095 4096 4097 4098 4099 4100 4101 4103 4105 4106 4107 4109 4110 4111 4112 4118 4119 4120 4121 4122 4123 4125 4127 4128 4129 4130 4131 4132 4133 4134 4135 4136 4137 4138 4139 4140 4141 4142 4143 4144 4145 4146 4147 4148 4149 4150 4151 4152 4153 4154 4155 4156 4157 4159 4160 4161 4162 4163 4164 4165 4166 4167 4168 4169 4173 4176 4177 4203 4206 4208 4209 4210 4211 4217 4218 4220 4222 4226 4244 4245 4246 4247 4248 4249 4250 4251 4252 4253 4254 4256 4257 4258 4259 4260 4261 4262 4263 4264 4265 4266 4267 4268 4269 4270 4271 4272 4273 4274 4276 4277 4280 4281 4282 4283 4284 4286 4287 4289 4290 4292 4295 4321 4323 4330 4332 4335 4382 4388 4392 4393 4394 4395 4396 4397 4398 4399 4400 4401 4402 4403 4404 4405 4406 4409 4410 4411 4412 4413 4415 4416 4417 4420 4429 4440 4444 4449 4455 4459 4463 4465 4480 4482
 baib1250,Baibai-Fas,,,,,,families,family,,2148 2185
 bain1263,Baining,,,,,,families,family,,3663 3665 3666 3667 3672
-book1242,Bookkeeping,,,,,,families,family,,587 596 603 709 1560 1717 2228 3553
+book1242,Bookkeeping,,,,,,families,family,,587 596 603 709 1560 1716 1717 2228 3553 3989
 bord1247,Border,,,,,,families,family,,1895 2145 2146 2147 2168 2173 2174 2176 2177 2181 2439 3582 3583 3584 3721
 bosa1245,Bosavi,,,,,,families,family,,2206 2209 2212 2213 2214 2215 2224 3558
 bula1259,Bulaka River,,,,,,families,family,,2026 2027 2028
@@ -1736,6 +1744,7 @@ geel1240,Geelvink Bay,,,,,,families,family,,3169 3170 3172 3177 3189 3194
 giim1238,Giimbiyu,,,,,,families,family,,3268
 gunw1250,Gunwinyguan,,,,,,families,family,,3255 3258 3259 3270 3312
 hata1242,Hatam-Mansim,,,,,,families,family,,1808 1810 1834
+hmon1336,Hmong-Mien,,,,,,families,family,,404
 inan1242,Inanwatan,,,,,,families,family,,1772 1835
 indo1319,Indo-European,,,,,,families,family,,127
 iwai1246,Iwaidjan Proper,,,,,,families,family,,3264
@@ -1754,7 +1763,7 @@ kwer1242,Greater Kwerba,,,,,,families,family,,3108 3109 3112 3129 3130 3131 3132
 kwom1263,Kwomtari-Nai,,,,,,families,family,,2183
 lake1255,Lakes Plain,,,,,,families,family,,1894 3142 3162 3163 3164 3165 3166 3167 3179 3184 3185 3186 3187 3188 3195
 left1242,Left May,,,,,,families,family,,3052 3053 3055 3057 3058
-lowe1437,Lower Sepik-Ramu,,,,,,families,family,,2279 2291 2292 2294 2296 2324 2325 2330 2331 2332 2333 2334 2335 2336 2903 2904 2905 2906 2907 2914 2915 2946 2947 2951 2954 2955 2956 2961 2968 3523 3524 3820
+lowe1423,Lower Sepik,,,,,,families,family,,2279 2292 2294 2296 2961 2968
 mail1249,Mailuan,,,,,,families,family,,2519 2521 2522 2524 2527 2529 2530 2531 2560 2562 2564 2565 2566 3825
 mair1253,Mairasic,,,,,,families,family,,1819 1832 1833
 mang1423,Mangarrayi-Maran,,,,,,families,family,,3281 3282 3482
@@ -1767,23 +1776,25 @@ more1255,Yam,,,,,,families,family,,2130 2131 2132 2133 2134 2135 2137 3724 3725 
 naml1239,Namla-Tofanma,,,,,,families,family,,3138
 nduu1242,Ndu,,,,,,families,family,,2321 2322 2958 2959 2960 2965 2966 2967 2970 2971 2972 2973 2974 2975 2976 2977 2978 2979 2980 2982 2986 2988 2992 3595 3596 3787 3834
 nimb1257,Nimboranic,,,,,,families,family,,3094 3100 3101 3102 3103
+nort1442,North-Eastern Tasmanian,,,,,,families,family,,3496
 nort2923,North Halmahera,,,,,,families,family,,1896 1897 1898 1901 1903 1904 1905 1906 1907 1909 1910 1911 1912 1913 1914 1916 1918 1920 1921 1924 1925 1928 1929 1946 1954 1977 4422 4424 4426 4427 4431 4439
 nort2933,North Bougainville,,,,,,families,family,,3892 3893 3894 3896
 nucl1580,Eleman,,,,,,families,family,,2236 2731 2732 2733 2735 2736 3246 3802 3804
-nucl1708,Nuclear Torricelli,,,,,,families,family,,2152 2153 2155 2156 2158 2159 2160 2161 2162 2164 2165 2166 2167 2180 2273 2306 2307 2310 2311 2312 2313 2314 2315 2996 2997 3007 3008 3011 3012 3013 3014 3015 3016 3017 3018 3019 3021 3022 3023 3027 3560 3563 3566 3569 3570 3571 3572 3573 3836 4483
+nucl1708,Nuclear Torricelli,,,,,,families,family,,2152 2153 2155 2156 2158 2159 2160 2161 2162 2164 2165 2166 2167 2180 2273 2306 2307 2310 2311 2312 2313 2314 2315 2996 2997 3007 3008 3009 3011 3012 3013 3014 3015 3016 3017 3018 3019 3021 3022 3023 3027 3560 3563 3566 3569 3570 3571 3572 3573 3836 4483
 nucl1709,Nuclear Trans New Guinea,,,,,,families,family,,1813 1814 1815 1816 1817 1858 1859 1860 1861 1862 1863 1866 1867 1868 1869 1870 1871 1872 1873 1874 1880 1881 1882 1883 1885 1886 1887 1888 1889 1890 1891 1892 1979 1983 1984 1985 1986 1987 1989 1992 1997 1998 1999 2000 2007 2009 2010 2011 2012 2015 2016 2017 2019 2020 2136 2143 2188 2190 2246 2251 2256 2257 2258 2259 2260 2261 2262 2263 2264 2265 2268 2269 2270 2271 2275 2308 2337 2338 2341 2343 2344 2348 2355 2356 2357 2358 2360 2361 2362 2363 2364 2365 2366 2367 2368 2369 2370 2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 2390 2391 2392 2393 2394 2396 2397 2404 2405 2406 2408 2409 2410 2411 2412 2413 2414 2415 2416 2417 2418 2419 2420 2421 2422 2423 2430 2431 2432 2433 2434 2435 2436 2437 2438 2442 2451 2452 2453 2454 2455 2456 2457 2458 2459 2460 2461 2462 2520 2595 2598 2600 2607 2608 2609 2610 2613 2614 2615 2616 2621 2622 2630 2646 2671 2688 2689 2690 2692 2695 2696 2697 2699 2700 2718 2719 2720 2764 2765 2766 2767 2769 2770 2771 2772 2773 2774 2775 2776 2777 2778 2779 2780 2782 2783 2784 2785 2786 2787 2788 2789 2790 2791 2792 2793 2795 2796 2797 2798 2799 2802 2803 2804 2805 2806 2807 2809 2810 2812 2813 2814 2816 2818 2819 2820 2821 2822 2823 2824 2825 2826 2827 2828 2829 2830 2831 2833 2834 2835 2836 2837 2838 2839 2840 2841 2842 2843 2844 2845 2846 2847 2849 2850 2851 2852 2853 2854 2855 2856 2857 2859 2861 2862 2864 2865 2868 2870 2872 2874 2876 2877 2878 2879 2881 2882 2883 2885 2886 2887 2888 2889 2890 2891 2892 2893 2894 2895 2896 2897 2898 2899 2900 2901 2909 2910 2911 2912 2913 2916 2918 2919 2920 2921 2922 2924 2925 2926 2927 2929 2931 2932 2933 2934 2935 2937 2938 2940 2941 2942 2999 3064 3067 3068 3069 3070 3071 3072 3073 3148 3153 3154 3155 3156 3157 3158 3160 3183 3196 3197 3198 3201 3203 3208 3210 3214 3215 3216 3217 3220 3221 3222 3223 3224 3516 3517 3518 3519 3525 3526 3527 3528 3543 3545 3546 3554 3556 3557 3579 3588 3590 3701 3772 3774 3775 3776 3778 3779 3791 4467 4468 4469 4470 4481
-nyul1248,Nyulnyulan,,,,,,families,family,,3247 3262 3324 3325 3326 3327
+nyul1248,Nyulnyulan,,,,,,families,family,,3247 3324 3325 3326 3327
 paho1240,Pahoturi,,,,,,families,family,,2141 2142
-pama1250,Pama-Nyungan,,,,,,families,family,,3263 3276 3285 3286 3287 3288 3289 3290 3292 3296 3298 3302 3303 3305 3319 3334 3335 3336 3337 3339 3340 3341 3342 3343 3348 3349 3353 3354 3355 3358 3359 3360 3361 3364 3365 3366 3367 3368 3369 3370 3372 3373 3376 3377 3379 3380 3382 3387 3390 3393 3394 3395 3396 3398 3399 3402 3403 3404 3406 3408 3411 3412 3413 3414 3415 3416 3417 3418 3420 3423 3424 3425 3426 3427 3428 3429 3431 3433 3435 3436 3437 3440 3441 3442 3443 3444 3445 3446 3447 3448 3452 3453 3455 3457 3458 3461 3464 3465 3466 3468 3469 3473 3474 3475 3479 3480 3481 3484 3485 3485 3486 3502 3730 3873
+pama1250,Pama-Nyungan,,,,,,families,family,,3256 3263 3276 3285 3286 3287 3288 3289 3290 3292 3295 3296 3298 3300 3302 3303 3305 3319 3334 3335 3336 3337 3339 3340 3341 3342 3343 3348 3349 3350 3351 3353 3354 3355 3356 3358 3359 3360 3361 3364 3365 3366 3367 3368 3369 3370 3372 3373 3376 3377 3379 3380 3382 3387 3390 3393 3394 3395 3396 3398 3399 3402 3403 3404 3406 3408 3409 3411 3412 3413 3414 3415 3416 3417 3418 3420 3422 3423 3424 3425 3426 3427 3428 3429 3431 3433 3435 3436 3437 3439 3440 3441 3442 3443 3444 3445 3446 3447 3448 3450 3452 3453 3454 3455 3457 3458 3460 3461 3464 3465 3466 3468 3469 3472 3473 3474 3475 3479 3480 3481 3484 3485 3485 3486 3502 3729 3730 3732 3873
 pauw1244,Pauwasi,,,,,,families,family,,3145 3146 3147 3586
 piaw1238,Piawi,,,,,,families,family,,2272 2276 2943 2945
+ramu1234,Ramu,,,,,,families,family,,2291 2324 2325 2330 2331 2332 2333 2334 2335 2336 2903 2904 2905 2906 2907 2914 2915 2946 2947 2951 2954 2955 2956 3523 3524 3820
 sena1264,Senagi,,,,,,families,family,,2144 3585 3587
 sent1261,Sentanic,,,,,,families,family,,3086 3087 3092 3098 3099
 sepi1257,Sepik,,,,,,families,family,,2252 2253 2254 2255 2297 2298 2299 2302 2303 2304 2963 2983 2984 2987 2990 2991 2998 3001 3002 3003 3004 3006 3020 3024 3028 3031 3032 3035 3036 3038 3039 3040 3042 3043 3044 3045 3065 3204 3205 3211 3212 3780 3786 3827
 sino1245,Sino-Tibetan,,,,,,families,family,,3 30 347 355 358 360 362 363 370 395 427 438 444 471 478 549 617 620 633
 skoo1245,Sko,,,,,,families,family,,2149 2169 2170 2172 3075 3076 3077 3081
 soma1242,Somahai,,,,,,families,family,,1988
-sout1293,South-Eastern Tasmanian,,,,,,families,family,,3495
+sout1293,South-Eastern Tasmanian,,,,,,families,family,,3493 3495
 sout1516,South Bird's Head Family,,,,,,families,family,,1767 1769 1770 1774 1775 1776 1777 1843
 sout2772,Southern Daly,,,,,,families,family,,3271 3310
 sout2948,South Bougainville,,,,,,families,family,,3898 3899 3900
@@ -1796,13 +1807,13 @@ timo1261,Timor-Alor-Pantar,,,,,,families,family,,688 690 713 714 720 727 729 730
 toro1256,Tor-Orya,,,,,,families,family,,3097 3106 3116 3117 3118 3119 3120 3122 3123 3124 3125 3126 3176
 tura1263,Turama-Kikori,,,,,,families,family,,2227 2229 2230
 unat1236,Unattested,,,,,,families,family,,3115 3483
-uncl1493,Unclassifiable,,,,,,families,family,,404 3943
+uncl1493,Unclassifiable,,,,,,families,family,,3943
 wali1264,Walioic,,,,,,families,family,,3047 3048 3049
 west1493,West Bird's Head,,,,,,families,family,,1778 1779 1781 1782 1784 1785 1786 1789 1837 1838 3706 3707 3708
-west1503,Western Tasmanian,,,,,,families,family,,3490
+west1503,Western Tasmanian,,,,,,families,family,,3490 3494 3498
 west2434,Western Daly,,,,,,families,family,,3272
 west2604,West Bomberai,,,,,,families,family,,1845 1848 1849
-worr1236,Worrorran,,,,,,families,family,,3322 3344 3345
+worr1236,Worrorran,,,,,,families,family,,2191 3309 3322 3344 3345
 yang1287,Yangmanic,,,,,,families,family,,3279
 yare1250,Yareban,,,,,,families,family,,2569 2570 2571 2572 2573 2574 2643 2656 2657 2666
 yawa1259,Yawa-Saweru,,,,,,families,family,,1852

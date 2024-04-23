@@ -31,6 +31,10 @@
         {
             "name": "Robert Forkel",
             "type": "Editor"
+        },
+        {
+            "name": "Harald Hammarstr\u00f6m",
+            "type": "Other"
         }
     ],
     "license": {
