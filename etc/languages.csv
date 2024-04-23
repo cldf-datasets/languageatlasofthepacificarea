@@ -1,4 +1,4 @@
-Name,Countries,Sovereigns,Islands,Glottocode
+Name,Countries,Sovereigns,Islands,Glottocode,Comment
 'ARE'ARE,,,Solomon Islands,area1240
 'LOW-COUNTRY SEMANG'/Meni Gul,Malaysia,North-Western Malaysia,,kens1248
 'LOW-COUNTRY SEMANG'/Semang of Juru',Malaysia,North-Western Malaysia,,kens1248
@@ -33,7 +33,7 @@ AGARLUMA,Australia,Australia,,ngar1287
 AGHU,Indonesia,,,aghu1255
 AGI,,,Papua New Guinea,agii1245
 AGOB,,,Papua New Guinea,agob1245
-AGTA,Philippines,Philippines,,agta1234
+AGTA,Philippines,Philippines,,cent2084
 AGUSAN MANOBO,Philippines,Philippines,,agus1235
 AIKL,,,Papua New Guinea,aikl1237
 AIKWAKAI,,,,sika1263
@@ -87,7 +87,7 @@ ANKAVE,,,Papua New Guinea,anka1246
 ANMATJIRRA,Australia,Australia,,anma1239
 ANOR,,,Papua New Guinea,anor1241
 ANUKI,,,Papua New Guinea,anuk1239
-ANUTA,,,,anut1237
+ANUTA,,,,anut1237,Polygons for Anuta is in the sea and the closest land harbours the language Anuta
 AOHENG P.,,,,aohe1238
 AOMIE(OMIE),,,Papua New Guinea,omie1241
 AORE,,,,aore1237
@@ -105,7 +105,7 @@ ARIFAMA-MANIAP,,,Papua New Guinea,arif1240
 ARIFAMA-MINIAFIA,,,Papua New Guinea,mini1252
 ARIGIBI,,,Papua New Guinea,arig1248
 AROS,,,Solomon Islands,aros1241
-ARU,,,Papua New Guinea,mano1275
+ARU,,,Papua New Guinea,torr1259
 ARUEK,,,Papua New Guinea,arue1240
 ARUOP,,,Papua New Guinea,aruo1240
 ASARO,,,Papua New Guinea,asar1240
@@ -371,7 +371,7 @@ BUNUN_Southern,Taiwan,Taiwan,,sout2930
 BUNUN_Takopulan,Taiwan,Taiwan,,tako1237
 BUOL,Indonesia,Sulawesi,,buol1237
 BURMBAR,,,Vanuatu,burm1263
-BURMESE,Burma,,,nucl1310
+BURMESE,Burma,,,tavo1242
 BURUM,,,Papua New Guinea,buru1306
 BURUSU,,,,buru1304
 BUSA,,,Papua New Guinea,odia1239
@@ -394,7 +394,7 @@ Bah Malei,,,,bahm1237
 Baiawa,,,,maiw1251
 Baibara,,,Papua New Guinea,baib1249
 Baine,Indonesia,,,bime1239
-Bakumpai Malay,Indonesia,Borneo,,baku1263
+Bakumpai Malay,Indonesia,Borneo,,baku1263,Polygon is in very far south in the speaker area (according their L42 map in Wurm & Hattori 1981 and other sources)
 Balamula,,,Papua New Guinea,maka1315
 Balanipa,Indonesia,Sulawesi,,bala1313
 Balau sd.,Indonesia,Borneo,,iban1264
@@ -414,7 +414,7 @@ Barai,,,Papua New Guinea,nucl1630
 Barok,,,Papua New Guinea,baro1253
 Batek Nong,Malaysia,Malaysia; Southern Malaysia,,bate1263
 Batek Teq,Malaysia,Malaysia,,bate1266
-Bazaar Malay,Indonesia,,,saba1263
+Bazaar Malay,Indonesia,,,,"Polygon corresponds to the subfamily Austronesian, Malayo-Polynesian, Aru (the 1981 published maps have no language Polygon that corresponds to this one)"
 Beach Pamona,Indonesia,Sulawesi,,pamo1252
 Begua,,,Papua New Guinea,bagw1238
 Beiayan,,,,
@@ -545,7 +545,7 @@ DIRARI,Australia,Australia,,dier1241
 DIXON REFE,,,Vanuatu,dixo1238
 DIYARI,Australia,Australia,,dier1241
 DJANGUN / MULURIDYI,Australia,Australia,,mulu1243 djan1238
-DJAWI,Australia,Australia,,djaw1238
+DJAWI,Australia,Australia,,,"Polygon encircles Augustus Island while Glottolog coordinate is on Sunday Island. Sunday Island and a few other islands in the Buccaneer archipelago are correct (Bowern 2012) but Augustus Island, a bit too far to the east, is not correct. It is now uninhabited but was inhabited by Worora [wro] until 1950. The W&H L023 map indeed does not show Djawi on Augustus island, so difficult to see how the association appeared. Thus the Polygon should either be attached to Worora [wra] or removed."
 DJINGILI,Australia,Australia,,djin1251
 DOBU,,,Papua New Guinea,dobu1241
 DOGA,,,Papua New Guinea,doga1238
@@ -679,7 +679,7 @@ Elpaputi Bay,Indonesia,Indonesia,,elpa1239
 Embessa,,,,baru1269
 Emo R,,,Papua New Guinea,nucl1630
 Enggipiloe,Indonesia,,,engg1246
-Enindhilyagwan Family-Level Isolate,Australia,Australia,,anin1240
+Enindhilyagwan Family-Level Isolate,Australia,Australia,,nung1290
 Enna,Indonesia,Sulawesi,,
 Enrekang,Indonesia,Sulawesi,,enre1239
 Epe - Routa,Indonesia,Sulawesi,,rout1237
@@ -1971,7 +1971,7 @@ Other ?,,,Papua New Guinea,
 Oyana,,,Papua New Guinea,oyan1240
 P. APUT,,,,puna1267
 P. Basap,,,,puna1273
-P. Batu,,,,puna1278
+P. Batu,,,,saja1241,"Polygon corresponds to the Sajau Basap n 3 area of their L041 map. Sajau Basap is explained in the text to include Punan Sajau, Punan Basap and Punan Batu 2 hence the (erroneous) association with Punan Batu 1. The area matches that of the real area of the Sajau-Latti (also as per the Glottolog coordinate) and should (also) be linked to Sajau-Latti instead."
 P. Kelai,Indonesia,Borneo,,
 P. MERAH,Indonesia,Borneo,,puna1268
 P. MERAP,,,,
@@ -2031,7 +2031,7 @@ PAZEH,Taiwan,Taiwan,,paze1234
 PEAR,Laos,Laos,,pear1247
 PERAMANGK,Australia,Australia,,kaur1267
 PHALO,Thailand,Thailand,,phal1255
-PHANG,Thailand,Thailand,,phan1252
+PHANG,Thailand,Thailand,,phan1252,Polygon is in a very southern location in Thailand in contrast to the northern location of Glottolog. The location in Thailand is represents a recent refugee population and is in this sense not wrong but the Glottolog location is historically and demographically more accurate.
 PHAY,Laos,Laos,,phai1238
 PHNAN,Laos,Laos,,
 PHU YAI,Laos,Laos,,
@@ -2187,8 +2187,8 @@ SAKAO,,,,saka1289
 SAKI,,,Papua New Guinea,saki1249
 SALEMAN,Indonesia,Indonesia,,sale1244
 SALT-YUI,,,Papua New Guinea,salt1242
-SALUAN,Indonesia,Sulawesi,,salu1253
-SAMA CENTRAL,Philippines,Philippines,,cent2092
+SALUAN,Indonesia,Sulawesi,,salu1253,erroneously includes the Balantak area
+SAMA CENTRAL,Philippines,Philippines,,sout2918,Polygon matches Southern Sama [ssb]
 SAMA SIBUGUEY,Philippines,Philippines,,sibu1253
 SAMA SOUTH,Philippines,Philippines,,sout2918
 SAMA WEST,Philippines,Philippines,,
@@ -2197,7 +2197,7 @@ SAMAROKENA,Indonesia,,,sama1240
 SAMOAN,,,Samoa,samo1305
 SAMOSA,,,Papua New Guinea,samo1306
 SAMRE,Kampuchea,Kampuchea,,somr1240
-SANGIR,Indonesia,Sulawesi,,sang1336
+SANGIR,Indonesia,Sulawesi,,sang1336,"Polygon is on mainland Manado, a possible southernmost location"
 SANGKE,Indonesia,,,sang1347
 SANIO,,,Papua New Guinea,sani1271
 SAOCH,Kampuchea,Kampuchea,,saoc1239
@@ -2265,8 +2265,8 @@ SERUDUNG,,,,seru1246
 SETAMAN,,,Papua New Guinea,seta1246
 SETI,Indonesia,Indonesia,,lian1255
 SEWA BAY,,,Papua New Guinea,sewa1251
-SHAN,Burma,,,shan1277
-SHAN,Thailand,,,shan1277
+SHAN,Burma,,,shan1277,Shan is a relatively disconnected language.
+SHAN,Thailand,,,shan1277,Shan is a relatively disconnected language.
 SHARKBAY,,,,shar1251
 SIAGHA-YENIMU,Indonesia,,,sout2941
 SIALUM,,,Papua New Guinea,sial1240
@@ -2277,7 +2277,7 @@ SIKAIANA,,,,sika1261
 SIKKA/Central,East Timor,East Timor,,sara1324
 SIKKA/South Coast,East Timor,East Timor,,sikk1243
 SIKKA/Tana Ai,East Timor,East Timor,,tana1283
-SILA,Laos,Laos,,sila1247
+SILA,Laos,Laos,,sila1247,Polygon is in the SW most speaker area and Glottolog coordinate in a more central and historically ancestral location.
 SILAKAU,Indonesia,Borneo,,kend1254
 SILEIBI,,,Papua New Guinea,sile1255
 SILISILI,,,Papua New Guinea,midd1327
@@ -2519,7 +2519,7 @@ TAUADE,,,Papua New Guinea,taua1242
 TAULIL,,,Papua New Guinea,taul1251
 TAUNA,,,Papua New Guinea,taun1251
 TAUPOTA,,,Papua New Guinea,taup1242
-TAUSUG,Philippines,Philippines,,taus1251
+TAUSUG,Philippines,Philippines,,taus1251,"Tausug is spoken over a large disconnected area, Polygon is in a central dialect and Glottolog coordinate somewhat western."
 TAUYA,,,Papua New Guinea,tauy1241
 TAWORTA,,,,tawo1244
 TAY,Vietnam,Vietnam,,tayy1238
@@ -2546,7 +2546,7 @@ THAI KHAW,Laos/Vietnam,,,
 THAI KHAW,Vietnam,,,
 THAI-MALAY,Malaysia,Malaysia,,
 THAO,Taiwan,Taiwan,,thao1240
-THAVUNG,Laos,Laos,,aheu1239
+THAVUNG,Laos,Laos,,aheu1239,"Thavung is spoken in different locations, the Polygon is the Laos location which is derivative of the Thailand location reflected in Glottolog's coordinate."
 THAWA,Australia,Australia,,thaw1238
 TIANG,,,Papua New Guinea,tian1237
 TIDONG,Indonesia,Indonesia,,tala1285
@@ -2667,7 +2667,7 @@ UARIPI,,,Papua New Guinea,tair1256
 UBIR,,,Papua New Guinea,ubir1237
 UFIM,,,Papua New Guinea,ufim1240
 UGHELE,,,Solomon Islands,ughe1237
-UGONG,Thailand,Thailand,,ugon1239
+UGONG,Thailand,Thailand,,ugon1239,The area of the Ugong is receding and the Polygon is in one of the locations where the language was recently spoken.
 UHUNDUNI,Indonesia,,,dama1272
 UKURIGUMA,,,Papua New Guinea,ukur1240
 ULAU-SUAIN,,,Papua New Guinea,ulau1237
@@ -2758,7 +2758,7 @@ WAFOPEN,Indonesia,,,waro1242
 WAGAWAGA,,,Papua New Guinea,waga1268
 WAGAYA,Australia,Australia,,waga1260
 WAGIMAN,Australia,Australia,,wage1238
-WAHAU KY,,,,kaya1325
+WAHAU KY,,,,waha1239
 WAIA,,,Papua New Guinea,
 WAIBUK Arama,,,Papua New Guinea,sout2946
 WAILAPA,,,,wail1242
@@ -2955,7 +2955,7 @@ YERETUAR,Indonesia,,,yere1243
 YIDINY,Australia,Australia,,yidi1250
 YIMAS,,,Papua New Guinea,yima1243
 YIR,Laos,Laos,,irrr1240
-YIRANDHALI,Australia,Australia,,yira1239
+YIRANDHALI,Australia,Australia,,yira1239,Polygon is the area indeed called Yiradhali on the L022 map. Glottolog coordinate is to the north and east. This is a difficult area but the last revision of by Breen 2009 says that the northern part of the area of the Yirandhali Polygon is Yirandhali (whose heartland is to the north and east like the Glottolog coordinate) but the southern part is Yiningayi which in Glottolog belong to the SE neighbour language Bidyara [bym].
 YIS,,,Papua New Guinea,yiss1240
 YITHA-YITHA,Australia,Australia,,yith1234
 YOBA,,,Papua New Guinea,yoba1237
