@@ -19,6 +19,7 @@ setup(
         'pyglottolog',
         'geopandas',
         'shapely',
+        'cldfgeojson',
     ],
     extras_require={
         'test': [

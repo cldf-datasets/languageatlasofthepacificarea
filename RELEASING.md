@@ -2,6 +2,9 @@
 
 ```shell
 cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v5.0
+```
+
+```shell
 pytest
 ```
 

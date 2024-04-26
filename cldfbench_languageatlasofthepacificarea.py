@@ -1,30 +1,16 @@
-import copy
 import pathlib
 import functools
 import itertools
 import collections
 
 import geopandas
-from shapely.geometry import shape, Polygon, Point
-from shapely import union_all
 from pycldf import Sources
 from clldutils.jsonlib import dump
-from clldutils.color import qualitative_colors
 from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset
+from shapely.geometry import Point, shape
 
-#
-# shapely unary_union to merge geometries per glottocode
-# https://shapely.readthedocs.io/en/stable/reference/shapely.unary_union.html
-#
-# add command to check, whether the merged areas for a languoid contain all point coordinates from
-# Glottolog for said languoid.
-#
-
-def merged_geometry(features):
-    # Note: We slightly increase each polygon using `buffer` to make sure they overlap a bit and
-    # internal boundaries are thus removed.
-    return union_all([shape(f['geometry']).buffer(0.001) for f in features])
+from cldfgeojson import MEDIA_TYPE, aggregate, feature_collection, merged_geometry, fixed_geometry
 
 
 def norm(d):
@@ -47,39 +33,27 @@ def norm(d):
     return d
 
 
-def multi_polygon(f):
-    if f['geometry']['type'] == 'Polygon':
-        return copy.copy([f['geometry']['coordinates']])
-    assert f['geometry']['type'] == 'MultiPolygon'
-    return copy.copy(f['geometry']['coordinates'])
-
-
-class FeatureCollection(list):
-    def __init__(self, path, **properties):
-        self.path = path
-        self.properties = properties
-        list.__init__(self)
-
-    def __enter__(self):
-        return self
-
-    def append_feature(self, shape, **properties):
-        self.append(dict(type="Feature", properties=properties, geometry=shape.__geo_interface__))
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        geojson = dict(type="FeatureCollection", features=self, properties=self.properties)
-        dump(geojson, self.path, indent=2)
-
-    def as_row(self, **kw):
-        res = dict(
-            ID=self.path.stem,
-            Name=self.properties['title'],
-            Description=self.properties['description'],
-            Media_Type='application/geo+json',
-            Download_URL=self.path.name,
-        )
-        res.update(kw)
-        return res
+def move(feature, references):
+    geom = feature['geometry']
+    out_polys = []
+    in_polys = [geom['coordinates']] if geom['type'] == 'Polygon' else geom['coordinates']
+    for poly in in_polys:
+        pshape = shape(dict(type='Polygon', coordinates=poly))
+        lon, lat = None, None
+        for point, _lon, _lat in references:
+            print(point)
+            if pshape.contains(point):
+                print('got it!')
+                lon, lat = _lon, _lat
+                break
+        if lon is not None:
+            out_poly = [[(_lon + lon, _lat + lat) for _lon, _lat in ring] for ring in poly]
+        else:
+            out_poly = poly
+        out_polys.append(out_poly)
+    geom['type'] = 'Polygon' if len(out_polys) == 1 else 'MultiPolygon'
+    geom['coordinates'] = out_polys[0] if len(out_polys) == 1 else out_polys
+    return feature
 
 
 class Dataset(BaseDataset):
@@ -90,6 +64,22 @@ class Dataset(BaseDataset):
     def languages(self):
         return collections.OrderedDict(
             [((lg['Name'], lg['Countries']), lg) for lg in self.etc_dir.read_csv('languages.csv', dicts=True)])
+
+    @functools.cached_property
+    def vectors(self):
+        res = {}
+        for pid, rows in itertools.groupby(
+            sorted(self.etc_dir.read_csv('move.csv', dicts=True), key=lambda r: r['pid']),
+            lambda r: r['pid'],
+        ):
+            res[int(pid)] = []
+            for lg in rows:
+                lon, lat = float(lg['source_lon']), float(lg['source_lat'])
+                res[int(pid)].append((
+                    Point(lon if lon > 0 else lon + 360, lat),
+                    float(lg['target_lon']) - float(lg['source_lon']),
+                    float(lg['target_lat']) - float(lg['source_lat'])))
+        return res
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return super().cldf_specs()
@@ -118,14 +108,15 @@ class Dataset(BaseDataset):
                 properties.append(props)
 
                 if lid in features:
-                    features[lid]['geometry']['coordinates'].extend(multi_polygon(feature))
+                    features[lid]['geometry'] = merged_geometry(
+                        [features[lid], fixed_geometry(feature)], buffer=0)
                 else:
                     lname2index[lid] = i + 1
                     features[lid] = {
                         'id': str(i),
                         'type': 'Feature',
                         'properties': {},
-                        'geometry': {'type': 'MultiPolygon', 'coordinates': multi_polygon(feature)}
+                        'geometry': fixed_geometry(feature)['geometry'],
                     }
 
         for (lname, cname), props in itertools.groupby(
@@ -136,44 +127,24 @@ class Dataset(BaseDataset):
             for attr in ['COUNTRY_NAME', 'SOVEREIGN', 'ISLAND_NAME']:
                 f['properties'][attr] = sorted(set(p[attr] for p in props if attr in p))
 
-            mp = None
-            for i, poly in enumerate(f['geometry']['coordinates']):
-                rings = []
-                for ring in poly:
-                    # Some linear rings are self-intersecting. We fix these by taking the 0-distance
-                    # buffer around the ring instead.
-                    p = Polygon(ring)
-                    if not p.is_valid:
-                        p = p.buffer(0)
-                        assert p.is_valid
-                    rings.append(p.__geo_interface__['coordinates'][0])
-                p = shape(dict(type='Polygon', coordinates=rings))
-                assert p.is_valid
-                if mp is None:
-                    mp = shape(dict(type='MultiPolygon', coordinates=[rings]))
-                else:
-                    mp = mp.union(p)
-                assert mp.is_valid
-            f['geometry'] = mp.__geo_interface__
-            yield lname2index[(lname, cname)], lname, cname, f
+            fid = lname2index[(lname, cname)]
+            if fid in self.vectors:
+                move(f, self.vectors[fid])
+
+            yield fid, lname, cname, f
 
     def cmd_makecldf(self, args):
         self.schema(args.writer.cldf)
 
         args.writer.cldf.add_sources(*Sources.from_file(self.etc_dir / "sources.bib"))
 
-        polys_by_code = collections.defaultdict(list)
         coded_langs = {k: v for k, v in self.languages.items() if v.get('Glottocode')}
         coded_names = collections.defaultdict(list)
         for k, v in self.languages.items():
             if v.get('Glottocode'):
                 coded_names[k[0]].append(v)
 
-        glangs = {lg.id: lg for lg in args.glottolog.api.languoids()}
-        lang2fam = {}
-        lang = {gc for gc, glang in glangs.items() if glang.level.name == 'language'}
-
-        # Assemble all Glottocodes related to any area.
+        polys = []
         for lid, lname, cname, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
             args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
@@ -188,89 +159,42 @@ class Dataset(BaseDataset):
                 cname = coded_names[lname][0]['Countries']
             if (lname, cname) in coded_langs:
                 for gc in coded_langs[(lname, cname)]['Glottocode'].split():
-                    glang = glangs[gc]
-                    polys_by_code[glang.id].append((lid, feature))
-                    lang2fam[glang.id] = glang.id if not glang.lineage else glang.lineage[0][1]
-                    if glang.lineage:
-                        lang2fam[glang.id] = glang.lineage[0][1]
-                        for _, fgc, _ in glang.lineage:
-                            lang2fam[fgc] = glang.lineage[0][1]
-                            polys_by_code[fgc].append((lid, feature))
-                    else:
-                        lang2fam[glang.id] = glang.id
+                    polys.append((str(lid), feature, gc))
 
-        colors = dict(zip(
-            [k for k, v in collections.Counter(lang2fam.values()).most_common()],
-            qualitative_colors(len(lang2fam.values()))))
-
-        with FeatureCollection(
-            self.cldf_dir / 'languages.geojson',
-            title='Speaker areas for languages',
-            description='Speaker areas from Wurm and Hattori 1981 aggregated for Glottolog '
-                        'language-level languoids, color-coded by family.',
-        ) as geojson:
-            for gc, polys in polys_by_code.items():
-                glang = glangs[gc]
-                if gc in lang:
+        lids = None
+        for ptype in ['language', 'family']:
+            label = 'languages' if ptype == 'language' else 'families'
+            p = self.cldf_dir / '{}.geojson'.format(label)
+            features, languages = aggregate(polys, args.glottolog.api, level=ptype, buffer=0.005)
+            dump(feature_collection(
+                features,
+                title='Speaker areas for {}'.format(label),
+                description='Speaker areas aggregated for Glottolog {}-level languoids, '
+                            'color-coded by family.'.format(ptype)),
+                p,
+                indent=2)
+            for glang, pids, family in languages:
+                if lids is None or (glang.id not in lids):  # Don't append isolates twice!
                     args.writer.objects['LanguageTable'].append(dict(
-                        ID=gc,
+                        ID=glang.id,
                         Name=glang.name,
+                        Glottocode=glang.id,
                         Latitude=glang.latitude,
                         Longitude=glang.longitude,
-                        Source_Languoid_IDs=[str(p[0]) for p in polys],
-                        Speaker_Area=geojson.path.stem,
-                        Glottolog_Languoid_Level='language',
-                        Family=glangs[lang2fam[gc]].name if lang2fam[gc] != gc else None,
+                        Source_Languoid_IDs=pids,
+                        Speaker_Area=p.stem,
+                        Glottolog_Languoid_Level=ptype,
+                        Family=family,
                     ))
-                    geojson.append_feature(
-                        merged_geometry([p[1] for p in polys]),
-                        title=glang.name,
-                        fill=colors[lang2fam[gc]],
-                        family=glangs[lang2fam[gc]].name if lang2fam[gc] != gc else None,
-                        **{'cldf:languageReference': gc, 'fill-opacity': 0.8})
-        args.writer.objects['MediaTable'].append(geojson.as_row())
-
-        with FeatureCollection(
-            self.cldf_dir / 'families.geojson',
-            title='Speaker areas for language families',
-            description='Speaker areas from Wurm and Hattori 1981 aggregated for Glottolog '
-                        'top-level family languoids.',
-        ) as geojson:
-            for gc in sorted(set(lang2fam.values())):
-                glang = glangs[gc]
-                if gc not in lang:  # Don't append isolates twice!
-                    args.writer.objects['LanguageTable'].append(dict(
-                        ID=gc,
-                        Name=glang.name,
-                        Source_Languoid_IDs=[str(p[0]) for p in polys_by_code[gc]],
-                        Speaker_Area=geojson.path.stem,
-                        Glottolog_Languoid_Level='family',
-                    ))
-                geojson.append_feature(
-                    merged_geometry([p[1] for p in polys_by_code[gc]]),
-                    title=glang.name,
-                    fill=colors[gc],
-                    **{'cldf:languageReference': gc, "fill-opacity": 0.8})
-        args.writer.objects['MediaTable'].append(geojson.as_row())
-
-        return
-        try:
-            p = Point(glangs[gc].longitude, glangs[gc].latitude)
-            t += 1
-            geo = merged_geometry(polys)
-            if not geo.contains(p):
-                if 0.5 < geo.distance(p) < 350:
-                    m += 1
-                    lang_areas['features'].append(dict(
-                        type="Feature",
-                        properties={"title": '{} {}'.format(glangs[gc].name, glangs[gc].id)},
-                        geometry=geo.__geo_interface__))
-                    lang_areas['features'].append(dict(
-                        type="Feature",
-                        properties={"title": '{} {}'.format(glangs[gc].name, glangs[gc].id)},
-                        geometry=p.__geo_interface__))
-        except:
-            print(glangs[gc].id, glangs[gc].latitude)
+            args.writer.objects['MediaTable'].append(dict(
+                ID=p.stem,
+                Name='Speaker areas for {}'.format(label),
+                Description='Speaker areas aggregated for Glottolog {}-level languoids, '
+                            'color-coded by family.'.format(ptype),
+                Media_Type=MEDIA_TYPE,
+                Download_URL=p.name,
+            ))
+            lids = {gl.id for gl, _, _ in languages}
 
     def schema(self, cldf):
         t = cldf.add_component(
