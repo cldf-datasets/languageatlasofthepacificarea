@@ -33,24 +33,31 @@ def norm(d):
     return d
 
 
+MOVED = 0
+
+
 def move(feature, references):
     geom = feature['geometry']
     out_polys = []
     in_polys = [geom['coordinates']] if geom['type'] == 'Polygon' else geom['coordinates']
     for poly in in_polys:
         pshape = shape(dict(type='Polygon', coordinates=poly))
-        lon, lat = None, None
+        lon, lat, delete = None, None, False
         for point, _lon, _lat in references:
-            print(point)
             if pshape.contains(point):
-                print('got it!')
+                global MOVED
+                MOVED += 1
+                print(MOVED)
                 lon, lat = _lon, _lat
+                if _lon is None and _lat is None:
+                    delete = True
                 break
         if lon is not None:
             out_poly = [[(_lon + lon, _lat + lat) for _lon, _lat in ring] for ring in poly]
         else:
             out_poly = poly
-        out_polys.append(out_poly)
+        if not delete:
+            out_polys.append(out_poly)
     geom['type'] = 'Polygon' if len(out_polys) == 1 else 'MultiPolygon'
     geom['coordinates'] = out_polys[0] if len(out_polys) == 1 else out_polys
     return feature
@@ -77,8 +84,8 @@ class Dataset(BaseDataset):
                 lon, lat = float(lg['source_lon']), float(lg['source_lat'])
                 res[int(pid)].append((
                     Point(lon if lon > 0 else lon + 360, lat),
-                    float(lg['target_lon']) - float(lg['source_lon']),
-                    float(lg['target_lat']) - float(lg['source_lat'])))
+                    float(lg['target_lon']) - lon if lg['target_lon'] else None,
+                    float(lg['target_lat']) - lat if lg['target_lat'] else None))
         return res
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
@@ -165,7 +172,7 @@ class Dataset(BaseDataset):
         for ptype in ['language', 'family']:
             label = 'languages' if ptype == 'language' else 'families'
             p = self.cldf_dir / '{}.geojson'.format(label)
-            features, languages = aggregate(polys, args.glottolog.api, level=ptype, buffer=0.005)
+            features, languages = aggregate(polys, args.glottolog.api, level=ptype, buffer=0.005, opacity=0.5)
             dump(feature_collection(
                 features,
                 title='Speaker areas for {}'.format(label),
