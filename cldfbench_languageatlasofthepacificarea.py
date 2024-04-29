@@ -106,8 +106,10 @@ class Dataset(BaseDataset):
         features = {}
         properties = []
         lname2index = {}
+        _all = []
         for i, feature in enumerate(geopandas.read_file(
                 str(self.raw_dir / 'languagemap_040102.shp')).__geo_interface__['features']):
+            _all.append(feature)
             props = norm({k: v for k, v in feature['properties'].items() if v})
             if 'LANGUAGE' in props:  # Ignore uninhabited areas, unclassified languages etc.
                 props.setdefault('COUNTRY_NAME', '')
@@ -125,6 +127,7 @@ class Dataset(BaseDataset):
                         'properties': {},
                         'geometry': fixed_geometry(feature)['geometry'],
                     }
+        dump(feature_collection(_all), self.raw_dir / 'all.geojson')
 
         for (lname, cname), props in itertools.groupby(
                 sorted(properties, key=lambda f: (f['LANGUAGE'], f['COUNTRY_NAME'])),
