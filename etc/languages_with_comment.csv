@@ -1966,7 +1966,7 @@ NUGUNU,Australia,,Australia,nugu1241,
 NUKUMANU,,,,nuku1258,Glottolog languoid with matching name and coordinate within polygons
 NUKUORO,,,,nuku1260,
 NUKURIA,,,,nuku1259,Glottolog languoid with matching name and coordinate within polygons
-Null,,,,,
+Null,,,,,Artefact - a polygon far south of New Zealand
 Nulu,,,,nulu1237,Glottolog languoid with matching name and coordinate within polygons
 NUMANGANG EAST,,Papua New Guinea,,east2507,
 NUMANGANG WEST,,Papua New Guinea,,west2588,
@@ -1994,11 +1994,11 @@ Oga Bakung,,,,,
 Oibu,,Papua New Guinea,,oibu1239,
 OIRATA,Indonesia,,,oira1263,Glottolog languoid with matching name and matching country
 Ok Bab,Indonesia,,,okba1239,
-Oko,,,,,
+Oko,,,,okoo1246,Maps to Oko dialect of Glottolog language with MultiTree name Managalasi - matching the language name in the Atlas
 OKSAPMIN,,Papua New Guinea,,oksa1245,Glottolog languoid with matching name and matching country (infered from island name)
 OMATI,,Papua New Guinea,,omat1240,Glottolog languoid with matching name and matching country (infered from island name)
 Omene,,Papua New Guinea,,omen1237,
-Omo,,,,,
+Omo,,,,poro1255,Omo dialect of POROME - which maps to a Glottolog dialect at the same location
 ONABASULU,,Papua New Guinea,,onob1238,
 ONE,,Papua New Guinea,,onee1245,
 ONG,Lao People's Democratic Republic,,Laos,ongg1239,
@@ -2017,7 +2017,7 @@ OROKOLO,,Papua New Guinea,,orok1267,Glottolog languoid with matching name and ma
 OROWE,,New Caledonia,,orow1242,Glottolog languoid with matching name and matching country (infered from island name)
 Oruone,,Papua New Guinea,,oruo1237,
 OSUM,,Papua New Guinea,,utar1238,
-Other ?,,Papua New Guinea,,,
+Other ?,,Papua New Guinea,,mang1403,Dialect of MANSENG labeled 'Other ?'
 OUMA,,Papua New Guinea,,ouma1237,Glottolog languoid with matching name and matching country (infered from island name)
 OWENA,,Papua New Guinea,,owen1244,
 OWINIGA,,Papua New Guinea,,owin1240,Glottolog languoid with matching name and matching country (infered from island name)
@@ -2051,7 +2051,7 @@ PAGI,,Papua New Guinea,,pagi1244,Glottolog languoid with matching name and match
 PAGU lsam,Indonesia,,Indonesia,isam1243,
 PAHI,,Papua New Guinea,,pahi1246,Glottolog languoid with matching name and matching country (infered from island name)
 Pahu,Indonesia,,Borneo,pahu1239,
-PAI,,Papua New Guinea,,,
+PAI,,Papua New Guinea,,peii1238,Matches Glottolog language Pei at the same location
 PAICI,,New Caledonia,,paic1239,Glottolog languoid with closely matching name and coordinate within polygons
 Paitanic Subgroup,,,,pait1248,
 PAIWAN,Taiwan,,Taiwan,paiw1248,Glottolog languoid with matching name and coordinate within polygons
@@ -2084,8 +2084,8 @@ Papar 1 sd.,,,,papa1268,"Mapped to Papar which has a Glottolog location nearby w
 PAPASENA,,,,papa1269,Mapped to matching Glottolog language at matching location
 PAPI,,,,papi1255,Mapped to matching Glottolog language at matching location
 PAPORA,Taiwan,,Taiwan,nucl1579,Glottolog languoid with matching name and coordinate within polygons
-Papua New Guinea,,,,,
-PAPUAN,Indonesia,,,,
+Papua New Guinea,,,,wata1253,For whatever reason the polygon labeled WATAM in the Atlas
+PAPUAN,Indonesia,,,,Various regions of - presumably - papuan speaking peoples
 PARANAN,Philippines,,Philippines,para1306,Glottolog languoid with matching name and matching country
 PARAWEN,,Papua New Guinea,,para1307,Glottolog languoid with matching name and matching country (infered from island name)
 Parb,,Papua New Guinea,,lenn1234,"'d of Nambu W&H 1981' (Carrington) at location of the Glottolog language Len from the Nambu subgroup",Carrington[458]
@@ -2238,7 +2238,7 @@ SA'DAN Rongkong,Indonesia,,Sulawesi,taee1237,
 SAEK,Lao People's Democratic Republic,,Laos,saek1240,Glottolog languoid with matching name and matching country
 SAEP,,Papua New Guinea,,saep1240,Glottolog languoid with matching name and matching country (infered from island name)
 SAFEYOKA(AMPALE) Wojokeso,,Papua New Guinea,,waja1260,
-Safrontani,Indonesia,,,,
+Safrontani,Indonesia,,,beri1254,Dialect of BERIK
 SAHU,Indonesia,,Indonesia,sahu1245,Glottolog languoid with matching name and matching country
 SAIPAN,,,,caro1242,
 SAIPAN,,Northern Mariana Islands,,caro1242,
@@ -2250,7 +2250,7 @@ Salalir,,,,sala1270,
 Salayar,Indonesia,,,sela1260,
 Salayar,Indonesia,,Sulawesi,sela1260,
 SALEMAN,Indonesia,,Indonesia,sale1244,Glottolog languoid with matching name and matching country
-Salmeyt,Indonesia,,,,
+Salmeyt,Indonesia,,,sawi1235,TEHIT dialect; matched with similarly named Glottolog dialect Sawiat Salmeit of Tehit
 SALT-YUI,,Papua New Guinea,,salt1242,Glottolog languoid with matching name and matching country (infered from island name)
 SALUAN,Indonesia,,Sulawesi,salu1253,erroneously includes the Balantak area
 SAMA CENTRAL,Philippines,,Philippines,sout2918,Polygon matches Southern Sama [ssb]
@@ -2273,7 +2273,7 @@ SAOCH,Cambodia,,Kampuchea,saoc1239,
 SAPARUA,Indonesia,,Indonesia,sapa1251,Glottolog languoid with matching name and matching country
 Saparua,Indonesia,,Indonesia,sapa1251,Glottolog languoid with matching name and matching country
 SAPUAN/SOK/CHENG,Lao People's Democratic Republic,,Laos,sapu1248,
-Sar. M.,,,,,
+Sar. M.,,,,brun1242,Dialect of BRUNEI MALAY
 SARAM,,Papua New Guinea,,saka1292,
 SARANGANI MANOBO,Philippines,,Philippines,sara1327,Glottolog languoid with matching name and matching country
 Sarawak Malay,,,,sara1351,
@@ -2390,7 +2390,7 @@ Simberi,,,,simb1257,
 SIMBO,,,,simb1256,Glottolog languoid with matching name and coordinate within polygons
 SIMEULUE/Eastern,Indonesia,,Indonesia,sime1241,
 SIMEULUE/Western,Indonesia,,Indonesia,sime1241,
-Simiso,,Papua New Guinea,,,
+Simiso,,Papua New Guinea,,safe1240,Dialect of SAFEYOKA
 SIMOG,,Papua New Guinea,,auwe1239,
 Simori,Indonesia,,,simo1241,
 SINAGORO,,Papua New Guinea,,sina1266,
@@ -2411,14 +2411,14 @@ SIRAYAY_Siraya,Taiwan,,Taiwan,sira1267,
 SIRIO,,Papua New Guinea,,nawa1258,
 SIRKAI,Indonesia,,,kete1254,
 SIROI,,Papua New Guinea,,siro1249,Glottolog languoid with matching name and matching country (infered from island name)
-SIROMI?,Indonesia,,,,
+SIROMI?,Indonesia,,,bara1375,"'Baropasi (E side Cenderawasih Bay, Tor R; also Barapasi, Siromi)'",Carrington[428]
 Sisiame,,Papua New Guinea,,sisi1249,
 SISSANO,,Papua New Guinea,,siss1243,Glottolog languoid with matching name and matching country (infered from island name)
 SKOITUMAWO,Indonesia,,,nucl1634,
 SLTI,,Papua New Guinea,,seti1248,
 SO,Lao People's Democratic Republic,,Laos,sooo1254,Glottolog languoid with closely matching name and coordinate within polygons
 SO,Thailand,,Thailand,,
-SOBEI,,,,,
+SOBEI,,,,sobe1238,Matching Glottolog language with matching location
 SOBEI,Indonesia,,,sobe1238,Glottolog languoid with matching name and matching country
 Sohe,,Papua New Guinea,,orok1269,
 Sokeni,Indonesia,,,cent2117,
@@ -2458,12 +2458,12 @@ South MANSAP buna,,Papua New Guinea,,masa1310,
 South Mianmin,,Papua New Guinea,,uppe1429,
 South MIGABAC,,Papua New Guinea,,sout2939,Glottolog languoid with matching name and coordinate within polygons
 South MODOLE,Indonesia,,Indonesia,sout2945,
-South MONI,Indonesia,,,,
+South MONI,Indonesia,,,moni1261,Dialect labeled 'South' of MONI
 SOUTH NGALIK,Indonesia,,,sili1249,
 SOUTH NUK,,Papua New Guinea,,sout2935,Glottolog languoid with matching name and coordinate within polygons
-South SAWUY,Indonesia,,,,
+South SAWUY,Indonesia,,,sawi1257,Matched to Glottolog language with matching MultiTree name at matching location
 South SELEPET,,Papua New Guinea,,sele1250,
-South URAT,,Papua New Guinea,,,
+South URAT,,Papua New Guinea,,urat1244,Dialect labeled 'S' in URAT language polygon,
 SOUTH WEST BAY,,Vanuatu,,sout2857,
 South YELMEK,Indonesia,,,yelm1242,
 South YEY,Indonesia,,,lowe1408,
@@ -2480,7 +2480,7 @@ SOUTHERN bAAGANDJI,Australia,,Australia,darl1243,
 SOUTHERN BISAYA,,,,saba1267,
 Southern GIDRA,,Papua New Guinea,,wipi1242,
 Southern GIMAN,Indonesia,,Indonesia,gane1237,
-SOUTHERN KIWAI,,,,,
+SOUTHERN KIWAI,,,,sout2949,Matching Glottolog language at matching location
 Southern KUNIMAIPA,,Papua New Guinea,,kuni1267,
 Southern KWERBA,Indonesia,,,nucl1595,
 Southern MOUNTAIN KOIARI,,Papua New Guinea,,moun1252,
@@ -2498,8 +2498,8 @@ Sugut Kao'azan,,,,sugu1243,
 Sui,,Papua New Guinea,,suii1244,
 SUKI,,Papua New Guinea,,suki1245,Glottolog languoid with matching name and matching country (infered from island name)
 SUKURUM,,Papua New Guinea,,suku1264,Glottolog languoid with matching name and matching country (infered from island name)
-Sulawesi,,,,,
-Sulawesi,Indonesia,,Indonesia,,
+Sulawesi,,,,buto1237,Described as 'Sulawesi languages: Buton'
+Sulawesi,Indonesia,,Indonesia,buto1237,Described as 'Sulawesi languages: Buton'
 SULKA,,Papua New Guinea,,sulk1246,Glottolog languoid with matching name and matching country (infered from island name)
 Suluk,,,,taus1251,
 SUMAMBU - TAGAL Rundum Murut,,,,taga1273,
@@ -2551,7 +2551,7 @@ T,Thailand,,Thailand,,
 Tabar,,,,mand1440,
 Taboro,,Papua New Guinea,,tabo1240,
 Tabu,,Papua New Guinea,,nucl1630,
-Tabun sd.,,,,,
+Tabun sd.,,,,lund1271,Another LUN DAYE dialect
 TACRI SO,,,,dout1240,
 TADYAWAN,Philippines,,Philippines,tady1237,Glottolog languoid with matching name and matching country
 TAGABAWA,Philippines,,Philippines,taga1272,Glottolog languoid with matching name and matching country
@@ -2561,7 +2561,7 @@ TAHITIAN,,,,tahi1242,
 TAHOI,Lao People's Democratic Republic,,Laos,uppe1406,
 TAI LOI,Lao People's Democratic Republic,,Laos,nucl1289,
 TAIKAT,Indonesia,,,taik1255,Glottolog languoid with matching name and matching country
-TAIRAP,Indonesia,,,,
+TAIRAP,Indonesia,,,burm1264,Typo transcribing TAURAP which is the ELCAT name of the matched Glottolog language
 Tais,,Papua New Guinea,,namb1293,
 TAKIA,,,,taki1248,
 TAKIA,,Papua New Guinea,,taki1248,Glottolog languoid with matching name and matching country (infered from island name)
@@ -2619,8 +2619,8 @@ Tehijit,Indonesia,,,tehi1239,
 TELEFOL,,Papua New Guinea,,tele1256,Glottolog languoid with matching name and matching country (infered from island name)
 Teli,Indonesia,,,kete1254,
 Teluti,Indonesia,,Indonesia,telu1263,Glottolog languoid with matching name and matching country
-Temate,,,,,
-Temate,Indonesia,,Indonesia,nort2828,
+Temate,,,,tern1247,Typo transcribing 'Ternate' from the Atlas
+Temate,Indonesia,,Indonesia,tern1247,Typo transcribing 'Ternate' from the Atlas
 TEMIAR,Malaysia,,Malaysia,temi1246,Glottolog languoid with matching name and matching country
 TEMIAR/Northern,Malaysia,,Malaysia,temi1246,
 TEMIAR/Southern,Malaysia,,North-Western Malaysia,temi1246,
@@ -2628,7 +2628,7 @@ Tempasuk,,,,temp1235,
 Temuan,Malaysia,,Malaysia,,
 Tengara,,,,teng1271,
 TEOP,,Papua New Guinea,,teop1238,Glottolog languoid with matching name and matching country (infered from island name)
-TERI,,Papua New Guinea,,,
+TERI,,Papua New Guinea,,iter1241,Typo transcribing 'ITERI' from the Atlas
 Termate,Indonesia,,Indonesia,tern1247,
 TERNATE,,,,tern1247,Glottolog languoid with matching name and coordinate within polygons
 TETUN,Timor-Leste,,East Timor,tetu1245,
@@ -2650,7 +2650,7 @@ THAVUNG,Lao People's Democratic Republic,,Laos,aheu1239,"Thavung is spoken in di
 THAWA,Australia,,Australia,thaw1238,
 Tialo,Indonesia,,Sulawesi,tomi1243,
 TIANG,,Papua New Guinea,,tian1237,Glottolog languoid with matching name and matching country (infered from island name)
-TIDONG,,,,,
+TIDONG,,,,tidu1239,Matches the location(s) of the Tidung subgroup of Murutic
 TIDONG,Indonesia,,Indonesia,tala1285,
 TIDORE,,,,tido1248,
 TIDORE,Indonesia,,Indonesia,tido1248,Glottolog languoid with matching name and matching country
@@ -2735,7 +2735,7 @@ TUTUBA,,,,tutu1241,
 TUVALU,,,,tuva1244,
 TUVALU,,Tuvalu,,tuva1244,Glottolog languoid with matching name and matching country (infered from island name)
 TUWARI,,Papua New Guinea,,tuwa1242,Glottolog languoid with matching name and matching country (infered from island name)
-Uahita,,Papua New Guinea,,,
+Uahita,,Papua New Guinea,,bumb1241,Typo transcribing 'Ilahita'; a dialect of SOUTH ARAPESH
 UARIPI,,Papua New Guinea,,tair1256,
 Ubae,,Papua New Guinea,,ubae1237,
 UBIR,,Papua New Guinea,,ubir1237,Glottolog languoid with matching name and matching country (infered from island name)
@@ -2751,7 +2751,7 @@ ULAU-SUAIN,,Papua New Guinea,,ulau1237,Glottolog languoid with matching name and
 Ulawa,,,,ulaw1237,
 ULINGAN,,Papua New Guinea,,mauw1238,
 ULITHIAN,,,,ulit1238,
-Ulu,,,,,
+Ulu,,,,ramo1244,Dialect 'f' of DUKE OF YORK
 Ulu,Malaysia,,Malaysia,ramo1244,
 Ulu Ai',,,,ulua1243,
 Uma Bakah W.K.,Indonesia,,Borneo,umal1239,
@@ -2767,11 +2767,11 @@ Ungarinjin Guwidj Wilawila Wolyamidi,Australia,,Australia,ngar1284,
 Unggumi  Worord,Australia,,Australia,ungg1243,
 UNINO,,Papua New Guinea,,sopp1247,
 UNUA,,Vanuatu,,unua1237,Glottolog languoid with matching name and matching country (infered from island name)
-UPPER DIGUL R,Indonesia,,,,
-UPPER KAEME R?,Indonesia,,,,
+UPPER DIGUL R,Indonesia,,,awyu1263,'[Unclassified] Awyu-Dumut Family languages'
+UPPER KAEME R?,Indonesia,,,awyu1263,'[Unclassified] Awyu-Dumut Family languages'
 UPPER KINABATANGAN p.,,,,uppe1427,Glottolog languoid with closely matching name and coordinate within polygons
-Upper Limbang Adang sd.,,,,,
-Upper Limbang Ba Kelalan sd.,,,,,
+Upper Limbang Adang sd.,,,,lund1271,Dialects of LUN DAYE in the Atlas
+Upper Limbang Ba Kelalan sd.,,,,lund1271,
 UPPER MOREHEAD(ROUKU),,Papua New Guinea,,wara1294,
 Upper Mori,Indonesia,,Sulawesi,mori1268,
 Upper Ugu,,Papua New Guinea,,uppe1435,
@@ -2812,9 +2812,9 @@ Vora,,Papua New Guinea,,vora1237,
 VORI,,Papua New Guinea,,tain1253,
 VOVO,,Vanuatu,,vovo1238,Glottolog languoid with matching name and matching country (infered from island name)
 VUNAPU,,,,vuna1239,Glottolog languoid with matching name and coordinate within polygons
-W-Coast,Indonesia,,,,
+W-Coast,Indonesia,,,nucl1622,'W-Coast' dialect of MARIND in the Atlas
 W-Coast MARIND,Indonesia,,,nucl1622,
-W.C. Central,,Papua New Guinea,,,
+W.C. Central,,Papua New Guinea,,west2590,Polygon labeled as 'W C' dialect of KOMBA
 W.K. L. Bangan,,,,long1401,
 W.KENYAH Kemena Penan,,,,keme1241,
 W.Kewa,,Papua New Guinea,,west2599,Glottolog languoid with closely matching name and coordinate within polygons
@@ -2835,8 +2835,8 @@ WAGAYA,Australia,,Australia,waga1260,Glottolog languoid with matching name and m
 Wagaya-Warluwaric Group,Australia,,Australia,ngar1291,
 WAGIMAN,Australia,,Australia,wage1238,Glottolog languoid with closely matching name and coordinate within polygons
 WAHAU KY,,,,waha1239,
-Wai,Indonesia,,Indonesia,,
-WAIA,,Papua New Guinea,,,
+Wai,Indonesia,,Indonesia,hitu1239,Listed as dialect of HITU in the Atlas
+WAIA,,Papua New Guinea,,tabo1241,Matching ELCAT name of Glottolog language in same area
 Waiamli,Indonesia,,Indonesia,waya1267,
 WAIBUK Arama,,Papua New Guinea,,sout2946,
 WAILAPA,,,,wail1242,
@@ -2909,10 +2909,10 @@ West,,Papua New Guinea,,nucl1610,
 WEST BANTON_Looc-Alcantara,Philippines,,Philippines,alca1237,
 West Bird's Head Stock Level Family,Indonesia,,,west1493,
 WEST BUKIDNON MANOBO,Philippines,,Philippines,pula1266,
-West Central,,Papua New Guinea,,,
-West Central Family,,Papua New Guinea,,,
+West Central,,Papua New Guinea,,west2591,Polygon is labeled as 'West' dialect of KOMBA
+West Central Family,,Papua New Guinea,,nete1240,Polygon in Atlas has language-level label NETE
 West GIMI,,Papua New Guinea,,west2597,Glottolog languoid with matching name and coordinate within polygons
-West KOI,,Papua New Guinea,,,
+West KOI,,Papua New Guinea,,west2601,Typo transcribing 'West KOITA'; mapped to matching Glottolog dialect name at matching location
 West KOIARI,,Papua New Guinea,,gras1249,
 WEST LOU,,Papua New Guinea,,west2579,
 West Makian,,,,west2600,
@@ -2950,7 +2950,7 @@ WEYEWA/Tana Righu,Indonesia,,Indonesia,tana1282,Glottolog dialect with matching 
 WEYEWA/Weyewa,Indonesia,,Indonesia,weje1237,
 WHITESANDS,,Vanuatu,,whit1269,Glottolog languoid with matching name and matching country (infered from island name)
 WIAK,,Papua New Guinea,,mini1253,
-Wideman R ?,Indonesia,,,,
+Wideman R ?,Indonesia,,,asue1235,Dialect of PISA in the Atlas; mapped to Glottolog language with WALS and Ruhlen name Pisa
 Wiga,,Papua New Guinea,,wiga1237,
 WILYAGALI,Australia,,Australia,wilj1239,
 Wingei,,Papua New Guinea,,wing1239,
@@ -2986,7 +2986,7 @@ YABULA YABULA,Australia,,Australia,yabu1234,Glottolog languoid with matching nam
 YAFI,Indonesia,,,yafi1240,Glottolog languoid with matching name and matching country
 YAGARA,Australia,,Australia,yaga1262,Glottolog languoid with matching name and matching country
 YAGAWAK,,Papua New Guinea,,yaga1259,
-YAGOMI,,Papua New Guinea,,,
+YAGOMI,,Papua New Guinea,,yago1240,Glottolog language at matching location used to be called Yagomi
 YAGWOIA,,Papua New Guinea,,yagw1240,Glottolog languoid with matching name and matching country (infered from island name)
 YAKAN,Philippines,,Philippines,yaka1277,Glottolog languoid with matching name and matching country
 YAKNGE,,Papua New Guinea,,buru1306,
@@ -3010,7 +3010,7 @@ Yangoru D,,Papua New Guinea,,boik1241,
 Yangoru E,,Papua New Guinea,,boik1241,
 YANGULAM,,Papua New Guinea,,yang1298,Glottolog languoid with matching name and matching country (infered from island name)
 YANIMO,,Papua New Guinea,,dumo1240,
-YANINGARA,,,,,
+YANINGARA,,,,kani1285,Typo transcribing KANINGARA from Atlas which we map to Kaningra in the same area
 Yanite,,Papua New Guinea,,kani1286,
 YANYUWA,Australia,YANYUWA,Australia,yany1243,Glottolog languoid with matching name and matching country
 YAO,China,,China,,
@@ -3035,14 +3035,14 @@ YAVA,Indonesia,,,cent2052,
 YAWIYUHA,,Papua New Guinea,,yawe1241,Glottolog languoid with closely matching name and coordinate within polygons
 YAWURU,Australia,,Australia,yawu1244,Glottolog languoid with matching name and matching country
 YAYGIR,Australia,,Australia,yayg1236,Glottolog languoid with matching name and matching country
-Yayoponjo,,Papua New Guinea,,safe1240,
-YEGA(Yega),,Papua New Guinea,,yega1243,
+Yayoponjo,,Papua New Guinea,,safe1240,Dialect of SAFEYOKA in Atlas
+YEGA(Yega),,Papua New Guinea,,yega1243,Matching Glottolog dialect at matching lication
 YEKORA,,Papua New Guinea,,yeko1240,Glottolog languoid with matching name and matching country (infered from island name)
-YEKORA,,,,yeko1240,
+YEKORA,,,,yeko1240,Matrching Glottolog language at matching location
 YERAKAI,,Papua New Guinea,,yera1243,Glottolog languoid with matching name and matching country (infered from island name)
 YEREBA,,Papua New Guinea,,yare1248,Glottolog languoid with closely matching name and coordinate within polygons
 YERETUAR,Indonesia,,,yere1243,Glottolog languoid with matching name and matching country
-Yibab,,Papua New Guinea,,kama1367,
+Yibab,,Papua New Guinea,,kama1367,'Yibab-Wandomi d of Kamasau W&H 1981',Carrington[476]
 YIDINY,Australia,,Australia,yidi1250,Polygons contain Glottolog language with ELCAT name Yidiny
 Yidinyic Group,Australia,,Australia,yidi1249,
 YIMAS,,Papua New Guinea,,yima1243,Glottolog languoid with matching name and matching country (infered from island name)
@@ -3053,23 +3053,23 @@ YITHA-YITHA,Australia,,Australia,yith1234,
 Yiwaidjan Family,Australia,,Australia,iwai1246,
 YOBA,,Papua New Guinea,,yoba1237,Glottolog languoid with matching name and matching country (infered from island name)
 YOIDIK,,Papua New Guinea,,yoid1240,Glottolog languoid with matching name and matching country (infered from island name)
-Yoliapi,,,,hewa1241,
+Yoliapi,,,,hewa1241,Glottolog language with matching ELCAT name
 YONGGOM,,Papua New Guinea,,yong1280,Glottolog languoid with matching name and matching country (infered from island name)
 YOTA YOTA,Australia,,Australia,yort1237,Polygons contain Glottolog language with ELCAT name Yota Yota
 YOTAFA,Indonesia,,,toba1266,Polygons contain Glottolog language with ELCAT name Yotafa
-Yotayotic Group,Australia,,Australia,yort1237,
-YU,,Papua New Guinea,,,
+Yotayotic Group,Australia,,Australia,yort1237,Matching Glottolog subgroups
+YU,,Papua New Guinea,,yill1241,Typo trasncribing 'YIL' from Atlas
 YUAGA,,New Caledonia,,yuag1237,Glottolog languoid with matching name and matching country (infered from island name)
-Yubanakor,,Papua New Guinea,,kwan1278,
+Yubanakor,,Papua New Guinea,,kwan1278,'d of Kwanga W&H 1981',Carrington[476]
 YUGUL,Australia,,Australia,yugu1250,Glottolog languoid with matching name and matching country
 YUGULDA,Australia,,Australia,gang1267,Polygons contain Glottolog language with WALS name Yukulta
-Yuin-Kuric Group,Australia,,Australia,yuin1243,
-YURI,,Papua New Guinea,,yuri1250,
-Yuri,,Papua New Guinea,,yuri1250,
-YURUWINGA,Australia,,Australia,ayer1246,
+Yuin-Kuric Group,Australia,,Australia,yuin1243,Matching Glottolog subgroup
+YURI,,Papua New Guinea,,kark1258,Glottolog language with matching Ruhlen name at matching location
+Yuri,,Papua New Guinea,,yuri1250,Matching dialect name in matching location with matching neighbor Marigl
+YURUWINGA,Australia,,Australia,ayer1246,Glottolog language with matching ELCAT name
 ZAZAO,,Solomon Islands,,zaza1245,Glottolog languoid with matching name and matching country (infered from island name)
 Zenag,,Papua New Guinea,,zena1237,Glottolog languoid with matching name and matching country (infered from island name)
 ZIA,,Papua New Guinea,,ziaa1250,Glottolog languoid with matching name and matching country (infered from island name)
-Ziew,,Papua New Guinea,,ziwe1239,
-Zomakani,,Papua New Guinea,,nucl1623,
-Zuwadze,,Papua New Guinea,,zuwa1238,
+Ziew,,Papua New Guinea,,ziwe1239,Typo transcribing 'Ziwe' from Atlas; Glottolog languoid with closely matching name and matching location
+Zomakani,,Papua New Guinea,,nucl1623,Glottolog languoid with closely matching name and matching location
+Zuwadze,,Papua New Guinea,,zuwa1238,Glottolog languoid with closely matching name and matching location
