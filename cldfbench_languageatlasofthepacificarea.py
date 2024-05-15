@@ -2,34 +2,74 @@ import pathlib
 import functools
 import itertools
 import collections
+import typing
+import urllib.request
 
 import geopandas
 from pycldf import Sources
-from clldutils.jsonlib import dump
+from clldutils.jsonlib import dump, load
 from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset
 from shapely.geometry import Point, shape
+import pycountry
+from lxml.etree import HTMLParser, fromstring
 
 from cldfgeojson import MEDIA_TYPE, aggregate, feature_collection, merged_geometry, fixed_geometry
 
+DC_RIGHTS = "© ECAI Digital Language Atlas of the Pacific Area"
+# License for scanned leaves New Guinea (https://ecaidata.org/dataset/language_atlas_of_the_pacific_scanned_atlas_leaves_-_new_guinea):
+# Leaves 1-12
+# CC-BY
+# License for scanned leaves Taiwan (https://ecaidata.org/dataset/pacific-language-atlas-leaves-taiwan):
+# Leave 30
+# http://creativecommons.org/licenses/by-nc/2.0/
 
-def norm(d):
+# https://ecaidata.org/dataset/language_atlas_of_the_pacific_scanned_atlas_leaves_-_new_guinea
+
+COLS = ['LANGUAGE', 'COUNTRY_NAME', 'ISLAND_NAME', 'SOVEREIGN']
+
+
+def norm_metadata(d) -> typing.Union[typing.Dict[str, str], None]:
+    """
+    Normalize field names and field content for country and island names.
+
+    Return `None` if the record does not contain metadata about a language polygon.
+    """
     for k in ['ISLAND_NAM', 'ISLAND_NA_', 'ISL_NAM']:
         if k in d:
-            d['ISLAND_NAME'] = d.pop(k)
+            v = d.pop(k)
+            d['ISLAND_NAME'] = {
+                'apua New Guinea': 'Papua New Guinea',
+                'Papua New Gu': 'Papua New Guinea',
+            }.get(v, v)
     if 'CNTRY_NAME' in d:
         d['COUNTRY_NAME'] = d.pop('CNTRY_NAME')
-        if d['COUNTRY_NAME'] == 'Tailand':
-            d['COUNTRY_NAME'] = 'Thailand'
+        ncountries = []
+        for name in d['COUNTRY_NAME'].split('/'):
+            name = {
+                'Tailand': 'Thailand',
+                'Burma': 'Myanmar',
+                'Christmas I.': 'Christmas Island',
+                'East Tiimor': 'Timor-Leste',
+                'East Timor': 'Timor-Leste',
+                'Kampuchea': 'Cambodia',
+                'Laos': "Lao People's Democratic Republic",
+            }.get(name, name)
+            assert pycountry.countries.lookup(name)
+            ncountries.append(name)
+        d['COUNTRY_NAME'] = '/'.join(ncountries)
     if 'SOVEREIGN' in d and 'COUNTRY_NAME' not in d:
         if d['SOVEREIGN'] == 'Australia':
             d['COUNTRY_NAME'] = 'Australia'
     if d.get('LANGUAGE', '').startswith('Uninhabite'):
-        del d['LANGUAGE']
+        return None
     if d.get('LANGUAGE', '').startswith('Unclassified'):
-        del d['LANGUAGE']
+        return None
     for v in d.values():
         assert ';' not in v
+    for col in COLS:
+        d.setdefault(col, '')
+    assert set(COLS).issubset(set(d.keys()))
     return d
 
 
@@ -47,7 +87,7 @@ def move(feature, references):
             if pshape.contains(point):
                 global MOVED
                 MOVED += 1
-                print(MOVED)
+                #print(MOVED)
                 lon, lat = _lon, _lat
                 if _lon is None and _lat is None:
                     delete = True
@@ -98,11 +138,96 @@ class Dataset(BaseDataset):
             'Description')
 
     def cmd_download(self, args):
+        import requests
+        for item in load(self.raw_dir / 'atlas_leaves.json'):
+            html = fromstring(urllib.request.urlopen(item['url']).read(), HTMLParser())
+            for link in html.xpath('//a'):
+                if 'href' in link.attrib:
+                    href = link.attrib['href']
+                    if href.split('/')[-1].startswith('L0'):
+                        o = self.raw_dir / 'atlas' / href.split('/')[-1]
+                        href = href.replace('http:', 'https:').replace('edu/a', 'edu//a')
+                        if href.endswith('jgw'):
+                            continue
+                        if not o.exists():
+                            try:
+                                print(href)
+                                o.write_bytes(requests.get(href, verify=False).content)
+                            except:
+                                raise
+                                pass
+        return
+
+        res = []
+        u = "https://ecai.org//austronesiaweb/PacificAtlasContents-Alpha.htm"
+        html = fromstring(urllib.request.urlopen(u).read(), HTMLParser())
+        for tr in html.xpath('//table[@width="589"]/tr'):
+            tds = list(tr.xpath('td'))
+            if len(tds) == 3 and tds[-1].xpath('a'):
+                res.append(dict(
+                    name=tds[0].text,
+                    id=tds[1].text,
+                    url='https://ecai.org/austronesiaweb/{}'.format(tds[-1].xpath('a')[0].attrib['href'])
+                ))
+        dump(res, self.raw_dir / 'atlas_leaves.json', indent=2)
+        return
+
+        dl = self.raw_dir / 'atlas' / 'new_guinea'
+        dl.mkdir()
+        for item in self.raw_dir.joinpath('atlas').read_json('new_guinea.json')['@graph']:
+            if item['@type'] == 'schema:DataDownload':
+                urllib.request.urlretrieve(item['schema:url'], dl / item['schema:url'].split('/')[-1])
+        return
+        url = "https://ecaidata.org/dataset/language_atlas_of_the_pacific_scanned_atlas_leaves_-_new_guinea"
+        html = fromstring(urllib.request.urlopen(url).read(), HTMLParser())
+        json = html.xpath('//script[@type="application/ld+json"]')[0]
+        self.raw_dir.joinpath('atlas', 'new_guinea.json').write_text(json.text, encoding='utf8')
+        return
+
+        import os
+        from csvw.dsv import UnicodeWriter
+
+        cols = ['LANGUAGE', 'COUNTRY_NAME', 'ISLAND_NAME', 'SOVEREIGN']
+        with UnicodeWriter('shapes_norm.csv') as w:
+            w.writerow(cols)
+            for i, feature in enumerate(geopandas.read_file(
+                    str(self.raw_dir / 'languagemap_040102.shp')).__geo_interface__['features']):
+                props = norm_metadata({k: v for k, v in feature['properties'].items() if v})
+                if props:
+                    w.writerow([props.get(col, '') for col in cols])
+        return
+
+        u = "https://ecai.berkeley.edu//austronesiaweb/maps/pacificatlas/Pacific_leaves/{}.jpg"
+        for row in self.raw_dir.read_csv('atlas_leaves.csv', dicts=True):
+            os.system('curl -k {} -o {}'.format(u.format(row['File']), str(self.raw_dir / '{}.jpg'.format(row['File']))))
+        return
+        #from csvw.dsv import UnicodeWriter
+        #md = []
+        #for i, feature in enumerate(geopandas.read_file(
+        #        str(self.raw_dir / 'languagemap_040102.shp')).__geo_interface__['features']):
+        #    md.append(feature['properties'])
+        #cols = set()
+        #for p in md:
+        #    cols = cols.union(p.keys())
+        #cols = sorted(cols)
+
+        #print(len(md))
+        #with UnicodeWriter('shapes.csv') as w:
+        #    w.writerow(cols)
+        #    for p in md:
+        #        w.writerow([p.get(c, '') for c in cols])
+
+        #return
         self.raw_dir.download_and_unpack(
             'https://ecaidata.org/dataset/209cb079-2270-4016-bc8d-f6c7835779c5/'
             'resource/b5095d0f-7429-445d-a507-916aae5398ba/download/languagemap040429.zip')
 
     def iter_geojson_features(self):
+        errata = collections.defaultdict(list)
+        for row in self.etc_dir.read_csv('errata.csv', dicts=True):
+            errata[row['LANGUAGE']].append((
+                Point(float(row['lon']), float(row['lat'])),
+                dict(s.split('=') for s in row['fix'].split(';'))))
         features = {}
         properties = []
         lname2index = {}
@@ -110,52 +235,63 @@ class Dataset(BaseDataset):
         for i, feature in enumerate(geopandas.read_file(
                 str(self.raw_dir / 'languagemap_040102.shp')).__geo_interface__['features']):
             _all.append(feature)
-            props = norm({k: v for k, v in feature['properties'].items() if v})
-            if 'LANGUAGE' in props:  # Ignore uninhabited areas, unclassified languages etc.
-                props.setdefault('COUNTRY_NAME', '')
-                lid = (props['LANGUAGE'], props['COUNTRY_NAME'])
-                properties.append(props)
+            props = norm_metadata({k: v for k, v in feature['properties'].items() if v})
+            if props:  # Ignore uninhabited areas, unclassified languages etc.
+                geom = fixed_geometry(feature)
+                # Sometimes polygons erroneously share the same metadata. This must be fixed before
+                # we can merge based on metadata and then lookup language mappings.
+                if props['LANGUAGE'] in errata:
+                    obj = shape(geom['geometry'])
+                    for point, fix in errata[props['LANGUAGE']]:
+                        if obj.contains(point):
+                            props.update(fix)
+                            break
+
+                lid = tuple(props[col] for col in COLS)
+                properties.append((lid, props))
 
                 if lid in features:
-                    features[lid]['geometry'] = merged_geometry(
-                        [features[lid], fixed_geometry(feature)], buffer=0)
+                    features[lid]['geometry'] = merged_geometry([features[lid], geom], buffer=0)
                 else:
                     lname2index[lid] = i + 1
                     features[lid] = {
                         'id': str(i),
                         'type': 'Feature',
                         'properties': {},
-                        'geometry': fixed_geometry(feature)['geometry'],
+                        'geometry': geom['geometry'],
                     }
+                # pass
         dump(feature_collection(_all), self.raw_dir / 'all.geojson')
 
-        for (lname, cname), props in itertools.groupby(
-                sorted(properties, key=lambda f: (f['LANGUAGE'], f['COUNTRY_NAME'])),
-                lambda f: (f['LANGUAGE'], f['COUNTRY_NAME'])):
-            f = features[(lname, cname)]
+        for lid, props in itertools.groupby(sorted(properties, key=lambda f: f[0]), lambda f: f[0]):
+            f = features[lid]
             props = list(props)
             for attr in ['COUNTRY_NAME', 'SOVEREIGN', 'ISLAND_NAME']:
                 f['properties'][attr] = sorted(set(p[attr] for p in props if attr in p))
 
-            fid = lname2index[(lname, cname)]
+            fid = lname2index[lid]
             if fid in self.vectors:
                 move(f, self.vectors[fid])
 
-            yield fid, lname, cname, f
+            yield fid, lid, f
 
     def cmd_makecldf(self, args):
         self.schema(args.writer.cldf)
 
         args.writer.cldf.add_sources(*Sources.from_file(self.etc_dir / "sources.bib"))
 
-        coded_langs = {k: v for k, v in self.languages.items() if v.get('Glottocode')}
+        coded_langs = {
+            tuple(v[col] for col in COLS): v
+            for v in self.etc_dir.read_csv('languages_with_comment.csv', dicts=True)
+            if v.get('Glottocode')}
         coded_names = collections.defaultdict(list)
         for k, v in self.languages.items():
             if v.get('Glottocode'):
                 coded_names[k[0]].append(v)
 
         polys = []
-        for lid, lname, cname, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
+        for lid, lidt, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
+            lname, cname, iname, sov = lidt
             args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
                 Name=lname,
@@ -164,11 +300,11 @@ class Dataset(BaseDataset):
                 Islands=feature['properties']['ISLAND_NAME'],
                 Source=['ecai', 'wurm_and_hattori']
             ))
-            if (not cname) and lname in coded_names and len(coded_names[lname]) == 1:
-                # No country specified, but we only have one entry for the name anyway.
-                cname = coded_names[lname][0]['Countries']
-            if (lname, cname) in coded_langs:
-                for gc in coded_langs[(lname, cname)]['Glottocode'].split():
+            #if (not cname) and lname in coded_names and len(coded_names[lname]) == 1:
+            #    # No country specified, but we only have one entry for the name anyway.
+            #    cname = coded_names[lname][0]['Countries']
+            if lidt in coded_langs:
+                for gc in coded_langs[lidt]['Glottocode'].split():
                     polys.append((str(lid), feature, gc))
 
         lids = None
