@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Philippines"
+  },
+  "id": "L031",
+  "features": [
+    {
+      "bbox": [
+        116.60551033227813,
+        4.337822813215585,
+        129.0527752236744,
+        21.23326023125498
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.60551033227813,
+              4.337822813215585
+            ],
+            [
+              129.0527752236744,
+              4.337822813215585
+            ],
+            [
+              129.0527752236744,
+              21.23326023125498
+            ],
+            [
+              116.60551033227813,
+              21.23326023125498
+            ],
+            [
+              116.60551033227813,
+              4.337822813215585
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L031/epsg4326.tif",
+        "id": "bounds",
+        "title": "L031/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.709846,
+              21.0845
+            ],
+            [
+              123.870713,
+              21.043491
+            ],
+            [
+              124.002508,
+              17.308688
+            ],
+            [
+              128.615337,
+              17.308688
+            ],
+            [
+              128.7032,
+              4.696879
+            ],
+            [
+              116.841642,
+              4.609278
+            ],
+            [
+              116.709846,
+              21.0845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
