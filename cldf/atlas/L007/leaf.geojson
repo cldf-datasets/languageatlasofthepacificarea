@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Madan Province"
+  },
+  "id": "L007",
+  "features": [
+    {
+      "bbox": [
+        144.0490993263147,
+        -6.8710946560214055,
+        148.6252951625045,
+        -3.648665982497092
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              144.0490993263147,
+              -6.8710946560214055
+            ],
+            [
+              148.6252951625045,
+              -6.8710946560214055
+            ],
+            [
+              148.6252951625045,
+              -3.648665982497092
+            ],
+            [
+              144.0490993263147,
+              -3.648665982497092
+            ],
+            [
+              144.0490993263147,
+              -6.8710946560214055
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L007/epsg4326.tif",
+        "id": "bounds",
+        "title": "L007/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.06361,
+              -3.7053
+            ],
+            [
+              144.134999,
+              -6.83917
+            ],
+            [
+              148.561118,
+              -6.795535
+            ],
+            [
+              148.53366,
+              -5.025283
+            ],
+            [
+              147.232184,
+              -5.014339
+            ],
+            [
+              147.259641,
+              -3.716264
+            ],
+            [
+              144.06361,
+              -3.7053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
