@@ -148,6 +148,14 @@ class Dataset(BaseDataset):
 
     def cmd_download(self, args):
         import requests
+
+        types = collections.Counter()
+        for i, feature in enumerate(geopandas.read_file(
+                str(self.raw_dir / 'languagemap_040102.shp')).__geo_interface__['features']):
+            types.update([feature['geometry']['type']])
+        for k, v in types.most_common():
+            print(k, v)
+        return
         for item in load(self.raw_dir / 'atlas_leaves.json'):
             html = fromstring(urllib.request.urlopen(item['url']).read(), HTMLParser())
             for link in html.xpath('//a'):
