@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Polynesia"
+  },
+  "id": "L019",
+  "features": [
+    {
+      "bbox": [
+        154.20299330632827,
+        -48.57014050887507,
+        267.86980269282344,
+        32.94401611312912
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              154.20299330632827,
+              -48.57014050887507
+            ],
+            [
+              267.86980269282344,
+              -48.57014050887507
+            ],
+            [
+              267.86980269282344,
+              32.94401611312912
+            ],
+            [
+              154.20299330632827,
+              32.94401611312912
+            ],
+            [
+              154.20299330632827,
+              -48.57014050887507
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L019/epsg4326.tif",
+        "id": "bounds",
+        "title": "L019/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              154.20299330632827,
+              -48.57014050887507
+            ],
+            [
+              267.86980269282344,
+              -48.57014050887507
+            ],
+            [
+              267.86980269282344,
+              32.94401611312912
+            ],
+            [
+              154.20299330632827,
+              32.94401611312912
+            ],
+            [
+              154.20299330632827,
+              -48.57014050887507
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
