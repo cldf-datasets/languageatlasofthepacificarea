@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Morobe Province"
+  },
+  "id": "L008",
+  "features": [
+    {
+      "bbox": [
+        144.6456561077316,
+        -9.289062836961733,
+        149.25891351614848,
+        -6.093929118292345
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              144.6456561077316,
+              -9.289062836961733
+            ],
+            [
+              149.25891351614848,
+              -9.289062836961733
+            ],
+            [
+              149.25891351614848,
+              -6.093929118292345
+            ],
+            [
+              144.6456561077316,
+              -6.093929118292345
+            ],
+            [
+              144.6456561077316,
+              -9.289062836961733
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L008/epsg4326.tif",
+        "id": "bounds",
+        "title": "L008/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.66237,
+              -6.113246
+            ],
+            [
+              144.832605,
+              -8.466939
+            ],
+            [
+              146.106625,
+              -8.477805
+            ],
+            [
+              146.112116,
+              -9.259358
+            ],
+            [
+              149.176352,
+              -9.253936
+            ],
+            [
+              149.209301,
+              -8.010276
+            ],
+            [
+              148.001179,
+              -7.972198
+            ],
+            [
+              147.96823,
+              -6.113246
+            ],
+            [
+              144.66237,
+              -6.113246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
