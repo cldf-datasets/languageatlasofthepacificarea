@@ -2,7 +2,7 @@
 
 ## Source
 
-This dataset is derived from ECAI's Pacific Language Mapping project, described as follows:
+This dataset is derived from [data released by ECAI's Pacific Language Mapping project](https://ecaidata.org/organization/ecai-pacific-language-mapping), described as follows:
 
 > Languages included in this Atlas cover about one third of the world's 6,000 languages. The regions of the Pacific, Southeast Asia (apart from Burma), and Madagascar are documented. By the end of this century most of these languages will be extinct, thus limiting our ability to comprehend the diversity of human experience.
 
@@ -15,7 +15,18 @@ This dataset is derived from ECAI's Pacific Language Mapping project, described 
 > The ECAI Digital Pacific Language Map spans the extent of Pacific languages including Austronesian languages, Papuan languages, Australian aboriginal languages, and the Austro-Asiatic languages of Southeast Asia. Others such as trade, pidgin, and continental languages are represented as related to Pacific language regions.
 
 
+### Copyright and license
+
+The scanned atlas leaves and the Geo-Registered GIS dataset are made available under a CC-BY license (CC-BY-NC for the leaves of Taiwan).
+
+> Registered scans of the maps from the Language Atlas of the Pacific Area (excluding the maps of Japan) are made available through the Electronic Cultural Atlas Initiative (ECAI) Metadata Clearinghouse as a result of cooperation between Academia Sinica and the ECAI Austronesian Atlas Team led by David Blundell and Lawrence Crissman. The Australian Academy of the Humanities, which owns the copyright to the available maps, has graciously permitted their reproduction and distribution in this digital format, and we are grateful for their support. Any public use of the maps should acknowledge their source and copyright ownership.
+
+Thus, this derived dataset is licensed in its entirety under a CC-BY-NC license.
+
+
 ## Processing
+
+### Shapefile
 
 The data published in ECAI's shapefile was preprocessed as follows:
 
@@ -23,7 +34,7 @@ The data published in ECAI's shapefile was preprocessed as follows:
 - Obvious errors or inconsistencies of the metadata have been corrected, e.g. normalizing the field names.
 
 The cleaned up metadata was then used to map languages as specified in the ECAI data to Glottolog languoids,
-see [etc/languages.csv](etc/languages.csv).
+see [etc/languages_with_comment.csv](etc/languages_with_comment.csv).
 
 These mappings were then used to create aggregations of the shapes on two levels:
 
@@ -36,6 +47,20 @@ These mappings were then used to create aggregations of the shapes on two levels
   language, were ignored.
 - Areas labeled as language (sub-)groups with no counterpart in Glottolog's classification (e.g. "Papuan") were
   ignored.
+
+
+### Scanned Atlas leaves
+
+While the Atlas leaves for New Guinea were [available in geo-referenced form from ECAI](https://ecaidata.org/dataset/language_atlas_of_the_pacific_scanned_atlas_leaves_-_new_guinea)
+we opted to recreate new geo-referenced versions of all Atlas leaves (except for the maps of Japan which were excluded from release).
+We did this to
+- provide geo-referenced images for all available maps
+- in GeoTIFF format (rather than the ESRI World File variant of geo-referencing provided for the New Guinea maps).
+
+This allowed us to also create "better" geo-referenced images in the sense that more control points could be used
+thereby allowing for more complex transformations which increased the overall fit of the geo-referencing.
+We could also derive images reprojected to EPSG:3857 ([Web Mercator projection](https://en.wikipedia.org/wiki/Web_Mercator_projection))
+suitable for overlaying on web maps (which created a good setup for quality control of the language matches).
 
 
 ## Usage

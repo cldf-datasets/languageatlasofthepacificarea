@@ -1,8 +1,10 @@
+import shutil
+import typing
 import pathlib
 import functools
 import itertools
+import mimetypes
 import collections
-import typing
 import urllib.request
 
 import geopandas
@@ -27,6 +29,13 @@ DC_RIGHTS = "© ECAI Digital Language Atlas of the Pacific Area"
 # https://ecaidata.org/dataset/language_atlas_of_the_pacific_scanned_atlas_leaves_-_new_guinea
 
 COLS = ['LANGUAGE', 'COUNTRY_NAME', 'ISLAND_NAME', 'SOVEREIGN']
+
+
+def existing_dir(d):
+    if not d.exists():
+        d.mkdir()
+    assert d.is_dir()
+    return d
 
 
 def norm_metadata(d) -> typing.Union[typing.Dict[str, str], None]:
@@ -260,7 +269,6 @@ class Dataset(BaseDataset):
                         'properties': {},
                         'geometry': geom['geometry'],
                     }
-                # pass
         dump(feature_collection(_all), self.raw_dir / 'all.geojson')
 
         for lid, props in itertools.groupby(sorted(properties, key=lambda f: f[0]), lambda f: f[0]):
@@ -280,6 +288,64 @@ class Dataset(BaseDataset):
 
         args.writer.cldf.add_sources(*Sources.from_file(self.etc_dir / "sources.bib"))
 
+        #
+        # Add scanned Atlas leaves:
+        #
+        georeferenced = {}
+        atlas_dir = existing_dir(self.cldf_dir / 'atlas')
+        for row in self.raw_dir.read_csv('atlas_leaves.csv', dicts=True):
+            sdir = self.raw_dir / 'atlas' / row['File']
+            if not sdir.exists():
+                assert 'Japan' in row['Contents']
+                continue
+            ldir = existing_dir(atlas_dir / row['File'])
+            mids = []
+            for type_, name, desc, mimetype in [
+                ('s', 'original.jpg', 'Scanned Atlas leaf {} from ECAI', None),
+                ('l', 'legend.jpg', 'Scanned Atlas leaf {} reverse side from ECAI', None),
+                ('b', 'back.jpg', 'Scanned Atlas leaf {} legend from ECAI', None),
+                ('points',
+                 'original.jpg.points',
+                 'Ground control points used to geo-reference the scan of {} with QGIS',
+                 'text/plain'),
+                ('geotiff',
+                 'epsg4326.tif',
+                 'Geo-referenced scan of {} as GeoTIFF for EPSG:4326 - WGS 84',
+                 None),
+                ('web',
+                 'web.jpg',
+                 'GeoTIFF re-projected to web mercator and translated to JPEG of {}',
+                 None),
+                ('geojson',
+                 'leaf.geojson',
+                 'Bounding box and geo-referenced area of the scan {}',
+                 'application/geo+json'),
+            ]:
+                p = sdir / name
+                if p.exists():
+                    mid = '{}_{}'.format(ldir.name, type_)
+                    if type_ == 'geojson':
+                        georeferenced[sdir.name] = shape(next(itertools.dropwhile(
+                            lambda f: f['properties']['id'] != 'georeferenced',
+                            load(p)['features']))['geometry'])
+                    shutil.copy(p, ldir / name)
+                    args.writer.objects['MediaTable'].append(dict(
+                        ID=mid,
+                        Name='{}/{}'.format(ldir.name, p.name),
+                        Description=desc.format(ldir.name),
+                        Media_Type=mimetype or mimetypes.guess_type(name)[0],
+                        Download_URL=str(ldir.joinpath(name).relative_to(self.cldf_dir)),
+                    ))
+                    mids.append(mid)
+
+            args.writer.objects['ContributionTable'].append(dict(
+                ID=sdir.name,
+                Name=row['Contents'],
+                Source=['ecai', 'wurm_and_hattori'],
+                Media_IDs=mids,
+                Type='leaf',
+            ))
+
         coded_langs = {
             tuple(v[col] for col in COLS): v
             for v in self.etc_dir.read_csv('languages_with_comment.csv', dicts=True)
@@ -290,19 +356,20 @@ class Dataset(BaseDataset):
                 coded_names[k[0]].append(v)
 
         polys = []
+        ecai_features = collections.OrderedDict()
         for lid, lidt, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
+            ecai_features[lid] = feature
             lname, cname, iname, sov = lidt
+            name, det = lname, ', '.join(s for s in [cname, iname, sov] if s)
+            if det:
+                lname = '{} ({})'.format(lname, det)
             args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
-                Name=lname,
-                Country=cname or None,
-                Sovereigns=feature['properties']['SOVEREIGN'],
-                Islands=feature['properties']['ISLAND_NAME'],
-                Source=['ecai', 'wurm_and_hattori']
+                Name=name,
+                Source=['ecai', 'wurm_and_hattori'],
+                Media_IDs=['ecai'],
+                Type='shape',
             ))
-            #if (not cname) and lname in coded_names and len(coded_names[lname]) == 1:
-            #    # No country specified, but we only have one entry for the name anyway.
-            #    cname = coded_names[lname][0]['Countries']
             if lidt in coded_langs:
                 for gc in coded_langs[lidt]['Glottocode'].split():
                     polys.append((str(lid), feature, gc))
@@ -319,7 +386,11 @@ class Dataset(BaseDataset):
                             'color-coded by family.'.format(ptype)),
                 p,
                 indent=2)
-            for glang, pids, family in languages:
+            for (glang, pids, family), f in zip(languages, features):
+                area = shape(f['geometry'])
+                for cid, ref in georeferenced.items():
+                    if ref.intersects(area):
+                        pids.append(cid)
                 if lids is None or (glang.id not in lids):  # Don't append isolates twice!
                     args.writer.objects['LanguageTable'].append(dict(
                         ID=glang.id,
@@ -327,7 +398,7 @@ class Dataset(BaseDataset):
                         Glottocode=glang.id,
                         Latitude=glang.latitude,
                         Longitude=glang.longitude,
-                        Source_Languoid_IDs=pids,
+                        Contribution_IDs=pids,
                         Speaker_Area=p.stem,
                         Glottolog_Languoid_Level=ptype,
                         Family=family,
@@ -342,24 +413,43 @@ class Dataset(BaseDataset):
             ))
             lids = {gl.id for gl, _, _ in languages}
 
+        for lid, feature in ecai_features.items():
+            feature['id'] = str(lid)
+
+        dump(
+            feature_collection(
+                list(ecai_features.values()),
+                **{'dc:rights': DC_RIGHTS,
+                   'dc:title':
+                       'GIS spatial dataset of the ECAI Digital Language Atlas of the Pacific Area'}
+            ),
+            self.cldf_dir / 'ecai.geojson',
+            indent=2)
+        args.writer.objects['MediaTable'].append(dict(
+            ID='ecai',
+            Name='Speaker areas for {}'.format(label),
+            Description=
+                'Shapes from ECAI with normalized metadata and aggregated by matching metadata',
+            Media_Type=MEDIA_TYPE,
+            Download_URL='ecai.geojson',
+        ))
+
     def schema(self, cldf):
         t = cldf.add_component(
             'ContributionTable',
             {
-                'name': 'Country',
-            },
-            {
-                'name':'Sovereigns',
-                'separator': '; ',
-            },
-            {
-                'name':'Islands',
-                'separator': '; ',
-            },
-            {
                 'name': 'Source',
                 'separator': ';',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source'
+            },
+            {
+                'name': 'Media_IDs',
+                'separator': ' ',
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#mediaReference'
+            },
+            {
+                'name': 'Type',
+                'datatype': {'base': 'string', 'format': 'leaf|shape'}
             },
         )
         t.common_props['dc:description'] = \
@@ -381,10 +471,12 @@ class Dataset(BaseDataset):
                 'name': 'Family',
             },
             {
-                'name': 'Source_Languoid_IDs',
+                'name': 'Contribution_IDs',
                 'separator': ' ',
-                'dc:description': 'List of identifiers of shapes in the original shapefile that '
-                                  'were aggregated to create the shape referenced by Speaker_Area.',
+                'dc:description':
+                    'List of identifiers of shapes in the original shapefile that were aggregated '
+                    'to create the shape referenced by Speaker_Area and of Atlas leaves mapping a '
+                    "georeferenced area intersecting with this languoid's area.",
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference'
             },
         )

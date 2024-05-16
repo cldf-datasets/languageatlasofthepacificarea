@@ -7,7 +7,7 @@
     ],
     "dc:bibliographicCitation": "Language Atlas of the Pacific Geo-Registered - GIS Dataset",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
-    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
     "dcat:accessURL": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "7442837",
+            "dc:created": "0e776e3",
             "dc:title": "Repository"
         },
         {
@@ -41,7 +41,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "We list the individual shapes from the source dataset as contributions in order to preserve the original metadata.",
-            "dc:extent": 3021,
+            "dc:extent": 3125,
             "tableSchema": {
                 "columns": [
                     {
@@ -79,20 +79,34 @@
                         "name": "Citation"
                     },
                     {
-                        "name": "Country"
-                    },
-                    {
-                        "separator": "; ",
-                        "name": "Sovereigns"
-                    },
-                    {
-                        "separator": "; ",
-                        "name": "Islands"
-                    },
-                    {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
                         "separator": ";",
                         "name": "Source"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#mediaReference",
+                        "separator": " ",
+                        "name": "Media_IDs"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "leaf|shape"
+                        },
+                        "name": "Type"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Media_IDs"
+                        ],
+                        "reference": {
+                            "resource": "media.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
                     }
                 ],
                 "primaryKey": [
@@ -103,7 +117,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 2,
+            "dc:extent": 307,
             "tableSchema": {
                 "columns": [
                     {
@@ -157,7 +171,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1820,
+            "dc:extent": 1869,
             "tableSchema": {
                 "columns": [
                     {
@@ -231,16 +245,16 @@
                         "name": "Family"
                     },
                     {
-                        "dc:description": "List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area.",
+                        "dc:description": "List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area and of Atlas leaves mapping a georeferenced area intersecting with this languoid's area.",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributionReference",
                         "separator": " ",
-                        "name": "Source_Languoid_IDs"
+                        "name": "Contribution_IDs"
                     }
                 ],
                 "foreignKeys": [
                     {
                         "columnReference": [
-                            "Source_Languoid_IDs"
+                            "Contribution_IDs"
                         ],
                         "reference": {
                             "resource": "contributions.csv",

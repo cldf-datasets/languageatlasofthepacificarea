@@ -34,10 +34,10 @@
         },
         {
             "name": "Harald Hammarstr\u00f6m",
-            "type": "Other"
+            "type": "Editor"
         }
     ],
     "license": {
-        "id": "CC-BY-4.0"
+        "id": "CC-BY-NC-4.0"
     }
 }

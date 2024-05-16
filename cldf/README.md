@@ -10,9 +10,9 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Language Atlas of the Pacific Geo-Registered - GIS Dataset
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
-[dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
+[dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by-nc/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/languageatlasofthepacificarea
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/1510fb0">cldf-datasets/languageatlasofthepacificarea 1510fb0</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/0e776e3">cldf-datasets/languageatlasofthepacificarea 0e776e3</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | languageatlasofthepacificarea
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -25,7 +25,7 @@ We list the individual shapes from the source dataset as contributions in order 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 3021
+[dc:extent](http://purl.org/dc/terms/extent) | 3125
 
 
 ### Columns
@@ -37,17 +37,16 @@ Name/Property | Datatype | Description
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
 [Contributor](http://cldf.clld.org/v1.0/terms.rdf#contributor) | `string` | 
 [Citation](http://cldf.clld.org/v1.0/terms.rdf#citation) | `string` | 
-`Country` | `string` | 
-`Sovereigns` | list of `string` (separated by `; `) | 
-`Islands` | list of `string` (separated by `; `) | 
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
+[Media_IDs](http://cldf.clld.org/v1.0/terms.rdf#mediaReference) | list of `string` (separated by ` `) | References [media.csv::ID](#table-mediacsv)
+`Type` | `string`<br>Valid choices:<br> `leaf` `shape` | 
 
 ## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 2
+[dc:extent](http://purl.org/dc/terms/extent) | 307
 
 
 ### Columns
@@ -66,7 +65,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1819
+[dc:extent](http://purl.org/dc/terms/extent) | 1869
 
 
 ### Columns
@@ -83,5 +82,5 @@ Name/Property | Datatype | Description
 [Speaker_Area](http://cldf.clld.org/v1.0/terms.rdf#speakerArea) | `string` | References [media.csv::ID](#table-mediacsv)
 `Glottolog_Languoid_Level` | `string` | 
 `Family` | `string` | 
-[Source_Languoid_IDs](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | list of `string` (separated by ` `) | List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area.<br>References [contributions.csv::ID](#table-contributionscsv)
+[Contribution_IDs](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | list of `string` (separated by ` `) | List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area and of Atlas leaves mapping a georeferenced area intersecting with this languoid's area.<br>References [contributions.csv::ID](#table-contributionscsv)
 
