@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Indonesia, Moluccas, Seram Island Area"
+  },
+  "id": "L045b",
+  "features": [
+    {
+      "bbox": [
+        127.45540323937422,
+        -4.2089538007993,
+        131.6138652263071,
+        -2.540499529240363
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              127.45540323937422,
+              -4.2089538007993
+            ],
+            [
+              131.6138652263071,
+              -4.2089538007993
+            ],
+            [
+              131.6138652263071,
+              -2.540499529240363
+            ],
+            [
+              127.45540323937422,
+              -2.540499529240363
+            ],
+            [
+              127.45540323937422,
+              -4.2089538007993
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L045b/epsg4326.tif",
+        "id": "bounds",
+        "title": "L045b/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.490663,
+              -2.597377
+            ],
+            [
+              127.47968,
+              -3.299566
+            ],
+            [
+              127.573035,
+              -4.176594
+            ],
+            [
+              129.549961,
+              -4.165637
+            ],
+            [
+              129.571927,
+              -3.880696
+            ],
+            [
+              130.11009,
+              -3.853293
+            ],
+            [
+              131.191908,
+              -4.198508
+            ],
+            [
+              131.587294,
+              -4.187551
+            ],
+            [
+              131.554345,
+              -3.869735
+            ],
+            [
+              131.378618,
+              -3.869735
+            ],
+            [
+              130.620796,
+              -2.597377
+            ],
+            [
+              127.490663,
+              -2.597377
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
