@@ -17,9 +17,12 @@ setup(
     install_requires=[
         'cldfbench',
         'pyglottolog',
-        'geopandas',
+        'fiona',
         'shapely',
         'cldfgeojson',
+        'mako',
+        'matplotlib',
+        'tqdm',
     ],
     extras_require={
         'test': [

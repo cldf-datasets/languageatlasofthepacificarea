@@ -1,3 +1,5 @@
+affine==2.4.0
+antimeridian==0.3.6
 appdirs==1.4.4
 arrow==1.2.3
 Babel==2.11.0
@@ -11,13 +13,14 @@ cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/doreco/@8124db8c45f1186e998d7536401dc6d6dceebb32#egg=cldfbench_doreco
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@0e776e39eeeb5ec6a7435ea840b0cd8d7b470053#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@1a5e2fb19cb53230e6a206c04dd66cea4b0f50e0#egg=cldfbench_languageatlasofthepacificarea
 -e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 -e git+https://github.com/cldf-datasets/uclaphoneticslabarchive@9cd6643548cf54d02287011eee266f5b5db861d4#egg=cldfbench_uclaphoneticslabarchive
 cldfcatalog==1.5.1
--e git+https://github.com/cldf/cldfgeojson@5e815baaa741736b11f435e4671d646dd24cf515#egg=cldfgeojson
+-e git+https://github.com/cldf/cldfgeojson@96e16d0316afecaec5525d7dddaf1035b30f4b1b#egg=cldfgeojson
 cldfviz==1.0.1
 cldfzenodo==1.1.0
+click==8.1.7
 clldutils==3.22.1
 colorama==0.4.6
 colorlog==6.7.0
@@ -26,7 +29,6 @@ csvw==3.2.0
 cycler==0.11.0
 exceptiongroup==1.1.0
 fiona==1.9.5
-geopandas==0.14.2
 gitdb==4.0.10
 greenlet==2.0.1
 html5lib==1.1
@@ -40,6 +42,7 @@ kiwisolver==1.4.4
 Levenshtein==0.20.9
 -e git+https://github.com/cldf/linglit@447c327fc543a35e55ba76309676293a7698eccb#egg=linglit
 lxml==4.9.2
+Mako==1.2.4
 Markdown==3.4.1
 MarkupSafe==2.1.1
 matplotlib==3.6.2
@@ -58,6 +61,7 @@ pyclts==3.1.1
 pycountry==22.3.5
 pydub==0.25.1
 pyglottolog==3.11.0
+Pygments==2.17.2
 pyigt==2.1.0
 pylatexenc==2.10
 pyparsing==3.0.9
@@ -69,6 +73,7 @@ python-frontmatter==1.0.0
 python-Levenshtein==0.20.9
 pytz==2022.7
 rapidfuzz==2.13.7
+rasterio==1.3.10
 rdflib==6.2.0
 regex==2022.10.31
 reportlab==3.6.12

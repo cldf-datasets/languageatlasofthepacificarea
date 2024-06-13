@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "0e776e3",
+            "dc:created": "v1.0-57-g1a5e2fb",
             "dc:title": "Repository"
         },
         {
@@ -41,7 +41,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "We list the individual shapes from the source dataset as contributions in order to preserve the original metadata.",
-            "dc:extent": 3125,
+            "dc:extent": 3128,
             "tableSchema": {
                 "columns": [
                     {
@@ -84,6 +84,10 @@
                         "name": "Source"
                     },
                     {
+                        "propertyUrl": "http://purl.org/dc/terms/rights",
+                        "name": "Rights"
+                    },
+                    {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#mediaReference",
                         "separator": " ",
                         "name": "Media_IDs"
@@ -94,6 +98,11 @@
                             "format": "leaf|shape"
                         },
                         "name": "Type"
+                    },
+                    {
+                        "dc:description": "Shape metadata from ECAI's GIS dataset.",
+                        "datatype": "json",
+                        "name": "Properties"
                     }
                 ],
                 "foreignKeys": [
@@ -117,7 +126,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
-            "dc:extent": 307,
+            "dc:extent": 357,
             "tableSchema": {
                 "columns": [
                     {
@@ -171,7 +180,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1869,
+            "dc:extent": 1865,
             "tableSchema": {
                 "columns": [
                     {

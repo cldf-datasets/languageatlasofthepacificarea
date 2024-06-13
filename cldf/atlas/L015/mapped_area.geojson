@@ -1,0 +1,58 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          163.977087,
+          -7.623887
+        ],
+        [
+          163.933155,
+          -11.910354
+        ],
+        [
+          157.782718,
+          -11.867351
+        ],
+        [
+          157.694854,
+          -9.687398
+        ],
+        [
+          154.927157,
+          -9.579084
+        ],
+        [
+          154.817328,
+          -7.558547
+        ],
+        [
+          153.411514,
+          -7.471411
+        ],
+        [
+          153.411514,
+          -4.565474
+        ],
+        [
+          161.187424,
+          -4.609278
+        ],
+        [
+          160.9458,
+          -7.580328
+        ],
+        [
+          163.977087,
+          -7.623887
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "id": "georeferenced",
+    "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+  }
+}
