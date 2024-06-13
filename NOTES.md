@@ -88,3 +88,5 @@ Pama-Nyungan|104
 provided as GeoJSON features, thus are available programmatically, e.g. using `pycldf`. But the GeoJSON
 files for [language](cldf/languages.geojson)- and [family](cldf/families.geojson)-level areas can also
 be inspected using GIS tools such as https://geojson.io
+
+![](etc/erd.svg)

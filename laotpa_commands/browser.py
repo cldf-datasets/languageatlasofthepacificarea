@@ -1,5 +1,5 @@
 """
-Show an Atlas leaf overlaid on a web map.
+Build a set of HTML pages to browse Atlas leaves as interactive leaflet maps.
 """
 import json
 import pathlib

@@ -3,8 +3,8 @@ cldfbench dataset definition for languageatlasofthepacificarea
 """
 import shutil
 import pathlib
+import typing
 import warnings
-import functools
 import mimetypes
 import collections
 
@@ -12,9 +12,10 @@ import fiona
 from pycldf import Sources
 from clldutils.jsonlib import dump, load
 from clldutils.markup import add_markdown_text
-from clldutils.path import TemporaryDirectory
+from clldutils.path import TemporaryDirectory, md5
 from cldfbench import Dataset as BaseDataset
-from shapely.geometry import Point, shape
+from shapely.geometry import shape
+from shapely import Geometry
 from cldfgeojson import geotiff
 from cldfgeojson import (
     MEDIA_TYPE, aggregate, feature_collection, merged_geometry, fixed_geometry, InvalidRingWarning)
@@ -32,11 +33,30 @@ class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "languageatlasofthepacificarea"
 
-    @functools.cached_property
-    def languages(self):
-        return collections.OrderedDict(
-            [((lg['Name'], lg['Countries']), lg)
-             for lg in self.etc_dir.read_csv('languages.csv', dicts=True)])
+    def cmd_download(self, args):
+        """
+        Since we don't want to distribute two copies of the large GeoTIFFs, but want them inside
+        the cldf directory, we copy them back to where they are expected when `makecldf` is run.
+        Quite a hack ...
+        """
+        s = self.cldf_dir / 'atlas'
+        for d in sorted(s.iterdir(), key=lambda pp: pp.stem):
+            p = d / 'epsg4326.tif'
+            if p.exists():
+                t = existing_dir(self.etc_dir / 'atlas' / d.name) / 'original_modified.tif'
+                if not t.exists():
+                    t = t.parent / 'epsg4326.tif'
+                if t.exists():
+                    assert md5(t) == md5(p), 'GeoTIFF possibly regenerated in {}'.format(t)
+                else:
+                    shutil.copy(p, t)
+            for p in d.glob('*.jpg'):
+                if p.stem != 'web':
+                    t = existing_dir(self.raw_dir / 'atlas' / d.name) / p.name
+                    if t.exists():
+                        assert md5(t) == md5(p), 'Original file changed: {}'.format(t)
+                    else:
+                        shutil.copy(p, t)
 
     def cmd_readme(self, args) -> str:
         return add_markdown_text(
@@ -54,24 +74,33 @@ class Dataset(BaseDataset):
         features = collections.defaultdict(list)
         for i, feature in enumerate(fiona.open(str(self.raw_dir / 'languagemap_040102.shp'))):
             feature = feature.__geo_interface__
+            # We normalize the metadata found in the "raw" shapes:
             props = metadata.normalize({k: v for k, v in feature['properties'].items() if v})
             if props:  # Ignore uninhabited areas, unclassified languages etc.
                 with (warnings.catch_warnings(record=True) as w):
                     warnings.simplefilter("always")
+                    # We fix the geometries by
+                    # - translating longitudes to fall in the -180°..180° interval,
+                    # - splitting geometries that cross the antimeridian and
+                    # - fixing self-intersecting rings.
                     geom = fixed_geometry(
                         feature, fix_longitude=True, fix_antimeridian=True)['geometry']
                     if w and w[-1].category == InvalidRingWarning:
+                        # For the known cases of self-intersecting rings we re-insert the holes that
+                        # were removed above.
                         geom = geofixes(feature, geom)
                 assert geom['coordinates'], '{} no coords'.format(props)
                 # Sometimes polygons erroneously share the same metadata. This must be fixed before
                 # we can merge based on metadata and then lookup language mappings.
                 props = errata(props, geom)
+                # We use the quadruple of the four meaningful metadata values as key when
+                # aggregating shapes. This is the key we'll use to lookup Glottolog matches later.
                 features[tuple(props[col] for col in metadata.COLS)].append((i + 1, geom))
 
-        assert errata.all_done and geofixes.all_done
+        assert errata.all_done and geofixes.all_done, 'Some fixes were not applied'
 
         mover = Mover(self.etc_dir.read_csv('fixes_location.csv', dicts=True))
-
+        # We sort aggregated shapes by "first appearance" in the original shapefile.
         for lid, shapes in sorted(features.items(), key=lambda i: i[1][0][0]):
             fid = shapes[0][0]
             f = {
@@ -99,7 +128,6 @@ class Dataset(BaseDataset):
         polys = []
         ecai_features = collections.OrderedDict()
         for lid, lidt, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
-            ecai_features[lid] = feature
             args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
                 Name=lidt[0],
@@ -111,8 +139,12 @@ class Dataset(BaseDataset):
                             if val and col != 'LANGUAGE'},
             ))
             if lidt in coded_langs:
-                for gc in coded_langs[lidt]['Glottocode'].split():
+                gcs = coded_langs[lidt]['Glottocode'].split()
+                args.writer.objects['ContributionTable'][-1]['Properties']['Glottocodes'] = gcs
+                feature['properties']['cldf:languageReference'] = gcs
+                for gc in gcs:
                     polys.append((str(lid), feature, gc))
+            ecai_features[lid] = feature
 
         lids = None
         for ptype in ['language', 'family']:
@@ -175,13 +207,21 @@ class Dataset(BaseDataset):
             Download_URL='ecai.geojson',
         ))
 
-    def iter_leaves(self, args):
+    def iter_leaves(self, args) -> typing.Generator[typing.Tuple[str, Geometry], None, None]:
+        """
+        Add Atlas leaves to the CLDF dataset.
+
+        For leaves with a defined mapped area, i.e. a polygon describing the area of the map that
+        is geo-referenced (leaving out areas covered by the legend or inset maps), the method yields
+        the contribution ID of the leaf and a `shapely.Geometry` object describing the area.
+        """
         atlas_dir = existing_dir(self.cldf_dir / 'atlas')
         for row in self.raw_dir.read_csv('atlas_leaves.csv', dicts=True):
             sdir = self.raw_dir / 'atlas' / row['File']
             if not sdir.exists():
-                assert 'Japan' in row['Contents']
+                assert 'Japan' in row['Contents'], 'Non-Japan leaf missing in raw data'
                 continue
+            edir = self.etc_dir / 'atlas' / row['File']
             ldir = existing_dir(atlas_dir / row['File'])
             mids = []
             for type_, name, desc, mimetype in [
@@ -193,7 +233,7 @@ class Dataset(BaseDataset):
                  'Ground control points used to geo-reference the scan of {} with QGIS',
                  'text/plain'),
             ]:
-                p = sdir / name
+                p = (edir / name) if type_ == 'points' else (sdir / name)
                 if p.exists():
                     mid = '{}_{}'.format(ldir.name, type_)
                     shutil.copy(p, ldir / name)
@@ -205,11 +245,11 @@ class Dataset(BaseDataset):
                         Download_URL=str(ldir.joinpath(name).relative_to(self.cldf_dir)),
                     ))
                     mids.append(mid)
-            if sdir.joinpath('leaf.geojson').exists():
-                feature = load(sdir / 'leaf.geojson')['features'][-1]
+            if edir.joinpath('leaf.geojson').exists():
+                feature = load(edir / 'leaf.geojson')['features'][-1]
                 assert 'bbox' not in feature
 
-                yield (sdir.name, shape(feature['geometry']))
+                yield (edir.name, shape(feature['geometry']))
 
                 p = ldir / 'mapped_area.geojson'
                 dump(feature, p, indent=2)
@@ -222,9 +262,9 @@ class Dataset(BaseDataset):
                         ldir.joinpath('mapped_area.geojson').relative_to(self.cldf_dir)),
                 ))
                 mids.append('{}_mapped_area'.format(ldir.name))
-            epsg4326tif = sdir / 'original_modified.tif'
+            epsg4326tif = edir / 'original_modified.tif'
             if not epsg4326tif.exists():
-                epsg4326tif = sdir / 'epsg4326.tif'
+                epsg4326tif = edir / 'epsg4326.tif'
             if epsg4326tif.exists():
                 p = ldir / 'epsg4326.tif'
                 shutil.copy(epsg4326tif, p)
@@ -251,7 +291,11 @@ class Dataset(BaseDataset):
                     mids.append('{}_web'.format(ldir.name))
                     # 4. store the bounds
                     p = ldir / 'bounds.geojson'
-                    dump(geotiff.bounds(webtif), p, indent=2)
+                    bounds = geotiff.bounds(webtif)
+                    # To make sure we can recreate output idempotently we delete the temp file name
+                    # in rio's bounds feature.
+                    del bounds['properties']['title']
+                    dump(bounds, p, indent=2)
                     args.writer.objects['MediaTable'].append(dict(
                         ID='{}_bounds'.format(ldir.name),
                         Name='{}/{}'.format(ldir.name, p.name),
@@ -285,15 +329,25 @@ class Dataset(BaseDataset):
             {
                 'name': 'Media_IDs',
                 'separator': ' ',
-                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#mediaReference'
+                'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#mediaReference',
+                'dc:description':
+                    'Contributions can be related to various kinds of media. ECAI shape '
+                    'contributions are linked to GeoJSON files that store the geo data; Atlas leaf '
+                    'contributions are linked to the corresponding scans and geo-data derived from '
+                    'these.',
             },
             {
                 'name': 'Type',
-                'datatype': {'base': 'string', 'format': 'leaf|shape'}
+                'datatype': {'base': 'string', 'format': 'leaf|shape'},
+                'dc:description':
+                    "There are two types of contributions: Individual shapes from ECAI's "
+                    "geo-registered dataset and individual leaves of the Atlas."
             },
             {
                 'name': 'Properties',
-                'dc:description': "Shape metadata from ECAI's GIS dataset.",
+                'dc:description':
+                    "Shape metadata from ECAI's GIS dataset and Glottocodes of the Glottolog "
+                    "languoids to which the shape was matched.",
                 'datatype': 'json',
             }
         )
@@ -301,11 +355,9 @@ class Dataset(BaseDataset):
             ('We list the individual shapes from the source dataset as contributions in order to '
              'preserve the original metadata.')
         cldf['ContributionTable', 'id'].common_props['dc:description'] = \
-            ('We use the 1-based index of the first shape with corresponding '
-             'LANGUAGE property in the original shapefile as identifier.')
-        cldf.add_component(
-            'MediaTable',
-        )
+            ('We use the 1-based index of the first shape with matching '
+             'metadata in the original shapefile as identifier.')
+        cldf.add_component('MediaTable')
         cldf.add_component(
             'LanguageTable',
             {
@@ -313,7 +365,10 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#speakerArea'
             },
             {
-                'name': 'Glottolog_Languoid_Level'},
+                'name': 'Glottolog_Languoid_Level',
+                'datatype': {'base': 'string', 'format': 'language|family'},
+                'dc:description': '',
+            },
             {
                 'name': 'Family',
             },

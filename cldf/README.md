@@ -12,7 +12,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by-nc/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/languageatlasofthepacificarea
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/0e776e3">cldf-datasets/languageatlasofthepacificarea 0e776e3</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/6e61514">cldf-datasets/languageatlasofthepacificarea v1.0-58-g6e61514</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | languageatlasofthepacificarea
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -25,28 +25,30 @@ We list the individual shapes from the source dataset as contributions in order 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 3125
+[dc:extent](http://purl.org/dc/terms/extent) | 3128
 
 
 ### Columns
 
 Name/Property | Datatype | Description
  --- | --- | --- 
-[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | We use the 1-based index of the first shape with corresponding LANGUAGE property in the original shapefile as identifier.<br>Primary key
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | We use the 1-based index of the first shape with matching metadata in the original shapefile as identifier.<br>Primary key
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
 [Contributor](http://cldf.clld.org/v1.0/terms.rdf#contributor) | `string` | 
 [Citation](http://cldf.clld.org/v1.0/terms.rdf#citation) | `string` | 
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
-[Media_IDs](http://cldf.clld.org/v1.0/terms.rdf#mediaReference) | list of `string` (separated by ` `) | References [media.csv::ID](#table-mediacsv)
-`Type` | `string`<br>Valid choices:<br> `leaf` `shape` | 
+[Rights](http://purl.org/dc/terms/rights) | `string` | 
+[Media_IDs](http://cldf.clld.org/v1.0/terms.rdf#mediaReference) | list of `string` (separated by ` `) | Contributions can be related to various kinds of media. ECAI shape contributions are linked to GeoJSON files that store the geo data; Atlas leaf contributions are linked to the corresponding scans and geo-data derived from these.<br>References [media.csv::ID](#table-mediacsv)
+`Type` | `string`<br>Valid choices:<br> `leaf` `shape` | There are two types of contributions: Individual shapes from ECAI's geo-registered dataset and individual leaves of the Atlas.
+`Properties` | `json` | Shape metadata from ECAI's GIS dataset and Glottocodes of the Glottolog languoids to which the shape was matched.
 
 ## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF MediaTable](http://cldf.clld.org/v1.0/terms.rdf#MediaTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 307
+[dc:extent](http://purl.org/dc/terms/extent) | 357
 
 
 ### Columns
@@ -65,7 +67,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1869
+[dc:extent](http://purl.org/dc/terms/extent) | 1865
 
 
 ### Columns
@@ -80,7 +82,7 @@ Name/Property | Datatype | Description
 [Glottocode](http://cldf.clld.org/v1.0/terms.rdf#glottocode) | `string`<br>Regex: `[a-z0-9]{4}[1-9][0-9]{3}` | 
 [ISO639P3code](http://cldf.clld.org/v1.0/terms.rdf#iso639P3code) | `string`<br>Regex: `[a-z]{3}` | 
 [Speaker_Area](http://cldf.clld.org/v1.0/terms.rdf#speakerArea) | `string` | References [media.csv::ID](#table-mediacsv)
-`Glottolog_Languoid_Level` | `string` | 
+`Glottolog_Languoid_Level` | `string`<br>Valid choices:<br> `language` `family` | 
 `Family` | `string` | 
 [Contribution_IDs](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | list of `string` (separated by ` `) | List of identifiers of shapes in the original shapefile that were aggregated to create the shape referenced by Speaker_Area and of Atlas leaves mapping a georeferenced area intersecting with this languoid's area.<br>References [contributions.csv::ID](#table-contributionscsv)
 

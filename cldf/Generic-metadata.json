@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-57-g1a5e2fb",
+            "dc:created": "v1.0-58-g6e61514",
             "dc:title": "Repository"
         },
         {
@@ -45,7 +45,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "dc:description": "We use the 1-based index of the first shape with corresponding LANGUAGE property in the original shapefile as identifier.",
+                        "dc:description": "We use the 1-based index of the first shape with matching metadata in the original shapefile as identifier.",
                         "datatype": {
                             "base": "string",
                             "format": "[a-zA-Z0-9_\\-]+"
@@ -88,11 +88,13 @@
                         "name": "Rights"
                     },
                     {
+                        "dc:description": "Contributions can be related to various kinds of media. ECAI shape contributions are linked to GeoJSON files that store the geo data; Atlas leaf contributions are linked to the corresponding scans and geo-data derived from these.",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#mediaReference",
                         "separator": " ",
                         "name": "Media_IDs"
                     },
                     {
+                        "dc:description": "There are two types of contributions: Individual shapes from ECAI's geo-registered dataset and individual leaves of the Atlas.",
                         "datatype": {
                             "base": "string",
                             "format": "leaf|shape"
@@ -100,7 +102,7 @@
                         "name": "Type"
                     },
                     {
-                        "dc:description": "Shape metadata from ECAI's GIS dataset.",
+                        "dc:description": "Shape metadata from ECAI's GIS dataset and Glottocodes of the Glottolog languoids to which the shape was matched.",
                         "datatype": "json",
                         "name": "Properties"
                     }
@@ -248,6 +250,11 @@
                         "name": "Speaker_Area"
                     },
                     {
+                        "dc:description": "",
+                        "datatype": {
+                            "base": "string",
+                            "format": "language|family"
+                        },
                         "name": "Glottolog_Languoid_Level"
                     },
                     {

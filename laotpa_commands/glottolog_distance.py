@@ -1,20 +1,15 @@
 """
 A measure how accurately the shapes of the dataset match the geographic information from Glottolog.
 """
-import math
-import pathlib
-import subprocess
-
 from shapely.geometry import shape
 from clldutils.clilib import PathType
 from clldutils.path import TemporaryDirectory
 from clldutils.jsonlib import load, dump
 from pycldf.ext.discovery import get_dataset
-import matplotlib.pyplot as plt
-from cldfgeojson import feature_collection
 from csvw.dsv import UnicodeWriter
 
 from cldfbench_languageatlasofthepacificarea import Dataset
+from .validation import plot
 
 
 def register(parser):
@@ -71,24 +66,15 @@ def run(args):
         writer.writerow(['Glottocode', 'Contained', 'Distances'])
         writer.writerows(dists)
     #subprocess.check_call(['csvstat', str(ds.etc_dir / 'glottolog_distances.csv')])
-    plot([i[0] for i in outliers], [i[1] for i in outliers], labels)
+    _plot([i[0] for i in outliers], [i[1] for i in outliers], labels)
 
 
-def plot(x, y, labels):#, c, labels):
-    fig, ax = plt.subplots()
-    ax.scatter(
-        x,
-        y,
-        #c=c
-    )
-    ax.set_xlabel(r'Number of polygons', fontsize=15)
-    ax.set_ylabel('Distance', fontsize=15)
-    ax.set_title('Distance from Glottolog coordinate')
-    for label, x_, y_ in labels:
-        ax.annotate(label, (x_, y_))
-    #red_patch = mpatches.Patch(color='r', label=r'Non-coastal language')
-    #blue_patch = mpatches.Patch(color='b', label=r'Coastal language')
-    #ax.legend(handles=[blue_patch, red_patch], loc='upper right')
-    ax.grid(True)
-    fig.tight_layout()
-    plt.show()
+def _plot(x, y, labels):#, c, labels):
+    with plot(
+        'Distance from Glottolog coordinate',
+        'Number of polygons',
+        'Distance',
+    ) as ax:
+        ax.scatter(x, y)
+        for label, x_, y_ in labels:
+            ax.annotate(label, (x_, y_))

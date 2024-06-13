@@ -1,6 +1,7 @@
 # Releasing
 
 ```shell
+cldfbench download cldfbench_languageatlasofthepacificarea.py
 cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v5.0
 ```
 
@@ -17,7 +18,7 @@ cldfbench cldfreadme cldfbench_languageatlasofthepacificarea.py
 ```
 
 ```shell
-cldferd --format compact.svg cldf > erd.svg
+cldferd --format compact.svg cldf > etc/erd.svg
 ```
 
 ```shell

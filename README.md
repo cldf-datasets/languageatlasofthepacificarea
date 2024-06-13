@@ -106,6 +106,9 @@ provided as GeoJSON features, thus are available programmatically, e.g. using `p
 files for [language](cldf/languages.geojson)- and [family](cldf/families.geojson)-level areas can also
 be inspected using GIS tools such as https://geojson.io
 
+![](etc/erd.svg)
+
+
 ## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):
