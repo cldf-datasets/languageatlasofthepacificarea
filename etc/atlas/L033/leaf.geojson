@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Philippines, Central"
+  },
+  "id": "L033",
+  "features": [
+    {
+      "bbox": [
+        119.65795884450695,
+        9.472904941143737,
+        126.6849058332494,
+        14.389122809302823
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              119.65795884450695,
+              9.472904941143737
+            ],
+            [
+              126.6849058332494,
+              9.472904941143737
+            ],
+            [
+              126.6849058332494,
+              14.389122809302823
+            ],
+            [
+              119.65795884450695,
+              14.389122809302823
+            ],
+            [
+              119.65795884450695,
+              9.472904941143737
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L033/epsg4326.tif",
+        "id": "bounds",
+        "title": "L033/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.706473,
+              14.360191
+            ],
+            [
+              119.717456,
+              9.557417
+            ],
+            [
+              126.625716,
+              9.514079
+            ],
+            [
+              125.538406,
+              12.726084
+            ],
+            [
+              124.72567,
+              12.758232
+            ],
+            [
+              124.736653,
+              14.360191
+            ],
+            [
+              119.706473,
+              14.360191
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

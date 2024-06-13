@@ -100,4 +100,7 @@ ENV/
 # mypy
 .mypy_cache/
 .idea/
-raw/atlas/japan
+raw/japan
+raw/atlas
+etc/atlas/*/*.tif
+

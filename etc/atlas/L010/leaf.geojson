@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Milne Bay Province"
+  },
+  "id": "L010",
+  "features": [
+    {
+      "bbox": [
+        150.0978129707345,
+        -11.665327283406224,
+        154.64603878173438,
+        -8.483655557821447
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              150.0978129707345,
+              -11.665327283406224
+            ],
+            [
+              154.64603878173438,
+              -11.665327283406224
+            ],
+            [
+              154.64603878173438,
+              -8.483655557821447
+            ],
+            [
+              150.0978129707345,
+              -8.483655557821447
+            ],
+            [
+              150.0978129707345,
+              -11.665327283406224
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L010/epsg4326.tif",
+        "id": "bounds",
+        "title": "L010/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.11707,
+              -8.510403
+            ],
+            [
+              150.193951,
+              -11.619955
+            ],
+            [
+              154.598103,
+              -11.619955
+            ],
+            [
+              154.532206,
+              -8.510403
+            ],
+            [
+              150.11707,
+              -8.510403
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

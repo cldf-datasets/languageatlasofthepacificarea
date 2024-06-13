@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Western Province"
+  },
+  "id": "L012",
+  "features": [
+    {
+      "bbox": [
+        140.7946865068771,
+        -9.680391353694246,
+        145.3002706092067,
+        -6.503881473713925
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              140.7946865068771,
+              -9.680391353694246
+            ],
+            [
+              145.3002706092067,
+              -9.680391353694246
+            ],
+            [
+              145.3002706092067,
+              -6.503881473713925
+            ],
+            [
+              140.7946865068771,
+              -6.503881473713925
+            ],
+            [
+              140.7946865068771,
+              -9.680391353694246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L012/epsg4326.tif",
+        "id": "bounds",
+        "title": "L012/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.839102,
+              -6.555475
+            ],
+            [
+              140.817137,
+              -9.644077
+            ],
+            [
+              143.98571,
+              -9.633246
+            ],
+            [
+              143.98571,
+              -7.819847
+            ],
+            [
+              145.265221,
+              -7.836173
+            ],
+            [
+              145.270712,
+              -6.517272
+            ],
+            [
+              140.839102,
+              -6.555475
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

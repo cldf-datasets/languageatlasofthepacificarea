@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Indonesia, Java and Bali"
+  },
+  "id": "L039",
+  "features": [
+    {
+      "bbox": [
+        105.0694193982786,
+        -9.237537996235694,
+        114.85373603349633,
+        -2.307921903548765
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              105.0694193982786,
+              -9.237537996235694
+            ],
+            [
+              114.85373603349633,
+              -9.237537996235694
+            ],
+            [
+              114.85373603349633,
+              -2.307921903548765
+            ],
+            [
+              105.0694193982786,
+              -2.307921903548765
+            ],
+            [
+              105.0694193982786,
+              -9.237537996235694
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L039/epsg4326.tif",
+        "id": "bounds",
+        "title": "L039/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.139024,
+              -5.353521
+            ],
+            [
+              105.095092,
+              -6.730076
+            ],
+            [
+              105.633256,
+              -8.472372
+            ],
+            [
+              114.814981,
+              -9.091249
+            ],
+            [
+              114.771049,
+              -6.740986
+            ],
+            [
+              113.518996,
+              -6.740986
+            ],
+            [
+              113.551944,
+              -5.932972
+            ],
+            [
+              114.7381,
+              -5.867403
+            ],
+            [
+              114.716134,
+              -5.255068
+            ],
+            [
+              110.432794,
+              -5.375398
+            ],
+            [
+              105.139024,
+              -5.353521
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

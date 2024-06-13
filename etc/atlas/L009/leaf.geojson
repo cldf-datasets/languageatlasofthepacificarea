@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Northern Province"
+  },
+  "id": "L009",
+  "features": [
+    {
+      "bbox": [
+        146.87203097583716,
+        -10.818379531661556,
+        151.3268860302865,
+        -7.824018134278761
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              146.87203097583716,
+              -10.818379531661556
+            ],
+            [
+              151.3268860302865,
+              -10.818379531661556
+            ],
+            [
+              151.3268860302865,
+              -7.824018134278761
+            ],
+            [
+              146.87203097583716,
+              -7.824018134278761
+            ],
+            [
+              146.87203097583716,
+              -10.818379531661556
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L009/epsg4326.tif",
+        "id": "bounds",
+        "title": "L009/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              146.887078,
+              -7.841615
+            ],
+            [
+              146.958467,
+              -10.773952
+            ],
+            [
+              151.302213,
+              -10.779348
+            ],
+            [
+              151.247299,
+              -9.091249
+            ],
+            [
+              150.000737,
+              -9.064127
+            ],
+            [
+              149.951314,
+              -7.868823
+            ],
+            [
+              146.887078,
+              -7.841615
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

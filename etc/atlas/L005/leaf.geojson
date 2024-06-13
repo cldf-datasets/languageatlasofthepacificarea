@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "New Guinea, Papuan Language Stocks (Eastern New Guinea Area)"
+  },
+  "id": "L005",
+  "features": [
+    {
+      "bbox": [
+        140.0166680835605,
+        -12.435615209955273,
+        160.4176469766681,
+        1.7696256657166751
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              140.0166680835605,
+              -12.435615209955273
+            ],
+            [
+              160.4176469766681,
+              -12.435615209955273
+            ],
+            [
+              160.4176469766681,
+              1.7696256657166751
+            ],
+            [
+              140.0166680835605,
+              1.7696256657166751
+            ],
+            [
+              140.0166680835605,
+              -12.435615209955273
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L005/epsg4326.tif",
+        "id": "bounds",
+        "title": "L005/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.096274,
+              -12.039321
+            ],
+            [
+              156.197242,
+              -12.103781
+            ],
+            [
+              156.197242,
+              -9.882275
+            ],
+            [
+              160.326822,
+              -9.817329
+            ],
+            [
+              160.173061,
+              -2.460181
+            ],
+            [
+              153.737067,
+              -2.591889
+            ],
+            [
+              153.715101,
+              0.109863
+            ],
+            [
+              140.074309,
+              0.109863
+            ],
+            [
+              140.096274,
+              -12.039321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

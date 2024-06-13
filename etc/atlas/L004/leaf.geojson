@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Indonesia, Irian Jaya, South-Eastern"
+  },
+  "id": "L004",
+  "features": [
+    {"bbox": [132.05025871437235, -9.338112363799345, 141.08996832807858, -3.0082054010715638],
+    "geometry": {"coordinates": [[[132.05025871437235, -9.338112363799345], [141.08996832807858, -9.338112363799345], [141.08996832807858, -3.0082054010715638], [132.05025871437235, -3.0082054010715638], [132.05025871437235, -9.338112363799345]]], "type": "Polygon"},
+      "properties": {
+        "filename": "L004/epsg4326.tif",
+        "id": "bounds",
+        "title": "L004/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.62544,
+              -2.997899
+            ],
+            [
+              134.54856,
+              -5.659719
+            ],
+            [
+              137.689676,
+              -5.747174
+            ],
+            [
+              137.612796,
+              -9.253936
+            ],
+            [
+              141.050451,
+              -9.264779
+            ],
+            [
+              141.127332,
+              -3.118576
+            ],
+            [
+              134.62544,
+              -2.997899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}

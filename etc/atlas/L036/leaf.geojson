@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "title": "Mainland S.E. Asia(South)"
+  },
+  "id": "L036",
+  "features": [
+    {
+      "bbox": [
+        97.50687377835688,
+        6.2607309143610586,
+        109.66497364821673,
+        14.522815138191472
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              97.50687377835688,
+              6.2607309143610586
+            ],
+            [
+              109.66497364821673,
+              6.2607309143610586
+            ],
+            [
+              109.66497364821673,
+              14.522815138191472
+            ],
+            [
+              97.50687377835688,
+              14.522815138191472
+            ],
+            [
+              97.50687377835688,
+              6.2607309143610586
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "filename": "L036/epsg4326.tif",
+        "id": "bounds",
+        "title": "L036/epsg4326.tif",
+        "description": "Geographic bounding box of the scan of the Atlas leaf; i.e. area covered by the scanif overlaid on a map."
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.60113,
+              14.477234
+            ],
+            [
+              97.86472,
+              6.315299
+            ],
+            [
+              104.037124,
+              6.358975
+            ],
+            [
+              104.05909,
+              8.515836
+            ],
+            [
+              109.50662,
+              8.515836
+            ],
+            [
+              109.550552,
+              14.477234
+            ],
+            [
+              97.60113,
+              14.477234
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "georeferenced",
+        "description": "Geo-referenced area mapped on leaf; i.e. area where map and Atlas leaf can be expected to match when overlaid."
+      }
+    }
+  ]
+}
