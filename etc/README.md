@@ -1,34 +1,27 @@
 # Configuration directory
 
 This directory contains "configuration" data, i.e. data which helps with and
-guides the conversion of the raw data to CLDF.
+guides the conversion of the raw data to CLDF. It also contains results of validating the
+resulting CLDF dataset.
 
 
-## Mapping languages to Glottolog
+## Running the validation analyses
 
-Make sure you have the dependcies installed:
 ```shell
-pip install -e .
+cldfbench laotpa.landmass_distance
 ```
 
-Run
+![](landmass_distance.svg)
+
+
 ```shell
-cldfbench laotpa.geojson PATH/TO/glottolog-cldf/cldf/languages.csv
-```
-to create a GeoJSON file including unmapped polygons and Glottolog language markers.
-
-Open this file in https://geojson.io/
-
-Assign Glottocodes to polygons by appending the appropriate Glottocode to the polygons `title` property.
-
-Save the data in GeoJSON format.
-
-Add the new Glottocodes to `etc/languages.csv` by running
-```shell
-cldfbench laotpa.mergeglottocodes ~/Downloads/map.geojson
+cldfbench laotpa.glottolog_distance ../../glottolog/glottolog-cldf/cldf
 ```
 
-Commit and push:
+![](glottolog_distance.svg)
+
 ```shell
-git commit -m"more glottocodes" etc/languages.csv
+cldfbench laotpa.multipolygon_spread
 ```
+
+![](multipolygon_spread.svg)

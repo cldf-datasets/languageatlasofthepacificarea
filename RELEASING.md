@@ -25,5 +25,7 @@ cldferd --format compact.svg cldf > etc/erd.svg
 cldfbench readme cldfbench_languageatlasofthepacificarea.py 
 ```
 
-
-## Running the validation analyses
+Recreate the browseable Atlas:
+```shell
+cldfbench laotpa.browser
+```

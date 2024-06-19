@@ -2,24 +2,6 @@
 <%block name="head">
 <title>${title}</title>
 <style>
-    body, html, .vh {
-        height: 100vh;
-    }
-    title {
-        text-align: center;
-        width: 100%;
-    }
-    #table {
-        display: block;
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 100%;
-        overflow-y: scroll;
-    }
-    #map {
-        height: 100%;
-        width: 100%;
-    }
     .leaflet-range-control {
     background-color: #fff;
 }
@@ -46,12 +28,7 @@
 }
 </style>
 </%block>
-<div class="vh pure-g">
-    <div class="vh pure-u-4-5">
-        <div id='map'></div>
-    </div>
-    <div class="vh pure-u-1-5">
-        <table id="table" class="pure-table">
+<%block name="table">
             <thead>
             <tr>
                 <th>Language</th>
@@ -64,9 +41,7 @@
             </tr>
             % endfor
             </tbody>
-        </table>
-    </div>
-</div>
+</%block>
 <script>
     var polygons,
         styles = {

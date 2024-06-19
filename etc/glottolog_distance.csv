@@ -1,0 +1,1766 @@
+glottocode,npolys,proper_containment,distance,language
+abad1241,1,True,0,Abadi
+abag1245,1,True,0,Abaga
+abai1240,1,False,0.03731484862355232,Abai Sungai
+abau1245,1,True,0,Abau
+abui1241,1,True,0,Abui
+abun1252,1,False,0,Abun
+abuu1241,1,True,0,Abu
+achi1257,3,True,0,Acehnese
+adab1235,1,True,0,Adabe
+adas1235,1,True,0,Adasen
+adny1235,1,False,0.07124677318777992,Adnyamathanha
+adon1237,2,True,0,Adonara
+adze1240,2,True,0,Adzera
+aeka1244,1,False,0.1266801940689807,Aeka
+aeky1238,1,True,0,Aekyom
+agar1252,1,True,0,Agarabi
+aghu1255,1,True,0,Aghu
+agii1245,1,True,0,Agi
+agob1244,1,True,0,Agob-Ende-Kawam
+agus1235,1,True,0,Agusan Manobo
+aheu1239,1,False,0.7488048904975709,Thavung
+aigh1235,2,False,0,Aighon
+aime1238,1,True,0,Aimele
+aiom1240,1,True,0,Aiome
+airo1242,1,True,0,Airoran
+ajie1238,1,True,0,Ajië
+akei1237,1,False,0.00509817845935651,Akei
+akha1245,14,False,0,Akha
+akkk1240,1,False,0.006210171871234615,Ak
+akla1240,1,True,0,Aklanon
+akoy1238,1,True,0,Akoye
+akru1241,1,True,0,Chini
+alak1253,2,False,0,Alak
+alam1246,1,True,0,Alamblak
+alan1249,1,True,0,Alangan
+alaw1244,1,True,0,Alawa
+alba1269,1,True,0,Inland-Buhi-Daraga Bikol
+alor1247,5,True,0,Alorese
+alun1238,1,True,0,Alune
+alya1239,1,False,0.1004825614655656,Alyawarr
+amah1245,1,False,0.026866338774977665,Amahai
+amai1246,1,True,0,Amaimon
+amal1242,1,False,0.019146160736621662,Amal
+aman1265,2,False,0.026219599740533648,Amanab
+amap1240,1,True,0,Ama (Papua New Guinea)
+amar1272,1,False,0.06276828248187459,Amara
+amba1269,1,True,0,Ambakich
+ambl1237,1,True,0,Amblong
+ambo1250,7,True,0,Ambonese Malay
+ambu1247,1,True,0,Ambulas
+amel1241,1,True,0,Amele
+amis1246,5,True,0,Amis
+amol1235,1,False,0.03314008029866117,Mol
+ampa1239,1,True,0,Ampanang
+amto1250,1,True,0,Amto
+anak1240,1,True,0,Anakalangu
+anam1247,1,True,0,Anam
+anam1248,1,True,0,Anamuxra
+anda1284,1,True,0,Andarum
+ande1247,1,True,0,Andegerebinha
+anei1239,1,True,0,Aneityum
+anem1248,1,True,0,Aneme Wake
+anem1249,1,True,0,Anem
+anga1290,2,True,0,Angaataha
+anga1292,2,True,0,Angal Heneng
+anga1293,1,True,0,Angal
+anga1294,1,True,0,Angal Enen
+angg1239,1,True,0,Angguruk Yali
+ango1254,1,False,0.006650787793215002,Angor
+ango1255,1,True,0,Angoram
+anja1238,1,True,0,Anjam
+anka1246,1,True,0,Ankave
+anma1239,1,True,0,Anmatyerre
+anor1241,1,True,0,Anor
+anuk1239,1,False,0.009117132723331391,Anuki
+anut1237,2,True,0,Anuta
+aohe1237,1,True,0,Aoheng-Seputan
+aore1237,1,True,0,Aore
+apal1256,2,True,0,Apali
+apma1240,2,True,0,Apma
+apma1241,1,True,0,Ap Ma
+aput1237,1,False,0.022735584513754317,Aputai
+arak1252,1,False,0.9872857404303836,Araki
+aran1237,1,True,0,Dombano
+araw1272,1,False,0.0057832387429406495,Arawum
+area1240,2,True,0,'Are'are
+aree1239,1,True,0,Are
+arem1240,1,False,0.21476051461256102,Arem
+arha1237,1,True,0,Arhâ
+arho1237,1,True,0,Arhö
+arib1240,1,True,0,Aribwaung
+arib1241,1,True,0,Aribwatsa
+arif1239,4,False,0,Arifama-Miniafia
+arii1243,1,True,0,Ari
+arop1243,5,True,0,Arop-Lokep
+aros1241,1,True,0,Arosi
+arue1240,1,True,0,Aruek
+aruo1240,1,False,0.020525745146037194,Srenge
+asar1240,2,True,0,Asaro'o
+asil1242,1,True,0,Asilulu
+asko1238,1,True,0,Askopan
+asue1235,1,True,0,Asue Awyu
+atam1240,1,True,0,Ata Manobo
+atay1247,2,True,0,Atayal
+atem1241,1,False,0.02419363555347779,Mand
+atoh1238,1,True,0,Atohwaim
+auhe1237,1,False,0.1593291860899383,'Auhelawa
+aulu1238,1,True,0,Aulua
+aust1304,3,True,0,Austral
+auuu1241,1,True,0,Au
+auwe1239,1,False,0.012832413340412432,Auwe
+awab1243,1,True,0,Awabakal
+awac1238,4,False,4.1978514125759805,Lavia-Awalai-Damangnuo Awa
+awad1244,1,True,0,Awad Bing
+awap1236,1,True,0,Awa (Papua New Guinea)
+awar1248,1,True,0,Awara
+awar1249,1,True,0,Awar
+awiy1238,1,True,0,Awiyaana
+awtu1239,1,False,0.03899376558758547,Awtuw
+awun1245,1,True,0,Auwon
+awyi1241,1,True,0,Awyi
+axam1237,1,True,0,Axamb
+ayiw1239,1,True,0,Äiwoo
+baba1268,2,True,0,Babatana
+babu1240,2,True,0,Babuza
+baca1243,1,True,0,Bacanese Malay
+bada1261,1,True,0,Bada (Indonesia)
+baeg1237,1,True,0,Baeggu
+bael1237,1,True,0,Baelelea
+baet1237,1,True,0,Baetora
+bagu1252,1,False,0.005508694186514576,Bagupi
+baha1257,2,True,0,Bahau
+baha1258,1,True,0,Baham
+bahi1254,1,True,0,Bahinemo
+bahn1262,1,True,0,Bahnar
+baib1251,1,False,0.013869319387336456,Baibai
+baik1238,2,True,0,Baikeno
+baim1245,1,True,0,Baimak
+baki1244,1,True,0,Baki
+baku1263,1,False,1.0933693346235391,Bakumpai
+bala1310,1,True,0,Balangao
+bala1311,1,False,1.6996908396812884,Balangingi
+bala1314,1,True,0,Balaesang
+bali1278,2,True,0,Balinese
+bali1279,1,True,0,Balinese Malay
+bamu1257,2,True,0,Bamu
+bana1292,1,True,0,Banaro
+bang1365,2,True,0,Bangka
+bang1368,1,True,0,Banggai
+banj1239,7,False,0,Banjar
+bann1247,1,True,0,Bannoni
+bant1286,4,False,0,Bantik
+bant1288,1,True,0,Bantoanon
+bara1370,2,True,0,Baram Kayan
+bara1375,1,True,0,Barapasi
+barg1252,1,True,0,Bargam
+bari1286,1,True,0,Bariai
+bari1290,1,True,0,Bariji
+baro1253,1,True,0,Barok
+barr1247,1,False,0.0519999278526454,Barrow Point
+baru1267,1,True,0,Baruya
+baru1269,2,True,0,Baruga
+basa1286,5,True,0,Basap
+basa1287,3,False,0,Basay
+bata1288,1,True,0,Batak Simalungun
+bata1292,1,False,0,Batak Alas-Kluet
+bata1293,1,True,0,Batak Karo
+bata1294,2,True,0,Batak Dairi
+bata1301,1,True,0,Batak
+bate1262,3,True,0,Batek
+batu1260,1,True,0,Batui
+baub1235,2,True,0,Bau-Jagoi Bidayuh
+baur1252,1,True,0,Bauro
+bauu1244,1,False,0.002526036773309406,Bau
+bauw1240,1,True,0,Bauwaki
+bauz1241,1,True,0,Bauzi
+baya1257,1,False,0.980954420176981,Bayali
+beam1240,1,True,0,Beami
+bebe1252,1,True,0,Bebeli
+beli1258,1,True,0,Beli (Papua New Guinea)
+bena1264,1,False,0.12448073195395772,Benabena
+beng1287,3,False,0.13802348266200584,Benggoi
+bepo1240,1,True,0,Bepour
+bera1262,1,False,0,Berau Malay
+beri1253,1,True,0,Berinomo
+beri1254,1,True,0,Berik
+besi1244,4,True,0,Besisi
+beso1237,1,True,0,Besoa
+beta1252,1,True,0,Betawi
+biak1248,14,True,0,Biak
+bian1251,1,True,0,Bian Marind
+bian1252,1,True,0,Biangai
+biat1246,1,True,0,Biatah Bidayuh
+biem1237,4,False,0,Biem
+bier1244,1,True,0,Bierebo
+bier1246,2,True,0,Bieria
+bign1238,1,True,0,Big Nambas
+bila1257,1,False,0.0015996962136465974,Karen
+bilb1241,1,True,0,Bilibil
+bilu1245,1,False,0.01689650958139825,Bilua
+bima1247,5,True,0,Bima
+bimi1240,2,True,0,Bimin
+bina1271,1,False,0.013599673510452869,Bina (Papua New Guinea)
+bina1274,1,False,0.04093577098600359,Binahari-Ma
+bina1275,1,False,0.032814547854774986,Binahari-Neme
+bina1277,2,True,0,Binandere
+bine1240,1,True,0,Bine
+bino1237,1,False,0.1777438664089679,Binongan Itneg
+bint1245,1,False,0.08023873577218349,Bintauna
+bint1246,5,True,0,Bintulu
+binu1244,1,True,0,Talaandig-Binukid
+binu1245,1,False,0.006208997161190249,Binumarien
+bira1254,1,True,0,Birao
+bisi1244,1,True,0,Bisis
+biso1243,1,False,0.137876486318604,Bisorio
+bitt1240,2,False,0.12236965723354366,Bit
+bitu1242,1,True,0,Bitur
+biwa1243,1,True,0,Biwat
+biyo1244,1,True,0,Biyom
+blab1237,1,True,0,Blablanga
+blag1240,2,False,0,Blagar
+blan1242,1,False,2.870919388912541,Blang
+boan1242,1,True,0,Boano (Maluku)
+boan1243,1,True,0,Boano (Sulawesi)
+bobo1254,1,True,0,Bobot
+boga1247,1,False,0.04257985479910523,Bogaya
+boik1241,3,True,0,Boikin
+bola1250,1,True,0,Bola
+bola1252,2,False,0,Bolango
+boli1256,1,True,0,Bolinao
+bolo1268,2,True,0,Bolongan
+bone1255,1,False,0.2939238453042802,Bonerif
+bong1287,1,True,0,Bonggo
+bong1291,1,True,0,Bongu
+bonk1244,1,False,0.0574637604473426,Bonkiman
+book1241,2,True,0,Bookan
+bopa1235,1,True,0,Bo (Papua New Guinea)
+bore1247,1,True,0,Borei
+boro1279,1,True,0,Borong
+bose1237,1,True,0,Boselewa
+bosn1248,1,True,0,Bosngun
+boto1242,1,True,0,Botolan Sambal
+bouy1240,1,False,3.0234061342447256,Bouyei
+brag1240,1,False,0.03150541296209673,Bragat
+brem1238,1,True,0,Barem
+brer1240,1,True,0,Breri
+brun1242,8,False,0,Brunei
+brun1245,2,True,0,Brunei Bisaya-Dusun
+buga1250,1,True,0,Bugawac
+bugh1239,2,True,0,Bughotu
+bugi1244,3,True,0,Buginese
+buhi1245,1,True,0,Buhid
+buhu1237,1,False,0,Buhutu
+buka1257,1,True,0,Bukar-Sadung Bidayuh
+buka1261,4,False,0.10610563616752768,Bukat
+buki1247,4,True,0,Bukit Malay
+buki1248,5,False,0,Bukitan
+buki1249,1,True,0,Bukiyip
+bulg1265,1,False,0.004257779561479468,Bulgebi
+buli1255,1,True,0,Buli (Indonesia)
+bumb1241,1,True,0,Bumbita Arapesh
+buna1275,1,True,0,Bunaba
+buna1276,1,True,0,Bunama
+buna1277,1,True,0,Buna
+buna1278,1,True,0,Bunak
+bung1269,8,True,0,Bungku
+bung1270,1,True,0,Bungain
+bunn1240,1,True,0,Bun
+bunu1267,2,True,0,Bunun
+buol1237,1,True,0,Buol
+burm1263,1,True,0,Burmbar
+burm1264,1,False,0.06360481910091689,Burmeso
+buru1304,1,True,0,Burusu
+buru1306,1,True,0,Burum-Mindik
+buru1308,1,True,0,Buruwai
+buru1309,2,False,0.012365875871100282,Burui
+busa1255,1,True,0,Busang Kayan
+buta1242,1,False,0.008452694239822516,Butam
+butm1237,1,True,0,Farafi
+butu1244,1,True,0,Butuanon
+bwai1242,1,True,0,Bwaidoka
+bwat1240,1,False,0.34856011002708687,Bwatoo
+caac1237,2,False,0,Caac
+cala1258,3,True,0,Calamian Tagbanwa
+camp1262,1,False,0.6655205937871862,Campalagian
+caol1238,3,False,1.2070318286346868,Cao Lan
+caro1242,3,True,0,Carolinian
+casi1235,1,True,0,Casiguran-Nagtipunan Agta
+cebu1242,10,True,0,Cebuano
+cemu1238,1,True,0,Cemuhî
+cent1989,5,True,0,Central Khmer
+cent2053,3,True,0,South Barisan Malay
+cent2058,1,True,0,Central Maewo
+cent2084,1,True,0,Central Cagayan Agta
+cent2087,5,True,0,Coastal-Naga Bikol
+cent2091,1,False,0,Central Palawano
+cent2098,1,True,0,Central Berawan
+cent2100,1,True,0,Kadazan Dusun
+cent2101,6,True,0,Central Melanau
+cent2117,1,True,0,Central Asmat
+cham1312,10,True,0,Chamorro
+cham1313,1,True,0,Chambri
+chan1319,1,True,0,Changriwa
+chav1241,1,False,0.02833949037065695,Chavacano
+chek1238,1,True,0,Cheke Holo
+chen1259,1,True,0,Chenapian
+chew1245,1,True,0,Chewong
+chon1284,1,False,0.09108617913660863,Chong of Chanthaburi
+chru1239,1,True,0,Chru
+chua1250,1,False,0,Chuave
+chuu1238,1,True,0,Chuukese
+ciac1237,1,True,0,Cia-Cia
+cina1236,3,True,0,Cinamiguin Manobo
+coas1295,1,False,0.278944975112483,Coastal Konjo
+cola1237,1,True,0,Colac
+coll1240,2,True,0,Col
+cota1241,1,True,0,Cotabato Manobo
+cuaa1241,1,True,0,Cua
+daak1235,1,True,0,Da'a Kaili
+dadi1250,2,False,0,Dadibi
+daga1275,1,True,0,Daga
+daka1243,1,True,0,Dakaka
+dama1272,1,True,0,Damal
+damp1237,1,True,0,Dampelas
+dana1254,1,False,0.02124009295717264,Danaru
+daon1243,1,True,0,Daonda
+darl1243,1,True,0,Paakantyi
+daro1239,1,False,0,Daro-Matu Melanau
+dava1245,1,True,0,Davawenyo
+dawa1242,1,True,0,Dawawa
+dedu1240,1,True,0,Dedua
+dege1247,1,True,0,Degenan
+dehu1237,1,True,0,Dehu
+demm1245,1,False,0.04698614002819355,Dem
+demt1241,1,True,0,Demta
+dera1245,1,False,0.12630259497258967,Dera (Indonesia)
+dhao1237,1,False,0.010447597253468466,Dhao
+dhar1248,1,True,0,Dharumbal
+dhud1236,1,True,0,Dhudhuroa
+dhur1239,1,True,0,Dhurga
+diaa1238,1,False,0.0007504015972224314,Alu-Sinagen
+diba1242,1,True,0,Dibabawon Manobo
+dibi1240,1,False,0,Dibiyaso
+dier1241,1,True,0,Dieri
+dima1252,1,False,0.05441205215600691,Dima
+diod1237,1,True,0,Diodio
+dixo1238,1,False,0.04002069907290883,Dixon Reef
+djam1255,1,True,0,Jaminjung-Ngaliwurru
+djan1238,1,True,0,Djangun
+djee1236,2,False,0,Djeebbana
+djin1251,1,True,0,Jingulu
+dobu1241,2,True,0,Dobu
+doga1238,2,True,0,Doga
+dogh1241,1,False,0.01046002089345057,Doghoro
+domm1246,1,True,0,Dom
+domu1245,1,False,0.009082592278826957,Domu
+domu1246,1,True,0,Domung
+dond1249,1,True,0,Dondo
+dori1246,1,True,0,Dori'o
+doro1266,1,True,0,Doromu-Koki
+dout1240,1,False,0.0483843658622867,Doutai
+duau1237,1,True,0,Duau
+dubu1240,1,False,0.0049556557090746954,Dubu
+dudu1240,1,True,0,Duduela
+duke1237,1,True,0,Duke
+dumb1241,1,True,0,Dumbea
+dump1242,1,True,0,Dumpas
+dump1243,1,True,0,Dumpu
+dumu1246,1,True,0,Dumun
+duna1248,1,True,0,Duna
+dupa1235,1,True,0,Dupaninan Agta
+duri1242,1,True,0,Duri
+duri1243,1,False,0.03861193163761719,Duriankere
+dusn1237,1,True,0,Dusner
+dusu1271,1,True,0,Dusun Deyah
+duwe1237,1,True,0,Duwet
+dyan1250,1,True,0,Dyangadi
+dyir1250,1,True,0,Dyirbal
+dyug1238,1,True,0,Dyugun
+east2330,1,False,0.04422417327384758,Eastern Lawa
+east2332,2,False,0.1539280680233502,Eastern Bru
+east2379,1,True,0,Eastern Arrernte
+east2440,9,True,0,East Makian
+east2447,1,True,0,East Futuna
+east2472,1,True,0,East Damar
+east2486,1,True,0,East Berawan
+east2516,2,True,0,East Kewa
+east2563,7,True,0,Eastern Cham
+eder1237,1,True,0,Edera Awyu
+edol1239,1,True,0,Edolo
+eiti1240,1,False,0.015438425847752736,Eitiep
+ekar1243,1,True,0,Ekari
+elep1240,1,False,0.0088061501236408,Elepi
+elke1240,1,False,0.05544304582937885,Elkei
+else1239,1,False,0.02438030866662354,Elseng
+emae1237,1,True,0,Emae
+emba1238,6,False,0,Embaloh
+emum1240,1,True,0,Emumu
+ende1246,1,True,0,Ende
+enga1252,2,True,0,Enga
+engg1245,7,True,0,Enggano
+enre1239,1,True,0,Enrekang
+erav1244,1,True,0,Erave
+erok1237,1,False,0.011960615346679275,Erokwanas
+esee1247,1,True,0,Ese
+ewag1241,4,True,0,Ewage-Notu
+faga1239,1,True,0,Fagani
+faiw1243,2,True,0,Faiwol
+fass1245,1,True,0,Momu-Fas
+fasu1242,2,False,0,Fasu
+fata1245,1,True,0,Fataleka
+fata1247,1,True,0,Fataluku
+femb1238,1,True,0,Fembe
+fiji1243,3,False,3.179890773699526,Fijian
+fino1238,1,False,0.003492720367189632,Finongan
+fiwa1240,1,False,0.00855072520200625,Fiwaga
+foau1240,1,False,0.04052096233220605,Abawiri
+foii1241,1,True,0,Foi
+folo1238,5,True,0,Folopa
+fora1245,1,True,0,Forak
+ford1242,2,True,0,Fordata
+fore1270,1,True,0,Fore
+fort1240,1,True,0,Kiai
+futu1245,2,False,0.062079433101514335,Futuna-Aniwa
+fuyu1242,1,True,0,Fuyug
+fwai1237,1,True,0,Fwâi
+gabu1248,1,True,0,Gabutamon
+gada1258,1,True,0,Ga'dang
+gadd1244,1,True,0,Gaddang
+gads1258,3,True,0,Gadsup
+gaga1251,1,True,0,Gaagudju
+gaik1242,1,True,0,Gaikundi
+gain1243,1,True,0,Gaina
+gale1257,1,True,0,Galeya
+gale1259,2,False,0.09209790372877884,Galela
+gall1278,1,True,0,Gal
+galo1243,4,True,0,Galoli-Talur
+gamk1238,1,False,0.05819540436646875,Gamkonora
+gana1268,1,False,0.32017737658779416,Birrdhawal
+gana1277,1,False,0.0069803785616346075,Gana
+gana1278,1,False,0.2745075449441901,Ganai
+gane1237,1,True,0,Gane
+gang1267,1,True,0,Ganggalida
+gang1270,1,True,0,Ganglau
+gant1244,1,True,0,Gants
+gaoo1237,1,True,0,Gao
+gapa1238,1,True,0,Gapapaiwa
+gara1269,1,True,0,Garrwa
+garu1246,1,True,0,Garus
+gayo1244,2,True,0,Gayo
+gebe1237,2,True,0,Gebe
+geda1237,1,True,0,Gedaged
+gela1263,1,True,0,Gela
+gend1249,1,True,0,Gende
+gese1240,4,True,0,Geser-Gorom
+ghan1242,1,True,0,Ghanongga
+ghar1239,1,True,0,Ghari
+ghay1237,2,True,0,Ghayavi
+gian1241,1,True,0,Giangan
+gilb1244,11,False,0,Gilbertese
+gimi1242,1,False,0.03822561946073958,Gimi (West New Britain)
+gimi1243,1,True,0,Gimi (Eastern Highlands)
+ginu1240,1,True,0,Ginuman
+gira1247,1,True,0,Girawa
+gitu1237,1,True,0,Gitua
+gizr1240,1,True,0,Gizrra
+gnau1240,1,False,0.03774059680993861,Gnau
+goba1246,1,False,0.04764330207226851,Gobasi
+gogo1265,1,True,0,Gogodala
+goli1247,1,True,0,Golin
+goon1238,1,True,0,Gooniyandi
+gora1262,1,True,0,Gorakor
+goro1259,1,True,0,Gorontalo
+goro1261,1,True,0,Gorovu
+gras1249,1,True,0,Grass Koiari
+gres1240,1,True,0,Gresi
+guga1239,1,False,0.39599842293229115,Gugadj
+gugu1255,1,True,0,Guugu Yimidhirr
+guhu1244,3,True,0,Guhu-Samane
+guma1254,1,False,0.007355640455304699,Gumawana
+guma1255,1,True,0,Gumalu
+gure1255,1,False,0.8659086432926076,Gureng Gureng
+gusa1246,1,True,0,Gusan
+guwa1242,1,False,0.09571659872109028,Guwa
+guwa1244,1,True,0,Guwar
+guya1249,1,False,3.4368359312111543,Guyani
+guya1251,1,False,0.0004875373352943865,Guya
+gwah1244,1,True,0,Gwahatike
+gwed1239,1,False,0.057220784007221276,Gweda
+habu1241,1,False,0.012246836034733243,Habu
+haek1239,1,True,0,Haeke
+haho1237,1,True,0,Hahon
+hala1253,1,False,0.16224997671931782,Halang Doan
+hali1244,1,False,0,Halia
+hamt1247,1,True,0,Hamtai
+hang1263,1,True,0,Hanga Hundi
+hano1246,1,True,0,Hano
+hanu1241,1,True,0,Hanunoo
+haro1237,1,False,0.19112055184865656,Haroi
+haru1244,1,True,0,Haruku
+haru1245,1,False,0.04126807550995994,Haruai
+hata1243,1,True,0,Hatam
+have1241,1,True,0,Haveke
+hawa1245,7,True,0,Hawaiian
+hewa1241,1,True,0,Hewa
+heyo1240,1,True,0,Heyo
+hili1240,5,True,0,Hiligaynon
+hitu1239,1,True,0,Hitu
+hiww1237,2,False,0,Hiw
+hlai1239,1,True,0,Hlai
+hmwa1243,1,True,0,Hmwaveke
+hoav1238,1,True,0,Hoava
+hote1245,1,True,0,Hote
+hovo1239,2,True,0,Hobongan
+hree1244,1,True,0,Hre
+hula1239,1,False,0.014444095926787942,Hula
+huli1244,1,True,0,Huli
+hume1246,1,True,0,Humene
+hung1275,2,False,0,Hung
+hunj1241,1,True,0,Hunjara-Kaina Ke
+iaai1238,1,True,0,Iaai
+iama1237,1,True,0,Iamalele
+iatm1242,2,True,0,Iatmul
+iauu1242,1,True,0,Iau
+ibal1244,1,True,0,Ibaloi
+iban1264,10,False,1.2273964835248687,Iban
+iban1267,2,True,0,Ibanag
+ibat1238,1,False,0.4931818820420347,Ibatan
+idaa1241,1,True,0,Ida'an
+idat1237,1,True,0,Idaté
+idii1243,1,True,0,Idi-Taeme
+idun1242,1,True,0,Iduna
+igan1243,1,False,0.015590152230404046,Igana
+ihaa1241,1,True,0,Iha
+ikob1240,1,False,0,Ikobi
+ilia1236,1,True,0,Ilianen Manobo
+iliu1237,1,False,0,Ili'uun
+ilok1237,3,True,0,Iloko
+ilon1239,1,True,0,Ilongot
+imbo1238,1,False,0.45722568805053576,Imbongu
+imon1245,1,False,0.018809146925678102,Imonda
+inap1241,1,True,0,Itutang-Inapang
+inok1238,1,False,0.021549143589680905,Inoke-Yate
+inon1237,2,True,0,Inonhan
+ipik1244,1,True,0,Ipiko
+ipil1240,2,False,0,Ipili
+iran1262,2,False,6.670919436617212,Iranun
+irar1238,1,True,0,Irarutu
+iray1237,1,True,0,Iraya
+ires1239,1,True,0,Yerisiam
+irig1242,1,True,0,Iriga Bicolano
+irrr1240,1,True,0,Ir
+isab1240,1,True,0,Isabi
+iseb1246,1,True,0,Isebe
+isin1239,1,True,0,Isinai
+isir1237,1,True,0,Isirawa
+isna1241,1,True,0,Isnag
+itaw1240,1,True,0,Itawit
+iter1241,1,True,0,Iteri
+itik1240,1,False,0.06493700241690416,Itik
+iwal1237,1,True,0,Iwal
+iwam1256,1,True,0,Iwam
+iwur1240,1,True,0,Morop-Dintere
+iyoo1238,1,True,0,Iyo
+jahh1242,1,True,0,Jah Hut
+jair1235,1,True,0,Kia River Awyu
+jara1266,1,False,0,Jarai
+java1254,7,True,0,Javanese
+jawe1237,1,True,0,Jawe
+jeha1242,2,True,0,Jehai
+jehh1245,1,True,0,Jeh
+jili1241,1,True,0,Sgi Bara
+juwa1238,1,False,0.009491403812686382,Juwal
+kabi1260,1,True,0,Kabikabi
+kabo1247,1,True,0,Kabola
+kach1280,1,False,4.878817769235657,Southern Jinghpaw
+kafo1240,1,True,0,Kafoa
+kahu1241,1,True,0,Kahua
+kaia1245,1,False,0.0032114506086094634,Kaian
+kaib1244,2,True,0,Kaibobo
+kaid1239,1,False,0.030133882396231066,Kaidipang
+kaie1237,1,False,0.02042975533824874,Kaiep
+kair1263,3,True,0,Kairiru
+kair1265,2,False,0.06401770177030976,Kairui-Midiki
+kair1267,1,False,0.2605532230106221,Kairak
+kais1235,1,True,0,Kais
+kaiy1239,1,False,0.05024153631945621,Kaiy
+kaja1250,1,True,0,Kajaman
+kaka1267,1,True,0,Kakabai
+kaki1249,1,True,0,Kaki Ae
+kala1256,1,True,0,Kalabra
+kala1377,3,True,0,Kala Lagaw Ya
+kala1388,4,True,0,Kalagan
+kala1391,1,True,0,Kalabakan
+kala1397,1,True,0,Kalam
+kalo1262,1,False,0.00892828963363467,Kalou
+kalu1247,1,False,0.013662234487073915,Kalumpang
+kalu1248,1,True,0,Kaluli
+kama1360,1,False,0.04715992768283514,Kamasa
+kama1362,1,True,0,Kamarian
+kama1363,1,True,0,Kamayo
+kama1365,1,True,0,Kamang
+kama1367,1,True,0,Kamasau
+kama1370,1,True,0,Kamano
+kamb1299,2,True,0,Kambera
+kamb1302,2,True,0,Kamberau
+kamo1255,1,True,0,Kamoro
+kamu1260,1,True,0,Kamula
+kana1286,1,False,0.13972440723179735,Kanakanavu
+kana1288,1,True,0,Kanasi
+kand1301,1,True,0,Kandas
+kang1291,1,True,0,Kanggape
+kani1281,1,True,0,Kaninuwa
+kani1285,1,False,0.0877822954898739,Kaningra
+kani1286,1,True,0,Kanite
+kank1243,1,False,0,Kankanaey
+kano1244,2,True,0,Kanowit-Tanjong Melanau
+kaoo1238,2,True,0,Kao
+kapi1249,1,True,0,Kapingamarangi
+kapi1250,1,True,0,Kapin
+kapo1250,1,True,0,Kapori
+kapp1237,1,False,0.002993594478934868,Kap
+kapr1245,1,True,0,Kapriman
+kara1476,1,True,0,Karadjeri
+kara1486,1,True,0,Kara (Papua New Guinea)
+kara1487,1,True,0,Karao
+kara1489,1,False,0.06494871776433091,Mandaya
+kara1495,1,True,0,Karawa
+kara1497,1,False,0.06445147771811108,Karami
+kare1341,1,True,0,Kare (Papua New Guinea)
+kari1304,1,True,0,Kariyarra
+kark1258,1,False,0.013208625722111369,Karkar-Yuri
+karn1252,1,True,0,Karnai
+karo1298,1,True,0,Karore
+kasi1256,1,True,0,Kasiguranin
+kasu1251,1,True,0,Kasua
+katb1237,1,False,0.0020865344909940754,Avava
+kate1253,1,True,0,Kâte
+katu1273,1,True,0,Katua
+kaul1240,2,True,0,Kaulong
+kaur1267,2,True,0,Kaurna
+kaur1271,1,True,0,Kaure-Narau
+kava1241,1,True,0,Kavalan
+kawa1276,1,True,0,Kawacha
+kawe1240,9,True,0,Kawe
+kaya1319,1,True,0,Kayardild
+kaya1324,4,True,0,Kayan Mahakam
+kaya1325,1,True,0,Kayan River Kayan
+kaya1328,1,True,0,Kayagar
+kayo1245,1,True,0,Kayong
+kazu1245,1,False,0.3240277810362092,Kazukuru
+keap1239,2,True,0,Keapara
+keda1252,1,True,0,Kedang
+kein1239,1,False,0,Kein
+kela1255,3,True,0,Kela (Papua New Guinea)
+kela1258,2,True,0,Kelabit
+kele1259,1,False,0.21245743021278626,Keley-i Kallahan
+kelo1247,1,True,0,Klon
+kema1243,1,True,0,Kemak
+kemb1235,1,False,0.3494639634809983,Kemberano
+kemb1249,1,True,0,Mateq
+kemt1242,1,True,0,Kemtuik
+kena1236,3,True,0,Kenaboi
+kena1250,1,False,0.010289579816434191,Kenati
+kend1254,1,False,0,Kendayan-Belangin
+keni1248,1,True,0,Keninjal
+keni1249,2,False,0,Keningau Murut
+kens1248,2,True,0,Kensiu
+keor1235,1,True,0,Keoru-Ahia
+kere1285,1,True,0,Kereho
+kere1286,1,True,0,Kerewo
+keri1250,1,True,0,Kerinci
+kesa1244,1,True,0,Kesawai
+keta1243,1,True,0,Ketangalan
+kete1254,3,True,0,Ketengban
+keya1238,2,True,0,Keyagana
+khan1274,3,True,0,Kháng
+khmu1256,12,True,0,Khmu
+khua1243,1,True,0,Khua
+khue1238,1,False,0.14506911791435226,Khuen
+kibi1239,2,True,0,Kibiri
+kilm1241,1,True,0,Kilmeri
+kima1244,1,True,0,Kimaragang
+kima1246,1,True,0,Kimaama
+kina1251,1,False,0.0011880660227007104,Kinalakna
+kipu1237,1,False,0,Kiput
+kire1240,1,True,0,Kire
+kisa1266,1,True,0,Kisar
+kiss1246,1,False,0.019954775657431565,Kis
+kitj1240,1,True,0,Kitja
+klia1235,1,True,0,Klias River Kadazan
+kobo1248,1,True,0,Kobol
+kobo1249,1,False,0,Kobon
+kodi1247,1,True,0,Kodi
+kofe1239,1,True,0,Kofei
+koit1244,1,False,0.15491133815006417,Koitabu
+koiw1243,1,False,0.04383132107105212,Koiwat
+koko1265,1,True,0,Kokoda
+koko1269,1,False,0,Kokota
+koli1253,1,False,0.33176891298887784,Kolibugan Subanon
+kolo1267,1,True,0,Kolom
+kolp1236,1,False,0,Kol (Papua New Guinea)
+kolu1245,1,True,0,Koluwawa
+komb1272,1,False,0,Kombio
+komb1273,1,True,0,Komba
+kome1238,1,True,0,Komering
+komi1271,1,True,0,Kominimung
+kona1242,1,True,0,Konai
+kond1303,1,False,0.08518159347156536,Yaben (Konda)
+kono1269,1,True,0,Konomala
+kopa1248,1,True,0,Kopar
+kora1294,2,True,0,Korafe-Yegha
+kora1296,1,False,0.006375202941633735,Korak
+kora1298,1,True,0,Korapun-Bromley
+koro1308,1,True,0,Koro-Olrat
+kosa1249,1,False,0.055685224286857515,Kosarek Yale
+kosa1251,1,True,0,Kosadle
+kosr1238,1,True,0,Kosraean
+kota1275,1,True,0,Kota Bangun Kutai Malay
+kota1279,1,True,0,Kota Marudu Talantang
+kova1243,1,True,0,Kovai
+kove1237,1,True,0,Kove
+kowa1245,1,True,0,Kowaki
+kowi1239,1,True,0,Kowiai
+kris1246,1,True,0,I'saka
+kuan1248,3,True,0,Kuanua
+kube1244,1,True,0,Kulungtfu-Yuanggeng-Tobo
+kubo1242,1,True,0,Kubo
+kubu1239,2,True,0,Kubu
+kuii1253,2,False,0.17513004752760733,Kui (Indonesia)
+kuij1237,1,False,0.04568642911722632,Kuijau
+kulo1237,1,False,0.30832218697018493,Pazeh-Kahabu
+kulo1238,1,True,0,Kulon
+kuma1276,3,True,0,Nêlêmwa-Nixumwak
+kuma1280,1,True,0,Kuman
+kumb1268,1,False,0.9263420949065028,Kumbainggar
+kumu1247,1,True,0,Kumukio
+kung1259,1,False,0.06863175303121918,Kungarakany
+kuni1263,1,True,0,Kuni
+kuni1265,1,True,0,Kuni-Boazi
+kuni1267,1,True,0,Kunimaipa
+kunj1246,1,True,0,Kánchá
+kuot1243,1,True,0,Kuot
+kuri1260,1,True,0,Nabi
+kuru1305,2,True,0,Kurudu
+kusa1251,1,True,0,Kusaghe-Njela
+kuyy1240,18,False,0,Kuy
+kwai1243,1,True,0,Kwaio
+kwam1252,1,True,0,Kwamera
+kwan1278,1,True,0,Kwanga
+kwar1239,1,True,0,Kwara'ae
+kwat1244,1,True,0,Kwato
+kwer1264,1,True,0,Kwerisa
+kwes1245,1,False,0.01404554054234682,Kwesten
+kwom1262,1,True,0,Kwoma
+kyak1244,1,True,0,Kyaka
+kyen1243,1,False,0.014261787131379265,Kyenele
+labo1244,1,True,0,Ninde
+labu1248,1,True,0,Labu
+laek1243,1,False,0.030985807387837842,Laeko-Libuat
+lagh1246,1,True,0,Laghu
+laha1250,2,True,0,Laha (Viet Nam)
+laha1253,1,True,0,Lahanan
+lahu1253,12,False,0.4951968718241141,Lahu
+laiy1246,1,True,0,Laiyolo
+laka1255,1,True,0,Lakalei
+lako1245,1,False,0.009529554791499847,Lakon
+lala1268,1,True,0,Lala
+lama1277,4,True,0,Lamaholot
+lamb1273,1,True,0,Lamboya
+lame1256,2,False,0,Lamet
+lamm1241,1,True,0,Western Pantar
+lamo1244,1,True,0,Lamogai
+lamp1242,1,True,0,Lampung Nyo
+lamp1243,1,True,0,Lampung Api
+lana1236,2,True,0,Lanas Lobu
+lang1328,1,False,0.006011015080222404,Pondi
+lano1248,1,False,0,Lanoh
+lapu1236,1,True,0,Lapuyan Subanun
+lara1258,1,False,0.2196544239451116,Laragia
+lard1243,1,True,0,Lardil
+lare1249,1,False,0.0016738550096117078,Larevat
+lari1255,1,True,0,Larike-Wakasihu
+laua1245,1,False,0.02758046845271565,Laua
+lauj1238,3,True,0,Lauje
+lauu1247,1,False,1.1748118273454042,Lau
+lava1239,1,True,0,Lavatbura-Lamusong
+lave1248,1,True,0,Laven
+lave1249,1,True,0,Brao
+lavu1241,1,True,0,Lavukaleve
+lawa1257,2,False,0.30171538547891874,Lawangan
+ledo1238,12,True,0,Ledo Kaili
+lege1241,2,False,0.2985372288908135,Legenyem
+leha1243,1,False,0.006773041021285912,Lehali
+leha1244,1,True,0,Lehalurup
+lela1246,2,True,0,Lelak
+lemb1266,1,False,0.10429543901033801,Lembena
+lemi1243,1,False,0.6331212692799139,Lemio
+lena1238,1,True,0,Lenakel
+leng1259,1,True,0,Lengo
+leng1260,1,False,0.012205897319581424,Lengilu
+lenn1234,1,True,0,Len
+lete1241,1,True,0,Letemboi-Repanbitip
+leti1246,1,True,0,Leti (Indonesia)
+lewo1242,1,True,0,Lewo
+lian1255,1,True,0,Liana-Seti
+lihi1237,1,True,0,Lihir
+lila1246,1,True,0,Lilau
+lind1248,1,True,0,Tado-Lindu
+ling1265,1,True,0,Neverver
+lioo1240,1,True,0,Li'o
+lisa1239,4,False,0.015430494066869907,Lisabata-Nuniali
+lisu1250,4,False,7.038565556308784,Lisu
+litz1237,1,True,0,Naman
+lola1250,1,False,0.07892588088425195,Lolak
+lolo1264,2,True,0,Loloda-Laba
+long1395,1,True,0,Longgu
+long1406,1,True,0,Western Lowland Kenyah
+lonw1238,1,True,0,Lonwolwol
+lore1244,1,False,0.11232184576583736,Nethalp
+lote1237,1,True,0,Lote
+loto1240,4,False,0,Lo-Toga
+lotu1250,1,True,0,Lotud
+loun1239,1,True,0,Loun
+lowe1402,1,False,0.7224675333885078,Lower Riverland
+lowe1403,1,False,0.5905094039095824,Lower Darling-Lower Lachlan
+lowe1415,1,True,0,Lower Grand Valley Dani
+luan1263,5,True,0,Luang
+lubu1241,2,False,0.0016934765918715212,Lubu
+luhu1243,5,True,0,Luhu-Piru
+lund1271,5,True,0,Lundayeh
+lung1249,1,True,0,Lungga
+lusi1240,1,True,0,Lusi
+luuu1242,8,False,0,Lü
+maan1238,3,True,0,Ma'anyan
+maba1278,3,True,0,Maba (Indonesia)
+mada1285,1,True,0,Madak
+made1253,1,True,0,Salawati
+madi1261,1,True,0,Madi (Papua New Guinea)
+maee1241,1,True,0,Tirax
+mafe1237,2,False,0.006165363168428642,Mafea
+mago1248,1,True,0,Magori
+magu1243,1,True,0,Maguindanao
+mahi1249,1,False,0.024262315569861793,Mahigi
+maia1253,1,True,0,Maiani
+maia1254,1,True,0,Maia
+maib1239,1,True,0,Maybrat-Karon
+maii1238,1,True,0,Maii
+mail1248,3,False,0.007988296104532677,Mailu
+main1275,7,False,2.021616370690711,Usun Apau Kenyah
+mais1250,3,True,0,Maisin
+maiw1250,1,True,0,Maiwa (Indonesia)
+maiw1251,1,True,0,Maiwa (Papua New Guinea)
+maka1305,1,False,1.5470740687368008,Makassar Malay
+maka1311,1,True,0,Makasar
+maka1315,1,True,0,Makayam
+maka1316,1,True,0,Makasae-Makalero
+makl1246,1,False,0.08744327762774982,Maklew
+mako1250,1,False,0.052758233813876905,Makolkol
+maku1277,1,True,0,Maku'a
+mala1479,10,False,3.176484848400537,Central Malay
+mala1481,1,False,0,Manado Malay
+mala1484,1,True,0,Malango
+mala1487,2,False,0,Malasanga
+mala1489,1,True,0,Malalamai
+mala1494,5,True,0,Mala (Papua New Guinea)
+mala1495,1,False,0.0030455475347336727,Manep
+mala1534,1,True,0,Malaweg
+male1289,1,True,0,Maleu-Kilenge
+male1291,1,False,0.0009197985249604912,Male (Papua New Guinea)
+malf1237,1,True,0,Na'ahai
+mall1246,2,False,0.5152993236005986,Mal
+malo1243,1,True,0,Tamambo
+malu1245,1,True,0,Malua-Tepërav
+mama1275,1,True,0,Mamanwa
+mama1276,1,False,0,Mamasa
+mama1277,1,True,0,Mamaa
+mamb1305,1,True,0,Mamboru
+mamb1306,1,False,0.029960816556263353,Mambae
+mamu1254,1,True,0,Mamusi
+mamu1255,1,False,0,Mamuju
+mana1295,1,True,0,Manam
+mana1298,1,True,0,Manambu
+mand1440,2,True,0,Mandara
+mand1442,2,True,0,Mandar
+mand1443,1,False,0.1728356086874452,Mander
+mand1444,1,False,0.012859920445391299,Mandobo Atas
+mane1266,1,False,0.010837648014485758,Manem
+mang1378,1,False,1.1635231016269285,Mang
+mang1381,1,True,0,Mangarrayi
+mang1383,1,True,0,Mangala
+mang1401,3,False,0.006151821102812654,Mangareva
+mang1403,1,True,0,Mangseng
+mang1404,1,True,0,Mangga Buang
+mang1405,1,True,0,Manggarai
+mani1235,1,True,0,Sougb
+mani1297,1,False,0,Manipa
+manu1258,1,True,0,Manusela
+maor1246,2,True,0,Maori
+mapa1244,1,True,0,Ma (Papua New Guinea)
+mape1249,1,True,0,Mape
+mape1250,1,True,0,Mapena
+mapi1250,2,False,0.016221359200614398,Mapia
+mapo1242,1,True,0,Mapos Buang
+mara1385,1,True,0,Marra
+mara1399,1,True,0,Maragus
+mara1404,1,True,0,Maranao
+mara1407,1,True,0,Maramba
+mare1261,1,False,0.1467590057719087,Maremgi
+mari1426,1,False,0.042343553041427305,Sunwadia
+mari1428,1,True,0,Marik
+mari1429,1,True,0,Mari (Madang Province)
+mari1432,1,False,0.0019072305037636853,Mari (East Sepik Province)
+mari1435,1,True,0,Maring
+mari1438,1,True,0,Maria (Papua New Guinea)
+maro1244,4,True,0,Marovo
+mars1254,26,False,0,Marshallese
+mart1255,3,True,0,Martuthunira
+mart1256,1,False,2.422383375005284,Martu Wangka
+masb1238,3,True,0,Masbatenyo
+masi1266,1,True,0,Masiwang
+mask1242,1,False,0.005482339311709739,Maskelynes
+mass1263,1,True,0,Massep
+matb1237,3,True,0,Matbat
+mate1260,1,True,0,Matepi
+mati1250,1,True,0,Matigsalug Manobo
+mato1252,1,True,0,Mato
+matu1261,1,False,0.013081764048591224,Matukar
+mauw1238,1,True,0,Mauwake
+mawa1266,1,True,0,Mawak
+mawa1267,1,False,0.0001483640141605376,Mawan
+mawe1251,1,True,0,Mawes
+maya1282,2,False,0.36472472726872895,Misool-Salawati Ma'ya
+mbul1263,3,True,0,Mbula
+meak1234,1,False,0.0475551548818114,Meakambut
+mede1237,1,False,0.006564806704317582,Medebur
+mehe1243,1,True,0,Mehek
+meke1243,1,True,0,Mekeo
+mekm1240,1,True,0,Mekmek
+mekw1241,1,False,0.014295111118852857,Mekwei
+melp1238,1,True,0,Melpa
+mend1267,1,True,0,Mendalam Kayan
+meng1267,2,False,0,Mengen
+ment1249,4,True,0,Mentawai
+meny1245,1,True,0,Menya
+meos1237,1,True,0,Meoswar
+mera1242,2,True,0,Meramera
+mere1242,1,True,0,Merei
+meri1244,1,False,0.8172191687063377,Meriam
+merl1237,1,False,0.004898024782564071,Merlav
+mese1244,1,True,0,Mese
+meya1236,1,False,0.08235428829745703,Meyah
+mian1256,1,True,0,Mian
+midd1327,1,True,0,Middle Watut
+miga1241,1,True,0,Migabac
+mina1268,6,True,0,Minangkabau
+mina1274,1,True,0,Minanibai-Foia Foia
+mind1255,1,False,0.03780649949497362,Mindiri
+mini1253,1,False,0.020163458900117205,Minidien
+mink1237,3,False,0,Minkin
+mino1243,1,True,0,Minokok
+minr1238,1,True,0,Minriq
+mint1239,1,True,0,Mintil
+miuu1237,1,True,0,Miu
+mlab1235,1,False,0.022233479433861204,Mlabri
+mlap1238,1,False,0.013055170502129468,Mlap
+moda1244,6,False,0,Modang
+modo1249,1,True,0,Modole
+moer1240,1,True,0,Moere
+moii1235,2,True,0,Moi (Indonesia)
+moik1239,1,True,0,Moikodi
+moke1242,1,False,0.39826437537041837,Moken
+moki1238,1,True,0,Mokilese
+mokk1243,1,False,0.08443809409241296,Mok
+molb1237,2,True,0,Molbog
+moli1248,2,True,0,Molima
+molo1262,1,False,0.02525417717850768,Molof
+moma1242,1,True,0,Moma
+moma1243,1,True,0,Momare
+mong1342,2,True,0,Mongondow
+mong1344,1,False,0.020061369280962166,Mwakai
+moni1261,2,True,0,Moni
+monn1252,3,False,2.363278360297026,Mon
+mono1268,1,True,0,Monom
+mono1273,3,True,0,Mono-Alu
+mora1239,1,True,0,Moraid
+mora1273,1,True,0,Morawa
+morb1239,1,False,0.05490516174098974,Mor (Bomberai Peninsula)
+more1258,1,True,0,Moresada
+mori1267,1,True,0,Moriori
+mori1268,1,True,0,Mori Bawah
+mori1269,1,True,0,Mori Atas
+mori1271,1,True,0,Morigi
+morm1235,3,False,0.1880317234311853,Mor (Mor Islands)
+moro1286,1,True,0,Ande
+moro1287,2,True,0,Moronene
+moro1289,1,False,0.0663811346543676,Marori
+mort1237,7,False,0,Mortlockese
+mosi1248,1,False,0.008917176637820575,Mosimo
+mosk1236,1,False,0.32353552580337464,Moskona
+mota1237,1,True,0,Mota
+motl1237,1,True,0,Mwotlap
+motu1246,2,False,0.1375244504708858,Motu
+mouk1239,1,True,0,Mouk-Aria
+moun1252,2,True,0,Mountain Koiali
+mpii1239,1,False,0.0569512985074638,Mpi
+mpot1241,1,True,0,Mpotovoro
+mpur1239,1,True,0,Mpur
+mual1241,1,True,0,Mualang
+muba1238,1,True,0,Mubami
+mufi1238,1,True,0,Mufian
+mula1254,1,False,0.010569003452393554,Mulaha
+mulu1243,1,True,0,Muluridyi
+mumm1238,1,True,0,Mum
+muna1247,2,True,0,Muna
+mung1272,1,True,0,Mungkip
+muni1257,1,True,0,Munit
+muon1246,4,True,0,Muong
+mura1271,1,True,0,Muratayak
+muri1259,3,True,0,Murik (Malaysia)
+muri1260,1,True,0,Murik (Papua New Guinea)
+murr1258,1,True,0,Murriny Patha
+muru1273,1,False,0,Murupi
+musa1265,1,True,0,Hember Avu
+musi1241,1,True,0,Musi
+muso1238,1,True,0,Musom
+mutu1242,1,True,0,Mutu
+naas1242,1,True,0,Naasioi
+naba1256,1,True,0,Nabak
+nabi1239,1,False,0.008829767469285361,Nabi-Metan
+nafi1237,1,True,0,Nafi
+nafr1241,1,True,0,Nafri
+nage1237,1,False,0.08460842732875744,Nage
+naka1260,1,False,0.06809386282503738,Nakara
+naka1262,2,True,0,Nakanai
+naka1264,1,True,0,Nakama
+nake1240,1,True,0,Nake
+nalc1240,1,True,0,Nalca
+nali1244,2,True,0,Nalik
+nama1268,3,True,0,Namakura
+namb1293,1,False,0.3655129717224383,Nambo
+nami1256,1,True,0,Namia
+namo1246,1,True,0,Namo
+namo1247,2,True,0,Namonuito
+nang1259,1,False,0.12430714023221866,Nangikurrunggurr
+nank1250,1,True,0,Nankina
+nanu1240,1,False,0.14000444272226897,Nanubae-Imangae
+napu1241,1,False,0.0009895688695818587,Napu
+nara1263,1,True,0,Narango
+nara1264,1,True,0,Narak
+naro1251,3,True,0,Narom
+naru1238,1,True,0,Narungga
+nasa1240,1,False,0.04113803357998015,Nasarian
+naue1237,1,False,0.01387022358401096,Nauete
+naur1243,1,True,0,Nauru
+navu1237,1,True,0,Navut
+nawa1258,1,True,0,Nawaru
+ndom1245,1,True,0,Ndom
+ndug1245,1,True,0,Nduga
+nede1245,1,True,0,Nedebang
+nekg1240,1,True,0,Nekgini
+nekk1240,1,True,0,Nek
+neko1240,1,True,0,Neko
+neku1237,1,False,0,Neku
+nemi1240,1,True,0,Nemi
+nend1239,1,True,0,Nend
+neng1238,1,True,0,Nengone
+nete1240,2,False,0.10621990641614759,Nete
+ngad1257,1,True,0,Ngadjuri
+ngad1261,1,True,0,Ngad'a
+ngai1241,1,True,0,Ngaing
+ngaj1237,1,True,0,Ngaju
+ngal1293,1,True,0,Ngalakgan
+ngal1298,1,True,0,Ngalum
+ngal1300,1,True,0,Ngala
+ngam1265,1,False,0.9994738240876966,Ngamini-Yarluyandi-Karangura
+ngan1296,1,False,0.533196390412651,Nganyaywana
+ngar1284,1,True,0,Ngarinyin
+ngar1287,4,True,0,Ngarluma
+ngar1288,1,False,0.3059126142456021,Ngardi
+ngar1296,1,True,0,Ngarla
+ngeq1245,1,True,0,Kriang-Khlor
+nguo1239,1,True,0,Nguôn
+nhuw1239,2,True,0,Nhuwala
+nias1242,1,True,0,Nias
+niii1240,1,False,0,Nii
+niks1238,1,True,0,Niksek
+nimi1240,1,True,0,Nimi
+nimo1247,1,True,0,Nimo
+ning1273,1,True,0,Ningil
+ning1274,1,True,0,Ninggerum
+ning1275,1,True,0,Ningera
+nips1240,1,False,0.0026484140368630785,Nipsan
+nisa1239,1,False,0.35378249432069897,Nisa-Anasi
+niua1240,1,True,0,Niuafo'ou
+niue1239,1,False,0.001075432100387784,Niuean
+nobo1238,1,True,0,Nobonob
+noku1237,1,True,0,Nokuku
+noma1262,1,True,0,Nomane
+nomu1240,1,True,0,Nomu
+nort2740,2,False,1.0800493973635503,Northern Thai
+nort2756,1,True,0,Northern Sunraysia
+nort2760,1,True,0,Northern Inland Yuin
+nort2836,4,True,0,North Efate
+nort2839,1,True,0,North Ambrym
+nort2847,1,True,0,North Tanna
+nort2857,1,True,0,North Watut
+nort2864,2,True,0,Wemale
+nort2877,1,False,0.0744100766748785,Northern Kankanay
+nort2883,1,True,0,Northern Catanduanes Bicolano
+nort2916,1,False,0,North Muyu
+nort2917,1,True,0,Momogo-Pupis-Irogo
+nort2920,1,False,0.03591438856674834,North Tairora
+nort2921,1,True,0,North Wahgi
+nort2930,1,True,0,Northeast Kiwai
+nort2994,1,True,0,Northern Roglai
+nots1237,2,False,0.007303753872469336,Notsi
+nucl1452,1,True,0,Mombum
+nucl1453,1,True,0,Walio
+nucl1454,1,True,0,Yawa
+nucl1458,1,True,0,Monumbo
+nucl1460,3,True,0,Madurese
+nucl1593,1,True,0,Kwomtari
+nucl1594,1,True,0,Mairasi
+nucl1595,1,True,0,Kwerba
+nucl1620,1,True,0,Wahgi
+nucl1622,1,True,0,Marind
+nucl1630,1,True,0,Barai
+nucl1632,1,True,0,Sentani
+nucl1633,1,True,0,Nimboran
+nucl1634,1,True,0,Skou
+nugu1241,1,False,4.0668630015069915,Nugunu (Australia)
+nukk1240,1,True,0,Nuk
+nukn1238,1,False,0.01198450418567813,Nukna
+nuku1258,1,True,0,Nukumanu
+nuku1259,2,True,0,Nukuria
+nuku1260,1,True,0,Nukuoro
+numa1254,1,True,0,Numanggang
+numb1247,1,False,0.01092728975777051,Numbami
+nume1241,1,True,0,Nume
+nume1242,2,True,0,Numee
+nung1290,1,True,0,Wubuy
+nusa1245,1,False,0.005773808638299351,Nusa Laut
+nyah1249,2,False,0,Nyaheun
+nyah1250,5,True,0,Nyahkur
+nyal1254,4,True,0,Belep
+nyam1271,1,True,0,Nyamal
+nyig1240,1,True,0,Nyigina
+obok1239,1,False,0.15217341674149784,Obokuitai
+obom1235,1,False,0,Obo Manobo
+odia1239,1,False,0.10202966032087164,Odiai
+odoo1238,1,True,0,Odoodee
+ogea1238,1,True,0,Ogea
+oira1263,1,True,0,Oirata
+okol1241,2,False,0,Okolod
+oksa1245,1,True,0,Oksapmin
+omat1240,1,True,0,Omati
+omie1241,1,True,0,Ömie
+ongg1239,1,True,0,Ong-Ir
+onin1245,1,True,0,Onin
+onjo1240,1,False,0.008560967358469224,Onjob
+onob1238,1,True,0,Onobasulu
+onoo1246,1,True,0,Ono
+onto1237,1,True,0,Luangiua
+opao1240,1,True,0,Opao
+oran1258,1,True,0,Orang Kanaq
+oran1259,2,False,0,Orang Seletar
+ormu1248,1,False,0.01841130661919839,Ormu
+oroh1237,1,True,0,Oroha
+orok1267,1,True,0,Orokolo
+orok1269,1,True,0,Orokaiva
+orow1242,1,False,0.08763098666207111,Orowe
+orya1242,1,True,0,Orya
+otda1235,2,True,0,Ot Danum
+ouma1237,1,False,0.015544459284478482,Ouma
+owen1244,1,False,0.010830406680453429,Oweina
+owin1240,1,False,0,Owiniga
+paaf1237,3,True,0,Pááfang
+paam1238,2,True,0,Paama
+paco1243,1,True,0,Pacoh
+pado1242,1,True,0,Padoe
+pagi1244,1,True,0,Pagi
+pagu1249,1,True,0,Pagu
+pahi1246,1,False,0.04167079812197831,Pahi
+paic1239,1,True,0,Paicî
+paiw1248,1,True,0,Paiwan
+pala1344,2,False,0.04117301237050077,Palauan
+pall1243,1,False,0.08966904869145624,Pallanganmiddang
+pall1244,1,True,0,Pal
+palu1252,1,True,0,Palu'e
+palu1253,1,True,0,Paluan
+pamo1252,5,False,0,Pamona
+pamo1253,1,True,0,Pamosu
+pamp1243,1,True,0,Pampanga
+pang1290,1,True,0,Pangasinan
+pang1291,1,True,0,Pangutaran Sama
+pani1258,1,True,0,Panim
+papa1268,1,False,0.3349232034212577,Papar
+papa1269,1,False,0.010602450621092108,Papasena
+papi1255,1,False,0.015767100220272792,Papi
+papo1239,2,True,0,Papora-Hoanya
+para1306,1,True,0,Paranan
+para1307,1,True,0,Parawen
+pare1271,1,True,0,Pare
+pasi1259,1,True,0,Pasi
+pata1260,1,True,0,Patani
+pate1247,2,True,0,Patep
+patp1243,1,True,0,Patpatar
+paul1238,1,True,0,Paulohi
+pauw1243,1,False,0.10730111139025938,Pauwi
+pawa1255,2,True,0,Pawaia
+payn1244,1,False,0.011393689433527157,Manat
+pear1247,1,True,0,Pear
+peii1238,1,False,0,Pei
+peka1242,1,True,0,Pekal
+pele1245,1,True,0,Pele-Ata
+penr1237,1,True,0,Māngarongaro
+phai1238,2,True,0,Prai
+phan1254,1,False,1.3284001654881725,Phana'
+phon1246,1,True,0,Phong-Kniang
+phuo1238,1,True,0,Phuong
+phut1244,2,False,0.8976175307228436,Phu Thai
+piam1242,1,True,0,Piamatsina
+piam1243,1,True,0,Piame
+pije1237,1,True,0,Pije
+pile1238,1,False,0.8922595642539203,Vaeakau-Taumako
+pina1252,2,False,0,Pinai-Hagahai
+ping1243,1,True,0,Pingelapese
+pirr1240,1,True,0,Pirriya
+piuu1237,1,False,0.01093175028689564,Piu
+pohn1238,3,True,0,Pohnpeian
+polo1242,1,True,0,Polonombauk
+pono1240,2,False,0.06276124369190195,Ponosakan
+port1285,1,True,0,Port Sandwich
+port1286,1,True,0,Daakie
+pouy1238,1,True,0,Pouye
+puar1240,1,True,0,Puare
+puka1242,2,False,0,Pukapuka
+pula1267,1,False,0.006196758879455089,Pulabu
+pulu1242,4,True,0,Puluwatese
+puna1266,8,False,0.13148724800522815,Punan Tubu
+puna1267,2,False,0.10074149112939706,Punan Aput
+puna1268,1,False,0.08103016962574985,Punan Merah
+puna1275,1,True,0,Punan Bah-Biau
+puoc1238,3,False,0,Ksingmul
+pura1253,1,True,0,Puragi
+pura1257,1,True,0,Purari
+puto1237,1,True,0,Putoh
+puyu1239,1,False,0.04407545219572739,Puyuma
+pwaa1237,1,True,0,Pwaamei
+pwap1237,1,True,0,Pwapwa
+pyuu1245,1,True,0,Pyu
+rade1240,1,True,0,Rade
+raja1254,1,True,0,Rajah Kabunsuwan Manobo
+raka1237,2,True,0,Rakahanga-Manihiki
+ramo1244,4,True,0,Ramoaaina
+ramo1245,1,True,0,Ramopa
+ramp1243,1,True,0,Rampi
+raoo1244,1,True,0,Rao
+rapa1244,1,True,0,Rapanui
+rapa1245,2,True,0,Mangaia-Old Rapa
+rapo1238,1,True,0,Rapoisi
+rapt1240,1,False,0.01606701344967883,Rapting
+rara1235,1,False,0.3083847018976155,Rara Bakati'
+rata1244,1,True,0,Ratahan
+rawa1267,1,True,0,Rawa
+rawo1244,1,False,0,Rawo
+reja1240,1,True,0,Rejang
+reja1241,5,True,0,Rejang Kayan
+remp1241,1,True,0,Rempi
+remu1237,1,False,0.09943031123536603,Remun
+reng1252,1,True,0,Rengao
+renn1242,2,True,0,Rennell-Bellona
+rere1240,1,True,0,Rerep
+rian1263,1,True,0,Riantana
+riri1237,1,True,0,Ririo
+riun1237,1,True,0,Riung
+roma1331,1,False,0.03195742083802058,Romam
+romb1245,3,True,0,Romblomanon
+romk1240,1,True,0,Romkun
+ronj1237,1,True,0,Ronji
+roon1237,1,True,0,Roon
+rori1237,1,True,0,Mores
+roto1249,1,True,0,Rotokas
+rotu1241,1,True,0,Rotuman
+rovi1238,1,True,0,Roviana
+ruka1240,1,True,0,Rukai
+rumu1243,1,True,0,Rumu
+rung1259,2,True,0,Rungus
+saaa1240,2,True,0,Sa'a
+saaa1241,1,True,0,Sa
+saar1237,1,False,0.04692294008042073,Saaroa
+saba1265,1,True,0,Sa'ban
+saba1267,2,True,0,Sabah Bisaya
+sabu1255,2,True,0,Hawu
+saek1240,5,True,0,Saek
+saep1240,1,True,0,Saep
+safe1240,2,False,0,Safeyoka
+sahu1245,1,False,0.04135000728502173,Sahu
+sais1237,1,True,0,Saisiyat
+saja1241,3,False,0,Sajau-Latti
+saka1289,1,True,0,Wanohe
+saka1292,1,True,0,Sakam
+saki1247,1,False,0.0015655529544352168,Sakizaya
+sale1244,2,False,0,Saleman
+sali1295,2,True,0,Saliba
+salt1242,1,True,0,Salt-Yui
+salu1253,1,False,1.4758618287339134,Saluan
+sama1240,1,True,0,Samarokena
+samb1321,1,True,0,Samberigi
+samm1244,1,True,0,Sam
+samo1303,1,False,0.017295134088348173,Samo
+samo1305,5,True,0,Samoan
+samo1306,1,True,0,Samosa
+sang1336,1,False,1.3811476410225147,Sangir
+sani1270,1,True,0,Saniyo-Hiyewe
+saoc1239,1,True,0,Sa'och
+sapa1251,2,False,0.07370232651089381,Saparua
+sapu1248,1,True,0,Sapuan
+sara1323,1,False,0.11264812188986947,Sarasira
+sara1327,2,True,0,Sarangani Manobo
+saru1243,1,True,0,Saruga
+sasa1249,1,False,0,Sasak
+sata1237,1,False,0.006691057659367536,Satawalese
+sauk1252,1,True,0,Ma Manda
+saur1251,1,True,0,Sauri
+saus1246,1,True,0,Sausi
+saus1247,1,False,0.26279787985995484,Sause
+savo1255,1,True,0,Savosavo
+sawa1247,2,True,0,Sawai
+sawi1256,1,True,0,Sawila
+sawi1257,1,True,0,Sawi
+sebo1238,2,True,0,Sebop
+seda1262,1,True,0,Sedang
+sedo1237,2,False,0.0639419444523245,Sedoa
+sega1243,3,False,0,Segai
+sege1235,1,False,0.05425129919542823,Seget
+seit1239,1,True,0,Seit-Kaitetu
+seka1248,1,True,0,Sekapan
+seke1241,1,False,0.04455092629967267,Seke (Vanuatu)
+seko1242,1,True,0,Seko Tengah
+sela1259,5,True,0,Selaru
+sela1260,2,True,0,Selayar
+sele1250,1,True,0,Selepet
+selu1242,1,True,0,Seluwasan
+selu1243,1,True,0,Selungai Murut
+sema1265,1,True,0,Semaq Beri
+sema1266,2,True,0,Semai
+seme1247,2,True,0,Semelai
+semi1264,1,False,0.042657683757140394,Semimi
+semp1241,1,False,0.30563416086080203,Sempan
+sene1263,1,True,0,Sene
+seng1281,1,True,0,Sengseng
+seng1285,1,True,0,Senggi
+sepa1241,1,False,0.0077976571018763055,Sepa (Papua New Guinea)
+sepa1242,2,True,0,Sepa (Indonesia)
+sepe1240,1,True,0,Sepen
+sepi1255,1,True,0,Sepik Iwam
+sera1260,1,True,0,Sera
+seru1246,2,True,0,Serudung Murut
+seta1245,1,True,0,Seta
+seta1246,1,True,0,Setaman
+seti1248,1,False,0.0003481056414884962,Seti
+sewa1251,1,True,0,Sewa Bay
+shan1277,7,False,1.4913087865508157,Shan
+sial1240,1,True,0,Sialum
+sian1255,1,True,0,Sihan
+sian1257,1,True,0,Siane
+siar1238,1,True,0,Siar-Lak
+siaw1243,1,False,0.008755738724264264,Siawi
+sibe1248,1,True,0,Sibe (Nasioi)
+sibu1258,2,True,0,Sibu Melanau
+siee1239,1,True,0,Sie
+siha1245,1,True,0,Sihan (Gum)
+sika1261,1,False,0.12393875935282615,Sikaiana
+sika1262,1,True,0,Sika
+sika1263,1,False,0.10246208696013193,Sikaritai
+siku1242,1,True,0,Sikule
+sila1247,1,False,0.5411663743204458,Sila
+sile1255,1,True,0,Sirva
+sili1247,1,False,0.013804715911996933,Siliput
+sili1249,1,True,0,Silimo
+silo1240,1,True,0,Silopi
+simb1255,1,True,0,Simbari
+simb1256,1,True,0,Simbo
+simb1259,1,True,0,Simbali
+sime1241,2,True,0,Simeulue
+sina1266,7,True,0,Sinaugoro
+sina1269,1,False,0.002994592655353352,Galu
+sina1271,1,False,0,Sinasina
+sins1241,1,True,0,Kou
+sioo1240,1,True,0,Sio
+sira1267,2,True,0,Sirayaic
+siro1249,1,False,0.009397265002564268,Siroi
+siss1243,1,False,0.013323590099767304,Sissano
+sobe1238,7,True,0,Sobei
+solo1257,1,True,0,Solos
+somm1240,1,True,0,Som
+somr1240,2,True,0,Somray of Battambang-Somre of Siem Reap
+soni1260,1,False,0.01006431995413669,Sonia
+sons1242,4,True,0,Sonsorol
+sooo1254,3,True,0,Sô
+sopp1247,1,True,0,Sop
+sota1242,2,True,0,Sota Kanum
+sout1439,1,False,0.17722950029529394,South-Eastern-Tasmanian-Hinterland
+sout2746,7,True,0,Southern Thai
+sout2770,1,True,0,Southern Inland Yuin
+sout2857,1,True,0,Nahavaq
+sout2859,1,True,0,Southeast Ambrym
+sout2869,1,True,0,Southwest Tanna
+sout2877,1,True,0,South Watut
+sout2892,1,True,0,South Wemale
+sout2918,1,False,0.46054387934282676,Southern Sama
+sout2940,1,True,0,South Muyu
+sout2941,1,False,0.05339207451836205,South Awyu
+sout2943,1,False,0.13709486857645983,South Tairora
+sout2949,19,True,0,Southern Kiwai
+sout3010,2,True,0,Southern Roglai
+sout3241,1,False,0.6837795617597018,Southern Tidung
+sout3391,3,True,0,Southwestern Tasmanian
+sowa1244,1,False,0.02227838900420885,Sowa
+sowa1245,1,False,0.11510825302953322,Sowanda
+stan1306,15,True,0,Standard Malay
+suab1238,1,True,0,Suabo
+suar1238,1,True,0,Asabano
+suau1242,2,True,0,Suau
+suen1241,1,True,0,Suena
+suga1249,1,True,0,Suganga
+sugu1243,2,True,0,Sugut Dusun
+suki1245,1,True,0,Suki
+suku1264,1,False,0.042540052307997366,Sukurum
+sulk1246,1,False,0.040578360200032144,Sulka
+suma1269,1,True,0,Sumariup
+suma1270,1,True,0,Sumau
+sumb1241,2,True,0,Sumbawa
+sund1252,1,True,0,Sundanese
+suoy1242,1,True,0,Suoy
+suri1273,4,True,0,Surigaonon
+surs1246,1,True,0,Sursurunga
+suwa1241,1,False,0,Suwawa
+sydn1236,1,False,0.48055701986411253,Sydney
+taba1263,4,True,0,Tabaru
+tabl1243,1,True,0,Tabla
+tabo1241,2,True,0,Tabo
+tady1237,1,True,0,Tadyawan
+taee1237,2,True,0,Tae'
+taga1268,1,True,0,Tagakaulu Kalagan
+taga1270,9,True,0,Tagalog
+taga1272,1,True,0,Tagabawa
+taga1273,2,True,0,Tagal Murut
+tagb1258,1,True,0,Tagbanwa
+tahi1242,8,True,0,Tahitian
+taia1239,1,True,0,Taiap
+taid1247,3,False,1.9113722981410584,Tai Dam
+taik1255,1,True,0,Taikat
+tail1246,2,False,0,Muak
+tain1253,1,True,0,Tainae
+tair1256,1,True,0,Tairuma
+taji1246,1,False,0,Tajio
+taki1248,4,True,0,Takia
+taku1254,1,True,0,Takua
+taku1257,1,True,0,Takuu
+tala1285,11,True,0,Talaud
+tali1259,1,True,0,Talise
+tama1335,1,False,0.1200355622046642,Taman (Indonesia)
+tama1336,1,True,0,Tamagario
+tamb1253,1,True,0,Tambotalo
+tamp1251,1,True,0,Tampuan
+tana1288,1,True,0,Tanahmerah
+tand1253,1,False,0.02263481169690917,Tandia
+tang1347,1,False,0.014293551409301877,Movono
+tang1348,5,True,0,Tangga
+tang1355,1,True,0,Tanggu
+tang1356,1,True,0,Tanguat
+tare1239,1,True,0,Tareng
+taro1264,1,True,0,Seediq
+tarp1240,1,False,0.0016438947801299248,Tarpia
+tasm1246,1,True,0,Tasmate
+tata1257,1,True,0,Tatana
+taua1242,1,True,0,Tauade
+taul1251,1,True,0,Taulil
+taup1242,1,True,0,Taupota
+taus1251,2,False,1.7189430835900272,Tausug
+tauy1241,1,True,0,Tauya
+tavo1242,2,True,0,Tavoyan
+tawa1275,2,True,0,Tawala
+tawo1244,2,False,0,Taworta
+tayy1238,1,True,0,Tày
+tbol1240,1,True,0,Tboli
+tehi1237,1,False,0,Tehit
+teiw1235,1,True,0,Teiwa
+tele1256,1,True,0,Telefol
+telu1263,2,True,0,Teluti
+temi1246,1,True,0,Temiar
+temo1243,1,True,0,Temoq
+temu1239,1,False,0,Temuan
+teng1267,5,True,0,Tenggarong Kutai Malay
+teop1238,1,False,0,Teop
+tern1247,9,True,0,Ternate
+tetu1245,2,False,0,Tetum
+tetu1246,1,False,0,Tetun Dili
+teun1241,1,True,0,Te'un
+thai1261,3,True,0,Thai
+thao1240,1,True,0,Thao
+thur1254,1,True,0,Thurawal
+tian1237,1,True,0,Tiang
+tido1248,6,True,0,Tidore
+tifa1245,1,True,0,Tifal
+tiga1245,8,True,0,Tigak
+tiko1237,1,True,0,Tikopia
+timb1251,1,False,0,Timbe
+timu1262,1,False,0.013895019214379977,Timugon Murut
+tina1248,1,True,0,Tinà Sambal
+tinp1237,1,True,0,Tinputz
+tiri1258,1,True,0,Tiri-Mea
+tiru1241,1,True,0,Tiruray
+tiwi1244,1,True,0,Tiwi
+toab1237,1,True,0,To'abaita
+toar1246,1,True,0,Toaripi
+toba1266,1,True,0,Tobati
+tobe1252,13,True,0,Tobelo
+tobi1239,1,True,0,Tobilung
+todr1244,1,True,0,Todrah
+tofa1246,1,False,0.19129714042984808,Tofanma
+toke1240,4,False,0,Tokelau
+tola1247,2,True,0,Tolaki
+tolo1255,1,True,0,Tolomako
+tomb1243,1,True,0,Tombulu
+tomb1244,4,True,0,Tombonuo
+tomb1245,1,True,0,Tombelala
+tomi1243,1,False,0.01873392570167437,Tomini
+tomo1244,1,True,0,Tomoip
+tond1251,5,True,0,Tondano
+tong1308,2,False,0,Maniq
+tong1325,6,True,0,Tonga (Tonga Islands)
+tons1240,1,True,0,Tonsea
+tont1239,2,True,0,Tontemboan
+tora1259,2,False,0.035476209912960764,Torau
+tora1261,1,False,0,Toraja-Sa'dan
+torr1259,1,True,0,Aro
+toto1304,2,True,0,Totoli
+touo1238,2,True,0,Touo
+towe1240,1,False,0.07924618706731369,Towei
+trin1271,1,False,0.03819210609816543,Tringgus-Sembaan Bidayuh
+tsak1250,1,False,0.07659151343995094,Tsaukambo
+tsat1238,1,False,0.03845146819462395,Tsat
+tsou1248,1,False,0.0954463738055619,Tsou
+tuam1242,39,False,0,Tuamotuan
+tugu1245,1,True,0,Tugun
+tugu1246,1,False,0.4486037185786469,Tugutil
+tuka1248,1,True,0,Tukang Besi North
+tuku1254,1,True,0,Tukudede
+tuma1250,1,False,0,Tuma-Irumu
+tuml1238,1,False,0.0010265640027731701,Tumleo
+tung1290,1,True,0,Tungag
+tung1293,1,True,0,Tunggare
+tunj1244,1,True,0,Tunjung
+tura1265,1,False,0.028238424974092655,Turaka
+tuto1241,1,True,0,Tutong
+tutu1241,2,False,0.004231025198971716,Tutuba
+tuva1244,10,False,0,Tuvalu
+tuwa1242,1,True,0,Tuwari
+uabm1237,2,True,0,Uab Meto
+uare1241,1,True,0,Uare
+ubir1237,2,True,0,Ubir
+ufim1240,1,True,0,Ufim
+ughe1237,1,True,0,Ughele
+ugon1239,4,False,0.8625222945005409,Ugong
+ukit1237,1,False,0.9971925807470132,Ukit
+ukur1240,1,True,0,Ukuriguma
+ulau1237,1,False,0,Ulau-Suain
+ulit1238,3,False,0.0314260797646462,Ulithian
+ulum1237,1,False,0.08335638398120067,Ulumanda'
+umaa1242,1,True,0,Uma
+umal1239,7,True,0,Uma' Lasan
+uman1240,1,True,0,Umanakaina
+umbu1258,1,True,0,Umbu-Ungu
+umir1236,1,True,0,Umiray Dumaget Agta
+unaa1239,2,False,0,Una
+unde1235,1,True,0,Unde Kaili
+ungg1243,1,True,0,Unggumi
+unua1237,1,True,0,Unua
+uppe1406,1,True,0,Upper Ta'oih
+uppe1415,1,False,0.16197730580978778,Upper Riverland
+uppe1427,2,True,0,Upper Kinabatangan
+urap1240,1,False,0.0219875134380694,Ura (Papua New Guinea)
+urat1244,1,True,0,Urat
+urav1235,1,True,0,Ura (Vanuatu)
+urig1240,1,True,0,Urigina
+urii1240,1,True,0,Uri
+urim1251,1,True,0,Urimo
+urim1252,1,True,0,Urim
+urip1239,1,False,0,Uripiv-Wala-Rano-Atchin
+urua1244,1,False,0.013468260443692403,Uruangnirin
+usan1239,1,True,0,Usan
+usar1243,1,False,0,Usarufa
+usku1243,1,False,0.03063339221618194,Usku
+utar1238,1,True,0,Utarmbung
+utuu1240,1,True,0,Utu
+uyaa1238,1,True,0,Uya
+vagh1249,1,True,0,Vaghua
+valm1241,1,True,0,Walman
+valp1237,1,True,0,Valpei
+vama1243,1,True,0,Vamale
+vang1243,1,True,0,Vangunu
+vani1248,1,True,0,Vanimo
+vaoo1237,1,False,0.0014247249958251151,Vao-Vovo
+vari1239,1,True,0,Varisi
+vehe1237,1,True,0,Vehes
+vera1241,1,False,0.03166882977695266,Vera'a
+viet1252,3,True,0,Vietnamese
+vinm1237,1,True,0,Neve'ei
+vuna1239,1,True,0,Vunapu
+vure1239,1,False,0.0038978656223968827,Vurës
+waam1236,1,False,0.49972832114998145,Waamwang
+wabb1237,1,True,0,Wab
+wabo1241,11,True,0,Waboda
+wada1263,1,False,0.004804244921301681,Wadaginam
+waff1241,1,True,0,Waffa
+waga1260,1,False,0.05344617477501751,Wagaya
+waga1268,1,True,0,Wagawaga
+wage1238,1,True,0,Wageman
+wagi1249,1,True,0,Wagi (Papua New Guinea)
+waha1239,1,False,0.08683881605723362,Wahau Kayan
+wail1242,1,False,0.014433773937976466,Ale
+waim1251,1,True,0,Waima
+waim1252,2,True,0,Waima'a
+waka1274,1,False,0.2193993664279578,Wakawaka
+wala1266,1,True,0,Wala
+wala1269,1,True,0,Walak
+wall1257,1,True,0,East Uvean
+wama1247,1,True,0,Wamas
+wamb1258,1,True,0,Wambayan
+wamb1259,1,False,0.15738111932556945,Wambon
+wamp1247,1,True,0,Wampar
+wamp1248,1,False,0.030414987520494704,Wampur
+wana1268,1,True,0,Wanap
+wana1269,1,True,0,Mokati
+wana1273,1,True,0,Wanam Yelmek
+wand1267,2,True,0,Wandamen
+wang1299,1,False,0.10202781799708194,Wanggom
+wano1243,1,False,0.11531329596003041,Wano
+want1252,1,True,0,Wantoat
+wanu1241,1,True,0,Wanukaka
+wany1247,1,True,0,Wanyi
+wara1290,1,False,0.009886832781277123,Warray
+wara1294,1,True,0,Anta-Komnzo-Wára-Wérè-Kémä
+wara1300,6,True,0,Waray (Philippines)
+wara1302,1,True,0,Bauni
+ware1253,1,False,0.03299950230276027,Warembori
+ware1254,1,True,0,Wares
+wari1264,1,True,0,Waritai
+wari1266,1,True,0,Waris
+wark1247,2,True,0,Warkay-Bipim
+warl1255,1,False,0.26742128123927233,Warlmanpa
+waro1242,4,True,0,Waropen
+warr1255,1,False,0.0883198591883817,Warrgamay
+warr1258,1,False,0.08183985660724072,Warrwa
+waru1265,1,False,0.19443298263745062,Warumungu
+waru1266,1,False,0.3552925186307623,Waru
+waru1267,1,True,0,Waruna
+wase1252,1,True,0,Wasembo
+wask1241,2,True,0,Waskia
+wata1251,1,True,0,Watakataui
+wata1253,1,False,0,Watam
+wath1238,1,True,0,Wathawurrung
+wawo1239,1,True,0,Wawonii
+weda1241,1,True,0,Wedau
+weje1237,1,True,0,Wewewa
+weli1239,1,False,0.041694269791780356,Weliki
+weri1253,1,True,0,Weri
+wers1238,7,True,0,Wersing
+west2443,1,False,0.34297210432104885,Western Victoria
+west2516,1,True,0,West Uvean
+west2519,1,True,0,Western Viti Levu-Yasawas Fijian
+west2548,1,True,0,West Damar
+west2555,1,True,0,Western Bukidnon Manobo
+west2560,1,False,0.049129596555110316,West Coast Bajau
+west2563,7,False,0.22471587164685095,Western Penan
+west2564,1,False,0.025826272013067846,West Berawan
+west2594,1,True,0,Western Dani
+west2599,1,True,0,West Kewa
+west2600,5,True,0,West Makian
+west2650,8,False,0,Western Cham
+weta1242,1,False,0.03924664625673829,Dorig
+whit1269,1,True,0,Whitesands
+wiar1238,1,True,0,Wiarumus
+wipi1242,2,True,0,Wipi
+wira1262,1,True,0,Wiradhuri
+wiru1244,1,True,0,Wiru
+woga1249,1,True,0,Wogamusin
+woge1237,2,False,0.013039740155323684,Wogeo
+woiw1237,4,False,0,Woiwurrung-Thagungwurrung
+wola1243,1,False,0.02548477862215355,Wolani
+wole1240,6,False,0.016629439779883102,Woleaian
+woli1241,1,False,0.1138572453905372,Wolio
+womp1235,1,False,0,Wom (Papua New Guinea)
+wori1245,1,True,0,Worimi
+wotu1240,1,False,0.04486635657184333,Wotu
+wuli1242,1,True,0,Wuliwuli
+wuna1249,2,True,0,Wunambal
+wusi1237,1,True,0,Kula (Vanuatu)
+wutu1244,2,True,0,Wutung
+xara1243,1,True,0,Xaragure
+xara1244,1,True,0,Xârâcùù
+yabe1254,1,True,0,Yabem
+yabe1255,2,True,0,Yaben
+yabo1240,1,True,0,Yabong
+yafi1240,1,True,0,Yafi
+yaga1256,1,True,0,Yagara-Jandai
+yaga1260,1,True,0,Yagaria
+yago1240,1,False,0,Tanda-Yagomi
+yagw1240,1,True,0,Yagwoia
+yaha1247,1,False,0.01666504461492457,Yahang
+yaha1248,1,True,0,Yahadian
+yaka1277,1,True,0,Yakan
+yala1262,1,True,0,Yalarnnga
+yala1266,2,True,0,Yalahatan-Haruru-Awaiya
+yale1246,1,False,0.010440288984601597,Yale
+yama1260,1,True,0,Yamap
+yamb1254,1,False,0.009960999197818059,Yambes
+yamd1240,3,True,0,Yamdena
+yami1254,1,True,0,Yami
+yand1251,1,False,0.3758798158158372,Yanda
+yang1298,1,True,0,Yangulam
+yany1243,3,True,0,Yanyuwa
+yape1248,1,True,0,Yapese
+yapu1240,1,False,0.0219685691814517,Yeri
+yaqa1246,1,True,0,Yaqay
+yara1250,1,True,0,Yarawata
+yare1248,1,True,0,Yareba
+yarl1236,1,True,0,Yarli
+yaul1241,2,True,0,Ulwa (Papua New Guinea)
+yaum1237,1,True,0,Yau-Nungon
+yaur1239,1,True,0,Yaur
+yaus1235,1,True,0,Yau (Sandaun Province)
+yawe1241,1,True,0,Yaweyuha
+yawi1238,1,True,0,Yawiyo
+yawu1244,1,True,0,Yawuru
+yayg1236,1,True,0,Yaygir
+yeii1239,1,True,0,Yei
+yeko1240,2,False,0.003763248303663173,Yekora
+yelm1242,1,True,0,Southern Yelmek
+yelo1243,1,True,0,Yalaku
+yera1243,1,True,0,Yerakai
+yere1243,1,True,0,Yeretuar
+yess1239,1,True,0,Yessan-Mayo
+yetf1238,1,False,0.2902212594490783,Yetfa
+yidi1250,1,True,0,Yidiñ
+yill1241,1,False,0.026380571570166062,Yil
+yima1243,1,True,0,Yimas
+yira1239,1,False,1.6545494860686665,Yirandhali
+yiss1240,1,True,0,Yis
+yoba1237,1,True,0,Yoba
+yoid1240,1,True,0,Yoidik
+yong1280,1,True,0,Yonggom
+yopn1238,1,True,0,Yopno
+yort1237,4,True,0,Yorta Yorta
+yuag1237,1,True,0,Yuaga
+zaba1237,6,True,0,Zabana
+zaza1245,1,True,0,Zazao
+zena1237,2,True,0,Zenag
+ziaa1250,1,True,0,Zia
+zima1244,1,True,0,Zimakani
+zire1240,1,True,0,Zire

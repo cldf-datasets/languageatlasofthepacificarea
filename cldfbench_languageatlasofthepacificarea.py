@@ -97,7 +97,8 @@ class Dataset(BaseDataset):
                 # aggregating shapes. This is the key we'll use to lookup Glottolog matches later.
                 features[tuple(props[col] for col in metadata.COLS)].append((i + 1, geom))
 
-        assert errata.all_done and geofixes.all_done, 'Some fixes were not applied'
+        assert errata.all_done and geofixes.all_done, 'Some fixes were not applied: {}'.format(
+            '; '.join('{}: {}'.format(k, v) for k, v in errata.fixes.items() if v))
 
         mover = Mover(self.etc_dir.read_csv('fixes_location.csv', dicts=True))
         # We sort aggregated shapes by "first appearance" in the original shapefile.

@@ -40,6 +40,7 @@ def run(args):
     #
 
     indexgeojson = {}
+    indexleaves = []
     languages = [
         l for l in cldf.objects('LanguageTable')
         if l.data['Glottolog_Languoid_Level'] == 'language']
@@ -72,8 +73,10 @@ def run(args):
         if not (img and bounds):
             continue
 
+        indexleaves.append(leaf)
         indexgeojson[lid] = mapped.read_json()
-        indexgeojson[lid]['properties'].update(title=leaf.cldf.name, url='{}.html'.format(lid))
+        indexgeojson[lid]['properties'].update(
+            id=lid, title=leaf.cldf.name, url='{}.html'.format(lid))
 
         bounds = bounds.read_json()['bbox']
         langs, features = [], []
@@ -98,11 +101,17 @@ def run(args):
             lon1=bounds[0],
             lat2=bounds[3],
             lon2=bounds[2],
+            w=4,
         )
 
     render(
         'index.html.mako',
         'index.html',
-        leaves=json.dumps(dict(type='FeatureCollection', features=list(indexgeojson.values()))))
+        w=3,
+        leaves=indexleaves,
+        leavesgeojson=json.dumps(dict(type='FeatureCollection', features=sorted(
+            indexgeojson.values(),
+            key=lambda f: (0 if f['properties']['id'] in {'L018', 'L019a'} else 1, f['properties']['id']),
+        ))))
 
     webbrowser.open(str(out / 'index.html'))

@@ -13,11 +13,11 @@ cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/doreco/@8124db8c45f1186e998d7536401dc6d6dceebb32#egg=cldfbench_doreco
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@48419fb415801209f28be296508c3d2d0e07fc95#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@83707ba7a561f6bc4bd7ce818cb3da50d33dc92c#egg=cldfbench_languageatlasofthepacificarea
 -e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 -e git+https://github.com/cldf-datasets/uclaphoneticslabarchive@9cd6643548cf54d02287011eee266f5b5db861d4#egg=cldfbench_uclaphoneticslabarchive
 cldfcatalog==1.5.1
--e git+https://github.com/cldf/cldfgeojson@96e16d0316afecaec5525d7dddaf1035b30f4b1b#egg=cldfgeojson
+cldfgeojson==1.0.0
 cldfviz==1.0.1
 cldfzenodo==1.1.0
 click==8.1.7

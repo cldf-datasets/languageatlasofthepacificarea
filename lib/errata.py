@@ -39,7 +39,7 @@ class Errata(Fixer):
                     eindex = i
                     break
             if eindex > -1:
-                del self.fixes[language]
+                del self.fixes[language][eindex]
         return props
 
     @property
