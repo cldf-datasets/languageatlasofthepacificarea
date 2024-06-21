@@ -32,7 +32,7 @@ def is_micronesian(arg):
 
 
 @contextlib.contextmanager
-def validate(args, ds, f, plotter, item_class):
+def validate(args, ds, f, item_class, plot_func, plot_args, plot_kw=None):
     data = Data(ds, f, item_class)
     try:
         yield None if args.plot_only and data.path.exists() else data
@@ -40,7 +40,10 @@ def validate(args, ds, f, plotter, item_class):
         if data.rows:
             data.write()
         assert data.path.exists()
-        plotter(data.read())
+        with plot(
+            data.path.parent / '{}.png'.format(data.path.stem), *plot_args, **plot_kw or {}
+        ) as ax:
+            plot_func(data.read(), ax)
 
 
 class Data:
@@ -63,13 +66,15 @@ class Data:
 
 
 @contextlib.contextmanager
-def plot(title, xlabel, ylabel, legend_loc='upper left', legend_items=None):
+def plot(fname, title, xlabel, ylabel, legend_loc='upper left', legend_items=None):
     fig, ax = plt.subplots()
+    fig.set_figheight(8)
+    fig.set_figwidth(10)
     try:
         yield ax
     finally:
-        ax.set_xlabel(xlabel, fontsize=15)
-        ax.set_ylabel(ylabel, fontsize=15)
+        ax.set_xlabel(xlabel, fontsize=14)
+        ax.set_ylabel(ylabel, fontsize=14)
         ax.set_title(title)
         if legend_items:
             ax.legend(
@@ -77,7 +82,18 @@ def plot(title, xlabel, ylabel, legend_loc='upper left', legend_items=None):
                 loc=legend_loc)
         ax.grid(True)
         fig.tight_layout()
+        plt.savefig(str(fname))
         plt.show()
+
+
+def annotate(ax, text, xy):
+    ax.annotate(
+        text,
+        xy,
+        xytext=(8, -7),  # offset.
+        textcoords='offset pixels',
+        fontsize=14,
+    )
 
 
 def iter_ne_shapes(shapefile):

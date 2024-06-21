@@ -11,7 +11,7 @@ adab1235,1,True,0,Adabe
 adas1235,1,True,0,Adasen
 adny1235,1,False,0.07124677318777992,Adnyamathanha
 adon1237,2,True,0,Adonara
-adze1240,2,True,0,Adzera
+adze1240,1,True,0,Adzera
 aeka1244,1,False,0.1266801940689807,Aeka
 aeky1238,1,True,0,Aekyom
 agar1252,1,True,0,Agarabi
@@ -247,7 +247,7 @@ brem1238,1,True,0,Barem
 brer1240,1,True,0,Breri
 brun1242,8,False,0,Brunei
 brun1245,2,True,0,Brunei Bisaya-Dusun
-buga1250,1,True,0,Bugawac
+buga1250,2,True,0,Bugawac
 bugh1239,2,True,0,Bughotu
 bugi1244,3,True,0,Buginese
 buhi1245,1,True,0,Buhid
@@ -343,12 +343,12 @@ diaa1238,1,False,0.0007504015972224314,Alu-Sinagen
 diba1242,1,True,0,Dibabawon Manobo
 dibi1240,1,False,0,Dibiyaso
 dier1241,1,True,0,Dieri
-dima1252,1,False,0.05441205215600691,Dima
+dima1252,1,True,0,Dima
 diod1237,1,True,0,Diodio
 dixo1238,1,False,0.04002069907290883,Dixon Reef
 djam1255,1,True,0,Jaminjung-Ngaliwurru
 djan1238,1,True,0,Djangun
-djee1236,2,False,0,Djeebbana
+djee1236,1,False,0.040340104597288984,Djeebbana
 djin1251,1,True,0,Jingulu
 dobu1241,2,True,0,Dobu
 doga1238,2,True,0,Doga
@@ -541,6 +541,7 @@ ilon1239,1,True,0,Ilongot
 imbo1238,1,False,0.45722568805053576,Imbongu
 imon1245,1,False,0.018809146925678102,Imonda
 inap1241,1,True,0,Itutang-Inapang
+inla1260,1,False,0,Inlaod Itneg
 inok1238,1,False,0.021549143589680905,Inoke-Yate
 inon1237,2,True,0,Inonhan
 ipik1244,1,True,0,Ipiko
@@ -778,7 +779,7 @@ lana1236,2,True,0,Lanas Lobu
 lang1328,1,False,0.006011015080222404,Pondi
 lano1248,1,False,0,Lanoh
 lapu1236,1,True,0,Lapuyan Subanun
-lara1258,1,False,0.2196544239451116,Laragia
+lara1258,1,True,0,Laragia
 lard1243,1,True,0,Lardil
 lare1249,1,False,0.0016738550096117078,Larevat
 lari1255,1,True,0,Larike-Wakasihu
@@ -1402,7 +1403,6 @@ soni1260,1,False,0.01006431995413669,Sonia
 sons1242,4,True,0,Sonsorol
 sooo1254,3,True,0,Sô
 sopp1247,1,True,0,Sop
-sota1242,2,True,0,Sota Kanum
 sout1439,1,False,0.17722950029529394,South-Eastern-Tasmanian-Hinterland
 sout2746,7,True,0,Southern Thai
 sout2770,1,True,0,Southern Inland Yuin
@@ -1415,7 +1415,7 @@ sout2918,1,False,0.46054387934282676,Southern Sama
 sout2940,1,True,0,South Muyu
 sout2941,1,False,0.05339207451836205,South Awyu
 sout2943,1,False,0.13709486857645983,South Tairora
-sout2949,19,True,0,Southern Kiwai
+sout2949,21,True,0,Southern Kiwai
 sout3010,2,True,0,Southern Roglai
 sout3241,1,False,0.6837795617597018,Southern Tidung
 sout3391,3,True,0,Southwestern Tasmanian

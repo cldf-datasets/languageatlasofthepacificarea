@@ -1,20 +1,22 @@
 """
 A measure how accurately the shapes of the dataset match the geographic information from Glottolog.
 
-$ csvsql etc/glottolog_distance.csv --query "select glottocode, language, distance from glottolog_distance where distance > 2 order by distance"
+Note: Running this command requires access to the internet because the Glottolog data will be
+downloaded from GitHub.
 """
 import dataclasses
 
 from shapely.geometry import shape
 from clldutils.clilib import PathType
-from clldutils.path import TemporaryDirectory
 from clldutils.jsonlib import load
-from pycldf.ext.discovery import get_dataset
+from pycldf import Dataset as CLDFDataset
 
 from cldfbench_languageatlasofthepacificarea import Dataset
-from .validation import plot, validate
+from .validation import validate, annotate
 
-
+#
+# The following list of outliers has been checked and described in the paper:
+#
 outliers = {
     'lisu1250': 'According to Glottolog, Lisu is spoken in four countries, with the Glottolog '
                 'coordinate on the border between China and Myanmar, and the Atlas listing areas '
@@ -47,6 +49,7 @@ outliers = {
     'main1275': 'Some areas in the Atlas mapped to this Glottolog language were originally '
                 'assigned to a supposed language which was subsequently merged into Mainstream '
                 'Kenyah in ISO 639-3 as well as in Glottolog.',  # Usun Apau Kenyah,2.02161
+    'guya1249': 'Bowern 2021 assigns roughly the same area to this language as the Atlas.',
 }
 
 
@@ -65,18 +68,23 @@ class GlottologDistance:
 
 def register(parser):
     parser.add_argument('--plot-only', action='store_true', default=False)
-    parser.add_argument('glottolog_cldf', type=PathType(type='dir'))
 
 
 def run(args):
     ds = Dataset()
+    glottolog = CLDFDataset.from_metadata(
+        'https://raw.githubusercontent.com/glottolog/glottolog-cldf/v5.0/cldf/cldf-metadata.json')
+    gl_coords = {
+        l.id: l.as_geojson_feature for l in glottolog.objects('LanguageTable') if l.cldf.longitude}
 
-    with TemporaryDirectory() as tmp:
-        gl = get_dataset(args.glottolog_cldf, tmp)
-        gl_coords = {
-            l.id: l.as_geojson_feature for l in gl.objects('LanguageTable') if l.cldf.longitude}
-
-    with (validate(args, ds, __file__, _plot, item_class=GlottologDistance) as data):
+    with validate(
+        args,
+        ds,
+        __file__,
+        GlottologDistance,
+        _plot,
+        ('Distance from Glottolog coordinate', 'Number of polygons', 'Distance'),
+    ) as data:
         if data is None:
             return
         for f in load(ds.cldf_dir / 'languages.geojson')['features']:
@@ -96,20 +104,15 @@ def run(args):
                     if dist > 180:
                         dist = abs(dist - 360)
                     if dist > 2:
-                        assert gc in outliers
+                        assert gc in outliers, 'Unknown outlier: {}'.format(gc)
                     data.append((gc, npolys, False, dist, f['properties']['title']))
 
 
-def _plot(rows):
-    with plot(
-        'Distance from Glottolog coordinate',
-        'Number of polygons',
-        'Distance',
-    ) as ax:
-        ax.scatter(
-            [r.npolys for r in rows if r.distance > 0],
-            [r.distance for r in rows if r.distance > 0],
-        )
-        for r in rows:
-            if r.distance > 2:
-                ax.annotate(r.language, (r.npolys, r.distance))
+def _plot(rows, ax):
+    ax.scatter(
+        [r.npolys for r in rows if r.distance > 0],
+        [r.distance for r in rows if r.distance > 0],
+    )
+    for r in rows:
+        if r.distance > 2:
+            annotate(ax, r.language,(r.npolys, r.distance))

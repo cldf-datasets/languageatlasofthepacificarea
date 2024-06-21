@@ -2,7 +2,8 @@
 Compute statistics about curated polygons not intersecting with land masses. This metric
 provides information about how accurately the shapes in the dataset align with geography.
 
-Land masses are defined by features in the NaturalEarth large scale shapefiles for land and reefs.
+Land masses are defined by features in the NaturalEarth large scale shapefiles for land and reefs
+from https://www.naturalearthdata.com/downloads/10m-physical-vectors/
 """
 import dataclasses
 
@@ -12,7 +13,7 @@ from clldutils.jsonlib import load
 import tqdm
 
 from cldfbench_languageatlasofthepacificarea import Dataset
-from .validation import plot, iter_ne_shapes, validate, is_polynesian, is_micronesian
+from .validation import iter_ne_shapes, validate, is_polynesian, is_micronesian
 
 
 @dataclasses.dataclass
@@ -66,7 +67,19 @@ def run(args):
         for shp in iter_ne_shapes(shapefile):
             ne10.extend(list(iter_polygons(shp)))
 
-    with validate(args, ds, __file__, _plot, item_class=NonIntersectingPolygon) as non_intersecting:
+    with validate(
+        args,
+        ds,
+        __file__,
+        NonIntersectingPolygon,
+        _plot,
+        ('Polygons not intersecting with land', 'Area', 'Distance'),
+        plot_kw=dict(legend_items={
+            'b': r'"Polynesian" ($lon\,>\,163$ or $lon < 0$)',
+            'c': r'"Micronesian" ($lon\,>\,130$ and $lat > 1$)',
+            'r': r'Other',
+        }),
+    ) as non_intersecting:
         if non_intersecting is None:  # we only plot pre-computed results.
             return
 
@@ -96,18 +109,8 @@ def run(args):
                         min(distance(poly, p2) for p2 in ne10)))
 
 
-def _plot(nips):
-    with plot(
-        'Polygons not intersecting with land',
-        'Area',
-        'Distance',
-        legend_items={
-            'b': r'"Polynesian" ($lon\,>\,163$ or $lon < 0$)',
-            'c': r'"Micronesian" ($lon\,>\,130$ and $lat > 1$)',
-            'r': r'Other',
-        },
-    ) as ax:
-        ax.scatter(
-            [nip.area for nip in nips],
-            [nip.distance for nip in nips],
-            c=['b' if nip.is_polynesian else ('c' if nip.is_micronesian else 'r') for nip in nips])
+def _plot(nips, ax):
+    ax.scatter(
+        [nip.area for nip in nips],
+        [nip.distance for nip in nips],
+        c=['b' if nip.is_polynesian else ('c' if nip.is_micronesian else 'r') for nip in nips])

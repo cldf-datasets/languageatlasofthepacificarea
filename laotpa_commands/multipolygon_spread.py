@@ -19,7 +19,7 @@ from clldutils.jsonlib import load, dump
 from cldfgeojson import feature_collection, Feature
 from tqdm import tqdm
 
-from .validation import plot, iter_ne_shapes, validate, is_micronesian, is_polynesian
+from .validation import iter_ne_shapes, validate, is_micronesian, is_polynesian, annotate
 
 
 def spread(f: Feature) -> typing.Tuple[float, typing.List[Polygon]]:
@@ -56,7 +56,20 @@ def run(args):
     ne10 = [shape(shp['geometry']) for shp in iter_ne_shapes('ne_10m_ocean')]
     spread_out = []
 
-    with validate(args, ds, __file__, _plot, PolygonSpread) as data:
+    with validate(
+        args,
+        ds,
+        __file__,
+        PolygonSpread,
+        _plot,
+        (
+            'Spread of polygons per language',
+            'Number of polygons',
+            'Standard deviation of distances between polygons'),
+        plot_kw=dict(
+            legend_loc='upper right',
+            legend_items={'r': 'Non-coastal language', 'b': 'Coastal language'}),
+    ) as data:
         if data is None:
             return
         for f in tqdm(load(ds.cldf_dir / 'languages.geojson')['features']):
@@ -95,18 +108,11 @@ def run(args):
     dump(feature_collection(spread_out), pathlib.Path('spread_out.geojson'))
 
 
-def _plot(rows):
-    with plot(
-        'Spread of polygons per language',
-        'Number of polygons',
-        'Standard deviation of distances between polygons',
-        legend_loc='upper right',
-        legend_items={'r': 'Non-coastal language', 'b': 'Coastal language'},
-    ) as ax:
-        ax.scatter(
-            [r.npolys for r in rows],
-            [r.spread for r in rows],
-            c=['b' if r.coastal else 'r' for r in rows])
-        for r in rows:
-            if r.spread > 3 and not r.coastal:
-                ax.annotate(r.language, (r.npolys, r.spread))
+def _plot(rows, ax):
+    ax.scatter(
+        [r.npolys for r in rows],
+        [r.spread for r in rows],
+        c=['b' if r.coastal else 'r' for r in rows])
+    for r in rows:
+        if r.spread > 3 and not r.coastal:
+            annotate(ax, r.language,(r.npolys, r.spread))
