@@ -63,7 +63,7 @@ def run(args):
 
     # Load NaturalEarth features:
     ne10 = []
-    for shapefile in ['ne_10m_land', 'ne_10m_reefs']:  # FIXME: add png_admbnda_adm1_20180419
+    for shapefile in ['ne_10m_land', 'ne_10m_reefs']:
         for shp in iter_ne_shapes(shapefile):
             ne10.extend(list(iter_polygons(shp)))
 

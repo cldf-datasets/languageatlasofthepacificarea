@@ -102,4 +102,4 @@ ENV/
 raw/japan
 raw/atlas
 etc/atlas/*/*.tif
-
+attic/
