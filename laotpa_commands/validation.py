@@ -79,7 +79,8 @@ def plot(fname, title, xlabel, ylabel, legend_loc='upper left', legend_items=Non
         if legend_items:
             ax.legend(
                 handles=[mpatches.Patch(color=c, label=l) for c, l in legend_items.items()],
-                loc=legend_loc)
+                loc=legend_loc,
+                fontsize=14)
         ax.grid(True)
         fig.tight_layout()
         plt.savefig(str(fname))

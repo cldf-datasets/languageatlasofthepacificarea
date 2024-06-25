@@ -1,5 +1,13 @@
 # Releasing
 
+Install required packages:
+```shell
+pip install -e .
+```
+
+Note that [GDAL](https://gdal.org/) is required to run the CLDF creation. Known working versions of
+GDAL are 3.4.1 and 3.9.0.
+
 Recreate the CLDF dataset:
 ```shell
 cldfbench download cldfbench_languageatlasofthepacificarea.py
@@ -21,7 +29,7 @@ cldfbench cldfreadme cldfbench_languageatlasofthepacificarea.py
 ```
 
 ```shell
-cldferd --format compact.svg cldf > etc/erd.svg
+cldfviz.erd --format compact.svg cldf > etc/erd.svg
 ```
 
 ```shell
