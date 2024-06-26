@@ -226,7 +226,8 @@ WHERE
 Let's break this down:
 
 1. The outermost `SELECT` pulls together related rows from `LanguageTable` and `ContributionTable` for
-   the language Yopno, specified by its Glottocode `yopn1238`.
+   the language Yopno, specified by its Glottocode `yopn1238`. The many-to-many relation between `LanguageTable`
+   and `ContributionTable` is mediated through the association table `LanguageTable_ContributionTable`.
 2. Since the `Glottocodes` member in `ContributionTable.Properties` is array-valued, we need to create
    individual rows for each Glottocode using [json_each](https://www.sqlite.org/json1.html#jeach). These
    rows are then joined to each row of `ContributionTable`.
