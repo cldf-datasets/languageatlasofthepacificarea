@@ -93,7 +93,7 @@ these computations only work near the equator, where WSG 84 coordinates are
 with roughly 110km units.
 
 
-## Geographically informed usage with `spatialite`
+### Geographically informed usage with `spatialite`
 
 While much of the data in this dataset meets the requirement of "being close to the equator", we can also compute
 "proper" distances, i.e. [geodesic](https://en.wikipedia.org/wiki/Geodesic) (aka "Great Circle") distances.
@@ -155,6 +155,94 @@ sqlite> select GeodesicLength(makeline(Centroid(l1.geometry), Centroid(l2.geomet
 `spatialite` returns geodesic lengths in meters and comparing these results to the ones above (multiplied by 110,000
 assuming 110km for one degree)
 we find errors of about 2.5%.
+
+
+### Relating aggregated shapes to the ECAI shapes
+
+In order to provide a useful dataset for language comparison, speaker areas are aggregated on
+[Glottolog language level](https://glottolog.org/glottolog/glottologinformation#principles). It's still
+possible to drill down and investigate which ECAI shapes contributed to such a language-level
+aggregation anmd to which Glottocodes these were linked. The relevant information is available from
+the dataset's `ContributionTable`, more specifically from the `Properties` column of this table.
+This column has datatype JSON, and its values are JSON objects with an optional, array-valued member `Glottocodes`.
+
+Again, this data could be easily accessed using `pycldf`, which will read typed data, i.e. provide
+```python
+>>> ds = Dataset.from_metadata('cldf/Generic-metadata.json')
+>>> ds.objects('ContributionTable')[100].data['Properties']
+OrderedDict([('COUNTRY_NAME', 'Philippines'), ('SOVEREIGN', 'Philippines'), ('Glottocodes', ['isna1241'])])
+```
+
+But we could also exploit the fact that [each CLDF dataset can be converted to a SQLite database](https://github.com/cldf/pycldf?tab=readme-ov-file#converting-a-cldf-dataset-to-an-sqlite-database)
+and use [SQLite's excellent JSON support](https://www.sqlite.org/json1.html).
+First, load the tabular data of the CLDF dataset into an SQLite database:
+```shell
+cldf createdb cldf laotpa.sqlite 
+```
+
+Now we can verify that the speaker area for the language [Yopno](https://glottolog.org/resource/languoid/id/yopn1238)
+was pieced together from shapes for its four dialects (shown below in the tree generated from Glottolog data)
+```
+Nuclear Trans New Guinea [nucl1709]
+   └─ Finisterre-Huon [fini1244]
+      └─ Finisterre-Saruwaged [fini1245]
+         └─ Yupna [yupn1242]
+            └─ Kewieng-Bonkiman-Nokopo [kewi1241]
+               └─ Yopno [yopn1238]
+                  ├─ Isan [isan1244]
+                  ├─ Kewieng [kewi1240]
+                  ├─ Nokopo [noko1240]
+                  └─ Wandabong [wand1268]
+```
+using the following SQL:
+```sql
+SELECT
+    l.cldf_id AS Language_Glottocode,
+    l.cldf_name AS Language_Name, 
+    gcs.gc AS Dialect_Glottocode, 
+    c.cldf_name AS Dialect_Name
+FROM
+    LanguageTable AS l,
+    LanguageTable_ContributionTable AS lc,
+    ContributionTable as c,
+    (
+        SELECT c1.cldf_id, c2.value AS gc
+        FROM
+            ContributionTable AS c1
+            JOIN
+            json_each((
+                SELECT json_extract(properties, '$.Glottocodes') 
+                FROM ContributionTable
+                WHERE cldf_id = c1.cldf_id AND json_extract(Properties, '$.Glottocodes') IS NOT NULL
+            )) AS c2
+    ) as gcs
+WHERE
+    l.cldf_id = lc.LanguageTable_cldf_id AND 
+    lc.ContributionTable_cldf_id = c.cldf_id AND 
+    lc.ContributionTable_cldf_id = gcs.cldf_id AND 
+    l.cldf_glottocode = 'yopn1238' 
+;
+```
+Let's break this down:
+
+1. The outermost `SELECT` pulls together related rows from `LanguageTable` and `ContributionTable` for
+   the language Yopno, specified by its Glottocode `yopn1238`.
+2. Since the `Glottocodes` member in `ContributionTable.Properties` is array-valued, we need to create
+   individual rows for each Glottocode using [json_each](https://www.sqlite.org/json1.html#jeach). These
+   rows are then joined to each row of `ContributionTable`.
+
+When stored in a file `query.sql` and run with `sqlite3` via
+```shell
+sqlite3 -header laotpa.sqlite < query.sql
+```
+this will compute the following result:
+
+Language_Glottocode|Language_Name|Dialect_Glottocode|Dialect_Name
+--- | --- | --- | ---
+yopn1238|Yopno|kewi1240|KEWIENG
+yopn1238|Yopno|noko1240|NOKOPO
+yopn1238|Yopno|isan1244|ISAN
+yopn1238|Yopno|wand1268|WANOABONG
 
 
 ## The geo-referenced Atlas leaves
