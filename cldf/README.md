@@ -1,18 +1,22 @@
 <a name="ds-genericmetadatajson"> </a>
 
-# Generic CLDF Geo data derived from the ECAI digitization of Wurm and Hattori "Language Atlas of the Pacific Area" from 1981 and 1983
+# Generic CLDF dataset derived from the ECAI digitization of Wurm and Hattori's "Language Atlas of the Pacific Area" from 1981 and 1983
 
 **CLDF Metadata**: [Generic-metadata.json](./Generic-metadata.json)
 
 **Sources**: [sources.bib](./sources.bib)
 
+Wurm & Hattori’s Language Atlas of the Pacific Area describes the geographic speaker areas of the languages and language varieties spoken in the Pacific. Thanks to the efforts of the Electronic Cultural Atlas Initiative, this monumental piece of work has been available in digital form for over 15 years. But lacking proper identification of language varieties this digitized data was largely unusable for today’s research methods. This CLDF dataset turns ECAI’s digitized artefacts of the Language Atlas into an open, reusable geo-referenced dataset of speaker area polygons for a quarter of the world’s languages.
+
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Language Atlas of the Pacific Geo-Registered - GIS Dataset
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Wurm, S. & Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).
+Wurm, S. & Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).
+Registered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by-nc/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/languageatlasofthepacificarea
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/68057bc">cldf-datasets/languageatlasofthepacificarea v1.0-66-g68057bc</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/languageatlasofthepacificarea/tree/f017890">cldf-datasets/languageatlasofthepacificarea v1.0-69-gf017890</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | languageatlasofthepacificarea
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution

@@ -1,12 +1,12 @@
 {
-    "title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+    "title": "CLDF dataset derived from the ECAI digitization of Wurm and Hattori's \"Language Atlas of the Pacific Area\" from 1981 and 1983",
     "access_right": "open",
     "keywords": [
         "cldf:Generic",
         "linguistics"
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Language Atlas of the Pacific Geo-Registered - GIS Dataset</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Wurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).\nWurm, S. &amp; Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).\nRegistered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).</p>\n</blockquote>",
     "creators": [
         {
             "name": "Stephen Wurm"

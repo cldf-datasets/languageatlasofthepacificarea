@@ -7,7 +7,7 @@ bibtexparser==2.0.0b7
 bs4==0.0.2
 certifi==2024.6.2
 cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@68057bcaf4f923b61f14888337ad1c74be8a3c55#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@f01789046b072ca0903f3c75205941228e60de2d#egg=cldfbench_languageatlasofthepacificarea
 cldfcatalog==1.5.1
 cldfgeojson==1.0.0
 cldfzenodo==2.1.1

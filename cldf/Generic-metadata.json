@@ -5,17 +5,18 @@
             "@language": "en"
         }
     ],
-    "dc:bibliographicCitation": "Language Atlas of the Pacific Geo-Registered - GIS Dataset",
+    "dc:bibliographicCitation": "Wurm, S. & Hattori, S. Language Atlas of the Pacific Area: New Guinea area, Oceania, Australia, vol. 66 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1981).\nWurm, S. & Hattori, S. Language Atlas of the Pacific Area: Japan area, Taiwan-Formosa, Philippines, Mainland and insular South-East Asia, vol. 67 of Pacific Linguistics: Series C (Canberra: Research School of Pacific and Asian Studies, Australian National University, Canberra, 1983).\nRegistered scans and GIS dataset released by the Electronic Cultural Atlas Initiative (ECAI).",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
+    "dc:description": "Wurm & Hattori\u2019s Language Atlas of the Pacific Area describes the geographic speaker areas of the languages and language varieties spoken in the Pacific. Thanks to the efforts of the Electronic Cultural Atlas Initiative, this monumental piece of work has been available in digital form for over 15 years. But lacking proper identification of language varieties this digitized data was largely unusable for today\u2019s research methods. This CLDF dataset turns ECAI\u2019s digitized artefacts of the Language Atlas into an open, reusable geo-referenced dataset of speaker area polygons for a quarter of the world\u2019s languages.",
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:source": "sources.bib",
-    "dc:title": "CLDF Geo data derived from the ECAI digitization of Wurm and Hattori \"Language Atlas of the Pacific Area\" from 1981 and 1983",
+    "dc:title": "CLDF dataset derived from the ECAI digitization of Wurm and Hattori's \"Language Atlas of the Pacific Area\" from 1981 and 1983",
     "dcat:accessURL": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-66-g68057bc",
+            "dc:created": "v1.0-69-gf017890",
             "dc:title": "Repository"
         },
         {
