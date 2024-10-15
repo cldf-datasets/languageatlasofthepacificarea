@@ -69,6 +69,7 @@ class Dataset(BaseDataset):
         This method implements the procedures described in the paper's "Correcting polygons"
         section.
         """
+        j = 0
         errata = Errata(self.etc_dir.read_csv('fixes_metadata.csv', dicts=True))
         geofixes = ReinsertHoles(self.etc_dir.read_json('fixes_geometry.geojson')['features'])
         features = collections.defaultdict(list)
@@ -77,6 +78,7 @@ class Dataset(BaseDataset):
             # We normalize the metadata found in the "raw" shapes:
             props = metadata.normalize({k: v for k, v in feature['properties'].items() if v})
             if props:  # Ignore uninhabited areas, unclassified languages etc.
+                j += 1
                 with (warnings.catch_warnings(record=True) as w):
                     warnings.simplefilter("always")
                     # We fix the geometries by
