@@ -16,7 +16,7 @@ cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
 -e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 -e git+https://github.com/cldf-datasets/uclaphoneticslabarchive@9cd6643548cf54d02287011eee266f5b5db861d4#egg=cldfbench_uclaphoneticslabarchive
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@c05c76e38eb2aaef2331dc0e7647213ebc0cf36c#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@7a603660ec2526fbe351a93c8ccaa5ce751c8f35#egg=cldfbench_languageatlasofthepacificarea
 cldfcatalog==1.5.1
 cldfgeojson==1.0.0
 cldfviz==1.3.0
