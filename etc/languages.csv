@@ -3084,4 +3084,7 @@ Central Family,,,,sina1266,,
 East Mekeo,,,,east2455,,
 Dobudurn,,,,orok1269,,
 SIRAK,,,,nafi1237,,
+LANGUAGE,COUNTRY_NAME,ISLAND_NAME,SOVEREIGN,Glottocode,Comment,Source
 WOM,,,,womp1235,,
+Kakat,,,,qaqe1238,"Shape file only gave language name, but not the dialect name.",
+Gaktai,,,,mali1284,"Shape file only gave language name, but not the dialect name.",
