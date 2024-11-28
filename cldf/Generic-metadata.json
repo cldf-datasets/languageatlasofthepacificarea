@@ -16,7 +16,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/languageatlasofthepacificarea",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.0-5-g6e0217e",
+            "dc:created": "v2.0-6-g11eb719",
             "dc:title": "Repository"
         },
         {
