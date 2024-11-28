@@ -3088,3 +3088,5 @@ LANGUAGE,COUNTRY_NAME,ISLAND_NAME,SOVEREIGN,Glottocode,Comment,Source
 WOM,,,,womp1235,,
 Kakat,,,,qaqe1238,"Shape file only gave language name, but not the dialect name.",
 Gaktai,,,,mali1284,"Shape file only gave language name, but not the dialect name.",
+Muduapa,,,,mudu1242,"Atlas only gives family name, but language-level match seems clear from location"
+Uneapa,,,,unea1237,"Atlas only gives family name, but language-level match seems clear from location"
