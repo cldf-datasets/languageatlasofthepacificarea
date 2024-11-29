@@ -3084,9 +3084,8 @@ Central Family,,,,sina1266,,
 East Mekeo,,,,east2455,,
 Dobudurn,,,,orok1269,,
 SIRAK,,,,nafi1237,,
-LANGUAGE,COUNTRY_NAME,ISLAND_NAME,SOVEREIGN,Glottocode,Comment,Source
 WOM,,,,womp1235,,
-Kakat,,,,qaqe1238,"Shape file only gave language name, but not the dialect name.",
-Gaktai,,,,mali1284,"Shape file only gave language name, but not the dialect name.",
+Kakat,,Papua New Guinea,,qaqe1238,"Shape file only gave language name, but not the dialect name.",
+Gaktai,,Papua New Guinea,,mali1284,"Shape file only gave language name, but not the dialect name.",
 Muduapa,,,,mudu1242,"Atlas only gives family name, but language-level match seems clear from location"
 Uneapa,,,,unea1237,"Atlas only gives family name, but language-level match seems clear from location"
