@@ -86,29 +86,10 @@ suitable for overlaying on web maps (which created a good setup for quality cont
 
 ## Usage
 
-Languoids in this dataset are related to the original shapes through a list-valued foreign key, i.e. a many-to-many relation. Thus,
-examining languoids together with the source shapes requires joining tables which can easily be done via
-[CLDF SQL](https://github.com/cldf/cldf/blob/master/extensions/sql.md).
-As expected, the big language families of the area have the biggest number of associated shapes:
-```sql
-SELECT l.cldf_name, count(c.cldf_id) AS c
-FROM LanguageTable AS l 
-JOIN LanguageTable_ContributionTable AS cassoc ON cassoc.LanguageTable_cldf_id = l.cldf_id
-JOIN ContributionTable AS c ON c.cldf_id = cassoc.ContributionTable_cldf_id
-GROUP BY l.cldf_id
-ORDER BY c DESC LIMIT 4;
-```
-family | shapes
---- | ---:
-Austronesian|1259
-Nuclear Trans New Guinea|389
-Austroasiatic|107
-Pama-Nyungan|104
+See [USAGE.md](USAGE.md).
 
-[Speaker area shapes](https://github.com/cldf/cldf/tree/master/components/languages#speaker-area) are 
-provided as GeoJSON features, thus are available programmatically, e.g. using `pycldf`. But the GeoJSON
-files for [language](cldf/languages.geojson)- and [family](cldf/families.geojson)-level areas can also
-be inspected using GIS tools such as https://geojson.io
+
+## Data model
 
 ![](etc/erd.svg)
 
