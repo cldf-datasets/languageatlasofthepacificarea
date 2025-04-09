@@ -12,7 +12,7 @@ chardet==5.2.0
 cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/barlowhandandfive@49790753e28cec58ef909df21ecdadbb1a7571a6#egg=cldfbench_barlowhandandfive
 -e git+https://github.com/cldf-datasets/imtvault@2d1c7dba170991c8458c34c8820f8c03560598d5#egg=cldfbench_imtvault
--e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@72fb88c603ec97c1334fc149765dd39f263f6665#egg=cldfbench_languageatlasofthepacificarea
+-e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@59e5bb21d9ca6b464f60f12fcab1a69d77bfe8b3#egg=cldfbench_languageatlasofthepacificarea
 cldfcatalog==1.5.1
 -e git+https://github.com/cldf/cldfgeojson@66f83002126231b1364714556835154602e3b345#egg=cldfgeojson
 cldfviz==1.3.0
