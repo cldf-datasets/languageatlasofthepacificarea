@@ -1,7 +1,8 @@
+import copy
 import typing
 import dataclasses
 
-from shapely.geometry import Point, shape
+from shapely.geometry import Point, shape, MultiPolygon
 
 from .util import Fixer
 
@@ -15,6 +16,7 @@ class Erratum:
     language: str
     point: Point
     fix: dict
+    split: bool = False
 
     @classmethod
     def from_spec(cls, spec: typing.Dict[str, str]):
@@ -22,7 +24,8 @@ class Erratum:
         return cls(
             language=spec['LANGUAGE'],
             point=Point(lon, lat),
-            fix=dict(s.split('=') for s in spec['fix'].split(';'))
+            fix=dict(s.split('=') for s in spec['fix'].split(';')),
+            split=bool(spec.get('split', False)),
         )
 
 
@@ -31,16 +34,26 @@ class Errata(Fixer):
 
     def __call__(self, props, geom):
         language = props['LANGUAGE']
+        res = [(props, geom)]
         if language in self.fixes:
             obj, eindex = shape(geom), -1
             for i, erratum in enumerate(self.fixes[language]):
                 if obj.contains(erratum.point):
-                    props.update(erratum.fix)
+                    if erratum.split:
+                        assert isinstance(obj, MultiPolygon)
+                        res = []
+                        for geom in obj.geoms:
+                            p = copy.copy(props)
+                            if geom.contains(erratum.point):
+                                p.update(erratum.fix)
+                            res.append((p, geom.__geo_interface__))
+                    else:
+                        res[0][0].update(erratum.fix)
                     eindex = i
                     break
             if eindex > -1:
                 del self.fixes[language][eindex]
-        return props
+        return res
 
     @property
     def all_done(self):

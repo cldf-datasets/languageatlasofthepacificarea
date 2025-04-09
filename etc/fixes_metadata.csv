@@ -1,4 +1,4 @@
-LANGUAGE,lat,lon,fix
+LANGUAGE,lat,lon,fix,split
 Djeebbanan Family-Level Isolate,-12.469,131.288,LANGUAGE=Laragyan
 Djeebbanan Family-Level Isolate,-12.574,130.733,LANGUAGE=Laragyan
 Oba,-6.459,139.430,LANGUAGE=Oba YAQAY
@@ -29,3 +29,4 @@ BAINING,-4.8,152.2,LANGUAGE=Gaktai
 BALI-VITU,-4.9,149.16,LANGUAGE=Uneapa
 BALI-VITU,-4.69,149.48,LANGUAGE=Muduapa
 BALI-VITU,-4.63,149.37,LANGUAGE=Muduapa
+TORAU,-6.616,155.438,LANGUAGE=SIWAI,1

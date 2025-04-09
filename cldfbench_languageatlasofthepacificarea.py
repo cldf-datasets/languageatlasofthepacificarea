@@ -19,6 +19,7 @@ from shapely import Geometry
 from cldfgeojson import geotiff
 from cldfgeojson import (
     MEDIA_TYPE, aggregate, feature_collection, merged_geometry, fixed_geometry, InvalidRingWarning)
+from cldfgeojson.create import shapely_fixed_geometry
 
 from lib.move_polygons import Mover
 from lib.errata import Errata
@@ -94,17 +95,24 @@ class Dataset(BaseDataset):
                 assert geom['coordinates'], '{} no coords'.format(props)
                 # Sometimes polygons erroneously share the same metadata. This must be fixed before
                 # we can merge based on metadata and then lookup language mappings.
-                props = errata(props, geom)
-                # We use the quadruple of the four meaningful metadata values as key when
-                # aggregating shapes. This is the key we'll use to lookup Glottolog matches later.
-                features[tuple(props[col] for col in metadata.COLS)].append((i + 1, geom))
+
+                # FIXME:
+                for j, (props, geom) in enumerate(errata(props, geom)):
+                    features[tuple(props[col] for col in metadata.COLS)].append(('{}-{}'.format(i + 1, j) if j else i + 1, geom))
+                #props = errata(props, geom)
+                ## We use the quadruple of the four meaningful metadata values as key when
+                ## aggregating shapes. This is the key we'll use to lookup Glottolog matches later.
+                #features[tuple(props[col] for col in metadata.COLS)].append((i + 1, geom))
 
         assert errata.all_done and geofixes.all_done, 'Some fixes were not applied: {}'.format(
             '; '.join('{}: {}'.format(k, v) for k, v in errata.fixes.items() if v))
 
         mover = Mover(self.etc_dir.read_csv('fixes_location.csv', dicts=True))
         # We sort aggregated shapes by "first appearance" in the original shapefile.
-        for lid, shapes in sorted(features.items(), key=lambda i: i[1][0][0]):
+        for lid, shapes in sorted(
+            features.items(),
+            key=lambda i: int(i[1][0][0].split('-')[0]) if isinstance(i[1][0][0], str) else i[1][0][0]
+        ):
             fid = shapes[0][0]
             f = {
                 'id': str(fid),
@@ -130,7 +138,10 @@ class Dataset(BaseDataset):
 
         polys = []
         ecai_features = collections.OrderedDict()
-        for lid, lidt, feature in sorted(self.iter_geojson_features(), key=lambda i: i[0]):
+        for lid, lidt, feature in sorted(
+            self.iter_geojson_features(),
+            key=lambda i: int(i[0].split('-')[0]) if isinstance(i[0], str) else i[0],
+        ):
             args.writer.objects['ContributionTable'].append(dict(
                 ID=lid,
                 Name=lidt[0],
@@ -156,7 +167,7 @@ class Dataset(BaseDataset):
             features, languages = aggregate(
                 polys, args.glottolog.api, level=ptype, buffer=0.005, opacity=0.5)
             dump(feature_collection(
-                features,
+                [shapely_fixed_geometry(f) for f in features],
                 title='Speaker areas for {}'.format(label),
                 description='Speaker areas aggregated for Glottolog {}-level languoids, '
                             'color-coded by family.'.format(ptype)),

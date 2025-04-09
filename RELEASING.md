@@ -11,12 +11,13 @@ GDAL are 3.4.1 and 3.9.0.
 Recreate the CLDF dataset:
 ```shell
 cldfbench download cldfbench_languageatlasofthepacificarea.py
-cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v5.0
+cldfbench makecldf cldfbench_languageatlasofthepacificarea.py --glottolog-version v5.1
 ```
 
 Run the consistency checks on the dataset:
 ```shell
 pytest
+cldfbench geojson.validate cldf
 ```
 
 Create the metadata for Zenodo:

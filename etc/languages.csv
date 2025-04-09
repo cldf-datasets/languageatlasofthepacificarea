@@ -1600,7 +1600,7 @@ North  TIMBE,,Papua New Guinea,,nort2914,,
 South SELEPET,,Papua New Guinea,,sele1250,,
 North SELEPET,,Papua New Guinea,,nort2913,Glottolog languoid with matching name and coordinate within polygons,
 Central KOMBA,,Papua New Guinea,,cent2112,Glottolog languoid with matching name and coordinate within polygons,
-Border,,Papua New Guinea,,bord1247,,
+Border,,Papua New Guinea,,bord1246,The Border dialect of Komba,
 W.C. Central,,Papua New Guinea,,west2590,Polygon labeled as 'W C' dialect of KOMBA,
 West Central,,Papua New Guinea,,west2591,Polygon is labeled as 'West' dialect of KOMBA,
 SIALUM,,Papua New Guinea,,sial1240,Glottolog languoid with matching name and matching country (infered from island name),
@@ -3089,3 +3089,4 @@ Kakat,,Papua New Guinea,,qaqe1238,"Shape file only gave language name, but not t
 Gaktai,,Papua New Guinea,,mali1284,"Shape file only gave language name, but not the dialect name.",
 Muduapa,,,,mudu1242,"Atlas only gives family name, but language-level match seems clear from location"
 Uneapa,,,,unea1237,"Atlas only gives family name, but language-level match seems clear from location"
+SIWAI,,Papua New Guinea,,siwa1245,
