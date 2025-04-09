@@ -375,7 +375,6 @@ dumu1246,Dumun,,-5.55315,146.082,dumu1246,,languages,language,Nuclear Trans New 
 duna1248,Duna,,-5.41439,142.475,duna1248,,languages,language,,3074 L005 L011
 dupa1235,Dupaninan Agta,,17.3748,122.188,dupa1235,,languages,language,Austronesian,219 L031 L032
 duri1242,Duri,,-3.37081,119.871,duri1242,,languages,language,Austronesian,1320 L044
-duri1243,Duriankere,,-1.348,130.958,duri1243,,languages,language,Inanwatan,1835 L001 L002 L045a
 dusn1237,Dusner,,-2.73859,134.391,dusn1237,,languages,language,Austronesian,1827 L001 L002 L018
 dusu1271,Dusun Deyah,,-1.95514,115.578,dusu1271,,languages,language,Austronesian,1393 L042
 duwe1237,Duwet,,-6.45752,146.841,duwe1237,,languages,language,Austronesian,2448 L005 L007 L008
@@ -976,7 +975,7 @@ mlap1238,Mlap,,-2.57316,140.264,mlap1238,,languages,language,Nimboranic,3101 L00
 moda1244,Modang,,0.80793,116.573,moda1244,,languages,language,Austronesian,1617 1641 1714 1715 1721 L041 L042
 modo1249,Modole,,1.40199,127.752,modo1249,,languages,language,North Halmahera,1904 1905 L045a
 moer1240,Moere,,-4.62246,145.458,moer1240,,languages,language,Nuclear Trans New Guinea,2919 L005 L007 L018
-moii1235,Moi (Indonesia),,-0.96532,131.52,moii1235,,languages,language,West Bird's Head,1834 1837 1839 L001 L002 L018 L045a
+moii1235,Moi (Indonesia),,-0.96532,131.52,moii1235,,languages,language,West Bird's Head,1834 1835 1837 1839 L001 L002 L018 L045a
 moik1239,Moikodi,,-9.60232,148.312,moik1239,,languages,language,Yareban,2657 L005 L009
 moke1242,Moken,,10.1474,98.6765,moke1242,,languages,language,Austronesian,1119 L036
 moki1238,Mokilese,,6.65651,159.776,moki1238,,languages,language,Austronesian,4208 L018 L019a
@@ -1800,7 +1799,7 @@ giim1238,Giimbiyu,,,,giim1238,,families,family,,3268 L023
 gunw1250,Gunwinyguan,,,,gunw1250,,families,family,,3255 3258 3259 3270 3312 L022 L023
 hata1242,Hatam-Mansim,,,,hata1242,,families,family,,1808 1810 L001 L002 L018
 hmon1336,Hmong-Mien,,,,hmon1336,,families,family,,25 254 311 312 314 329 356 404 469 L035 L036
-inan1242,Inanwatan,,,,inan1242,,families,family,,1772 1835 L001 L002 L018 L045a
+inan1242,Inanwatan,,,,inan1242,,families,family,,1772 L001 L002 L018
 indo1319,Indo-European,,,,indo1319,,families,family,,127 L031 L034
 iwai1246,Iwaidjan Proper,,,,iwai1246,,families,family,,3264 L023
 jarr1235,Jarrakan,,,,jarr1235,,families,family,,3323 3346 L023
@@ -1864,7 +1863,7 @@ toro1256,Tor-Orya,,,,toro1256,,families,family,,3097 3106 3116 3117 3118 3119 31
 tura1263,Turama-Kikori,,,,tura1263,,families,family,,2227 2228 2229 2230 L005 L011 L012
 unat1236,Unattested,,,,unat1236,,families,family,,3115 3483 L001 L003 L018 L022 L023
 wali1264,Walioic,,,,wali1264,,families,family,,3046 3047 3048 3049 L005 L006 L011 L018
-west1493,West Bird's Head,,,,west1493,,families,family,,1778 1779 1781 1782 1784 1785 1786 1787 1788 1789 1834 1837 1838 1839 3706 3707 3708 3709 L001 L002 L018 L045a
+west1493,West Bird's Head,,,,west1493,,families,family,,1778 1779 1781 1782 1784 1785 1786 1787 1788 1789 1834 1835 1837 1838 1839 3706 3707 3708 3709 L001 L002 L018 L045a
 west1503,Western Tasmanian,,,,west1503,,families,family,,3490 3494 3498 L021
 west2434,Western Daly,,,,west2434,,families,family,,3272 L023
 west2604,West Bomberai,,,,west2604,,families,family,,1845 1848 1849 L001 L002 L018
