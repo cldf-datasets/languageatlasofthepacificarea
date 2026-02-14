@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This dataset is superseded by https://github.com/Glottography/wurm1981pacific
+
 # CLDF dataset derived from the ECAI digitization of Wurm and Hattori's "Language Atlas of the Pacific Area" from 1981 and 1983
 
 [![CLDF validation](https://github.com/cldf-datasets/languageatlasofthepacificarea/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/languageatlasofthepacificarea/actions?query=workflow%3ACLDF-validation)
